@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lipnet-from-scratch"
+version = "0.1.0"
+description = "A readable implementation of LipNet sentence-level visual speech recognition"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2,<3", "numpy>=1.26,<3", "opencv-python-headless>=4.8,<6"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+include = ["lipnet*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
