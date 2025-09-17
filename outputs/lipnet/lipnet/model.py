@@ -20,12 +20,52 @@ class ModelConfig:
         return asdict(self)
 
 
+class GRUCell(nn.Module):
+    """Reset-before-matrix-multiply GRU, as in LipNet section 3.2.
+
+    u,r = sigmoid(Wx + Wh + b); n = tanh(Ux + U(r*h) + b)
+    h_next = (1-u)*h + u*n. PyTorch's built-in GRU uses a different reset
+    placement, so we explicitly implement the recurrence here.
+    """
+
+    def __init__(self, input_size, hidden_size):
+        super().__init__()
+        self.hidden_size = hidden_size
+        self.input_gates = nn.Linear(input_size, 2 * hidden_size)
+        self.hidden_gates = nn.Linear(hidden_size, 2 * hidden_size, bias=False)
+        self.input_candidate = nn.Linear(input_size, hidden_size)
+        self.hidden_candidate = nn.Linear(hidden_size, hidden_size, bias=False)
+
+    def forward(self, x, h):
+        update, reset = torch.sigmoid(self.input_gates(x) + self.hidden_gates(h)).chunk(2, -1)
+        candidate = torch.tanh(self.input_candidate(x) + self.hidden_candidate(reset * h))
+        return (1 - update) * h + update * candidate
 
 
+class BidirectionalGRU(nn.Module):
+    def __init__(self, input_size, hidden_size):
+        super().__init__()
+        self.forward_cell = GRUCell(input_size, hidden_size)
+        self.backward_cell = GRUCell(input_size, hidden_size)
+        self.hidden_size = hidden_size
+
+    def forward(self, x, lengths):
+        batch, time, _ = x.shape
+        directions = []
+        for cell, indices in [(self.forward_cell, range(time)),
+                              (self.backward_cell, range(time - 1, -1, -1))]:
+            h = x.new_zeros(batch, self.hidden_size)
+            outputs = [None] * time
+            for t in indices:
+                valid = (t < lengths).unsqueeze(-1)
+                h = torch.where(valid, cell(x[:, t], h), h)
+                outputs[t] = torch.where(valid, h, torch.zeros_like(h))
+            directions.append(torch.stack(outputs, dim=1))
+        return torch.cat(directions, dim=-1)
 
 
-class VisualFeatures(nn.Module):
-    """Input [B,3,T,50,100]; output visual features [B,T,C]."""
+class LipNet(nn.Module):
+    """Input [B,3,T,50,100]; output unnormalised logits [T,B,28]."""
 
     def __init__(self, config=None):
         super().__init__()
@@ -40,6 +80,26 @@ class VisualFeatures(nn.Module):
             self.blocks.append(nn.Sequential(
                 nn.Conv3d(cin, cout, kernel, stride, tuple(k // 2 for k in kernel)),
                 nn.ReLU(), nn.MaxPool3d((1, 2, 2)), nn.Dropout3d(self.config.dropout)))
+        self.gru1 = BidirectionalGRU(c[2] * 3 * 6, self.config.hidden_size)
+        self.gru2 = BidirectionalGRU(2 * self.config.hidden_size, self.config.hidden_size)
+        self.feature_norm = nn.LayerNorm(c[2] * 3 * 6) if self.config.feature_norm else nn.Identity()
+        self.classifier = nn.Linear(2 * self.config.hidden_size, NUM_CLASSES)
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        for module in self.modules():
+            if isinstance(module, (nn.Conv3d, nn.Linear)):
+                nn.init.kaiming_normal_(module.weight)
+                if module.bias is not None:
+                    nn.init.zeros_(module.bias)
+        for module in self.modules():
+            if isinstance(module, GRUCell):
+                if self.config.feature_norm:
+                    nn.init.xavier_uniform_(module.input_gates.weight)
+                    nn.init.xavier_uniform_(module.input_candidate.weight)
+                for square in module.hidden_gates.weight.chunk(2, 0):
+                    nn.init.orthogonal_(square)
+                nn.init.orthogonal_(module.hidden_candidate.weight)
 
     def forward(self, video, lengths):
         if video.ndim != 5 or video.shape[1] != 3 or video.shape[3:] != (50, 100):
@@ -54,6 +114,8 @@ class VisualFeatures(nn.Module):
         x = video * mask
         for block in self.blocks:
             x = block(x) * mask
-        return x.permute(0, 2, 1, 3, 4).flatten(2)
+        x = self.feature_norm(x.permute(0, 2, 1, 3, 4).flatten(2))
+        x = self.gru2(self.gru1(x, lengths), lengths)
+        return self.classifier(x).transpose(0, 1)
 
 
