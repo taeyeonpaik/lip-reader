@@ -119,3 +119,24 @@ class LipNet(nn.Module):
         return self.classifier(x).transpose(0, 1)
 
 
+def ctc_loss(logits, targets, input_lengths, target_lengths):
+    """Validate alignability, including repeated labels, before PyTorch CTC."""
+    input_lengths = torch.as_tensor(input_lengths, dtype=torch.long, device="cpu")
+    target_lengths = torch.as_tensor(target_lengths, dtype=torch.long, device="cpu")
+    if input_lengths.shape != (logits.shape[1],) or target_lengths.shape != input_lengths.shape:
+        raise ValueError("Length vectors must match batch size")
+    if torch.any(input_lengths < 1) or torch.any(input_lengths > logits.shape[0]):
+        raise ValueError("Invalid input lengths")
+    if torch.any(target_lengths < 1) or int(target_lengths.sum()) != targets.numel():
+        raise ValueError("Invalid concatenated targets")
+    if torch.any(targets <= 0) or torch.any(targets >= NUM_CLASSES):
+        raise ValueError("Targets must be non-blank vocabulary IDs")
+    offset = 0
+    for length, available in zip(target_lengths.tolist(), input_lengths.tolist()):
+        labels = targets[offset:offset + length]
+        required = length + int((labels[1:] == labels[:-1]).sum())
+        if available < required:
+            raise ValueError(f"CTC needs {required} frames for this transcript, got {available}")
+        offset += length
+    return nn.functional.ctc_loss(logits.log_softmax(-1), targets, input_lengths,
+                                  target_lengths, blank=0, reduction="mean", zero_infinity=False)
