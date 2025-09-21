@@ -121,3 +121,44 @@ def train(args, preprocess):
     return record
 
 
+
+
+def smoke_test(output, steps=80, full_model=False):
+    """Overfit artificial patterns. This is NOT a lipreading accuracy test."""
+    if steps < 1:
+        raise ValueError("steps must be positive")
+    seed_everything(7)
+    config = ModelConfig(dropout=0.0) if full_model else ModelConfig((4, 8, 12), 16, 0.0)
+    model = LipNet(config)
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.003)
+    samples = []
+    for i, text in enumerate(["ab", "ba"]):
+        video = torch.zeros(3, 12, 50, 100)
+        video[i, :6] = 1.0
+        video[1 - i, 6:] = 1.0
+        video += torch.randn_like(video) * 0.01
+        samples.append((video, torch.tensor(encode(text)), text))
+    batch = collate_batch(samples)
+    losses = []
+    for _ in range(steps):
+        optimizer.zero_grad(set_to_none=True)
+        logits = model(batch["videos"], batch["lengths"])
+        loss = ctc_loss(logits, batch["targets"], batch["lengths"], batch["target_lengths"])
+        if not torch.isfinite(loss):
+            raise AssertionError("Synthetic loss is non-finite")
+        loss.backward()
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0, error_if_nonfinite=True)
+        optimizer.step()
+        losses.append(float(loss.detach()))
+    result = evaluate(model, [batch], torch.device("cpu"), include_predictions=True)
+    result.update({"synthetic_only": True, "full_model": full_model, "steps": steps,
+                   "initial_loss": losses[0], "final_loss": result["loss"],
+                   "loss_decreased": result["loss"] < losses[0],
+                   "parameters": sum(p.numel() for p in model.parameters())})
+    if not result["loss_decreased"]:
+        raise AssertionError(f"Synthetic optimisation failed: {result}")
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    (output / "smoke.json").write_text(json.dumps(result, indent=2) + "\n")
+    return result
+
