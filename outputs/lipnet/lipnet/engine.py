@@ -38,8 +38,27 @@ def resolve_device(name):
     return device
 
 
+def load_checkpoint(path, device):
+    state = torch.load(path, map_location="cpu", weights_only=True)
+    if state.get("format_version") != 1 or state.get("alphabet") != ALPHABET:
+        raise ValueError("Incompatible checkpoint format or vocabulary")
+    model = LipNet(ModelConfig(**state["model_config"])).to(device)
+    model.load_state_dict(state["model"])
+    return model, PreprocessConfig(**state["preprocess"]), state
 
 
+def save_checkpoint(path, model, preprocess, optimizer, epoch, best_loss, train_args):
+    state = {"format_version": 1, "alphabet": ALPHABET,
+             "model_config": model.config.to_dict(), "preprocess": preprocess.to_dict(),
+             "model": model.state_dict(), "optimizer": optimizer.state_dict(),
+             "epoch": epoch, "best_loss": best_loss, "train_args": train_args,
+             "torch_rng": torch.get_rng_state(), "python_rng": random.getstate(),
+             "cuda_rng": torch.cuda.get_rng_state_all() if torch.cuda.is_available() else []}
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    torch.save(state, temporary)
+    temporary.replace(path)
 
 
 def make_loader(dataset, batch_size, workers, shuffle=False):
@@ -81,9 +100,23 @@ def train(args, preprocess):
     device = resolve_device(args.device)
     out = Path(args.output)
     out.mkdir(parents=True, exist_ok=True)
+    if not args.resume and (out / "last.pt").exists():
+        raise ValueError("Run exists; use --resume or a different --output")
     start, best = 0, float("inf")
-    model = LipNet().to(device)
+    if args.resume:
+        model, preprocess, state = load_checkpoint(args.resume, device)
+        start, best = state["epoch"], state["best_loss"]
+    else:
+        model = LipNet().to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
+    if args.resume:
+        optimizer.load_state_dict(state["optimizer"])
+        torch.set_rng_state(state["torch_rng"])
+        random.setstate(state["python_rng"])
+        if state["cuda_rng"] and device.type == "cuda":
+            torch.cuda.set_rng_state_all(state["cuda_rng"])
+    if args.epochs <= start:
+        raise ValueError(f"Checkpoint is at epoch {start}; --epochs must be larger")
     train_data = VideoDataset(args.train, preprocess, training=not args.no_augment)
     val_data = VideoDataset(args.val, preprocess)
     overlap = {r["video"] for r in train_data.rows} & {r["video"] for r in val_data.rows}
@@ -116,11 +149,12 @@ def train(args, preprocess):
         print(json.dumps(record), flush=True)
         improved = validation["loss"] < best
         best = min(best, validation["loss"])
+        save_checkpoint(out / "last.pt", model, preprocess, optimizer, epoch, best, train_args)
+        if improved:
+            save_checkpoint(out / "best.pt", model, preprocess, optimizer, epoch, best, train_args)
         with (out / "history.jsonl").open("a") as stream:
             stream.write(json.dumps(record) + "\n")
     return record
-
-
 
 
 def smoke_test(output, steps=80, full_model=False):
@@ -161,4 +195,3 @@ def smoke_test(output, steps=80, full_model=False):
     output.mkdir(parents=True, exist_ok=True)
     (output / "smoke.json").write_text(json.dumps(result, indent=2) + "\n")
     return result
-
