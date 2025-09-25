@@ -12,6 +12,9 @@ dependencies = ["torch>=2.2,<3", "numpy>=1.26,<3", "opencv-python-headless>=4.8,
 [project.optional-dependencies]
 test = ["pytest>=8,<10"]
 
+[project.scripts]
+lipnet = "lipnet.cli:main"
+
 [tool.setuptools.packages.find]
 include = ["lipnet*"]
 

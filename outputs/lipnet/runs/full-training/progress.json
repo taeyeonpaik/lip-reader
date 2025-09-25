@@ -1,0 +1,13 @@
+{
+  "state": "completed",
+  "epoch": 200,
+  "max_epochs": 200,
+  "batch": 75,
+  "batches_per_epoch": 75,
+  "elapsed_seconds": 19689.425812083995,
+  "updated_utc": "2026-09-17T05:26:25.781804+00:00",
+  "best_wer": 0.915,
+  "skipped_nonfinite_updates": 0,
+  "quality_gate_passed": false,
+  "completed_epochs": 200
+}

@@ -1,0 +1,6 @@
+# Direct dependency versions used for the recorded CPU validation on macOS arm64.
+# Install this file, then: python -m pip install --no-deps -e .
+torch==2.14.0
+numpy==2.5.3
+opencv-python-headless==5.0.0.93
+pytest==9.1.1

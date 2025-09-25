@@ -1,0 +1,25 @@
+{
+  "loss": 0.198746457695961,
+  "cer": 0.0,
+  "wer": 0.0,
+  "sentence_accuracy": 1.0,
+  "sentences": 2,
+  "beam_width": 1,
+  "predictions": [
+    {
+      "reference": "ab",
+      "prediction": "ab"
+    },
+    {
+      "reference": "ba",
+      "prediction": "ba"
+    }
+  ],
+  "synthetic_only": true,
+  "full_model": false,
+  "steps": 80,
+  "initial_loss": 18.47222328186035,
+  "final_loss": 0.198746457695961,
+  "loss_decreased": true,
+  "parameters": 33912
+}

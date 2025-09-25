@@ -1,0 +1,8 @@
+{
+  "state": "verified_and_packaged",
+  "quality_gate_passed": false,
+  "archive": "lipnet-from-scratch.zip",
+  "checkpoint_epoch": 16,
+  "wer": 0.915,
+  "cer": 0.6126053793657166
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.8945807870229086,
+    "validation": {
+      "loss": 2.552739543914795,
+      "cer": 0.9080690485748695,
+      "wer": 1.0,
+      "sentence_accuracy": 0.0,
+      "sentences": 100,
+      "clips": 100,
+      "unique_predictions": 1
+    },
+    "seconds": 106.18385999999009,
+    "lr": 0.0003
+  }
+]

@@ -1,0 +1,410 @@
+{
+  "loss": 1.4181427335739136,
+  "cer": 0.6126053793657166,
+  "wer": 0.915,
+  "sentence_accuracy": 0.0,
+  "sentences": 100,
+  "clips": 100,
+  "predictions": [
+    {
+      "reference": "place white at j eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white in g three again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay red at e three soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay red by e seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin red with a four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay red at r zero now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set green in v three again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red in c four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay white in l one again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set white by c three again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set white at o seven again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green in t five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set red at u five again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set white in o three again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set red at b zero now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green by h seven again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay blue with r two now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set blue in t five again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white with n seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red with x seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin blue with g one soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green at t nine soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place white in p seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white by a four now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place green in k zero please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay red at r one soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set red at o one again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set red in a eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red by d two please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red by q zero please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set green in o seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay blue with y six now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place green at y two please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green by h six please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay red by r five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin red at m three soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place blue with x two please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay white in y six now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set blue at a seven again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin blue in z three again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set green by c eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay blue by y four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red at c eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay green with g four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set green with q zero please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay red at k seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green in n two please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay red by r seven again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green in g six now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set white with j one again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay green in z two now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set blue in g five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white in s eight now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin red in s five again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set white by v two now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay green with a one again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set white in u seven again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place white in d one again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin red in z nine again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set green by c seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set blue in a two please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin blue at l eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set red by b six please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set green by j one soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay blue in x four now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place green with e nine again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay white in e five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white with a nine soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay white at f zero please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set white with c six please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place white in j four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red with d five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place white with k five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white by h zero please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place green by k eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin blue by s seven again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red at c six now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place blue by v seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white with u three again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white in t zero please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green in g seven soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin blue in e eight now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin blue in f one again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay white at l four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place green with l one soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green by u five again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place green at k four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set red in n five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set blue at t eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place white at x four now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green in t six please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set blue at n four please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin red by m eight please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin white with h two now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay blue at q six please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "lay blue in q two please",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "set blue at t nine again",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin blue by s five soon",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "bin green with o two now",
+      "prediction": "set reed it fiee soon"
+    },
+    {
+      "reference": "place red in i eight please",
+      "prediction": "set reed it fiee soon"
+    }
+  ]
+}

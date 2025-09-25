@@ -1,0 +1,12 @@
+{
+  "state": "cancelled",
+  "epoch": 2,
+  "max_epochs": 200,
+  "batch": 37,
+  "batches_per_epoch": 75,
+  "elapsed_seconds": 852.6113052080036,
+  "updated_utc": "2026-09-17T05:49:59.456920+00:00",
+  "best_wer": 1.0,
+  "skipped_nonfinite_updates": 0,
+  "reason": "Stopped intentionally after the user selected pretrained unrestricted-English recognition."
+}

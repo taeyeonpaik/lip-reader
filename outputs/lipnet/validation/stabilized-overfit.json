@@ -1,0 +1,312 @@
+{
+  "purpose": "Four-clip training-only overfit diagnostic; not a validation accuracy result",
+  "references": [
+    "set blue in a one soon",
+    "place blue by c seven again",
+    "set red by i zero please",
+    "set red with c one again"
+  ],
+  "history": [
+    {
+      "step": 1,
+      "loss": 7.576380729675293,
+      "cer": 0.9587628865979382,
+      "wer": 1.0,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "s",
+        "s",
+        "s",
+        "s"
+      ],
+      "seconds": 2.725743666989729
+    },
+    {
+      "step": 25,
+      "loss": 2.6740970611572266,
+      "cer": 0.9690721649484536,
+      "wer": 1.0,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "s",
+        "",
+        "s",
+        "s"
+      ],
+      "seconds": 16.159214749990497
+    },
+    {
+      "step": 50,
+      "loss": 2.2270689010620117,
+      "cer": 0.865979381443299,
+      "wer": 0.9583333333333334,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "setn",
+        "sen",
+        "set",
+        "stn"
+      ],
+      "seconds": 30.48868745798245
+    },
+    {
+      "step": 75,
+      "loss": 2.0357484817504883,
+      "cer": 0.845360824742268,
+      "wer": 1.0,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "setn",
+        "plin",
+        "see",
+        "setn"
+      ],
+      "seconds": 44.41619266697671
+    },
+    {
+      "step": 100,
+      "loss": 1.8278735876083374,
+      "cer": 0.7938144329896907,
+      "wer": 0.9583333333333334,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "setn",
+        "plain",
+        "set e",
+        "setain"
+      ],
+      "seconds": 58.58947770798113
+    },
+    {
+      "step": 125,
+      "loss": 1.6235442161560059,
+      "cer": 0.7216494845360825,
+      "wer": 0.875,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set on",
+        "place ain",
+        "setre",
+        "set ain"
+      ],
+      "seconds": 73.75228991697077
+    },
+    {
+      "step": 150,
+      "loss": 1.4801076650619507,
+      "cer": 0.711340206185567,
+      "wer": 0.8333333333333334,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set on",
+        "place ain",
+        "set se",
+        "set ain"
+      ],
+      "seconds": 89.03995037497953
+    },
+    {
+      "step": 175,
+      "loss": 1.28964364528656,
+      "cer": 0.6597938144329897,
+      "wer": 0.875,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set lon",
+        "plac bain",
+        "set r se",
+        "set rdain"
+      ],
+      "seconds": 104.50982375000603
+    },
+    {
+      "step": 200,
+      "loss": 1.1354219913482666,
+      "cer": 0.5876288659793815,
+      "wer": 0.8333333333333334,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set lu on",
+        "plac b ain",
+        "set re ase",
+        "set red ain"
+      ],
+      "seconds": 119.95504408300621
+    },
+    {
+      "step": 225,
+      "loss": 0.9384576678276062,
+      "cer": 0.5154639175257731,
+      "wer": 0.8333333333333334,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blu ion",
+        "plac blub ain",
+        "set red lase",
+        "set rdwiain"
+      ],
+      "seconds": 135.3712654170231
+    },
+    {
+      "step": 250,
+      "loss": 0.7909567356109619,
+      "cer": 0.422680412371134,
+      "wer": 0.625,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue n on",
+        "place blu  ain",
+        "set red please",
+        "set red with ain"
+      ],
+      "seconds": 150.78958987497026
+    },
+    {
+      "step": 275,
+      "loss": 0.5890707969665527,
+      "cer": 0.30927835051546393,
+      "wer": 0.5833333333333334,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue n  son",
+        "place ble by n again",
+        "set re by please",
+        "set re wt e again"
+      ],
+      "seconds": 166.28677166701527
+    },
+    {
+      "step": 300,
+      "loss": 0.40685057640075684,
+      "cer": 0.21649484536082475,
+      "wer": 0.4166666666666667,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in ne son",
+        "place blue by n again",
+        "set red by  please",
+        "set red wth ne again"
+      ],
+      "seconds": 181.66730349999852
+    },
+    {
+      "step": 325,
+      "loss": 0.3246305286884308,
+      "cer": 0.17525773195876287,
+      "wer": 0.4166666666666667,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in ne son",
+        "place blue by sn again",
+        "set red by ze please",
+        "set red wth ne again"
+      ],
+      "seconds": 197.05914654198568
+    },
+    {
+      "step": 350,
+      "loss": 0.2379472404718399,
+      "cer": 0.14432989690721648,
+      "wer": 0.3333333333333333,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in ne son",
+        "place blue by sn again",
+        "set red by i ze please",
+        "set red with ne again"
+      ],
+      "seconds": 212.51798533299007
+    },
+    {
+      "step": 375,
+      "loss": 0.20613297820091248,
+      "cer": 0.12371134020618557,
+      "wer": 0.2916666666666667,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in a nne son",
+        "place blue by sn again",
+        "set red by i ze please",
+        "set red with ne again"
+      ],
+      "seconds": 227.8845535829896
+    },
+    {
+      "step": 400,
+      "loss": 0.15826226770877838,
+      "cer": 0.05154639175257732,
+      "wer": 0.16666666666666666,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in a ne soon",
+        "place blue by c sen again",
+        "set red by i zer please",
+        "set red with c ne again"
+      ],
+      "seconds": 243.27048666699557
+    },
+    {
+      "step": 425,
+      "loss": 0.12493715435266495,
+      "cer": 0.05154639175257732,
+      "wer": 0.16666666666666666,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in a ne soon",
+        "place blue by c sen again",
+        "set red by i zer please",
+        "set red with c ne again"
+      ],
+      "seconds": 258.7960932080168
+    },
+    {
+      "step": 450,
+      "loss": 0.11417552828788757,
+      "cer": 0.05154639175257732,
+      "wer": 0.16666666666666666,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in a ne soon",
+        "place blue by c sen again",
+        "set red by i zer please",
+        "set red with c ne again"
+      ],
+      "seconds": 274.2209319170215
+    },
+    {
+      "step": 475,
+      "loss": 0.09064356982707977,
+      "cer": 0.041237113402061855,
+      "wer": 0.16666666666666666,
+      "sentence_accuracy": 0.0,
+      "sentences": 4,
+      "predictions": [
+        "set blue in a ne soon",
+        "place blue by c seen again",
+        "set red by i zer please",
+        "set red with c ne again"
+      ],
+      "seconds": 289.66907195799286
+    }
+  ],
+  "passed": true
+}
