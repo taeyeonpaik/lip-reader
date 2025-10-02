@@ -1,0 +1,101 @@
+{
+  "sha": "e5377b4025f51a7cc30bc50cb025aeca7663a14e",
+  "node_id": "C_kwDOIzseLdoAKGU1Mzc3YjQwMjVmNTFhN2NjMzBiYzUwY2IwMjVhZWNhNzY2M2ExNGU",
+  "commit": {
+    "author": {
+      "name": "Nicholas Renotte",
+      "email": "nicholas.renotte@gmail.com",
+      "date": "2023-03-07T23:58:08Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2023-03-07T23:58:08Z"
+    },
+    "message": "Updated with prediction examples",
+    "tree": {
+      "sha": "f1a234d98dfb7ee2e44999e5daebd7ead605b5cc",
+      "url": "https://api.github.com/repos/nicknochnack/LipNet/git/trees/f1a234d98dfb7ee2e44999e5daebd7ead605b5cc"
+    },
+    "url": "https://api.github.com/repos/nicknochnack/LipNet/git/commits/e5377b4025f51a7cc30bc50cb025aeca7663a14e",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkB8+QCRBK7hj4Ov3rIwAA8hAIAB0iuSdK9yF+V1iO5uSzALoM\nqpxgoICYuyifgzM6aIN+bAtqytsAZB90+Mhbc9MFUHGa8Ur0N+yiYHHrP/OmQxP1\nGl16xoE8ZBA7LUlOqNTIVs/kF6PJWAx2e3fBfuuTVPJoebJs6y6OsqjcZX0SFfyn\nsbbhDSjf0YS8aPKErJZYtYGHlBrTP3xrgYvpQoxuDywL5XnVdFxluiwX7rDKwOro\nJ/1QKGp+yH996BF4pKWiOCHharZcjv+28KUwafGUtoGXe1NVJtYbaquUr24sMdH6\n5xhuYw+bxQy4axgws6duEg47JiWXkn9qKwHe99IWiTP57YldvjZ/Wmr3C2CVJzI=\n=ha9h\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree f1a234d98dfb7ee2e44999e5daebd7ead605b5cc\nparent 014a5ce4a92e6d5333075c5d1a650189421c32f5\nauthor Nicholas Renotte <nicholas.renotte@gmail.com> 1678233488 +1100\ncommitter GitHub <noreply@github.com> 1678233488 +1100\n\nUpdated with prediction examples",
+      "verified_at": "2024-11-07T13:08:47Z"
+    }
+  },
+  "url": "https://api.github.com/repos/nicknochnack/LipNet/commits/e5377b4025f51a7cc30bc50cb025aeca7663a14e",
+  "html_url": "https://github.com/nicknochnack/LipNet/commit/e5377b4025f51a7cc30bc50cb025aeca7663a14e",
+  "comments_url": "https://api.github.com/repos/nicknochnack/LipNet/commits/e5377b4025f51a7cc30bc50cb025aeca7663a14e/comments",
+  "author": {
+    "login": "nicknochnack",
+    "id": 5948934,
+    "node_id": "MDQ6VXNlcjU5NDg5MzQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5948934?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nicknochnack",
+    "html_url": "https://github.com/nicknochnack",
+    "followers_url": "https://api.github.com/users/nicknochnack/followers",
+    "following_url": "https://api.github.com/users/nicknochnack/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nicknochnack/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nicknochnack/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nicknochnack/subscriptions",
+    "organizations_url": "https://api.github.com/users/nicknochnack/orgs",
+    "repos_url": "https://api.github.com/users/nicknochnack/repos",
+    "events_url": "https://api.github.com/users/nicknochnack/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nicknochnack/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "014a5ce4a92e6d5333075c5d1a650189421c32f5",
+      "url": "https://api.github.com/repos/nicknochnack/LipNet/commits/014a5ce4a92e6d5333075c5d1a650189421c32f5",
+      "html_url": "https://github.com/nicknochnack/LipNet/commit/014a5ce4a92e6d5333075c5d1a650189421c32f5"
+    }
+  ],
+  "stats": {
+    "total": 147,
+    "additions": 128,
+    "deletions": 19
+  },
+  "files": [
+    {
+      "sha": "b34f4134bac7af364312a5a9bc8565b56f744b22",
+      "filename": "LipNet.ipynb",
+      "status": "modified",
+      "additions": 128,
+      "deletions": 19,
+      "changes": 147,
+      "blob_url": "https://github.com/nicknochnack/LipNet/blob/e5377b4025f51a7cc30bc50cb025aeca7663a14e/LipNet.ipynb",
+      "raw_url": "https://github.com/nicknochnack/LipNet/raw/e5377b4025f51a7cc30bc50cb025aeca7663a14e/LipNet.ipynb",
+      "contents_url": "https://api.github.com/repos/nicknochnack/LipNet/contents/LipNet.ipynb?ref=e5377b4025f51a7cc30bc50cb025aeca7663a14e",
+      "patch": "@@ -934,19 +934,30 @@\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 53,\n    \"id\": \"247f664d-3c87-4e96-946e-930dad0e1c2c\",\n    \"metadata\": {\n     \"tags\": []\n    },\n-   \"outputs\": [],\n+   \"outputs\": [\n+    {\n+     \"data\": {\n+      \"text/plain\": [\n+       \"<tensorflow.python.checkpoint.checkpoint.CheckpointLoadStatus at 0x10cfb56c6a0>\"\n+      ]\n+     },\n+     \"execution_count\": 53,\n+     \"metadata\": {},\n+     \"output_type\": \"execute_result\"\n+    }\n+   ],\n    \"source\": [\n     \"model.load_weights('models/checkpoint')\"\n    ]\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 54,\n    \"id\": \"7f8d689f-b7bb-443c-9b88-e40c1d800828\",\n    \"metadata\": {\n     \"tags\": []\n@@ -958,7 +969,7 @@\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 56,\n    \"id\": \"38546dc2-bee9-4837-864b-8a884df40ad7\",\n    \"metadata\": {\n     \"tags\": []\n@@ -970,32 +981,59 @@\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 57,\n    \"id\": \"a43621f0-229d-4c0d-9554-9c3a3da9c61a\",\n    \"metadata\": {\n     \"tags\": []\n    },\n-   \"outputs\": [],\n+   \"outputs\": [\n+    {\n+     \"name\": \"stdout\",\n+     \"output_type\": \"stream\",\n+     \"text\": [\n+      \"1/1 [==============================] - 1s 973ms/step\\n\"\n+     ]\n+    }\n+   ],\n    \"source\": [\n     \"yhat = model.predict(sample[0])\"\n    ]\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 58,\n    \"id\": \"ea462999-f87e-4a7e-a057-5be7b6d8f7d5\",\n    \"metadata\": {\n     \"tags\": []\n    },\n-   \"outputs\": [],\n+   \"outputs\": [\n+    {\n+     \"name\": \"stdout\",\n+     \"output_type\": \"stream\",\n+     \"text\": [\n+      \"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ REAL TEXT\\n\"\n+     ]\n+    },\n+    {\n+     \"data\": {\n+      \"text/plain\": [\n+       \"[<tf.Tensor: shape=(), dtype=string, numpy=b'place white at x six please'>,\\n\",\n+       \" <tf.Tensor: shape=(), dtype=string, numpy=b'lay blue in x four now'>]\"\n+      ]\n+     },\n+     \"execution_count\": 58,\n+     \"metadata\": {},\n+     \"output_type\": \"execute_result\"\n+    }\n+   ],\n    \"source\": [\n     \"print('~'*100, 'REAL TEXT')\\n\",\n     \"[tf.strings.reduce_join([num_to_char(word) for word in sentence]) for sentence in sample[1]]\"\n    ]\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 59,\n    \"id\": \"82bd4c10-dd6e-411e-834b-2a3b43fd12c5\",\n    \"metadata\": {\n     \"tags\": []\n@@ -1007,12 +1045,31 @@\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 60,\n    \"id\": \"5d68ac46-c90b-4eab-a709-f19aee569ff5\",\n    \"metadata\": {\n     \"tags\": []\n    },\n-   \"outputs\": [],\n+   \"outputs\": [\n+    {\n+     \"name\": \"stdout\",\n+     \"output_type\": \"stream\",\n+     \"text\": [\n+      \"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PREDICTIONS\\n\"\n+     ]\n+    },\n+    {\n+     \"data\": {\n+      \"text/plain\": [\n+       \"[<tf.Tensor: shape=(), dtype=string, numpy=b'place white at x six please'>,\\n\",\n+       \" <tf.Tensor: shape=(), dtype=string, numpy=b'lay blue in x four now'>]\"\n+      ]\n+     },\n+     \"execution_count\": 60,\n+     \"metadata\": {},\n+     \"output_type\": \"execute_result\"\n+    }\n+   ],\n    \"source\": [\n     \"print('~'*100, 'PREDICTIONS')\\n\",\n     \"[tf.strings.reduce_join([num_to_char(word) for word in sentence]) for sentence in decoded]\"\n@@ -1028,7 +1085,7 @@\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 61,\n    \"id\": \"a8b0c4d0-2031-4331-b91d-d87b1ae6f6e2\",\n    \"metadata\": {},\n    \"outputs\": [],\n@@ -1038,28 +1095,54 @@\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 62,\n    \"id\": \"0cca60e4-47a9-4683-8a75-48f4684f723d\",\n    \"metadata\": {},\n-   \"outputs\": [],\n+   \"outputs\": [\n+    {\n+     \"name\": \"stdout\",\n+     \"output_type\": \"stream\",\n+     \"text\": [\n+      \"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ REAL TEXT\\n\"\n+     ]\n+    },\n+    {\n+     \"data\": {\n+      \"text/plain\": [\n+       \"[<tf.Tensor: shape=(), dtype=string, numpy=b'bin red at s nine again'>]\"\n+      ]\n+     },\n+     \"execution_count\": 62,\n+     \"metadata\": {},\n+     \"output_type\": \"execute_result\"\n+    }\n+   ],\n    \"source\": [\n     \"print('~'*100, 'REAL TEXT')\\n\",\n     \"[tf.strings.reduce_join([num_to_char(word) for word in sentence]) for sentence in [sample[1]]]\"\n    ]\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 63,\n    \"id\": \"8cc5037c-1e32-435c-b0cc-01e1fb3b863c\",\n    \"metadata\": {},\n-   \"outputs\": [],\n+   \"outputs\": [\n+    {\n+     \"name\": \"stdout\",\n+     \"output_type\": \"stream\",\n+     \"text\": [\n+      \"1/1 [==============================] - 1s 720ms/step\\n\"\n+     ]\n+    }\n+   ],\n    \"source\": [\n     \"yhat = model.predict(tf.expand_dims(sample[0], axis=0))\"\n    ]\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 64,\n    \"id\": \"22c4f77d-715d-409f-bc5e-3ebe48704e8f\",\n    \"metadata\": {},\n    \"outputs\": [],\n@@ -1069,10 +1152,28 @@\n   },\n   {\n    \"cell_type\": \"code\",\n-   \"execution_count\": null,\n+   \"execution_count\": 65,\n    \"id\": \"e4d12ecc-b634-499e-a4bc-db9f010835fb\",\n    \"metadata\": {},\n-   \"outputs\": [],\n+   \"outputs\": [\n+    {\n+     \"name\": \"stdout\",\n+     \"output_type\": \"stream\",\n+     \"text\": [\n+      \"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PREDICTIONS\\n\"\n+     ]\n+    },\n+    {\n+     \"data\": {\n+      \"text/plain\": [\n+       \"[<tf.Tensor: shape=(), dtype=string, numpy=b'bin red at s nine again'>]\"\n+      ]\n+     },\n+     \"execution_count\": 65,\n+     \"metadata\": {},\n+     \"output_type\": \"execute_result\"\n+    }\n+   ],\n    \"source\": [\n     \"print('~'*100, 'PREDICTIONS')\\n\",\n     \"[tf.strings.reduce_join([num_to_char(word) for word in sentence]) for sentence in decoded]\"\n@@ -1085,6 +1186,14 @@\n    \"metadata\": {},\n    \"outputs\": [],\n    \"source\": []\n+  },\n+  {\n+   \"cell_type\": \"code\",\n+   \"execution_count\": null,\n+   \"id\": \"fa95863d-3832-47bf-8a77-ebaa38054ace\",\n+   \"metadata\": {},\n+   \"outputs\": [],\n+   \"source\": []\n   }\n  ],\n  \"metadata\": {"
+    }
+  ]
+}

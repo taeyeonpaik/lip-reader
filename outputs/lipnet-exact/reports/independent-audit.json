@@ -1,0 +1,125 @@
+{
+  "source_hashes_verified": 140,
+  "metrics": {
+    "tutorial": {
+      "all": {
+        "clips": 100,
+        "errors": 17,
+        "words": 600,
+        "wer": 0.028333333333333332,
+        "exact": 83,
+        "conditional_clip_bootstrap_95_interval": [
+          0.016666666666666666,
+          0.041666666666666664
+        ]
+      },
+      "raw": {
+        "clips": 100,
+        "errors": 17,
+        "words": 600,
+        "wer": 0.028333333333333332,
+        "exact": 83,
+        "conditional_clip_bootstrap_95_interval": [
+          0.016666666666666666,
+          0.041666666666666664
+        ]
+      },
+      "per_group": {
+        "s1": {
+          "clips": 100,
+          "errors": 17,
+          "words": 600,
+          "wer": 0.028333333333333332,
+          "exact": 83,
+          "conditional_clip_bootstrap_95_interval": [
+            0.016666666666666666,
+            0.041666666666666664
+          ]
+        }
+      }
+    },
+    "paper": {
+      "all": {
+        "clips": 102,
+        "errors": 113,
+        "words": 612,
+        "wer": 0.184640522875817,
+        "exact": 25,
+        "conditional_clip_bootstrap_95_interval": [
+          0.1568627450980392,
+          0.2107843137254902
+        ]
+      },
+      "raw": {
+        "clips": 102,
+        "errors": 190,
+        "words": 612,
+        "wer": 0.3104575163398693,
+        "exact": 10,
+        "conditional_clip_bootstrap_95_interval": [
+          0.2777777777777778,
+          0.34477124183006536
+        ]
+      },
+      "per_group": {
+        "s1": {
+          "clips": 50,
+          "errors": 54,
+          "words": 300,
+          "wer": 0.18,
+          "exact": 15,
+          "conditional_clip_bootstrap_95_interval": [
+            0.13666666666666666,
+            0.22333333333333333
+          ]
+        },
+        "s2": {
+          "clips": 50,
+          "errors": 57,
+          "words": 300,
+          "wer": 0.19,
+          "exact": 10,
+          "conditional_clip_bootstrap_95_interval": [
+            0.15333333333333332,
+            0.22666666666666666
+          ]
+        },
+        "upstream-full-face": {
+          "clips": 1,
+          "errors": 1,
+          "words": 6,
+          "wer": 0.16666666666666666,
+          "exact": 0,
+          "conditional_clip_bootstrap_95_interval": [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        },
+        "upstream-mouth": {
+          "clips": 1,
+          "errors": 1,
+          "words": 6,
+          "wer": 0.16666666666666666,
+          "exact": 0,
+          "conditional_clip_bootstrap_95_interval": [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        }
+      },
+      "local_unseen_subset": {
+        "clips": 100,
+        "errors": 111,
+        "words": 600,
+        "wer": 0.185,
+        "exact": 25,
+        "conditional_clip_bootstrap_95_interval": [
+          0.15833333333333333,
+          0.21333333333333335
+        ]
+      }
+    }
+  },
+  "model_selection_or_tuning": false,
+  "uncertainty_limit": "Clip bootstrap is conditional on these particular speakers. One notebook speaker and two paper speakers cannot establish population-level new-speaker accuracy. Tutorial pretraining split unknown; paper split follows upstream declaration. No webcam accuracy claim."
+}

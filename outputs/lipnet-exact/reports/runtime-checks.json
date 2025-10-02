@@ -1,0 +1,48 @@
+{
+  "upload": {
+    "duration_seconds": 2.98,
+    "fps": 25.0,
+    "width": 360,
+    "height": 288,
+    "text": "set white with b two soon",
+    "raw": "set white with b two son",
+    "seconds": 4.18130850000307,
+    "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+    "input_shape": [
+      75,
+      100,
+      50,
+      3
+    ]
+  },
+  "recorded_webcam": {
+    "text": "set white with b two soon",
+    "raw": "set white with b two son",
+    "seconds": 4.22578437498305,
+    "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+    "input_shape": [
+      75,
+      100,
+      50,
+      3
+    ]
+  },
+  "recorded_worker_probability_max_error": 0.0,
+  "worker_segments": 1,
+  "physical_camera_tested": false,
+  "practice_prompt_sent_to_recognizer": false,
+  "tutorial_after_paper": {
+    "text": "bin red at s nine again",
+    "raw": "bin red at s nine again",
+    "seconds": 1.64071683306247,
+    "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+    "input_shape": [
+      75,
+      46,
+      140,
+      1
+    ]
+  },
+  "published_weights_unchanged": true,
+  "timing_note": "CPU processing after capture; includes dlib crop and beam decoding. Other local verification may be running."
+}

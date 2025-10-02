@@ -1,0 +1,1221 @@
+{
+  "metrics": {
+    "clips": 200,
+    "errors": 207,
+    "words": 1200,
+    "wer": 0.1725,
+    "exact": 60
+  },
+  "raw_metrics": {
+    "clips": 200,
+    "errors": 365,
+    "words": 1200,
+    "wer": 0.30416666666666664,
+    "exact": 20
+  },
+  "predictions": [
+    {
+      "id": "s2/prajzs.mpg",
+      "reference": "place red at j zero soon",
+      "raw": "place red in j sero son",
+      "text": "place red in j zero soon"
+    },
+    {
+      "id": "s2/sbwu5p.mpg",
+      "reference": "set blue with u five please",
+      "raw": "set blue ith g five pagain",
+      "text": "set blue with g five again"
+    },
+    {
+      "id": "s2/bbws8s.mpg",
+      "reference": "bin blue with s eight soon",
+      "raw": "bin blue it x nine son",
+      "text": "bin blue at x nine soon"
+    },
+    {
+      "id": "s2/bbwg1p.mpg",
+      "reference": "bin blue with g one please",
+      "raw": "bin blue ith g one please",
+      "text": "bin blue with g one please"
+    },
+    {
+      "id": "s2/swab8a.mpg",
+      "reference": "set white at b eight again",
+      "raw": "set white ath b eight again",
+      "text": "set white at b eight again"
+    },
+    {
+      "id": "s2/lwar7p.mpg",
+      "reference": "lay white at r seven please",
+      "raw": "lay white at j seven please",
+      "text": "lay white at j seven please"
+    },
+    {
+      "id": "s2/lgiz1n.mpg",
+      "reference": "lay green in z one now",
+      "raw": "lay gren in z one now",
+      "text": "lay green in z one now"
+    },
+    {
+      "id": "s2/sgbc8a.mpg",
+      "reference": "set green by c eight again",
+      "raw": "set gren by c eight again",
+      "text": "set green by c eight again"
+    },
+    {
+      "id": "s2/lraq9n.mpg",
+      "reference": "lay red at q nine now",
+      "raw": "lay red an u eight now",
+      "text": "lay red at u eight now"
+    },
+    {
+      "id": "s2/sbbh2s.mpg",
+      "reference": "set blue by h two soon",
+      "raw": "set blue by h tre son",
+      "text": "set blue by h red soon"
+    },
+    {
+      "id": "s2/pwbkzs.mpg",
+      "reference": "place white by k zero soon",
+      "raw": "place white by i seve son",
+      "text": "place white by i seven soon"
+    },
+    {
+      "id": "s2/srbo3p.mpg",
+      "reference": "set red by o three please",
+      "raw": "set red by o thre please",
+      "text": "set red by o three please"
+    },
+    {
+      "id": "s2/srbu6s.mpg",
+      "reference": "set red by u six soon",
+      "raw": "set red by u six son",
+      "text": "set red by u six soon"
+    },
+    {
+      "id": "s2/pbao9p.mpg",
+      "reference": "place blue at o nine please",
+      "raw": "place blue at n eight please",
+      "text": "place blue at n eight please"
+    },
+    {
+      "id": "s2/sgav5p.mpg",
+      "reference": "set green at v five please",
+      "raw": "set gren at t fige please",
+      "text": "set green at t five please"
+    },
+    {
+      "id": "s2/brwt4s.mpg",
+      "reference": "bin red with t four soon",
+      "raw": "bin red with c hre son",
+      "text": "bin red with c red soon"
+    },
+    {
+      "id": "s2/sgio6s.mpg",
+      "reference": "set green in o six soon",
+      "raw": "set gren in u six son",
+      "text": "set green in u six soon"
+    },
+    {
+      "id": "s2/pbwj2s.mpg",
+      "reference": "place blue with j two soon",
+      "raw": "place blue in j wo son",
+      "text": "place blue in j two soon"
+    },
+    {
+      "id": "s2/lgaz8a.mpg",
+      "reference": "lay green at z eight again",
+      "raw": "lay gren at z eight again",
+      "text": "lay green at z eight again"
+    },
+    {
+      "id": "s2/swbi5p.mpg",
+      "reference": "set white by i five please",
+      "raw": "set white by i eight please",
+      "text": "set white by i eight please"
+    },
+    {
+      "id": "s2/sbwh5n.mpg",
+      "reference": "set blue with h five now",
+      "raw": "set blue with s five now",
+      "text": "set blue with s five now"
+    },
+    {
+      "id": "s2/bwim5p.mpg",
+      "reference": "bin white in m five please",
+      "raw": "bin white in f five please",
+      "text": "bin white in f five please"
+    },
+    {
+      "id": "s2/lbip9n.mpg",
+      "reference": "lay blue in p nine now",
+      "raw": "lay blue in p nine now",
+      "text": "lay blue in p nine now"
+    },
+    {
+      "id": "s2/lbid2s.mpg",
+      "reference": "lay blue in d two soon",
+      "raw": "lay blue in c two son",
+      "text": "lay blue in c two soon"
+    },
+    {
+      "id": "s2/lgwtzs.mpg",
+      "reference": "lay green with t zero soon",
+      "raw": "lay gren with t sevo son",
+      "text": "lay green with t set soon"
+    },
+    {
+      "id": "s2/brwg5n.mpg",
+      "reference": "bin red with g five now",
+      "raw": "place red with g five now",
+      "text": "place red with g five now"
+    },
+    {
+      "id": "s2/brbm5n.mpg",
+      "reference": "bin red by m five now",
+      "raw": "bin red by f five now",
+      "text": "bin red by f five now"
+    },
+    {
+      "id": "s2/prap6a.mpg",
+      "reference": "place red at p six again",
+      "raw": "place red at b six again",
+      "text": "place red at b six again"
+    },
+    {
+      "id": "s2/pgbk8a.mpg",
+      "reference": "place green by k eight again",
+      "raw": "place gren by y nine again",
+      "text": "place green by y nine again"
+    },
+    {
+      "id": "s2/sbinza.mpg",
+      "reference": "set blue in n zero again",
+      "raw": "set blue it s zero again",
+      "text": "set blue at s zero again"
+    },
+    {
+      "id": "s2/lwbszs.mpg",
+      "reference": "lay white by s zero soon",
+      "raw": "lay white by x zero son",
+      "text": "lay white by x zero soon"
+    },
+    {
+      "id": "s2/pwwy2s.mpg",
+      "reference": "place white with y two soon",
+      "raw": "place white with y two son",
+      "text": "place white with y two soon"
+    },
+    {
+      "id": "s2/sgwp7n.mpg",
+      "reference": "set green with p seven now",
+      "raw": "set gren with b seven now",
+      "text": "set green with b seven now"
+    },
+    {
+      "id": "s2/bgaa5n.mpg",
+      "reference": "bin green at a five now",
+      "raw": "place gren an z five now",
+      "text": "place green at z five now"
+    },
+    {
+      "id": "s2/bgwu5n.mpg",
+      "reference": "bin green with u five now",
+      "raw": "lay gren with q figt now",
+      "text": "lay green with q eight now"
+    },
+    {
+      "id": "s2/bgan4s.mpg",
+      "reference": "bin green at n four soon",
+      "raw": "bia gren at k thoe son",
+      "text": "bin green at k three soon"
+    },
+    {
+      "id": "s2/pbio6a.mpg",
+      "reference": "place blue in o six again",
+      "raw": "place blue in o six again",
+      "text": "place blue in o six again"
+    },
+    {
+      "id": "s2/pwixzs.mpg",
+      "reference": "place white in x zero soon",
+      "raw": "place white an x se son",
+      "text": "place white at x set soon"
+    },
+    {
+      "id": "s2/lrbe8a.mpg",
+      "reference": "lay red by e eight again",
+      "raw": "lay red by d eight again",
+      "text": "lay red by d eight again"
+    },
+    {
+      "id": "s2/sban2s.mpg",
+      "reference": "set blue at n two soon",
+      "raw": "set blue at s two son",
+      "text": "set blue at s two soon"
+    },
+    {
+      "id": "s2/bgat8s.mpg",
+      "reference": "bin green at t eight soon",
+      "raw": "bin gren an c nine son",
+      "text": "bin green at c nine soon"
+    },
+    {
+      "id": "s2/bwwn5n.mpg",
+      "reference": "bin white with n five now",
+      "raw": "bin white with s eight now",
+      "text": "bin white with s eight now"
+    },
+    {
+      "id": "s2/pgij9p.mpg",
+      "reference": "place green in j nine please",
+      "raw": "place gren an j eight please",
+      "text": "place green at j eight please"
+    },
+    {
+      "id": "s2/pwwq9p.mpg",
+      "reference": "place white with q nine please",
+      "raw": "place white with q fige please",
+      "text": "place white with q five please"
+    },
+    {
+      "id": "s2/pgwy8s.mpg",
+      "reference": "place green with y eight soon",
+      "raw": "place gren with y nine son",
+      "text": "place green with y nine soon"
+    },
+    {
+      "id": "s2/bgwh7n.mpg",
+      "reference": "bin green with h seven now",
+      "raw": "blny gren with h seven now",
+      "text": "lay green with h seven now"
+    },
+    {
+      "id": "s2/swiu4s.mpg",
+      "reference": "set white in u four soon",
+      "raw": "set white in u four son",
+      "text": "set white in u four soon"
+    },
+    {
+      "id": "s2/lwbf4a.mpg",
+      "reference": "lay white by f four again",
+      "raw": "lay white by f two again",
+      "text": "lay white by f two again"
+    },
+    {
+      "id": "s2/srwb8s.mpg",
+      "reference": "set red with b eight soon",
+      "raw": "set red with b nine son",
+      "text": "set red with b nine soon"
+    },
+    {
+      "id": "s2/lray4s.mpg",
+      "reference": "lay red at y four soon",
+      "raw": "lay red at y tone son",
+      "text": "lay red at y one soon"
+    },
+    {
+      "id": "s2/bwbn4a.mpg",
+      "reference": "bin white by n four again",
+      "raw": "bin white by n two again",
+      "text": "bin white by n two again"
+    },
+    {
+      "id": "s2/briz8a.mpg",
+      "reference": "bin red in z eight again",
+      "raw": "bin red in c eight again",
+      "text": "bin red in c eight again"
+    },
+    {
+      "id": "s2/bgia4a.mpg",
+      "reference": "bin green in a four again",
+      "raw": "bin gren in s two again",
+      "text": "bin green in s two again"
+    },
+    {
+      "id": "s2/bgwiza.mpg",
+      "reference": "bin green with i zero again",
+      "raw": "bin gren with i zero again",
+      "text": "bin green with i zero again"
+    },
+    {
+      "id": "s2/bwim4s.mpg",
+      "reference": "bin white in m four soon",
+      "raw": "bin white in f oe son",
+      "text": "bin white in f one soon"
+    },
+    {
+      "id": "s2/lrar1p.mpg",
+      "reference": "lay red at r one please",
+      "raw": "lay red at j one please",
+      "text": "lay red at j one please"
+    },
+    {
+      "id": "s2/pwic8s.mpg",
+      "reference": "place white in c eight soon",
+      "raw": "place white an t eight son",
+      "text": "place white at t eight soon"
+    },
+    {
+      "id": "s2/brbg3p.mpg",
+      "reference": "bin red by g three please",
+      "raw": "bin red by g two please",
+      "text": "bin red by g two please"
+    },
+    {
+      "id": "s2/prwj7n.mpg",
+      "reference": "place red with j seven now",
+      "raw": "place red with j seven now",
+      "text": "place red with j seven now"
+    },
+    {
+      "id": "s2/brbm8a.mpg",
+      "reference": "bin red by m eight again",
+      "raw": "bin red by m eight again",
+      "text": "bin red by m eight again"
+    },
+    {
+      "id": "s2/sbat6s.mpg",
+      "reference": "set blue at t six soon",
+      "raw": "set blue an z six son",
+      "text": "set blue at z six soon"
+    },
+    {
+      "id": "s2/sbat5n.mpg",
+      "reference": "set blue at t five now",
+      "raw": "set blue at t five now",
+      "text": "set blue at t five now"
+    },
+    {
+      "id": "s2/bgwu6s.mpg",
+      "reference": "bin green with u six soon",
+      "raw": "bin gren with u six son",
+      "text": "bin green with u six soon"
+    },
+    {
+      "id": "s2/pgad9p.mpg",
+      "reference": "place green at d nine please",
+      "raw": "place gren an c eiget please",
+      "text": "place green at c eight please"
+    },
+    {
+      "id": "s2/pwip5n.mpg",
+      "reference": "place white in p five now",
+      "raw": "place white at v fine now",
+      "text": "place white at v five now"
+    },
+    {
+      "id": "s2/lwie5p.mpg",
+      "reference": "lay white in e five please",
+      "raw": "lay white in e fige please",
+      "text": "lay white in e five please"
+    },
+    {
+      "id": "s2/sbwh8a.mpg",
+      "reference": "set blue with h eight again",
+      "raw": "set blue with h eight again",
+      "text": "set blue with h eight again"
+    },
+    {
+      "id": "s2/lgbm3p.mpg",
+      "reference": "lay green by m three please",
+      "raw": "lay ren by m two please",
+      "text": "lay red by m two please"
+    },
+    {
+      "id": "s2/bwbt7p.mpg",
+      "reference": "bin white by t seven please",
+      "raw": "bin white by c zero please",
+      "text": "bin white by c zero please"
+    },
+    {
+      "id": "s2/bgbu1n.mpg",
+      "reference": "bin green by u one now",
+      "raw": "bin gren by u one now",
+      "text": "bin green by u one now"
+    },
+    {
+      "id": "s2/sgbv7n.mpg",
+      "reference": "set green by v seven now",
+      "raw": "set gren by v seven now",
+      "text": "set green by v seven now"
+    },
+    {
+      "id": "s2/srau1n.mpg",
+      "reference": "set red at u one now",
+      "raw": "set red in u nine now",
+      "text": "set red in u nine now"
+    },
+    {
+      "id": "s2/bgaa6s.mpg",
+      "reference": "bin green at a six soon",
+      "raw": "bin gren at z six son",
+      "text": "bin green at z six soon"
+    },
+    {
+      "id": "s2/lgbgza.mpg",
+      "reference": "lay green by g zero again",
+      "raw": "lay gren by g nene again",
+      "text": "lay green by g nine again"
+    },
+    {
+      "id": "s2/prac8a.mpg",
+      "reference": "place red at c eight again",
+      "raw": "place red at c eight again",
+      "text": "place red at c eight again"
+    },
+    {
+      "id": "s2/lgif1p.mpg",
+      "reference": "lay green in f one please",
+      "raw": "lay gren in s one please",
+      "text": "lay green in s one please"
+    },
+    {
+      "id": "s2/sraoza.mpg",
+      "reference": "set red at o zero again",
+      "raw": "set red at u zero again",
+      "text": "set red at u zero again"
+    },
+    {
+      "id": "s2/lgaf3n.mpg",
+      "reference": "lay green at f three now",
+      "raw": "lay gren at f thre now",
+      "text": "lay green at f three now"
+    },
+    {
+      "id": "s2/lrbe6s.mpg",
+      "reference": "lay red by e six soon",
+      "raw": "lay red by e sinx son",
+      "text": "lay red by e six soon"
+    },
+    {
+      "id": "s2/lgiz2s.mpg",
+      "reference": "lay green in z two soon",
+      "raw": "lay gren in z two son",
+      "text": "lay green in z two soon"
+    },
+    {
+      "id": "s2/sgwdzs.mpg",
+      "reference": "set green with d zero soon",
+      "raw": "set gren with c zero son",
+      "text": "set green with c zero soon"
+    },
+    {
+      "id": "s2/lwwz7n.mpg",
+      "reference": "lay white with z seven now",
+      "raw": "lay white with z seven now",
+      "text": "lay white with z seven now"
+    },
+    {
+      "id": "s2/bbifza.mpg",
+      "reference": "bin blue in f zero again",
+      "raw": "bin blue at f sevo again",
+      "text": "bin blue at f set again"
+    },
+    {
+      "id": "s2/lgil3n.mpg",
+      "reference": "lay green in l three now",
+      "raw": "lay gren in x thre now",
+      "text": "lay green in x three now"
+    },
+    {
+      "id": "s2/srin6a.mpg",
+      "reference": "set red in n six again",
+      "raw": "set red in s six again",
+      "text": "set red in s six again"
+    },
+    {
+      "id": "s2/pgiq3p.mpg",
+      "reference": "place green in q three please",
+      "raw": "place gren an q thre please",
+      "text": "place green at q three please"
+    },
+    {
+      "id": "s2/pwbd6s.mpg",
+      "reference": "place white by d six soon",
+      "raw": "",
+      "text": "",
+      "error": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8"
+    },
+    {
+      "id": "s2/sbig4s.mpg",
+      "reference": "set blue in g four soon",
+      "raw": "set blue at g four son",
+      "text": "set blue at g four soon"
+    },
+    {
+      "id": "s2/bbizzs.mpg",
+      "reference": "bin blue in z zero soon",
+      "raw": "bin blue in z zero son",
+      "text": "bin blue in z zero soon"
+    },
+    {
+      "id": "s2/bbal7p.mpg",
+      "reference": "bin blue at l seven please",
+      "raw": "place blue ath l six please",
+      "text": "place blue at l six please"
+    },
+    {
+      "id": "s2/lbbq7n.mpg",
+      "reference": "lay blue by q seven now",
+      "raw": "lay blue by q seven now",
+      "text": "lay blue by q seven now"
+    },
+    {
+      "id": "s2/pgid6a.mpg",
+      "reference": "place green in d six again",
+      "raw": "place gren in c six again",
+      "text": "place green in c six again"
+    },
+    {
+      "id": "s2/bbbz9p.mpg",
+      "reference": "bin blue by z nine please",
+      "raw": "bin blue by z einhe please",
+      "text": "bin blue by z eight please"
+    },
+    {
+      "id": "s2/lgwm8a.mpg",
+      "reference": "lay green with m eight again",
+      "raw": "lay gren with m eight again",
+      "text": "lay green with m eight again"
+    },
+    {
+      "id": "s2/srbo4a.mpg",
+      "reference": "set red by o four again",
+      "raw": "set red by o tfour again",
+      "text": "set red by o four again"
+    },
+    {
+      "id": "s2/bwba5p.mpg",
+      "reference": "bin white by a five please",
+      "raw": "bin white by n fige please",
+      "text": "bin white by n five please"
+    },
+    {
+      "id": "s2/bras7p.mpg",
+      "reference": "bin red at s seven please",
+      "raw": "bin red an e six please",
+      "text": "bin red at e six please"
+    },
+    {
+      "id": "s2/sbbu2a.mpg",
+      "reference": "set blue by u two again",
+      "raw": "set blue by u two again",
+      "text": "set blue by u two again"
+    },
+    {
+      "id": "s2/lgbs6s.mpg",
+      "reference": "lay green by s six soon",
+      "raw": "lay gren by x six son",
+      "text": "lay green by x six soon"
+    },
+    {
+      "id": "s2/pgak2s.mpg",
+      "reference": "place green at k two soon",
+      "raw": "place gren at x two son",
+      "text": "place green at x two soon"
+    },
+    {
+      "id": "s2/prbqza.mpg",
+      "reference": "place red by q zero again",
+      "raw": "place red by q zero again",
+      "text": "place red by q zero again"
+    },
+    {
+      "id": "s2/bbaf4a.mpg",
+      "reference": "bin blue at f four again",
+      "raw": "bin blue at f thre again",
+      "text": "bin blue at f three again"
+    },
+    {
+      "id": "s2/pgid3n.mpg",
+      "reference": "place green in d three now",
+      "raw": "place gren in c thre now",
+      "text": "place green in c three now"
+    },
+    {
+      "id": "s2/briz6s.mpg",
+      "reference": "bin red in z six soon",
+      "raw": "bin red in z six son",
+      "text": "bin red in z six soon"
+    },
+    {
+      "id": "s2/pbwc9p.mpg",
+      "reference": "place blue with c nine please",
+      "raw": "place blue at c eight please",
+      "text": "place blue at c eight please"
+    },
+    {
+      "id": "s2/bwif9n.mpg",
+      "reference": "bin white in f nine now",
+      "raw": "bin white in f nine now",
+      "text": "bin white in f nine now"
+    },
+    {
+      "id": "s2/swai1p.mpg",
+      "reference": "set white at i one please",
+      "raw": "set white at n one please",
+      "text": "set white at n one please"
+    },
+    {
+      "id": "s2/pwwy4a.mpg",
+      "reference": "place white with y four again",
+      "raw": "place white with y toe again",
+      "text": "place white with y now again"
+    },
+    {
+      "id": "s2/pbwxzs.mpg",
+      "reference": "place blue with x zero soon",
+      "raw": "",
+      "text": "",
+      "error": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8"
+    },
+    {
+      "id": "s2/swin9n.mpg",
+      "reference": "set white in n nine now",
+      "raw": "set white in a nine now",
+      "text": "set white in a nine now"
+    },
+    {
+      "id": "s2/lway9n.mpg",
+      "reference": "lay white at y nine now",
+      "raw": "lay white at y eight now",
+      "text": "lay white at y eight now"
+    },
+    {
+      "id": "s2/lgbf7n.mpg",
+      "reference": "lay green by f seven now",
+      "raw": "lay gren by f seven now",
+      "text": "lay green by f seven now"
+    },
+    {
+      "id": "s2/lbby3p.mpg",
+      "reference": "lay blue by y three please",
+      "raw": "lay blue by y twro please",
+      "text": "lay blue by y two please"
+    },
+    {
+      "id": "s2/praj2a.mpg",
+      "reference": "place red at j two again",
+      "raw": "place red an j hre again",
+      "text": "place red at j red again"
+    },
+    {
+      "id": "s2/swih7p.mpg",
+      "reference": "set white in h seven please",
+      "raw": "set white in h seven please",
+      "text": "set white in h seven please"
+    },
+    {
+      "id": "s2/lwar8a.mpg",
+      "reference": "lay white at r eight again",
+      "raw": "lay white at r eight again",
+      "text": "lay white at r eight again"
+    },
+    {
+      "id": "s2/srihzs.mpg",
+      "reference": "set red in h zero soon",
+      "raw": "set red an h zero son",
+      "text": "set red at h zero soon"
+    },
+    {
+      "id": "s2/bris3p.mpg",
+      "reference": "bin red in s three please",
+      "raw": "bin red in e thre please",
+      "text": "bin red in e three please"
+    },
+    {
+      "id": "s2/pbbp3p.mpg",
+      "reference": "place blue by p three please",
+      "raw": "place blue by b two please",
+      "text": "place blue by b two please"
+    },
+    {
+      "id": "s2/pbai5p.mpg",
+      "reference": "place blue at i five please",
+      "raw": "place blue at i five please",
+      "text": "place blue at i five please"
+    },
+    {
+      "id": "s2/pgby6a.mpg",
+      "reference": "place green by y six again",
+      "raw": "place gren at y six again",
+      "text": "place green at y six again"
+    },
+    {
+      "id": "s2/sbag8s.mpg",
+      "reference": "set blue at g eight soon",
+      "raw": "set blue an g eight son",
+      "text": "set blue at g eight soon"
+    },
+    {
+      "id": "s2/srin5p.mpg",
+      "reference": "set red in n five please",
+      "raw": "set red in n fige paease",
+      "text": "set red in n five please"
+    },
+    {
+      "id": "s2/pgaq6s.mpg",
+      "reference": "place green at q six soon",
+      "raw": "place gren at u six son",
+      "text": "place green at u six soon"
+    },
+    {
+      "id": "s2/lwie6a.mpg",
+      "reference": "lay white in e six again",
+      "raw": "lay white in e six again",
+      "text": "lay white in e six again"
+    },
+    {
+      "id": "s2/lrby7n.mpg",
+      "reference": "lay red by y seven now",
+      "raw": "lay ren by y seven now",
+      "text": "lay red by y seven now"
+    },
+    {
+      "id": "s2/pgad8s.mpg",
+      "reference": "place green at d eight soon",
+      "raw": "place gren at c einht son",
+      "text": "place green at c eight soon"
+    },
+    {
+      "id": "s2/pwij2s.mpg",
+      "reference": "place white in j two soon",
+      "raw": "place white an j two son",
+      "text": "place white at j two soon"
+    },
+    {
+      "id": "s2/sgii4a.mpg",
+      "reference": "set green in i four again",
+      "raw": "set gren in i two again",
+      "text": "set green in i two again"
+    },
+    {
+      "id": "s2/lray3n.mpg",
+      "reference": "lay red at y three now",
+      "raw": "lay red at y thre now",
+      "text": "lay red at y three now"
+    },
+    {
+      "id": "s2/bril9p.mpg",
+      "reference": "bin red in l nine please",
+      "raw": "bin red in x eight please",
+      "text": "bin red in x eight please"
+    },
+    {
+      "id": "s2/pbav3p.mpg",
+      "reference": "place blue at v three please",
+      "raw": "place blue at c threo please",
+      "text": "place blue at c three please"
+    },
+    {
+      "id": "s2/bram1n.mpg",
+      "reference": "bin red at m one now",
+      "raw": "bin red at f one now",
+      "text": "bin red at f one now"
+    },
+    {
+      "id": "s2/srig9n.mpg",
+      "reference": "set red in g nine now",
+      "raw": "set red an g eight now",
+      "text": "set red at g eight now"
+    },
+    {
+      "id": "s2/prwj8s.mpg",
+      "reference": "place red with j eight soon",
+      "raw": "place red with j nine son",
+      "text": "place red with j nine soon"
+    },
+    {
+      "id": "s2/pgayzs.mpg",
+      "reference": "place green at y zero soon",
+      "raw": "place gren an y seven son",
+      "text": "place green at y seven soon"
+    },
+    {
+      "id": "s2/bwim3n.mpg",
+      "reference": "bin white in m three now",
+      "raw": "bin white in m thre now",
+      "text": "bin white in m three now"
+    },
+    {
+      "id": "s2/lrae4a.mpg",
+      "reference": "lay red at e four again",
+      "raw": "lay red at d tfour again",
+      "text": "lay red at d four again"
+    },
+    {
+      "id": "s2/pbao8s.mpg",
+      "reference": "place blue at o eight soon",
+      "raw": "place blue at o eight son",
+      "text": "place blue at o eight soon"
+    },
+    {
+      "id": "s2/bwis9p.mpg",
+      "reference": "bin white in s nine please",
+      "raw": "bin white in s sie please",
+      "text": "bin white in s six please"
+    },
+    {
+      "id": "s2/lbbe2a.mpg",
+      "reference": "lay blue by e two again",
+      "raw": "lay blue by e two again",
+      "text": "lay blue by e two again"
+    },
+    {
+      "id": "s2/bwbt6s.mpg",
+      "reference": "bin white by t six soon",
+      "raw": "bin white by c six son",
+      "text": "bin white by c six soon"
+    },
+    {
+      "id": "s2/prwq1n.mpg",
+      "reference": "place red with q one now",
+      "raw": "place red with d one now",
+      "text": "place red with d one now"
+    },
+    {
+      "id": "s2/bwwt9n.mpg",
+      "reference": "bin white with t nine now",
+      "raw": "blac white with t nine now",
+      "text": "lay white with t nine now"
+    },
+    {
+      "id": "s2/lbbk5p.mpg",
+      "reference": "lay blue by k five please",
+      "raw": "lay blue by e eight please",
+      "text": "lay blue by e eight please"
+    },
+    {
+      "id": "s2/lbad7p.mpg",
+      "reference": "lay blue at d seven please",
+      "raw": "lay blue at c sivn please",
+      "text": "lay blue at c in please"
+    },
+    {
+      "id": "s2/bgbu3p.mpg",
+      "reference": "bin green by u three please",
+      "raw": "lay gren by q two please",
+      "text": "lay green by q two please"
+    },
+    {
+      "id": "s2/pbib6s.mpg",
+      "reference": "place blue in b six soon",
+      "raw": "place blue it b six son",
+      "text": "place blue at b six soon"
+    },
+    {
+      "id": "s2/pwwy3p.mpg",
+      "reference": "place white with y three please",
+      "raw": "place white with y two please",
+      "text": "place white with y two please"
+    },
+    {
+      "id": "s2/sgao9n.mpg",
+      "reference": "set green at o nine now",
+      "raw": "set gren at o nine now",
+      "text": "set green at o nine now"
+    },
+    {
+      "id": "s2/lbax7n.mpg",
+      "reference": "lay blue at x seven now",
+      "raw": "lay rud at s seven now",
+      "text": "lay red at s seven now"
+    },
+    {
+      "id": "s2/pbao7n.mpg",
+      "reference": "place blue at o seven now",
+      "raw": "place blue at o six now",
+      "text": "place blue at o six now"
+    },
+    {
+      "id": "s2/pgby4s.mpg",
+      "reference": "place green by y four soon",
+      "raw": "place gren by y one son",
+      "text": "place green by y one soon"
+    },
+    {
+      "id": "s2/lwaz1p.mpg",
+      "reference": "lay white at z one please",
+      "raw": "lay white in z one please",
+      "text": "lay white in z one please"
+    },
+    {
+      "id": "s2/prwq2s.mpg",
+      "reference": "place red with q two soon",
+      "raw": "place red with u twe son",
+      "text": "place red with u two soon"
+    },
+    {
+      "id": "s2/pbio3n.mpg",
+      "reference": "place blue in o three now",
+      "raw": "place blue in o thre now",
+      "text": "place blue in o three now"
+    },
+    {
+      "id": "s2/prwq4a.mpg",
+      "reference": "place red with q four again",
+      "raw": "place red with u thoue again",
+      "text": "place red with u three again"
+    },
+    {
+      "id": "s2/pbbp2s.mpg",
+      "reference": "place blue by p two soon",
+      "raw": "place blue by p two son",
+      "text": "place blue by p two soon"
+    },
+    {
+      "id": "s2/swbi4s.mpg",
+      "reference": "set white by i four soon",
+      "raw": "set white by i tone son",
+      "text": "set white by i one soon"
+    },
+    {
+      "id": "s2/pbbc4s.mpg",
+      "reference": "place blue by c four soon",
+      "raw": "place blue by c four son",
+      "text": "place blue by c four soon"
+    },
+    {
+      "id": "s2/bgwb5p.mpg",
+      "reference": "bin green with b five please",
+      "raw": "lny gren with p five please",
+      "text": "lay green with p five please"
+    },
+    {
+      "id": "s2/bwbg9p.mpg",
+      "reference": "bin white by g nine please",
+      "raw": "bin white by j eight please",
+      "text": "bin white by j eight please"
+    },
+    {
+      "id": "s2/sbaa3n.mpg",
+      "reference": "set blue at a three now",
+      "raw": "set blue at k thre now",
+      "text": "set blue at k three now"
+    },
+    {
+      "id": "s2/bbbs3n.mpg",
+      "reference": "bin blue by s three now",
+      "raw": "bin blue by s thre now",
+      "text": "bin blue by s three now"
+    },
+    {
+      "id": "s2/swbb9n.mpg",
+      "reference": "set white by b nine now",
+      "raw": "set white by b eight now",
+      "text": "set white by b eight now"
+    },
+    {
+      "id": "s2/pbbi7n.mpg",
+      "reference": "place blue by i seven now",
+      "raw": "place blue by i seven now",
+      "text": "place blue by i seven now"
+    },
+    {
+      "id": "s2/pwbd8a.mpg",
+      "reference": "place white by d eight again",
+      "raw": "place white by t nine again",
+      "text": "place white by t nine again"
+    },
+    {
+      "id": "s2/bgbu2s.mpg",
+      "reference": "bin green by u two soon",
+      "raw": "place red at y the son",
+      "text": "place red at y one soon"
+    },
+    {
+      "id": "s2/pbbv8a.mpg",
+      "reference": "place blue by v eight again",
+      "raw": "place blue by v nine again",
+      "text": "place blue by v nine again"
+    },
+    {
+      "id": "s2/bbaszs.mpg",
+      "reference": "bin blue at s zero soon",
+      "raw": "bin blue at d seven son",
+      "text": "bin blue at d seven soon"
+    },
+    {
+      "id": "s2/sria8a.mpg",
+      "reference": "set red in a eight again",
+      "raw": "set red in e eight again",
+      "text": "set red in e eight again"
+    },
+    {
+      "id": "s2/pbwx2a.mpg",
+      "reference": "place blue with x two again",
+      "raw": "place blue with a two again",
+      "text": "place blue with a two again"
+    },
+    {
+      "id": "s2/srit9p.mpg",
+      "reference": "set red in t nine please",
+      "raw": "set red in c nine please",
+      "text": "set red in c nine please"
+    },
+    {
+      "id": "s2/sbwo2a.mpg",
+      "reference": "set blue with o two again",
+      "raw": "set blue with o two again",
+      "text": "set blue with o two again"
+    },
+    {
+      "id": "s2/prbj3n.mpg",
+      "reference": "place red by j three now",
+      "raw": "place red by j thre now",
+      "text": "place red by j three now"
+    },
+    {
+      "id": "s2/sbbuzs.mpg",
+      "reference": "set blue by u zero soon",
+      "raw": "set blue by u zevo son",
+      "text": "set blue by u zero soon"
+    },
+    {
+      "id": "s2/lgie9n.mpg",
+      "reference": "lay green in e nine now",
+      "raw": "lay gren in d nine now",
+      "text": "lay green in d nine now"
+    },
+    {
+      "id": "s2/bwitza.mpg",
+      "reference": "bin white in t zero again",
+      "raw": "bin white in d zero again",
+      "text": "bin white in d zero again"
+    },
+    {
+      "id": "s2/srbu5n.mpg",
+      "reference": "set red by u five now",
+      "raw": "set red by u nine son",
+      "text": "set red by u nine soon"
+    },
+    {
+      "id": "s2/swwi8s.mpg",
+      "reference": "set white with i eight soon",
+      "raw": "set white with i eigt son",
+      "text": "set white with i eight soon"
+    },
+    {
+      "id": "s2/sgio5n.mpg",
+      "reference": "set green in o five now",
+      "raw": "set gren in u nine now",
+      "text": "set green in u nine now"
+    },
+    {
+      "id": "s2/brwa1n.mpg",
+      "reference": "bin red with a one now",
+      "raw": "bince red with a one now",
+      "text": "bin red with a one now"
+    },
+    {
+      "id": "s2/lbbezs.mpg",
+      "reference": "lay blue by e zero soon",
+      "raw": "lay blue by e seven son",
+      "text": "lay blue by e seven soon"
+    },
+    {
+      "id": "s2/prii8a.mpg",
+      "reference": "place red in i eight again",
+      "raw": "place red in i nine again",
+      "text": "place red in i nine again"
+    },
+    {
+      "id": "s2/lrar2a.mpg",
+      "reference": "lay red at r two again",
+      "raw": "lay red at r two again",
+      "text": "lay red at r two again"
+    },
+    {
+      "id": "s2/lbid3p.mpg",
+      "reference": "lay blue in d three please",
+      "raw": "lay rud it k sie please",
+      "text": "lay red at k six please"
+    },
+    {
+      "id": "s2/pbapza.mpg",
+      "reference": "place blue at p zero again",
+      "raw": "place blue at b zeo again",
+      "text": "place blue at b zero again"
+    },
+    {
+      "id": "s2/lbad6s.mpg",
+      "reference": "lay blue at d six soon",
+      "raw": "lay blue in c six son",
+      "text": "lay blue in c six soon"
+    },
+    {
+      "id": "s2/lbwe3n.mpg",
+      "reference": "lay blue with e three now",
+      "raw": "lay blue it e thre now",
+      "text": "lay blue at e three now"
+    },
+    {
+      "id": "s2/prac6s.mpg",
+      "reference": "place red at c six soon",
+      "raw": "place red an t six son",
+      "text": "place red at t six soon"
+    },
+    {
+      "id": "s2/sgbc7p.mpg",
+      "reference": "set green by c seven please",
+      "raw": "set gren by t seven please",
+      "text": "set green by t seven please"
+    },
+    {
+      "id": "s2/brwt6a.mpg",
+      "reference": "bin red with t six again",
+      "raw": "bin red with c sine again",
+      "text": "bin red with c nine again"
+    },
+    {
+      "id": "s2/bwwh2s.mpg",
+      "reference": "bin white with h two soon",
+      "raw": "bin white with h two son",
+      "text": "bin white with h two soon"
+    },
+    {
+      "id": "s2/bwbg8s.mpg",
+      "reference": "bin white by g eight soon",
+      "raw": "bin white by g eight son",
+      "text": "bin white by g eight soon"
+    },
+    {
+      "id": "s2/lrak8a.mpg",
+      "reference": "lay red at k eight again",
+      "raw": "lay red an i nige again",
+      "text": "lay red at i nine again"
+    },
+    {
+      "id": "s2/swai2a.mpg",
+      "reference": "set white at i two again",
+      "raw": "set white at a thre again",
+      "text": "set white at a three again"
+    },
+    {
+      "id": "s2/bbir6s.mpg",
+      "reference": "bin blue in r six soon",
+      "raw": "bin blue in l six son",
+      "text": "bin blue in l six soon"
+    },
+    {
+      "id": "s2/pgak4a.mpg",
+      "reference": "place green at k four again",
+      "raw": "place gren at f tfour again",
+      "text": "place green at f four again"
+    },
+    {
+      "id": "s2/lgws9n.mpg",
+      "reference": "lay green with s nine now",
+      "raw": "lay gren with s sine now",
+      "text": "lay green with s nine now"
+    },
+    {
+      "id": "s2/bbil2s.mpg",
+      "reference": "bin blue in l two soon",
+      "raw": "place blue it x two son",
+      "text": "place blue at x two soon"
+    }
+  ],
+  "preprocessing_failures": 2
+}

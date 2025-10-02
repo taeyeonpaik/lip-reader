@@ -1,0 +1,14 @@
+{
+  "loss": 0.9985499382019043,
+  "changed_trainable_tensors": 20,
+  "frozen_bn_layers": 3,
+  "published_weights_unchanged": true,
+  "training_batch_shape": [
+    2,
+    75,
+    100,
+    50,
+    3
+  ],
+  "completed_full_epoch": false
+}

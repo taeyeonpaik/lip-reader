@@ -1,0 +1,18 @@
+{
+  "browser": "Codex in-app browser, localhost:8502",
+  "notebook_example_button_passed": true,
+  "notebook_example_prediction": "bin blue at f two now",
+  "paper_example_button_passed": true,
+  "paper_example_prediction": "bin blue in f two now",
+  "browser_upload_prediction_passed": true,
+  "upload_file": "id2_vcd_swwp2s.mpg",
+  "upload_prediction": "set white with b two soon",
+  "upload_processing_seconds": 3.69,
+  "random_sentence_generator_passed": true,
+  "practice_before": "bin white at a seven now",
+  "practice_after": "lay blue with n one again",
+  "physical_camera_tested": false,
+  "camera_start_clicked": false,
+  "deployed": false,
+  "webcam_start_and_device_controls_rendered": true
+}

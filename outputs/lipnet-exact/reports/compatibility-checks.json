@@ -1,0 +1,26 @@
+{
+  "legacy_gru_numpy_reference_max_error": 2.9802322387695312e-08,
+  "legacy_gru_reset_after": false,
+  "scipy_rgb_resize_byte_identical": true,
+  "checks": [
+    {
+      "engine": "tutorial",
+      "reload_probability_max_error": 0.0,
+      "finite_ctc_loss": 2.301114797592163,
+      "finite_gradients": true,
+      "changed_trainable_tensors": 20,
+      "note": "One disposable single-example optimizer smoke step, not a training run. Published weight files unchanged."
+    },
+    {
+      "engine": "paper",
+      "reload_probability_max_error": 0.0,
+      "finite_ctc_loss": 3.996319532394409,
+      "finite_gradients": true,
+      "changed_trainable_tensors": 26,
+      "note": "One disposable single-example optimizer smoke step, not a training run. Published weight files unchanged."
+    }
+  ],
+  "full_training_performed": false,
+  "historical_ctc_loss_and_decoders_identical": true,
+  "paper_ctc_log_epsilon": 1e-08
+}

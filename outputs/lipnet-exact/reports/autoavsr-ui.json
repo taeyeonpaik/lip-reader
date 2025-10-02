@@ -1,0 +1,17 @@
+{
+  "autoavsr_upload_passed": true,
+  "autoavsr_upload_file": "research-demo.mp4",
+  "autoavsr_upload_seconds": 3.79,
+  "autoavsr_upload_text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+  "autoavsr_camera_controls_rendered": true,
+  "lipnet_upload_passed": true,
+  "lipnet_upload_text": "set white with b two soon",
+  "lipnet_upload_seconds": 4.07,
+  "lipnet_checkpoint_label": "Fine-tuned LipNet, epoch 4",
+  "all_three_options_present": true,
+  "model_specific_guidance_passed": true,
+  "autoavsr_selected_for_handoff": true,
+  "physical_camera_tested": false,
+  "camera_start_clicked": false,
+  "deployed": false
+}

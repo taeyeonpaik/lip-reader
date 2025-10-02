@@ -1,0 +1,13 @@
+{
+  "selected_epoch": 4,
+  "qualifies_on_validation": true,
+  "comparison": {
+    "candidate_minus_baseline_wer": -0.01888888888888889,
+    "conditional_clip_bootstrap_95": [
+      -0.03,
+      -0.0077777777777777776
+    ],
+    "limitation": "One held-out speaker; clip resampling does not estimate generalization across new speakers."
+  },
+  "test_not_yet_evaluated": true
+}

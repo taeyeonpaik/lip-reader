@@ -1,0 +1,7 @@
+{
+  "reason": "Recover from original detector failure before any training epoch",
+  "train": "Exclude invalid original crops, record IDs; no replacement samples",
+  "validation_test": "Keep every selected clip; a preprocessing failure predicts empty text and counts all reference words as errors",
+  "abort_if_training_exclusions_exceed_fraction": 0.05,
+  "architecture_preprocessing_decoder_and_hyperparameters_unchanged": true
+}

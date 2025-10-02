@@ -1,0 +1,17 @@
+{
+  "same_fixed_policy_across_processes": true,
+  "policy": "alphabetical order among equal original spelling probabilities",
+  "reference_text_supplied": false,
+  "runs": [
+    {
+      "python_hash_seed": "0",
+      "predictions": 700,
+      "sha256": "b10e973714560c351ee4e9e090000c1ce7dca1547f55ff41c76369a8b1fd459d"
+    },
+    {
+      "python_hash_seed": "917",
+      "predictions": 700,
+      "sha256": "b10e973714560c351ee4e9e090000c1ce7dca1547f55ff41c76369a8b1fd459d"
+    }
+  ]
+}

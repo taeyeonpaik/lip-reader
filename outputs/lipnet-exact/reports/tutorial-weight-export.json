@@ -1,0 +1,6 @@
+{
+  "h5_sha256": "a3de028be75eef8b84348ed193ce56d9d04115824847ef4757b67457de0e33f8",
+  "npz_sha256": "f4cfdef51f145b4f8bdaf03ea6d1c29514f28ea3df96b204a26868b653ba9454",
+  "all_20_tensors_byte_identical": true,
+  "npz_contains_optimizer_state": false
+}

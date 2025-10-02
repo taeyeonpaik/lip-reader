@@ -1,0 +1,11 @@
+{
+  "original_failed_clip": {
+    "id": "s3/bgbn9a.mpg",
+    "valid": false,
+    "error": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8"
+  },
+  "valid_cache_reused": true,
+  "evaluation_failure_counts_all_six_word_errors": true,
+  "missing_source_is_still_fatal": true,
+  "original_model_unchanged": true
+}

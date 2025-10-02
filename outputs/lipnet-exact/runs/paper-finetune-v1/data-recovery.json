@@ -1,0 +1,12 @@
+{
+  "s4_archive_md5": "1bb4543ca0a27fe76e2874845468a016",
+  "source": "https://zenodo.org/api/records/3625687/files/s4.zip/content",
+  "data_root": "/private/tmp/lipnet-paper-finetune-v1/data",
+  "speaker_counts": {
+    "s1": 1000,
+    "s2": 1000,
+    "s3": 1000,
+    "s4": 1000
+  },
+  "original_ambiguous_s5_excluded": true
+}

@@ -1,0 +1,12 @@
+tensorflow==2.21.0
+tf-keras==2.21.0
+numpy==2.5.3
+h5py==3.14.0
+opencv-python-headless==5.0.0.93
+pillow==12.3.0
+scipy==1.18.1
+imageio==2.37.4
+scikit-video==1.1.11
+streamlit==1.64.0
+streamlit-webrtc==0.77.0
+pytest==9.1.1

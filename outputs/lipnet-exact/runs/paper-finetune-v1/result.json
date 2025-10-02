@@ -1,0 +1,125 @@
+{
+  "config": {
+    "seed": 193,
+    "initial_weights_sha256": "b4ea5202691223ff8a91141a014f7477df53e945bd5c4fcae8413691db13d181",
+    "model": "unchanged upstream model2",
+    "train_speakers": [
+      "s3",
+      "s4"
+    ],
+    "train_per_speaker": 600,
+    "validation_speaker": "s1",
+    "validation_clips": 150,
+    "test_speaker": "s2",
+    "test_clips": 200,
+    "exclude_prior_exact_evaluation_clips": true,
+    "learning_rate": 1e-05,
+    "adam_epsilon": 1e-08,
+    "microbatch": 2,
+    "accumulation": 8,
+    "effective_batch": 16,
+    "freeze_batch_normalization": true,
+    "augmentation": "original horizontal flip0.5 and temporal jitter0.05",
+    "max_epochs": 6,
+    "min_epochs": 3,
+    "patience": 2,
+    "training_budget_seconds": 7200,
+    "decoder": "original CTC beam200 log epsilon1e-8 and original Spell",
+    "minimum_validation_absolute_gain": 0.005,
+    "candidate_requires_validation_bootstrap_upper_below_zero": true,
+    "cache_location": "/private/tmp/lipnet-paper-finetune-v1/cache",
+    "no_automatic_activation": true
+  },
+  "state": {
+    "completed_epoch": 6,
+    "best_wer": 0.18444444444444444,
+    "best_epoch": 4,
+    "stale": 2,
+    "training_seconds": 3695.937062250916,
+    "history": [
+      {
+        "epoch": 1,
+        "mean_loss": 0.7005372570375225,
+        "validation_wer": 0.19111111111111112,
+        "training_seconds": 623.331745708012
+      },
+      {
+        "epoch": 2,
+        "mean_loss": 0.5339783108558805,
+        "validation_wer": 0.19333333333333333,
+        "training_seconds": 634.876882459037
+      },
+      {
+        "epoch": 3,
+        "mean_loss": 0.526337723706727,
+        "validation_wer": 0.18666666666666668,
+        "training_seconds": 633.5945229999488
+      },
+      {
+        "epoch": 4,
+        "mean_loss": 0.46315377598336194,
+        "validation_wer": 0.18444444444444444,
+        "training_seconds": 623.597490333952
+      },
+      {
+        "epoch": 5,
+        "mean_loss": 0.5018227694168587,
+        "validation_wer": 0.18555555555555556,
+        "training_seconds": 590.5179075839696
+      },
+      {
+        "epoch": 6,
+        "mean_loss": 0.44272157610800345,
+        "validation_wer": 0.1922222222222222,
+        "training_seconds": 590.0185131659964
+      }
+    ]
+  },
+  "selection": {
+    "selected_epoch": 4,
+    "qualifies_on_validation": true,
+    "comparison": {
+      "candidate_minus_baseline_wer": -0.01888888888888889,
+      "conditional_clip_bootstrap_95": [
+        -0.03,
+        -0.0077777777777777776
+      ],
+      "limitation": "One held-out speaker; clip resampling does not estimate generalization across new speakers."
+    },
+    "test_not_yet_evaluated": true
+  },
+  "baseline_test": {
+    "clips": 200,
+    "errors": 217,
+    "words": 1200,
+    "wer": 0.18083333333333335,
+    "exact": 58,
+    "conditional_clip_bootstrap_95_interval": [
+      0.15833333333333333,
+      0.20416666666666666
+    ]
+  },
+  "candidate_test": {
+    "clips": 200,
+    "errors": 206,
+    "words": 1200,
+    "wer": 0.17166666666666666,
+    "exact": 60,
+    "conditional_clip_bootstrap_95_interval": [
+      0.15,
+      0.195
+    ]
+  },
+  "test_comparison": {
+    "candidate_minus_baseline_wer": -0.009166666666666667,
+    "conditional_clip_bootstrap_95": [
+      -0.020833333333333332,
+      0.0025
+    ],
+    "limitation": "One held-out speaker; clip resampling does not estimate generalization across new speakers."
+  },
+  "changed_model_tensors": 20,
+  "published_weights_unchanged": true,
+  "activation": "pending independent review; app remains published baseline",
+  "physical_camera_tested": false
+}

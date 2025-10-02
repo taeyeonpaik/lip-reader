@@ -1,0 +1,415 @@
+{
+  "reviewed_unix": 1789842735.9774132,
+  "selected_epoch": 4,
+  "selected_before_test_verified": true,
+  "upstream_hashes_verified": 140,
+  "source_videos_and_alignments_verified": 1550,
+  "effective_counts": {
+    "train": 1192,
+    "validation": 150,
+    "test": 200
+  },
+  "excluded_training_clips": [
+    "s3/bgbn9a.mpg",
+    "s3/lrbr3s.mpg",
+    "s3/lbij7a.mpg",
+    "s3/pgwy7s.mpg",
+    "s3/bgit2n.mpg",
+    "s3/lbij5s.mpg",
+    "s4/lwirzs.mpg",
+    "s4/lwiy3n.mpg"
+  ],
+  "preprocessing_failures": {
+    "s3/bgbn9a.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/lrbr3s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/lbij7a.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/pgwy7s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/bgit2n.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/lbij5s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s4/lwirzs.mpg": "Original mouth detector returned invalid shape/dtype: (72, 100, 50, 3), uint8",
+    "s4/lwiy3n.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s1/pbwx1s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s2/pwbd6s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s2/pbwxzs.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8"
+  },
+  "original_metrics": {
+    "baseline-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 183,
+        "words": 900,
+        "wer": 0.20333333333333334,
+        "exact": 34
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 280,
+        "words": 900,
+        "wer": 0.3111111111111111,
+        "exact": 11
+      },
+      "failures": 1
+    },
+    "epoch-1-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 172,
+        "words": 900,
+        "wer": 0.19111111111111112,
+        "exact": 40
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 269,
+        "words": 900,
+        "wer": 0.29888888888888887,
+        "exact": 16
+      },
+      "failures": 1
+    },
+    "epoch-2-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 174,
+        "words": 900,
+        "wer": 0.19333333333333333,
+        "exact": 40
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 268,
+        "words": 900,
+        "wer": 0.29777777777777775,
+        "exact": 16
+      },
+      "failures": 1
+    },
+    "epoch-3-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 168,
+        "words": 900,
+        "wer": 0.18666666666666668,
+        "exact": 40
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 269,
+        "words": 900,
+        "wer": 0.29888888888888887,
+        "exact": 15
+      },
+      "failures": 1
+    },
+    "epoch-4-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 166,
+        "words": 900,
+        "wer": 0.18444444444444444,
+        "exact": 41
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 266,
+        "words": 900,
+        "wer": 0.29555555555555557,
+        "exact": 16
+      },
+      "failures": 1
+    },
+    "epoch-5-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 167,
+        "words": 900,
+        "wer": 0.18555555555555556,
+        "exact": 39
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 268,
+        "words": 900,
+        "wer": 0.29777777777777775,
+        "exact": 15
+      },
+      "failures": 1
+    },
+    "epoch-6-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 173,
+        "words": 900,
+        "wer": 0.1922222222222222,
+        "exact": 38
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 274,
+        "words": 900,
+        "wer": 0.30444444444444446,
+        "exact": 15
+      },
+      "failures": 1
+    },
+    "selected-reload-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 166,
+        "words": 900,
+        "wer": 0.18444444444444444,
+        "exact": 41
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 266,
+        "words": 900,
+        "wer": 0.29555555555555557,
+        "exact": 16
+      },
+      "failures": 1
+    },
+    "baseline-test": {
+      "metrics": {
+        "clips": 200,
+        "errors": 217,
+        "words": 1200,
+        "wer": 0.18083333333333335,
+        "exact": 58
+      },
+      "raw_metrics": {
+        "clips": 200,
+        "errors": 376,
+        "words": 1200,
+        "wer": 0.31333333333333335,
+        "exact": 17
+      },
+      "failures": 2
+    },
+    "candidate-test": {
+      "metrics": {
+        "clips": 200,
+        "errors": 206,
+        "words": 1200,
+        "wer": 0.17166666666666666,
+        "exact": 60
+      },
+      "raw_metrics": {
+        "clips": 200,
+        "errors": 365,
+        "words": 1200,
+        "wer": 0.30416666666666664,
+        "exact": 20
+      },
+      "failures": 2
+    }
+  },
+  "metrics": {
+    "baseline-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 183,
+        "words": 900,
+        "wer": 0.20333333333333334,
+        "exact": 34
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 280,
+        "words": 900,
+        "wer": 0.3111111111111111,
+        "exact": 11
+      },
+      "failures": 1
+    },
+    "selected-reload-validation": {
+      "metrics": {
+        "clips": 150,
+        "errors": 166,
+        "words": 900,
+        "wer": 0.18444444444444444,
+        "exact": 41
+      },
+      "raw_metrics": {
+        "clips": 150,
+        "errors": 266,
+        "words": 900,
+        "wer": 0.29555555555555557,
+        "exact": 16
+      },
+      "failures": 1
+    },
+    "baseline-test": {
+      "metrics": {
+        "clips": 200,
+        "errors": 216,
+        "words": 1200,
+        "wer": 0.18,
+        "exact": 59
+      },
+      "raw_metrics": {
+        "clips": 200,
+        "errors": 376,
+        "words": 1200,
+        "wer": 0.31333333333333335,
+        "exact": 17
+      },
+      "failures": 2
+    },
+    "candidate-test": {
+      "metrics": {
+        "clips": 200,
+        "errors": 207,
+        "words": 1200,
+        "wer": 0.1725,
+        "exact": 60
+      },
+      "raw_metrics": {
+        "clips": 200,
+        "errors": 365,
+        "words": 1200,
+        "wer": 0.30416666666666664,
+        "exact": 20
+      },
+      "failures": 2
+    }
+  },
+  "original_validation_comparison": {
+    "candidate_minus_baseline_wer": -0.01888888888888889,
+    "conditional_clip_bootstrap_95": [
+      -0.03,
+      -0.0077777777777777776
+    ]
+  },
+  "original_test_comparison": {
+    "candidate_minus_baseline_wer": -0.009166666666666667,
+    "conditional_clip_bootstrap_95": [
+      -0.020833333333333332,
+      0.0025
+    ]
+  },
+  "spelling_tie_fix": "Alphabetical order among equal-probability candidates; same rule for both models, no reference input; epoch choice unchanged",
+  "validation_comparison": {
+    "candidate_minus_baseline_wer": -0.01888888888888889,
+    "conditional_clip_bootstrap_95": [
+      -0.03,
+      -0.0077777777777777776
+    ]
+  },
+  "test_comparison": {
+    "candidate_minus_baseline_wer": -0.0075,
+    "conditional_clip_bootstrap_95": [
+      -0.02,
+      0.005
+    ]
+  },
+  "changed_weight_tensors": 20,
+  "batchnorm_weights_unchanged": true,
+  "original_weight_sha256": "b4ea5202691223ff8a91141a014f7477df53e945bd5c4fcae8413691db13d181",
+  "candidate_sha256": "42fa9a7051f48e9150967431c32a4a89a50f19e4d324a1d68015fcb8b6368a3d",
+  "vocabulary_classes": 28,
+  "prediction_reload_checks": [
+    {
+      "split": "validation",
+      "clips": 150,
+      "baseline_and_candidate_match_saved": true
+    },
+    {
+      "split": "test",
+      "clips": 200,
+      "baseline_and_candidate_match_saved": true
+    }
+  ],
+  "runtime": {
+    "baseline": {
+      "upload": [
+        {
+          "text": "set white with b two soon",
+          "raw": "set white with b two son",
+          "seconds": 3.595640124985948,
+          "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+          "input_shape": [
+            75,
+            100,
+            50,
+            3
+          ]
+        },
+        {
+          "text": "set white with b two soon",
+          "raw": "set white with b two son",
+          "seconds": 3.5401855000527576,
+          "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+          "input_shape": [
+            75,
+            100,
+            50,
+            3
+          ]
+        }
+      ],
+      "recorded_webcam": {
+        "text": "set white with b two soon",
+        "raw": "set white with b two son",
+        "seconds": 3.5114302919246256,
+        "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+        "input_shape": [
+          75,
+          100,
+          50,
+          3
+        ]
+      },
+      "upload_median_seconds": 3.567912812519353,
+      "recorded_worker_probability_max_error": 0.0,
+      "duration_seconds": 2.98
+    },
+    "candidate": {
+      "upload": [
+        {
+          "text": "set white with b two soon",
+          "raw": "set white with b two son",
+          "seconds": 3.5184726669685915,
+          "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+          "input_shape": [
+            75,
+            100,
+            50,
+            3
+          ]
+        },
+        {
+          "text": "set white with b two soon",
+          "raw": "set white with b two son",
+          "seconds": 3.533007749938406,
+          "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+          "input_shape": [
+            75,
+            100,
+            50,
+            3
+          ]
+        }
+      ],
+      "recorded_webcam": {
+        "text": "set white with b two soon",
+        "raw": "set white with b two son",
+        "seconds": 3.427935874904506,
+        "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+        "input_shape": [
+          75,
+          100,
+          50,
+          3
+        ]
+      },
+      "upload_median_seconds": 3.525740208453499,
+      "recorded_worker_probability_max_error": 0.0,
+      "duration_seconds": 2.98
+    }
+  },
+  "candidate_to_baseline_upload_time_ratio": 0.9881800351404676,
+  "eligible_for_activation": true,
+  "physical_camera_tested": false,
+  "limitations": "One validation and one test speaker. Test paired confidence interval must be read alongside the point estimate; it is conditional on these clips. No general sub-10% or webcam-accuracy claim."
+}

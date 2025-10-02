@@ -1,0 +1,12 @@
+{
+  "paper_original_curriculum_train_and_val_batches_passed": true,
+  "shape": [
+    1,
+    75,
+    100,
+    50,
+    3
+  ],
+  "production_batch_size_unchanged": 50,
+  "full_training": false
+}

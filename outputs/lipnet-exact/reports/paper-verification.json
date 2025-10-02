@@ -1,0 +1,1610 @@
+{
+  "engine": "paper",
+  "fidelity": {
+    "parameters": 4572156,
+    "source_model2_executed_directly": true,
+    "weights_sha256": "b4ea5202691223ff8a91141a014f7477df53e945bd5c4fcae8413691db13d181",
+    "preprocessing": "Upstream Video.get_frames_mouth and Video.set_data; RGB /255",
+    "decoder": "Keras 2.0.2 CTC beam200 (log epsilon 1e-8) then upstream Spell",
+    "local_training_performed": false,
+    "declared_unseen_speakers": [
+      "s1",
+      "s2",
+      "s20",
+      "s22"
+    ],
+    "local_subset_not_full_official_benchmark": true,
+    "gru_config": [
+      {
+        "name": "forward_gru1",
+        "trainable": true,
+        "dtype": "float32",
+        "return_sequences": true,
+        "return_state": false,
+        "go_backwards": false,
+        "stateful": false,
+        "unroll": false,
+        "time_major": false,
+        "zero_output_for_mask": true,
+        "units": 256,
+        "activation": "tanh",
+        "recurrent_activation": "hard_sigmoid",
+        "use_bias": true,
+        "kernel_initializer": {
+          "module": "keras.initializers",
+          "class_name": "Orthogonal",
+          "config": {
+            "gain": 1.0,
+            "seed": null
+          },
+          "registered_name": null
+        },
+        "recurrent_initializer": {
+          "module": "keras.initializers",
+          "class_name": "Orthogonal",
+          "config": {
+            "gain": 1.0,
+            "seed": null
+          },
+          "registered_name": null
+        },
+        "bias_initializer": {
+          "module": "keras.initializers",
+          "class_name": "Zeros",
+          "config": {},
+          "registered_name": null
+        },
+        "kernel_regularizer": null,
+        "recurrent_regularizer": null,
+        "bias_regularizer": null,
+        "activity_regularizer": null,
+        "kernel_constraint": null,
+        "recurrent_constraint": null,
+        "bias_constraint": null,
+        "dropout": 0.0,
+        "recurrent_dropout": 0.0,
+        "implementation": 2,
+        "reset_after": false
+      },
+      {
+        "name": "forward_gru2",
+        "trainable": true,
+        "dtype": "float32",
+        "return_sequences": true,
+        "return_state": false,
+        "go_backwards": false,
+        "stateful": false,
+        "unroll": false,
+        "time_major": false,
+        "zero_output_for_mask": true,
+        "units": 256,
+        "activation": "tanh",
+        "recurrent_activation": "hard_sigmoid",
+        "use_bias": true,
+        "kernel_initializer": {
+          "module": "keras.initializers",
+          "class_name": "Orthogonal",
+          "config": {
+            "gain": 1.0,
+            "seed": null
+          },
+          "registered_name": null
+        },
+        "recurrent_initializer": {
+          "module": "keras.initializers",
+          "class_name": "Orthogonal",
+          "config": {
+            "gain": 1.0,
+            "seed": null
+          },
+          "registered_name": null
+        },
+        "bias_initializer": {
+          "module": "keras.initializers",
+          "class_name": "Zeros",
+          "config": {},
+          "registered_name": null
+        },
+        "kernel_regularizer": null,
+        "recurrent_regularizer": null,
+        "bias_regularizer": null,
+        "activity_regularizer": null,
+        "kernel_constraint": null,
+        "recurrent_constraint": null,
+        "bias_constraint": null,
+        "dropout": 0.0,
+        "recurrent_dropout": 0.0,
+        "implementation": 2,
+        "reset_after": false
+      }
+    ],
+    "all_weight_tensor_max_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "metrics": {
+    "clips": 102,
+    "errors": 113,
+    "words": 612,
+    "wer": 0.184640522875817,
+    "exact": 25
+  },
+  "raw_metrics": {
+    "clips": 102,
+    "errors": 190,
+    "words": 612,
+    "wer": 0.3104575163398693,
+    "exact": 10
+  },
+  "predictions": [
+    {
+      "id": "upstream-mouth/bbaf2n",
+      "reference": "bin blue at f two now",
+      "text": "bin blue in f two now",
+      "raw": "bin blue in f two now",
+      "seconds": 0.8486486250767484,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "upstream-full-face/id2_vcd_swwp2s.mpg",
+      "reference": "set white with p two soon",
+      "text": "set white with b two soon",
+      "raw": "set white with b two son",
+      "seconds": 3.980156583013013,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lgamzp.mpg",
+      "reference": "lay green at m zero please",
+      "text": "lay green at m zero please",
+      "raw": "lay gren at m zero please",
+      "seconds": 4.3916516250465065,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/prwx6n.mpg",
+      "reference": "place red with x six now",
+      "text": "place white with f six now",
+      "raw": "place white with f six now",
+      "seconds": 3.7325293329777196,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pgwe9a.mpg",
+      "reference": "place green with e nine again",
+      "text": "place green with e nine again",
+      "raw": "place gren with e nine again",
+      "seconds": 3.62927391694393,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lgbm4p.mpg",
+      "reference": "lay green by m four please",
+      "text": "lay green by m four please",
+      "raw": "lay gren by m four please",
+      "seconds": 3.591018166975118,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/swwv7s.mpg",
+      "reference": "set white with v seven soon",
+      "text": "set white with v seven soon",
+      "raw": "set white ith v seven son",
+      "seconds": 3.5869485000148416,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/bwan1a.mpg",
+      "reference": "bin white at n one again",
+      "text": "bin white in k one again",
+      "raw": "bin white in k one again",
+      "seconds": 3.5857911669882014,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lbid2n.mpg",
+      "reference": "lay blue in d two now",
+      "text": "lay blue at g two now",
+      "raw": "lay blue at g two now",
+      "seconds": 3.5657670840155333,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pwbq7a.mpg",
+      "reference": "place white by q seven again",
+      "text": "place white by u seven again",
+      "raw": "place white by u seven again",
+      "seconds": 3.594309875043109,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/sban2n.mpg",
+      "reference": "set blue at n two now",
+      "text": "set blue at a two now",
+      "raw": "set blue it a two now",
+      "seconds": 3.5862093339674175,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/bwwb1a.mpg",
+      "reference": "bin white with b one again",
+      "text": "bin white with b one again",
+      "raw": "bin white with b one again",
+      "seconds": 3.590701875044033,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/bbir7s.mpg",
+      "reference": "bin blue in r seven soon",
+      "text": "bin blue at r seven soon",
+      "raw": "bin blue at r seven son",
+      "seconds": 3.7315874999621883,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pwwe3a.mpg",
+      "reference": "place white with e three again",
+      "text": "place white with t three again",
+      "raw": "place white with t thre again",
+      "seconds": 3.6786850000498816,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/bgaa6n.mpg",
+      "reference": "bin green at a six now",
+      "text": "bin blue at k six now",
+      "raw": "bin gle an k six now",
+      "seconds": 3.821087292046286,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lwiy7s.mpg",
+      "reference": "lay white in y seven soon",
+      "text": "lay white at y seven soon",
+      "raw": "lay white it y seven son",
+      "seconds": 4.008879875065759,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/prbj4n.mpg",
+      "reference": "place red by j four now",
+      "text": "place white by g four now",
+      "raw": "place white by g four now",
+      "seconds": 3.750195915927179,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pwaj6n.mpg",
+      "reference": "place white at j six now",
+      "text": "place white at g six now",
+      "raw": "place white at g six now",
+      "seconds": 3.7653854170348495,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pwbk2p.mpg",
+      "reference": "place white by k two please",
+      "text": "place white by k two please",
+      "raw": "place white by k two please",
+      "seconds": 3.638104624929838,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pgwe7s.mpg",
+      "reference": "place green with e seven soon",
+      "text": "place green with e seven soon",
+      "raw": "place gren with e seven son",
+      "seconds": 3.547863916028291,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/priv4n.mpg",
+      "reference": "place red in v four now",
+      "text": "place white at b four now",
+      "raw": "place white an b four now",
+      "seconds": 3.7795744580216706,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lbbk5s.mpg",
+      "reference": "lay blue by k five soon",
+      "text": "lay blue by k five soon",
+      "raw": "lay blue by k five son",
+      "seconds": 3.696948791970499,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/sgai8p.mpg",
+      "reference": "set green at i eight please",
+      "text": "set green in i eight please",
+      "raw": "set gren win i eight please",
+      "seconds": 4.031179666053504,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lgiz3s.mpg",
+      "reference": "lay green in z three soon",
+      "text": "lay green in d three soon",
+      "raw": "lay gren in d thre son",
+      "seconds": 3.614871208090335,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pwad5a.mpg",
+      "reference": "place white at d five again",
+      "text": "place white at g five again",
+      "raw": "place white at g five again",
+      "seconds": 3.558772584074177,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/sbig5s.mpg",
+      "reference": "set blue in g five soon",
+      "text": "set blue in g five soon",
+      "raw": "set blue in g five son",
+      "seconds": 3.516270915977657,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/bgbh7a.mpg",
+      "reference": "bin green by h seven again",
+      "text": "bin green by h seven again",
+      "raw": "bin glen by h seven again",
+      "seconds": 3.570224207942374,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pbwp8p.mpg",
+      "reference": "place blue with p eight please",
+      "text": "place blue with b eight please",
+      "raw": "place blue with b eight please",
+      "seconds": 3.542324834037572,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/prbx2n.mpg",
+      "reference": "place red by x two now",
+      "text": "place red by h two now",
+      "raw": "place red by h two now",
+      "seconds": 3.647374582942575,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/srbo3s.mpg",
+      "reference": "set red by o three soon",
+      "text": "set white by r three soon",
+      "raw": "set white by r thre son",
+      "seconds": 3.9263206670293584,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lrae2n.mpg",
+      "reference": "lay red at e two now",
+      "text": "lay white at e two now",
+      "raw": "lay white at e two now",
+      "seconds": 4.43170099996496,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/prwd6p.mpg",
+      "reference": "place red with d six please",
+      "text": "place white at d six please",
+      "raw": "place white ath d six please",
+      "seconds": 4.236892458982766,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/brbg5a.mpg",
+      "reference": "bin red by g five again",
+      "text": "bin white by g five again",
+      "raw": "bin white by g five again",
+      "seconds": 3.9407431669533253,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lrbz1a.mpg",
+      "reference": "lay red by z one again",
+      "text": "lay white by d one again",
+      "raw": "lay white by d one again",
+      "seconds": 3.6897289589978755,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/bwigzn.mpg",
+      "reference": "bin white in g zero now",
+      "text": "bin white at g zero now",
+      "raw": "bin white it g zero now",
+      "seconds": 3.5299087499734014,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lgif3a.mpg",
+      "reference": "lay green in f three again",
+      "text": "lay green at e three again",
+      "raw": "lay gren at e thre again",
+      "seconds": 3.500901291030459,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pbib9a.mpg",
+      "reference": "place blue in b nine again",
+      "text": "place blue in b nine again",
+      "raw": "place blue bn b nine again",
+      "seconds": 3.5241918340325356,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lbwr2n.mpg",
+      "reference": "lay blue with r two now",
+      "text": "lay blue with r two now",
+      "raw": "lay blue with r two now",
+      "seconds": 3.494989624945447,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/sbag8n.mpg",
+      "reference": "set blue at g eight now",
+      "text": "set blue at g eight now",
+      "raw": "set blue at g eight now",
+      "seconds": 3.5923746660118923,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/praj2p.mpg",
+      "reference": "place red at j two please",
+      "text": "place red at g two please",
+      "raw": "place rhe at g two please",
+      "seconds": 3.8393696659477428,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/bbws8n.mpg",
+      "reference": "bin blue with s eight now",
+      "text": "bin blue with e nine again",
+      "raw": "bin blue with e nine again",
+      "seconds": 3.5520071659702808,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lbad7s.mpg",
+      "reference": "lay blue at d seven soon",
+      "text": "lay blue at g seven soon",
+      "raw": "lay blue at g seven son",
+      "seconds": 3.5435544999781996,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/sgbc9a.mpg",
+      "reference": "set green by c nine again",
+      "text": "set green by g nine again",
+      "raw": "set gren by g nine again",
+      "seconds": 3.8686892919940874,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lbbezn.mpg",
+      "reference": "lay blue by e zero now",
+      "text": "lay blue by e zero now",
+      "raw": "lay blue by e zero now",
+      "seconds": 3.6898132920032367,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lbiq3a.mpg",
+      "reference": "lay blue in q three again",
+      "text": "lay blue at u red again",
+      "raw": "lay blue an u tre again",
+      "seconds": 3.556250917026773,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pgwy9s.mpg",
+      "reference": "place green with y nine soon",
+      "text": "place green with y nine soon",
+      "raw": "place gren with y nine son",
+      "seconds": 3.6551949579734355,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/sgwq1a.mpg",
+      "reference": "set green with q one again",
+      "text": "lay green with q one again",
+      "raw": "lay gren with q one again",
+      "seconds": 3.5800420839805156,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pwad3s.mpg",
+      "reference": "place white at d three soon",
+      "text": "place white at g three soon",
+      "raw": "place white it g thre son",
+      "seconds": 3.54790441703517,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/sban5a.mpg",
+      "reference": "set blue at n five again",
+      "text": "set blue in x five again",
+      "raw": "set blue in x five again",
+      "seconds": 3.5905123749980703,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/lwws4n.mpg",
+      "reference": "lay white with s four now",
+      "text": "lay white at x four now",
+      "raw": "lay white it x four now",
+      "seconds": 3.495120459003374,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/priv6p.mpg",
+      "reference": "place red in v six please",
+      "text": "place white with b six please",
+      "raw": "place white ith b six please",
+      "seconds": 3.6801831669872627,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s1/pbwj2n.mpg",
+      "reference": "place blue with j two now",
+      "text": "place blue with g two now",
+      "raw": "place blue ith g two now",
+      "seconds": 3.570806665928103,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pgak3p.mpg",
+      "reference": "place green at k three please",
+      "text": "place green at a two please",
+      "raw": "place gren ath a two please",
+      "seconds": 3.6515813330188394,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lrid7n.mpg",
+      "reference": "lay red in d seven now",
+      "text": "lay red in t seven now",
+      "raw": "lay red in t seven now",
+      "seconds": 3.7813183329999447,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pgwr5p.mpg",
+      "reference": "place green with r five please",
+      "text": "place green with i eight please",
+      "raw": "place gren with i eight please",
+      "seconds": 3.6125600000377744,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sbit2s.mpg",
+      "reference": "set blue in t two soon",
+      "text": "set blue in d zero soon",
+      "raw": "set blue in d zero son",
+      "seconds": 3.614918667008169,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bris1n.mpg",
+      "reference": "bin red in s one now",
+      "text": "bin red in x one now",
+      "raw": "bin red in x one now",
+      "seconds": 3.5932300419081002,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pgbk5n.mpg",
+      "reference": "place green by k five now",
+      "text": "place green by x eight now",
+      "raw": "place gren by x eight now",
+      "seconds": 3.59448562504258,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lgbm2s.mpg",
+      "reference": "lay green by m two soon",
+      "text": "lay green by m e soon",
+      "raw": "lay gren by m we son",
+      "seconds": 3.6261234170524403,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bgaa7p.mpg",
+      "reference": "bin green at a seven please",
+      "text": "bin green at k seven please",
+      "raw": "bin gren at k seven please",
+      "seconds": 3.6067350410157815,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lwwf6s.mpg",
+      "reference": "lay white with f six soon",
+      "text": "lay white with f six soon",
+      "raw": "lay white with f six son",
+      "seconds": 3.5937396659282967,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/swwp2s.mpg",
+      "reference": "set white with p two soon",
+      "text": "set white with b two soon",
+      "raw": "set white with b two son",
+      "seconds": 3.6030806669732556,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/prai9n.mpg",
+      "reference": "place red at i nine now",
+      "text": "place red at i nine now",
+      "raw": "place red at i nine now",
+      "seconds": 3.6622423329390585,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/praxza.mpg",
+      "reference": "place red at x zero again",
+      "text": "place red at x zero again",
+      "raw": "place red at x zero again",
+      "seconds": 3.7111235840711743,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lgiz3p.mpg",
+      "reference": "lay green in z three please",
+      "text": "lay green in z three please",
+      "raw": "lay gren in z thre please",
+      "seconds": 3.603706832975149,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sbwu3n.mpg",
+      "reference": "set blue with u three now",
+      "text": "set blue with q three now",
+      "raw": "set blue ith q thre now",
+      "seconds": 3.6732838751049712,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pgaeza.mpg",
+      "reference": "place green at e zero again",
+      "text": "place green at c zero again",
+      "raw": "place gren an c zero again",
+      "seconds": 3.6362717079464346,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pbiu9p.mpg",
+      "reference": "place blue in u nine please",
+      "text": "place blue in g eight please",
+      "raw": "place blue in g eight please",
+      "seconds": 3.587983625009656,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pgid4s.mpg",
+      "reference": "place green in d four soon",
+      "text": "place green in c four soon",
+      "raw": "place gren in c four son",
+      "seconds": 3.6088418329600245,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sbaa4s.mpg",
+      "reference": "set blue at a four soon",
+      "text": "set blue at k three soon",
+      "raw": "set blue at k thre son",
+      "seconds": 3.595174750080332,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lrbr5p.mpg",
+      "reference": "lay red by r five please",
+      "text": "lay red by r five please",
+      "raw": "lay red by r five please",
+      "seconds": 3.626038666930981,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lwbf3p.mpg",
+      "reference": "lay white by f three please",
+      "text": "lay white by f three please",
+      "raw": "lay white by f thre please",
+      "seconds": 3.611239374964498,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bgat7n.mpg",
+      "reference": "bin green at t seven now",
+      "text": "bin green at c seven now",
+      "raw": "bin gren an c seven now",
+      "seconds": 3.663452291977592,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lgal8s.mpg",
+      "reference": "lay green at l eight soon",
+      "text": "lay green at k eight soon",
+      "raw": "lay gren at k eight son",
+      "seconds": 3.5935066250385717,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lrblzs.mpg",
+      "reference": "lay red by l zero soon",
+      "text": "lay red by l seven soon",
+      "raw": "lay red by l seven son",
+      "seconds": 3.6087170829996467,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bwam9p.mpg",
+      "reference": "bin white at m nine please",
+      "text": "bin white at m nine please",
+      "raw": "bin white at m nine please",
+      "seconds": 3.586610042024404,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pbab9n.mpg",
+      "reference": "place blue at b nine now",
+      "text": "place blue at b nine now",
+      "raw": "place blue it b nine now",
+      "seconds": 3.614499333081767,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sbat7p.mpg",
+      "reference": "set blue at t seven please",
+      "text": "set blue in z in please",
+      "raw": "set blue in z sivn please",
+      "seconds": 3.638768541975878,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/srbb6a.mpg",
+      "reference": "set red by b six again",
+      "text": "set red by b six again",
+      "raw": "set red by b six again",
+      "seconds": 3.789358790963888,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/brbg4a.mpg",
+      "reference": "bin red by g four again",
+      "text": "bin red by g now again",
+      "raw": "bin red by g foe again",
+      "seconds": 3.590897124959156,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pwip6s.mpg",
+      "reference": "place white in p six soon",
+      "text": "place white at b six soon",
+      "raw": "place white an b six son",
+      "seconds": 3.566153833991848,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lrak7p.mpg",
+      "reference": "lay red at k seven please",
+      "text": "lay red at x seven please",
+      "raw": "lay red it x seven please",
+      "seconds": 3.5734113339567557,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sgbv8s.mpg",
+      "reference": "set green by v eight soon",
+      "text": "set green by t nine soon",
+      "raw": "set gren by t nine son",
+      "seconds": 3.6171903329668567,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lwae7n.mpg",
+      "reference": "lay white at e seven now",
+      "text": "lay white at e seven now",
+      "raw": "lay white it e seven now",
+      "seconds": 3.5973748749820516,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pwad3p.mpg",
+      "reference": "place white at d three please",
+      "text": "place white in c in please",
+      "raw": "place white in c tie please",
+      "seconds": 3.582027082913555,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lwwf5n.mpg",
+      "reference": "lay white with f five now",
+      "text": "lay white with f nine now",
+      "raw": "lay white with f nine now",
+      "seconds": 3.572210625046864,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bgwu7p.mpg",
+      "reference": "bin green with u seven please",
+      "text": "bin green with u six please",
+      "raw": "bin gren with u six please",
+      "seconds": 3.573659416055307,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sbbh4a.mpg",
+      "reference": "set blue by h four again",
+      "text": "set blue by s four again",
+      "raw": "set blue by s four again",
+      "seconds": 3.5616943339118734,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lgal7n.mpg",
+      "reference": "lay green at l seven now",
+      "text": "lay green at x seven now",
+      "raw": "lay gren at x seven now",
+      "seconds": 3.562467333045788,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bwag3n.mpg",
+      "reference": "bin white at g three now",
+      "text": "bin white at c three now",
+      "raw": "bin white an c thre now",
+      "seconds": 3.560853666975163,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/pwbd7p.mpg",
+      "reference": "place white by d seven please",
+      "text": "place white by c in please",
+      "raw": "place white by c sin please",
+      "seconds": 3.5732628329424188,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bbaz4s.mpg",
+      "reference": "bin blue at z four soon",
+      "text": "bin blue in c four soon",
+      "raw": "bin blue in c four son",
+      "seconds": 3.5689347500447184,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/swwc3n.mpg",
+      "reference": "set white with c three now",
+      "text": "set white with t three now",
+      "raw": "set white with t thre now",
+      "seconds": 3.5702655410859734,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/prwd3n.mpg",
+      "reference": "place red with d three now",
+      "text": "place red with c three now",
+      "raw": "place red with c thre now",
+      "seconds": 3.5644112919690087,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lwbl7p.mpg",
+      "reference": "lay white by l seven please",
+      "text": "lay white by s set please",
+      "raw": "lay white by s sen please",
+      "seconds": 3.5858326660236344,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sbwozs.mpg",
+      "reference": "set blue with o zero soon",
+      "text": "set blue with o set soon",
+      "raw": "set blue with o seio son",
+      "seconds": 3.5755597500829026,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/bgin2a.mpg",
+      "reference": "bin green in n two again",
+      "text": "bin green in x three again",
+      "raw": "bin gren in x thre again",
+      "seconds": 3.5729025410255417,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/brbaza.mpg",
+      "reference": "bin red by a zero again",
+      "text": "bin red by n zero again",
+      "raw": "bin red by n zero again",
+      "seconds": 3.5715280420845374,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lwbl6s.mpg",
+      "reference": "lay white by l six soon",
+      "text": "lay white by x six soon",
+      "raw": "lay white by x six son",
+      "seconds": 3.565382209024392,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/lwwl9n.mpg",
+      "reference": "lay white with l nine now",
+      "text": "lay white with x nine now",
+      "raw": "lay white with x nine now",
+      "seconds": 3.57004199991934,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/sbit1n.mpg",
+      "reference": "set blue in t one now",
+      "text": "set blue in d one now",
+      "raw": "set blue in d one now",
+      "seconds": 3.581387917045504,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    },
+    {
+      "id": "s2/srah4s.mpg",
+      "reference": "set red at h four soon",
+      "text": "set red in s four soon",
+      "raw": "set red in s four son",
+      "seconds": 3.565749833942391,
+      "mode": "Original model2 unseen checkpoint; dlib crop; beam 200 and upstream spelling",
+      "input_shape": [
+        75,
+        100,
+        50,
+        3
+      ]
+    }
+  ],
+  "failures": [],
+  "elapsed_seconds": 371.701669333037,
+  "selection_tuned_on_results": false,
+  "local_unseen_subset_metrics": {
+    "clips": 100,
+    "errors": 111,
+    "words": 600,
+    "wer": 0.185,
+    "exact": 25
+  }
+}

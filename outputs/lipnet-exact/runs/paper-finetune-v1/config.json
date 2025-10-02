@@ -1,0 +1,31 @@
+{
+  "seed": 193,
+  "initial_weights_sha256": "b4ea5202691223ff8a91141a014f7477df53e945bd5c4fcae8413691db13d181",
+  "model": "unchanged upstream model2",
+  "train_speakers": [
+    "s3",
+    "s4"
+  ],
+  "train_per_speaker": 600,
+  "validation_speaker": "s1",
+  "validation_clips": 150,
+  "test_speaker": "s2",
+  "test_clips": 200,
+  "exclude_prior_exact_evaluation_clips": true,
+  "learning_rate": 1e-05,
+  "adam_epsilon": 1e-08,
+  "microbatch": 2,
+  "accumulation": 8,
+  "effective_batch": 16,
+  "freeze_batch_normalization": true,
+  "augmentation": "original horizontal flip0.5 and temporal jitter0.05",
+  "max_epochs": 6,
+  "min_epochs": 3,
+  "patience": 2,
+  "training_budget_seconds": 7200,
+  "decoder": "original CTC beam200 log epsilon1e-8 and original Spell",
+  "minimum_validation_absolute_gain": 0.005,
+  "candidate_requires_validation_bootstrap_upper_below_zero": true,
+  "cache_location": "/private/tmp/lipnet-paper-finetune-v1/cache",
+  "no_automatic_activation": true
+}

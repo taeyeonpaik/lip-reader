@@ -1,0 +1,1431 @@
+{
+  "engine": "tutorial",
+  "fidelity": {
+    "parameters": 8471924,
+    "source_model_and_loader_executed_directly": true,
+    "initialization_sha256": "f4cfdef51f145b4f8bdaf03ea6d1c29514f28ea3df96b204a26868b653ba9454",
+    "local_training_performed": false,
+    "pretraining_split_unknown": true,
+    "separate_source_model_probability_max_error": 0.0,
+    "original_padded_target_ctc_loss": 1.7898242473602295
+  },
+  "metrics": {
+    "clips": 100,
+    "errors": 17,
+    "words": 600,
+    "wer": 0.028333333333333332,
+    "exact": 83
+  },
+  "raw_metrics": {
+    "clips": 100,
+    "errors": 17,
+    "words": 600,
+    "wer": 0.028333333333333332,
+    "exact": 83
+  },
+  "predictions": [
+    {
+      "id": "s1/lgamzp.mpg",
+      "reference": "lay green at m zero please",
+      "text": "lay green at m zero please",
+      "raw": "lay green at m zero please",
+      "seconds": 1.392172124935314,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/prwx6n.mpg",
+      "reference": "place red with x six now",
+      "text": "place red with x six now",
+      "raw": "place red with x six now",
+      "seconds": 1.739810875034891,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pgwe9a.mpg",
+      "reference": "place green with e nine again",
+      "text": "place green with nine again",
+      "raw": "place green with nine again",
+      "seconds": 1.5007559169316664,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgbm4p.mpg",
+      "reference": "lay green by m four please",
+      "text": "lay green by m four please",
+      "raw": "lay green by m four please",
+      "seconds": 1.4141967500327155,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/swwv7s.mpg",
+      "reference": "set white with v seven soon",
+      "text": "set white with v seven soon",
+      "raw": "set white with v seven soon",
+      "seconds": 5.185269374982454,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bwan1a.mpg",
+      "reference": "bin white at n one again",
+      "text": "bin white at n one again",
+      "raw": "bin white at n one again",
+      "seconds": 2.7749115410260856,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbid2n.mpg",
+      "reference": "lay blue in d two now",
+      "text": "lay blue in d two now",
+      "raw": "lay blue in d two now",
+      "seconds": 1.415533083025366,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pwbq7a.mpg",
+      "reference": "place white by q seven again",
+      "text": "place white by q seven again",
+      "raw": "place white by q seven again",
+      "seconds": 3.180356916040182,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sban2n.mpg",
+      "reference": "set blue at n two now",
+      "text": "set blue at n two now",
+      "raw": "set blue at n two now",
+      "seconds": 1.3456828750204295,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bwwb1a.mpg",
+      "reference": "bin white with b one again",
+      "text": "bin white with b one again",
+      "raw": "bin white with b one again",
+      "seconds": 1.3390999999828637,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbir7s.mpg",
+      "reference": "bin blue in r seven soon",
+      "text": "bin blue in r seven soon",
+      "raw": "bin blue in r seven soon",
+      "seconds": 1.4330205000005662,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pwwe3a.mpg",
+      "reference": "place white with e three again",
+      "text": "place white with three again",
+      "raw": "place white with three again",
+      "seconds": 1.3357184999622405,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bgaa6n.mpg",
+      "reference": "bin green at a six now",
+      "text": "bin green at a six now",
+      "raw": "bin green at a six now",
+      "seconds": 1.3302764169638976,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lwiy7s.mpg",
+      "reference": "lay white in y seven soon",
+      "text": "lay white in y seven soon",
+      "raw": "lay white in y seven soon",
+      "seconds": 3.2562677919631824,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/prbj4n.mpg",
+      "reference": "place red by j four now",
+      "text": "place red by j four now",
+      "raw": "place red by j four now",
+      "seconds": 1.3689499580068514,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pwaj6n.mpg",
+      "reference": "place white at j six now",
+      "text": "place white at j six now",
+      "raw": "place white at j six now",
+      "seconds": 1.3141865830402821,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pwbk2p.mpg",
+      "reference": "place white by k two please",
+      "text": "place white by k two please",
+      "raw": "place white by k two please",
+      "seconds": 2.8300288340542465,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pgwe7s.mpg",
+      "reference": "place green with e seven soon",
+      "text": "place green with s seven soon",
+      "raw": "place green with s seven soon",
+      "seconds": 1.3302256669849157,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/priv4n.mpg",
+      "reference": "place red in v four now",
+      "text": "place red in v four now",
+      "raw": "place red in v four now",
+      "seconds": 1.3208535839803517,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbbk5s.mpg",
+      "reference": "lay blue by k five soon",
+      "text": "lay blue by k five soon",
+      "raw": "lay blue by k five soon",
+      "seconds": 1.3278630420099944,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sgai8p.mpg",
+      "reference": "set green at i eight please",
+      "text": "set green at i ight please",
+      "raw": "set green at i ight please",
+      "seconds": 1.3329766670940444,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgiz3s.mpg",
+      "reference": "lay green in z three soon",
+      "text": "lay green in z three soon",
+      "raw": "lay green in z three soon",
+      "seconds": 2.7072334169643,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pwad5a.mpg",
+      "reference": "place white at d five again",
+      "text": "place white at d five again",
+      "raw": "place white at d five again",
+      "seconds": 1.3267770829843357,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sbig5s.mpg",
+      "reference": "set blue in g five soon",
+      "text": "set blue in g five soon",
+      "raw": "set blue in g five soon",
+      "seconds": 2.7277952500153333,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bgbh7a.mpg",
+      "reference": "bin green by h seven again",
+      "text": "bin green by h seven again",
+      "raw": "bin green by h seven again",
+      "seconds": 1.3294051670236513,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pbwp8p.mpg",
+      "reference": "place blue with p eight please",
+      "text": "place blue with p eight please",
+      "raw": "place blue with p eight please",
+      "seconds": 1.322982000070624,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/prbx2n.mpg",
+      "reference": "place red by x two now",
+      "text": "place red by x two now",
+      "raw": "place red by x two now",
+      "seconds": 3.616284207906574,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/srbo3s.mpg",
+      "reference": "set red by o three soon",
+      "text": "set red by o three soon",
+      "raw": "set red by o three soon",
+      "seconds": 1.396909625036642,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lrae2n.mpg",
+      "reference": "lay red at e two now",
+      "text": "lay red at e two now",
+      "raw": "lay red at e two now",
+      "seconds": 2.6317352089099586,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/prwd6p.mpg",
+      "reference": "place red with d six please",
+      "text": "place red with d six please",
+      "raw": "place red with d six please",
+      "seconds": 1.3422946250066161,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/brbg5a.mpg",
+      "reference": "bin red by g five again",
+      "text": "bin red by g five again",
+      "raw": "bin red by g five again",
+      "seconds": 1.3129164159763604,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lrbz1a.mpg",
+      "reference": "lay red by z one again",
+      "text": "lay red by z one again",
+      "raw": "lay red by z one again",
+      "seconds": 1.3023942919680849,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bwigzn.mpg",
+      "reference": "bin white in g zero now",
+      "text": "bin white in g zero now",
+      "raw": "bin white in g zero now",
+      "seconds": 2.443757417029701,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgif3a.mpg",
+      "reference": "lay green in f three again",
+      "text": "lay green in three again",
+      "raw": "lay green in three again",
+      "seconds": 1.3875712909502909,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pbib9a.mpg",
+      "reference": "place blue in b nine again",
+      "text": "place blue in b nine again",
+      "raw": "place blue in b nine again",
+      "seconds": 1.5814629161031917,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbwr2n.mpg",
+      "reference": "lay blue with r two now",
+      "text": "lay blue with r two now",
+      "raw": "lay blue with r two now",
+      "seconds": 1.7074945410713553,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sbag8n.mpg",
+      "reference": "set blue at g eight now",
+      "text": "set blue at g eight now",
+      "raw": "set blue at g eight now",
+      "seconds": 2.0529099999694154,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/praj2p.mpg",
+      "reference": "place red at j two please",
+      "text": "place red at j two please",
+      "raw": "place red at j two please",
+      "seconds": 1.6793392499675974,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbws8n.mpg",
+      "reference": "bin blue with s eight now",
+      "text": "bin blue with s eight now",
+      "raw": "bin blue with s eight now",
+      "seconds": 1.81885391601827,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbad7s.mpg",
+      "reference": "lay blue at d seven soon",
+      "text": "lay blue at d seven soon",
+      "raw": "lay blue at d seven soon",
+      "seconds": 1.8609049590304494,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sgbc9a.mpg",
+      "reference": "set green by c nine again",
+      "text": "set green by c nine again",
+      "raw": "set green by c nine again",
+      "seconds": 2.0292055410100147,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbbezn.mpg",
+      "reference": "lay blue by e zero now",
+      "text": "lay blue by e zero now",
+      "raw": "lay blue by e zero now",
+      "seconds": 1.7921627080067992,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbiq3a.mpg",
+      "reference": "lay blue in q three again",
+      "text": "lay blue in q three again",
+      "raw": "lay blue in q three again",
+      "seconds": 1.691115874913521,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pgwy9s.mpg",
+      "reference": "place green with y nine soon",
+      "text": "place green with y nine soon",
+      "raw": "place green with y nine soon",
+      "seconds": 1.3932714159600437,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sgwq1a.mpg",
+      "reference": "set green with q one again",
+      "text": "set green with q one again",
+      "raw": "set green with q one again",
+      "seconds": 1.3489312919555232,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pwad3s.mpg",
+      "reference": "place white at d three soon",
+      "text": "place white at d three soon",
+      "raw": "place white at d three soon",
+      "seconds": 1.3148215420078486,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sban5a.mpg",
+      "reference": "set blue at n five again",
+      "text": "set blue at n five again",
+      "raw": "set blue at n five again",
+      "seconds": 12.400920042069629,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lwws4n.mpg",
+      "reference": "lay white with s four now",
+      "text": "lay white with four now",
+      "raw": "lay white with four now",
+      "seconds": 1.572538708918728,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/priv6p.mpg",
+      "reference": "place red in v six please",
+      "text": "place red in v six please",
+      "raw": "place red in v six please",
+      "seconds": 1.7164617499802262,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pbwj2n.mpg",
+      "reference": "place blue with j two now",
+      "text": "place blue with j two now",
+      "raw": "place blue with j two now",
+      "seconds": 1.5437212500255555,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lwbz7a.mpg",
+      "reference": "lay white by z seven again",
+      "text": "lay white by z seven again",
+      "raw": "lay white by z seven again",
+      "seconds": 3.6138653750531375,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lriezp.mpg",
+      "reference": "lay red in e zero please",
+      "text": "lay red in z zero please",
+      "raw": "lay red in z zero please",
+      "seconds": 2.9452827910427004,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgif2p.mpg",
+      "reference": "lay green in f two please",
+      "text": "lay green in k two please",
+      "raw": "lay green in k two please",
+      "seconds": 1.6293954160064459,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sbwu7a.mpg",
+      "reference": "set blue with u seven again",
+      "text": "set blue with u seven again",
+      "raw": "set blue with u seven again",
+      "seconds": 6.746410542051308,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/swib3s.mpg",
+      "reference": "set white in b three soon",
+      "text": "set white in b three soon",
+      "raw": "set white in b three soon",
+      "seconds": 2.049797665909864,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sgiv1s.mpg",
+      "reference": "set green in v one soon",
+      "text": "set green in v one soon",
+      "raw": "set green in v one soon",
+      "seconds": 7.549260916071944,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sbbn8p.mpg",
+      "reference": "set blue by n eight please",
+      "text": "set blue by n eight please",
+      "raw": "set blue by n eight please",
+      "seconds": 5.464247707976028,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbbe1s.mpg",
+      "reference": "lay blue by e one soon",
+      "text": "lay blue by one soon",
+      "raw": "lay blue by one soon",
+      "seconds": 1.9803657089360058,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pgwz1a.mpg",
+      "reference": "place green with z one again",
+      "text": "place green with z one again",
+      "raw": "place green with z one again",
+      "seconds": 2.1079617920331657,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pwip9a.mpg",
+      "reference": "place white in p nine again",
+      "text": "place white in p nine again",
+      "raw": "place white in p nine again",
+      "seconds": 6.427518166950904,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pgix9a.mpg",
+      "reference": "place green in x nine again",
+      "text": "place green in x nine again",
+      "raw": "place green in x nine again",
+      "seconds": 6.556499875034206,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/swbv4p.mpg",
+      "reference": "set white by v four please",
+      "text": "set white by v four please",
+      "raw": "set white by v four please",
+      "seconds": 2.2257012909976766,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbir9a.mpg",
+      "reference": "bin blue in r nine again",
+      "text": "bin blue in r nine again",
+      "raw": "bin blue in r nine again",
+      "seconds": 6.261556792072952,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pric5a.mpg",
+      "reference": "place red in c five again",
+      "text": "place red in c five again",
+      "raw": "place red in c five again",
+      "seconds": 2.4439871669746935,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgbm3s.mpg",
+      "reference": "lay green by m three soon",
+      "text": "lay green by m three soon",
+      "raw": "lay green by m three soon",
+      "seconds": 2.0475975410081446,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pbwp7s.mpg",
+      "reference": "place blue with p seven soon",
+      "text": "place blue with p seven soon",
+      "raw": "place blue with p seven soon",
+      "seconds": 2.0064267920097336,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/brimzp.mpg",
+      "reference": "bin red in m zero please",
+      "text": "bin red in m zero please",
+      "raw": "bin red in m zero please",
+      "seconds": 1.7616166670341045,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgwt3a.mpg",
+      "reference": "lay green with t three again",
+      "text": "lay green with g three again",
+      "raw": "lay green with g three again",
+      "seconds": 1.5029182500438765,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/praxzp.mpg",
+      "reference": "place red at x zero please",
+      "text": "place red at x zero please",
+      "raw": "place red at x zero please",
+      "seconds": 1.475893458002247,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/srih2p.mpg",
+      "reference": "set red in h two please",
+      "text": "set red in h wo please",
+      "raw": "set red in h wo please",
+      "seconds": 1.6543204999761656,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgas5a.mpg",
+      "reference": "lay green at s five again",
+      "text": "lay green at s five again",
+      "raw": "lay green at s five again",
+      "seconds": 1.4432307910174131,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbaq6p.mpg",
+      "reference": "lay blue at q six please",
+      "text": "lay blue at j six please",
+      "raw": "lay blue at j six please",
+      "seconds": 1.462413707980886,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sbit2n.mpg",
+      "reference": "set blue in t two now",
+      "text": "set blue in t two now",
+      "raw": "set blue in t two now",
+      "seconds": 1.4180549999000505,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pgbrzn.mpg",
+      "reference": "place green by r zero now",
+      "text": "place green by r zero now",
+      "raw": "place green by r zero now",
+      "seconds": 7.763677624985576,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/prax1a.mpg",
+      "reference": "place red at x one again",
+      "text": "place red at x one again",
+      "raw": "place red at x one again",
+      "seconds": 1.404201416997239,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbij8p.mpg",
+      "reference": "lay blue in j eight please",
+      "text": "lay blue in j eight please",
+      "raw": "lay blue in j eight please",
+      "seconds": 1.4089448330923915,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbie9s.mpg",
+      "reference": "bin blue in e nine soon",
+      "text": "bin blue in n nine soon",
+      "raw": "bin blue in n nine soon",
+      "seconds": 1.428354167030193,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sbah1a.mpg",
+      "reference": "set blue at h one again",
+      "text": "set blue at h one again",
+      "raw": "set blue at h one again",
+      "seconds": 1.9534348750021309,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bwbn2n.mpg",
+      "reference": "bin white by n two now",
+      "text": "bin white by n two now",
+      "raw": "bin white by n two now",
+      "seconds": 1.75435420894064,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bgbu4p.mpg",
+      "reference": "bin green by u four please",
+      "text": "bin green by u four please",
+      "raw": "bin green by u four please",
+      "seconds": 1.4114944169996306,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbaz5s.mpg",
+      "reference": "bin blue at z five soon",
+      "text": "bin blue at z five soon",
+      "raw": "bin blue at z five soon",
+      "seconds": 1.367168583907187,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pgby6p.mpg",
+      "reference": "place green by y six please",
+      "text": "place green by y six please",
+      "raw": "place green by y six please",
+      "seconds": 1.3819512919289991,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/srbb7a.mpg",
+      "reference": "set red by b seven again",
+      "text": "set red by b seven again",
+      "raw": "set red by b seven again",
+      "seconds": 1.3760070409625769,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lgifzn.mpg",
+      "reference": "lay green in f zero now",
+      "text": "lay green in zero now",
+      "raw": "lay green in zero now",
+      "seconds": 3.7108160839416087,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/prwq2n.mpg",
+      "reference": "place red with q two now",
+      "text": "place red with q two now",
+      "raw": "place red with q two now",
+      "seconds": 1.3771187919192016,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lbay1a.mpg",
+      "reference": "lay blue at y one again",
+      "text": "lay blue at y one again",
+      "raw": "lay blue at y one again",
+      "seconds": 1.436558916931972,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/srao1a.mpg",
+      "reference": "set red at o one again",
+      "text": "set red at o one again",
+      "raw": "set red at o one again",
+      "seconds": 1.5930142500437796,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/prii7s.mpg",
+      "reference": "place red in i seven soon",
+      "text": "place red nin i seven soon",
+      "raw": "place red nin i seven soon",
+      "seconds": 1.5005567920161411,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pbii2p.mpg",
+      "reference": "place blue in i two please",
+      "text": "place blue in i two please",
+      "raw": "place blue in i two please",
+      "seconds": 1.5541605839971453,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbaz6p.mpg",
+      "reference": "bin blue at z six please",
+      "text": "bin blue at z six please",
+      "raw": "bin blue at z six please",
+      "seconds": 1.4043465410359204,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lrwr9s.mpg",
+      "reference": "lay red with r nine soon",
+      "text": "lay red with r nine soon",
+      "raw": "lay red with r nine soon",
+      "seconds": 1.3697934160009027,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/sbwozn.mpg",
+      "reference": "set blue with o zero now",
+      "text": "set blue with o zero now",
+      "raw": "set blue with o zero now",
+      "seconds": 1.4273859999375418,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbiz2p.mpg",
+      "reference": "bin blue in z two please",
+      "text": "bin blue in z two please",
+      "raw": "bin blue in z two please",
+      "seconds": 1.4139487500069663,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/srwi5a.mpg",
+      "reference": "set red with i five again",
+      "text": "set red with i five again",
+      "raw": "set red with i five again",
+      "seconds": 1.4517870000563562,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/pbbp5a.mpg",
+      "reference": "place blue by p five again",
+      "text": "place blue by p five again",
+      "raw": "place blue by p five again",
+      "seconds": 1.4831766670104116,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lwbs2p.mpg",
+      "reference": "lay white by s two please",
+      "text": "lay white by two please",
+      "raw": "lay white by two please",
+      "seconds": 2.8331734579987824,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/braf8n.mpg",
+      "reference": "bin red at f eight now",
+      "text": "bin red at f eight now",
+      "raw": "bin red at f eight now",
+      "seconds": 1.4092888330342248,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbal8p.mpg",
+      "reference": "bin blue at l eight please",
+      "text": "bin blue at l eight please",
+      "raw": "bin blue at l eight please",
+      "seconds": 2.9348512910073623,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/bbwg1s.mpg",
+      "reference": "bin blue with g one soon",
+      "text": "bin blue with g one soon",
+      "raw": "bin blue with g one soon",
+      "seconds": 1.39839500002563,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    },
+    {
+      "id": "s1/lrae3s.mpg",
+      "reference": "lay red at e three soon",
+      "text": "lay red at t three soon",
+      "raw": "lay red at t three soon",
+      "seconds": 1.3386824580375105,
+      "mode": "Original notebook fixed crop, grayscale arithmetic and greedy CTC",
+      "input_shape": [
+        75,
+        46,
+        140,
+        1
+      ]
+    }
+  ],
+  "failures": [],
+  "elapsed_seconds": 232.9561342499219,
+  "selection_tuned_on_results": false
+}

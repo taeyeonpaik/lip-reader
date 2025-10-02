@@ -1,0 +1,36 @@
+{
+  "model_load_seconds": 3.549902957980521,
+  "upload": {
+    "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+    "raw": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+    "seconds": 4.846666084020399,
+    "mode": "Auto-AVSR \u00b7 unrestricted English \u00b7 original pretrained weights \u00b7 beam 5",
+    "checkpoint": "autoavsr",
+    "device": "mps",
+    "audio_used": false
+  },
+  "recorded_frames": {
+    "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S",
+    "raw": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S",
+    "seconds": 2.398929165909067,
+    "mode": "Auto-AVSR \u00b7 unrestricted English \u00b7 original pretrained weights \u00b7 beam 5",
+    "checkpoint": "autoavsr",
+    "device": "mps",
+    "audio_used": false
+  },
+  "recorded_webcam_worker": {
+    "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S",
+    "raw": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S",
+    "seconds": 2.1707862499170005,
+    "mode": "Auto-AVSR \u00b7 unrestricted English \u00b7 original pretrained weights \u00b7 beam 5",
+    "checkpoint": "autoavsr",
+    "device": "mps",
+    "audio_used": false
+  },
+  "recorded_worker_text_matches": true,
+  "physical_camera_tested": false,
+  "lipnet_preserved": true,
+  "lipnet_candidate_sha256": "42fa9a7051f48e9150967431c32a4a89a50f19e4d324a1d68015fcb8b6368a3d",
+  "lipnet_author_sha256": "b4ea5202691223ff8a91141a014f7477df53e945bd5c4fcae8413691db13d181",
+  "oversized_frames_rejected_before_send": true
+}

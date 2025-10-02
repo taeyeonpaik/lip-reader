@@ -1,0 +1,18 @@
+{
+  "completed": 1550,
+  "total": 1550,
+  "reused_caches": 298,
+  "failures": {
+    "s3/bgbn9a.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/lrbr3s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/lbij7a.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/pgwy7s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/bgit2n.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s3/lbij5s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s4/lwirzs.mpg": "Original mouth detector returned invalid shape/dtype: (72, 100, 50, 3), uint8",
+    "s4/lwiy3n.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s1/pbwx1s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s2/pwbd6s.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8",
+    "s2/pbwxzs.mpg": "Original mouth detector returned invalid shape/dtype: (75, 360, 288, 3), uint8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "fine_tuned_checkpoint_probability_max_error": 0.0,
+  "explicit_author_probability_max_error": 0.0,
+  "invalid_selection_fields_fall_back": [
+    "format",
+    "candidate_sha256",
+    "review_sha256",
+    "candidate_path",
+    "vocabulary_classes",
+    "decoder"
+  ],
+  "fallback_probability_max_error": 0.0,
+  "author_neural_weights_unchanged": true,
+  "decoder": "original beam200 scores with stable alphabetical spelling ties"
+}

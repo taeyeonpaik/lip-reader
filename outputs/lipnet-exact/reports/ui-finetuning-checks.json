@@ -1,0 +1,29 @@
+{
+  "browser": "Codex in-app browser, http://127.0.0.1:8502",
+  "candidate_upload_passed": true,
+  "candidate_label": "Fine-tuned LipNet, epoch 4",
+  "candidate_seconds": 3.73,
+  "author_upload_passed": true,
+  "author_label": "Published LipNet unseen-speaker checkpoint",
+  "author_seconds": 3.61,
+  "upload_file": "id2_vcd_swwp2s.mpg",
+  "prediction_both": "set white with b two soon",
+  "raw_prediction_both": "set white with b two son",
+  "reviewed_selector_restored": true,
+  "results_match_review": true,
+  "validation_wer": [
+    20.33,
+    18.44
+  ],
+  "test_wer": [
+    18.0,
+    17.25
+  ],
+  "random_sentence_generator_passed": true,
+  "prompt_before": "place green in q five soon",
+  "prompt_after": "lay blue by k three soon",
+  "webcam_controls_rendered": true,
+  "physical_camera_tested": false,
+  "camera_start_clicked": false,
+  "deployed": false
+}

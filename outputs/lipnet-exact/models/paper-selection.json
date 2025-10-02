@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "active": "fine_tuned",
+  "architecture": "rizkiarm-model2-keras",
+  "vocabulary_classes": 28,
+  "candidate_path": "runs/paper-finetune-v1/best.weights.h5",
+  "review_path": "runs/paper-finetune-v1/independent-review.json",
+  "decoder": "original-ctc-beam200-spell-alphabetical-ties-v1",
+  "model_source_sha256": "e00af327ee468b9593745fb7259768b7a6b69b30257cccaa166356cd1e720e3a",
+  "engines_sha256": "8154c91359b4b2aadd393f30bfce1ede483d95f692af624948f726bf6dfe315a",
+  "spelling_sha256": "0d586bb20f2aa6f7839b0c83f38379d686d5edb9768cc0ec0514ed138ef71c36",
+  "author_sha256": "b4ea5202691223ff8a91141a014f7477df53e945bd5c4fcae8413691db13d181",
+  "candidate_sha256": "42fa9a7051f48e9150967431c32a4a89a50f19e4d324a1d68015fcb8b6368a3d",
+  "review_sha256": "d46977ee34855b197cf2541ca9532c7074f21f0eafdc91d1c0a7dcfd229f9035",
+  "selected_epoch": 4
+}
