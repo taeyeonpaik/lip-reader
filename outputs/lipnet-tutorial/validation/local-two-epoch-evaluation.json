@@ -1,0 +1,1669 @@
+{
+  "clips": 100,
+  "weights": "runs/two-epochs/last.weights.h5",
+  "cer": 0.8619028502609394,
+  "wer": 0.995,
+  "exact_matches": 0,
+  "predictions": [
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pwaj8p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.1145923340227455,
+      "reference": "place white at j eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwig3a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9749210420413874,
+      "reference": "bin white in g three again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lrae3s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.966776666988153,
+      "reference": "lay red at e three soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lrbe7s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9654814589885063,
+      "reference": "lay red by e seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/brwa4p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.027072875003796,
+      "reference": "bin red with a four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lrarzn.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9954514999990351,
+      "reference": "lay red at r zero now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sgiv3a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.996581666986458,
+      "reference": "set green in v three again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pric4p.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0578851249883883,
+      "reference": "place red in c four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lwil1a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.947858166997321,
+      "reference": "lay white in l one again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/swbc3a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9489238749956712,
+      "reference": "set white by c three again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/swao7a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9570851669996046,
+      "reference": "set white at o seven again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgit5s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9423964590532705,
+      "reference": "bin green in t five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/srau5a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9458327920292504,
+      "reference": "set red at u five again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/swio3a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.1181395419989713,
+      "reference": "set white in o three again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/srabzn.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9721622499637306,
+      "reference": "set red at b zero now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgbh7a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9412253749906085,
+      "reference": "bin green by h seven again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lbwr2n.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9540631249547005,
+      "reference": "lay blue with r two now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sbit5a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9649573750211857,
+      "reference": "set blue in t five again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwwn7s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9881523750373162,
+      "reference": "bin white with n seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/prwx7s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0798437499906868,
+      "reference": "place red with x seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bbwg1s.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9737120420322753,
+      "reference": "bin blue with g one soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgat9s.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0226047500036657,
+      "reference": "bin green at t nine soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pwip7s.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9380895830108784,
+      "reference": "place white in p seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwba4n.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.950945666001644,
+      "reference": "bin white by a four now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pgikzp.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9604387920117006,
+      "reference": "place green in k zero please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lrar1s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9750154580106027,
+      "reference": "lay red at r one soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/srao1a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9500748330028728,
+      "reference": "set red at o one again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sria8p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9527922080014832,
+      "reference": "set red in a eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/prbd2p.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9664840829791501,
+      "reference": "place red by d two please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/prbqzp.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9482827920001,
+      "reference": "place red by q zero please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sgio7s.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9407139579998329,
+      "reference": "set green in o seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lbwy6n.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9808969579753466,
+      "reference": "lay blue with y six now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pgay2p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9669337500235997,
+      "reference": "place green at y two please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgbh6p.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9498299999977462,
+      "reference": "bin green by h six please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lrbr5s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9464793750084937,
+      "reference": "lay red by r five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bram3s.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9421329160104506,
+      "reference": "bin red at m three soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pbwx2p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9647077079862356,
+      "reference": "place blue with x two please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lwiy6n.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9646380419726484,
+      "reference": "lay white in y six now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sbaa7a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9588427080307156,
+      "reference": "set blue at a seven again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bbiz3a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9528656670008786,
+      "reference": "bin blue in z three again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sgbc8p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9548855840112083,
+      "reference": "set green by c eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lbby4p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9476131669944152,
+      "reference": "lay blue by y four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/prac8p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.2262878749752417,
+      "reference": "place red at c eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lgwg4p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0049750410253182,
+      "reference": "lay green with g four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sgwqzp.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9508219169802032,
+      "reference": "set green with q zero please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lrak7s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9572648750036024,
+      "reference": "lay red at k seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgin2p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.955920041014906,
+      "reference": "bin green in n two please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lrbr7a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9555110419751145,
+      "reference": "lay red by r seven again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgig6n.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9980002090451308,
+      "reference": "bin green in g six now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/swwj1a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9539344999939203,
+      "reference": "set white with j one again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lgiz2n.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.950481541978661,
+      "reference": "lay green in z two now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sbig5s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.5047259580460377,
+      "reference": "set blue in g five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwis8n.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.11188029096229,
+      "reference": "bin white in s eight now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bris5a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9868781669647433,
+      "reference": "bin red in s five again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/swbv2n.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.1032804590067826,
+      "reference": "set white by v two now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lgwa1a.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0568032909650356,
+      "reference": "lay green with a one again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/swiu7a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0341617909725755,
+      "reference": "set white in u seven again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pwid1a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9585377920302562,
+      "reference": "place white in d one again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/briz9a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.996020500024315,
+      "reference": "bin red in z nine again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sgbc7s.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9583002500003204,
+      "reference": "set green by c seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sbia2p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9624559170333669,
+      "reference": "set blue in a two please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bbal8p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9729986250167713,
+      "reference": "bin blue at l eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/srbb6p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9480563750257716,
+      "reference": "set red by b six please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sgbj1s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9610138339921832,
+      "reference": "set green by j one soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lbix4n.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9461985829984769,
+      "reference": "lay blue in x four now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pgwe9a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.1035028749611229,
+      "reference": "place green with e nine again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lwie5s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9465754580451176,
+      "reference": "lay white in e five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwwa9s.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9429746659589,
+      "reference": "bin white with a nine soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lwafzp.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0134709579870105,
+      "reference": "lay white at f zero please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/swwc6p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9777276249951683,
+      "reference": "set white with c six please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pwij4p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9462756249704398,
+      "reference": "place white in j four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/prwd5s.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9583977499860339,
+      "reference": "place red with d five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pwwk5s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9559319170075469,
+      "reference": "place white with k five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwbhzp.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9717145829927176,
+      "reference": "bin white by h zero please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pgbk8p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0142247910262085,
+      "reference": "place green by k eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bbbs7a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0037804159801453,
+      "reference": "bin blue by s seven again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/prac6n.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9767387500032783,
+      "reference": "place red at c six now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pbbv7s.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9671170000219718,
+      "reference": "place blue by v seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwwu3a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 1.0022969170240685,
+      "reference": "bin white with u three again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwitzp.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9720204999903217,
+      "reference": "bin white in t zero please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgig7s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9620301670511253,
+      "reference": "bin green in g seven soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bbie8n.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9378510839887895,
+      "reference": "bin blue in e eight now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bbif1a.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9476949580130167,
+      "reference": "bin blue in f one again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lwal4p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9560221660067327,
+      "reference": "lay white at l four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pgwl1s.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9874565419740975,
+      "reference": "place green with l one soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgbu5a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9699519579880871,
+      "reference": "bin green by u five again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pgak4p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9640182500006631,
+      "reference": "place green at k four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/srin5s.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9617464999901131,
+      "reference": "set red in n five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sbat8p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9770026669721119,
+      "reference": "set blue at t eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/pwax4n.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9616508749895729,
+      "reference": "place white at x four now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgit6p.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9586530000087805,
+      "reference": "bin green in t six please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sban4p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.964314624958206,
+      "reference": "set blue at n four please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/brbm8p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9956012080074288,
+      "reference": "bin red by m eight please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bwwh2n.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9505532499752007,
+      "reference": "bin white with h two now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lbaq6p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9541249159956351,
+      "reference": "lay blue at q six please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/lbiq2p.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9917617500177585,
+      "reference": "lay blue in q two please",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/sbat9a.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9583284580148757,
+      "reference": "set blue at t nine again",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bbbs5s.mpg",
+      "prediction": "la e",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9527797079645097,
+      "reference": "bin blue by s five soon",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/bgwo2n.mpg",
+      "prediction": "la eo",
+      "tokens": [
+        12,
+        1,
+        39,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9460467079770751,
+      "reference": "bin green with o two now",
+      "exact_match": false
+    },
+    {
+      "video": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/tutorial-assets/dataset/data/s1/prii8p.mpg",
+      "prediction": "la o",
+      "tokens": [
+        12,
+        1,
+        39,
+        15,
+        0,
+        0,
+        0
+      ],
+      "inference_seconds": 0.9570590420044027,
+      "reference": "place red in i eight please",
+      "exact_match": false
+    }
+  ],
+  "caveat": "Held-out validation clips from this local run. This is single-speaker GRID validation, not a new-speaker or general-video benchmark."
+}

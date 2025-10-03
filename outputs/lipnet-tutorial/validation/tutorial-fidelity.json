@@ -1,0 +1,28 @@
+{
+  "reference": "nicknochnack/LipNet LipNet.ipynb cells 9, 38, 48",
+  "parameters": 8471924,
+  "reference_parameters": 8471924,
+  "input_maximum_absolute_errors": [
+    0.0,
+    0.0
+  ],
+  "probability_maximum_absolute_error": 0.0,
+  "tutorial_ctc_maximum_absolute_error": 0.0,
+  "predictions": [
+    "place white at j eight please",
+    "bin white in g three again"
+  ],
+  "references": [
+    "place white at j eight please",
+    "bin white in g three again"
+  ],
+  "checkpoint": "Authors published 96-epoch checkpoint, not locally trained",
+  "local_training_completed_epochs": 2,
+  "recent_200_epoch_run": "Different paper-style GRU model; not this tutorial model",
+  "differences": [
+    "Fixed seed and frozen file split for reproducibility",
+    "tf_keras compatibility runtime instead of TensorFlow 2.10.1",
+    "Input validation and 74-frame padding moved into the loader",
+    "Additional optional corrected-length loss exists; the two-epoch run used the original padded-target loss"
+  ]
+}

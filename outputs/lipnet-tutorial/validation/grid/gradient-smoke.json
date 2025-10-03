@@ -1,0 +1,8 @@
+{
+  "loss": 201.66036987304688,
+  "gradient_norm_before_clipping": 196.4752960205078,
+  "finite_gradients": true,
+  "mps_optimizer_step_passed": true,
+  "saved_weights_modified": false,
+  "note": "Synthetic labels on two cached training inputs; numerical smoke only, not accuracy."
+}

@@ -1,0 +1,244 @@
+{
+  "status": "verified_negative_result",
+  "metrics": {
+    "baseline-test": {
+      "raw": {
+        "clips": 200,
+        "errors": 1115,
+        "words": 1200,
+        "wer": 0.9291666666666667,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.9108333333333334,
+          0.9475
+        ]
+      },
+      "constrained": {
+        "clips": 200,
+        "errors": 975,
+        "words": 1200,
+        "wer": 0.8125,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.7916666666666666,
+          0.8333333333333334
+        ]
+      }
+    },
+    "baseline-validation": {
+      "raw": {
+        "clips": 150,
+        "errors": 784,
+        "words": 900,
+        "wer": 0.8711111111111111,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.8488888888888889,
+          0.8922222222222222
+        ]
+      },
+      "constrained": {
+        "clips": 150,
+        "errors": 720,
+        "words": 900,
+        "wer": 0.8,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.7755555555555556,
+          0.8244444444444444
+        ]
+      }
+    },
+    "epoch-01-validation": {
+      "raw": {
+        "clips": 150,
+        "errors": 792,
+        "words": 900,
+        "wer": 0.88,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.86,
+          0.9
+        ]
+      },
+      "constrained": {
+        "clips": 150,
+        "errors": 725,
+        "words": 900,
+        "wer": 0.8055555555555556,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.7811111111111111,
+          0.8288888888888889
+        ]
+      }
+    },
+    "epoch-02-validation": {
+      "raw": {
+        "clips": 150,
+        "errors": 814,
+        "words": 900,
+        "wer": 0.9044444444444445,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.8855555555555555,
+          0.9233333333333333
+        ]
+      },
+      "constrained": {
+        "clips": 150,
+        "errors": 729,
+        "words": 900,
+        "wer": 0.81,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.7855555555555556,
+          0.8333333333333334
+        ]
+      }
+    },
+    "epoch-03-validation": {
+      "raw": {
+        "clips": 150,
+        "errors": 819,
+        "words": 900,
+        "wer": 0.91,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.8911111111111111,
+          0.9277777777777778
+        ]
+      },
+      "constrained": {
+        "clips": 150,
+        "errors": 731,
+        "words": 900,
+        "wer": 0.8122222222222222,
+        "exact": 0,
+        "clip_bootstrap_95_percent_interval": [
+          0.7866666666666666,
+          0.8366666666666667
+        ]
+      }
+    }
+  },
+  "paired_validation_changes": {
+    "epoch-01-validation": {
+      "candidate_minus_author_wer": 0.005555555555555555,
+      "paired_clip_bootstrap_95_percent_interval": [
+        -0.01,
+        0.021111111111111112
+      ]
+    },
+    "epoch-02-validation": {
+      "candidate_minus_author_wer": 0.009999999999999997,
+      "paired_clip_bootstrap_95_percent_interval": [
+        -0.006666666666666668,
+        0.027777777777777773
+      ]
+    },
+    "epoch-03-validation": {
+      "candidate_minus_author_wer": 0.012222222222222221,
+      "paired_clip_bootstrap_95_percent_interval": [
+        -0.004444444444444445,
+        0.03
+      ]
+    }
+  },
+  "uncertainty_note": "Clip bootstrap is conditional on one speaker per split; it does not estimate generalization uncertainty across speakers or independent recording sessions. A meaningful speaker bootstrap is impossible with one held-out speaker.",
+  "splits_verified": true,
+  "filename_transcripts_verified": 950,
+  "cross_split_duplicate_hashes": false,
+  "original_weights_sha256_unchanged": true,
+  "changed_state_tensors": 20,
+  "reload_checks": [
+    {
+      "model": "author",
+      "id": "s2/sban2s",
+      "predictions_match": true
+    },
+    {
+      "model": "author",
+      "id": "s2/pwax5p",
+      "predictions_match": true
+    },
+    {
+      "model": "author",
+      "id": "s2/bbil1n",
+      "predictions_match": true
+    },
+    {
+      "model": "last_epoch",
+      "id": "s2/sban2s",
+      "predictions_match": true
+    },
+    {
+      "model": "last_epoch",
+      "id": "s2/pwax5p",
+      "predictions_match": true
+    },
+    {
+      "model": "last_epoch",
+      "id": "s2/bbil1n",
+      "predictions_match": true
+    }
+  ],
+  "active_model": "author",
+  "runtime": [
+    {
+      "sample": "bras9a",
+      "fixed": {
+        "raw": "bin red at s nine again",
+        "constrained": "bin red at s nine again",
+        "seconds": 0.2546221660450101,
+        "model": "Tutorial author checkpoint (96 epochs)",
+        "mode": "original GRID crop",
+        "audio_used": false
+      },
+      "upload": {
+        "raw": "bin white at v sive again",
+        "constrained": "bin white at v five again",
+        "seconds": 1.3527734579984099,
+        "model": "Tutorial author checkpoint (96 epochs)",
+        "mode": "automatic face alignment; temporal resampling",
+        "audio_used": false
+      },
+      "upload_total_seconds": 1.815977959020529,
+      "recorded_webcam": {
+        "start": 0.0,
+        "end": 3.0,
+        "text": "{\"raw\": \"bin red at a ive again\", \"constrained\": \"bin red at a five again\", \"seconds\": 0.4194753330084495, \"model\": \"Tutorial author checkpoint (96 epochs)\", \"mode\": \"automatic face alignment; temporal resampling\", \"audio_used\": false}",
+        "processing_seconds": 0.41950179199920967
+      }
+    },
+    {
+      "sample": "bbaf3s",
+      "fixed": {
+        "raw": "bin blue at t three soon",
+        "constrained": "bin blue at t three soon",
+        "seconds": 0.25042358302744105,
+        "model": "Tutorial author checkpoint (96 epochs)",
+        "mode": "original GRID crop",
+        "audio_used": false
+      },
+      "upload": {
+        "raw": "place wree it x serxe sleasn",
+        "constrained": "place white in x six please",
+        "seconds": 0.4342644169810228,
+        "model": "Tutorial author checkpoint (96 epochs)",
+        "mode": "automatic face alignment; temporal resampling",
+        "audio_used": false
+      },
+      "upload_total_seconds": 0.7830142920138314,
+      "recorded_webcam": {
+        "start": 0.0,
+        "end": 3.0,
+        "text": "{\"raw\": \"lty blue wit x sie pleasin\", \"constrained\": \"lay blue with x six again\", \"seconds\": 0.4119117080117576, \"model\": \"Tutorial author checkpoint (96 epochs)\", \"mode\": \"automatic face alignment; temporal resampling\", \"audio_used\": false}",
+        "processing_seconds": 0.4119574580108747
+      }
+    }
+  ],
+  "physical_camera_tested": false,
+  "pretraining_speaker_independence_certified": false,
+  "additional_training_performed": false
+}

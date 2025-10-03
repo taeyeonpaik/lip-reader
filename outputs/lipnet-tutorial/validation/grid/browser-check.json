@@ -1,0 +1,8 @@
+{
+  "generator": "passed; changed sentence in browser",
+  "grid_example": "passed; displayed raw/constrained output and reference WER",
+  "training_status": "passed; live preparation progress displayed",
+  "physical_camera_tested": false,
+  "unit_tests": "5 passed in 1.11 seconds",
+  "final_results_display": "Verified in browser: author retained, 81.25% grammar / 92.92% raw, 200 test clips, zero exact sentences, pretraining and physical-camera limits"
+}

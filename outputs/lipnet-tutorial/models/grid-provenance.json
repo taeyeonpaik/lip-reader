@@ -1,0 +1,16 @@
+{
+  "architecture": "Nicholas Renotte tutorial 3D CNN / BiLSTM / CTC; PyTorch adapter",
+  "source": "https://github.com/nicknochnack/LipNet",
+  "author_checkpoint_epochs": 96,
+  "pretraining_speakers_certified": false,
+  "initialization_sha256": "f4cfdef51f145b4f8bdaf03ea6d1c29514f28ea3df96b204a26868b653ba9454",
+  "original_weights_preserved": true,
+  "face_detector": "MediaPipe BlazeFace; copied from existing local project",
+  "alignment_template": "eye and mouth coordinates averaged from original GRID bras9a sample",
+  "active_model": "author",
+  "adaptation_run": "grid-return-v1",
+  "adaptation_outcome": "No qualifying validation gain; original weights retained",
+  "test_grammar_wer": 0.8125,
+  "test_raw_wer": 0.9291666666666667,
+  "physical_camera_tested": false
+}

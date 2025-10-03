@@ -1,0 +1,18 @@
+{
+  "points": [
+    [
+      134.82916259765625,
+      154.52264404296875
+    ],
+    [
+      183.4828338623047,
+      153.09381103515625
+    ],
+    [
+      160.33921813964844,
+      207.00848388671875
+    ]
+  ],
+  "source": "samples/bras9a/bras9a.mpg",
+  "method": "mean MediaPipe eye centers and mouth center; full frame 360x288"
+}

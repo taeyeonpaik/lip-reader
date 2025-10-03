@@ -1,0 +1,8 @@
+{
+  "source": "https://drive.google.com/uc?id=1vWscXs4Vt0a_1IH1-ct2TCgXAZT-N3_Y",
+  "author": "Nicholas Renotte",
+  "training": "Author reports 96 epochs; these are not locally trained weights.",
+  "download_sha256": "d67a1b84159c8e884e677da62a8f8fdd78b4ba67791f5fc92a55eff5d068309f",
+  "weights_sha256": "a3de028be75eef8b84348ed193ce56d9d04115824847ef4757b67457de0e33f8",
+  "parameters": 8471924
+}

@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "updated_utc": "2026-09-16T17:59:00+00:00",
+  "details": "Two full epochs completed: 900 training clips and 100 validation clips per epoch. These locally trained weights are separate from the author's 96-epoch demo weights.",
+  "progress": {
+    "epoch": 2,
+    "batch": 450,
+    "elapsed_seconds": 10834.067491375026,
+    "loss": 70.43968200683594
+  },
+  "result": {
+    "seconds": 10916.449266957992,
+    "initial_epoch": 0,
+    "completed_epoch": 2,
+    "history": {
+      "loss": [
+        83.345458984375,
+        70.43968200683594
+      ],
+      "val_loss": [
+        69.3047103881836,
+        65.81696319580078
+      ],
+      "lr": [
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ]
+    },
+    "partial_epochs": false,
+    "parameters": 8471924
+  }
+}
