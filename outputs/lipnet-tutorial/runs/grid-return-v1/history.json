@@ -1,0 +1,23 @@
+[
+  {
+    "epoch": 1,
+    "loss": 166.92519724527995,
+    "raw_wer": 0.88,
+    "constrained_wer": 0.8055555555555556,
+    "qualifies": false
+  },
+  {
+    "epoch": 2,
+    "loss": 105.0619171778361,
+    "raw_wer": 0.9044444444444445,
+    "constrained_wer": 0.81,
+    "qualifies": false
+  },
+  {
+    "epoch": 3,
+    "loss": 78.51206951141357,
+    "raw_wer": 0.91,
+    "constrained_wer": 0.8122222222222222,
+    "qualifies": false
+  }
+]

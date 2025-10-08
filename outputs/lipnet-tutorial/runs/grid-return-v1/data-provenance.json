@@ -1,0 +1,46 @@
+{
+  "state": "complete",
+  "source": "https://zenodo.org/records/3625687",
+  "files": [
+    {
+      "key": "s3.zip",
+      "size": 394112626,
+      "checksum": "md5:b854132feecda313f0a0c6145131d693",
+      "links": {
+        "self": "https://zenodo.org/api/records/3625687/files/s3.zip/content"
+      }
+    },
+    {
+      "key": "s4.zip",
+      "size": 491885378,
+      "checksum": "md5:1bb4543ca0a27fe76e2874845468a016",
+      "links": {
+        "self": "https://zenodo.org/api/records/3625687/files/s4.zip/content"
+      }
+    },
+    {
+      "key": "s5.zip",
+      "size": 407187378,
+      "checksum": "md5:895d17182889324dd2453aff0ae49083",
+      "links": {
+        "self": "https://zenodo.org/api/records/3625687/files/s5.zip/content"
+      }
+    },
+    {
+      "key": "s2.zip",
+      "size": 394644122,
+      "checksum": "md5:36e513652d9abec68c721221ede557df",
+      "links": {
+        "self": "https://zenodo.org/api/records/3625687/files/s2.zip/content"
+      }
+    },
+    {
+      "key": "alignments.zip",
+      "size": 20091485,
+      "checksum": "md5:df892a5adea6595339b331cc065501f9",
+      "links": {
+        "self": "https://zenodo.org/api/records/3625687/files/alignments.zip/content"
+      }
+    }
+  ]
+}

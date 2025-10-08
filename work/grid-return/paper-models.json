@@ -1,0 +1,34 @@
+[
+  {
+    "name": "overlapped-weights368.h5",
+    "path": "evaluation/models/overlapped-weights368.h5",
+    "sha": "6044bb61fdb31ef8c003c9da30d2361261205ff7",
+    "size": 18342264,
+    "url": "https://api.github.com/repos/rizkiarm/LipNet/contents/evaluation/models/overlapped-weights368.h5?ref=master",
+    "html_url": "https://github.com/rizkiarm/LipNet/blob/master/evaluation/models/overlapped-weights368.h5",
+    "git_url": "https://api.github.com/repos/rizkiarm/LipNet/git/blobs/6044bb61fdb31ef8c003c9da30d2361261205ff7",
+    "download_url": "https://raw.githubusercontent.com/rizkiarm/LipNet/master/evaluation/models/overlapped-weights368.h5",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/rizkiarm/LipNet/contents/evaluation/models/overlapped-weights368.h5?ref=master",
+      "git": "https://api.github.com/repos/rizkiarm/LipNet/git/blobs/6044bb61fdb31ef8c003c9da30d2361261205ff7",
+      "html": "https://github.com/rizkiarm/LipNet/blob/master/evaluation/models/overlapped-weights368.h5"
+    }
+  },
+  {
+    "name": "unseen-weights178.h5",
+    "path": "evaluation/models/unseen-weights178.h5",
+    "sha": "c38706fd20237057e4d31f1f259025871d0618a2",
+    "size": 18342264,
+    "url": "https://api.github.com/repos/rizkiarm/LipNet/contents/evaluation/models/unseen-weights178.h5?ref=master",
+    "html_url": "https://github.com/rizkiarm/LipNet/blob/master/evaluation/models/unseen-weights178.h5",
+    "git_url": "https://api.github.com/repos/rizkiarm/LipNet/git/blobs/c38706fd20237057e4d31f1f259025871d0618a2",
+    "download_url": "https://raw.githubusercontent.com/rizkiarm/LipNet/master/evaluation/models/unseen-weights178.h5",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/rizkiarm/LipNet/contents/evaluation/models/unseen-weights178.h5?ref=master",
+      "git": "https://api.github.com/repos/rizkiarm/LipNet/git/blobs/c38706fd20237057e4d31f1f259025871d0618a2",
+      "html": "https://github.com/rizkiarm/LipNet/blob/master/evaluation/models/unseen-weights178.h5"
+    }
+  }
+]

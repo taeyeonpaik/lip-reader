@@ -1,0 +1,10 @@
+{
+  "excluded_archive": "s5.zip",
+  "reason": "All 1000 clip stems match s6 alignments, none match s5. Speaker identity unresolved. Archive excluded rather than relabeled.",
+  "before_training_or_evaluation": true,
+  "revised_train_speakers": [
+    "s1",
+    "s3"
+  ],
+  "clips_per_training_speaker": 300
+}

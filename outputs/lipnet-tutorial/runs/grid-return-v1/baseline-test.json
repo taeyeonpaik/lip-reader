@@ -1,0 +1,1218 @@
+{
+  "raw": {
+    "clips": 200,
+    "errors": 1115,
+    "words": 1200,
+    "wer": 0.9291666666666667,
+    "exact": 0
+  },
+  "constrained": {
+    "clips": 200,
+    "errors": 975,
+    "words": 1200,
+    "wer": 0.8125,
+    "exact": 0
+  },
+  "predictions": [
+    {
+      "id": "s4/lrak3n",
+      "reference": "lay red at k three now",
+      "raw": "set een nin n nin again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/bbiy7n",
+      "reference": "bin blue in y seven now",
+      "raw": "la bee in n ne sgain",
+      "constrained": "bin blue in n nine again"
+    },
+    {
+      "id": "s4/sbbn3n",
+      "reference": "set blue by n three now",
+      "raw": "bin green in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/sgbc4s",
+      "reference": "set green by c four soon",
+      "raw": "bin eee win n nin salasen",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/pwbq2s",
+      "reference": "place white by q two soon",
+      "raw": "sen geen in n nin sgoin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/lwar3n",
+      "reference": "lay white at r three now",
+      "raw": "sin geen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lbbyzs",
+      "reference": "lay blue by y zero soon",
+      "raw": "sen eee in s sie sleasin",
+      "constrained": "set red in s nine again"
+    },
+    {
+      "id": "s4/brwt3p",
+      "reference": "bin red with t three please",
+      "raw": "sen geen an v nene again",
+      "constrained": "set green in v nine again"
+    },
+    {
+      "id": "s4/srah1n",
+      "reference": "set red at h one now",
+      "raw": "sin een in n nin again",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/prbdza",
+      "reference": "place red by d zero again",
+      "raw": "sen en n n nine soanin",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sgii2a",
+      "reference": "set green in i two again",
+      "raw": "sen eree in s s ne sgeain",
+      "constrained": "bin red in s nine again"
+    },
+    {
+      "id": "s4/prii3n",
+      "reference": "place red in i three now",
+      "raw": "la reen in n nine againe",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/lrwe8s",
+      "reference": "lay red with e eight soon",
+      "raw": "bin ee in n nine sgain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/pwap8s",
+      "reference": "place white at p eight soon",
+      "raw": "bin gree wit sive sooon",
+      "constrained": "bin red with s nine soon"
+    },
+    {
+      "id": "s4/pwax1n",
+      "reference": "place white at x one now",
+      "raw": "bin genen in n nene sgain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bwwa8a",
+      "reference": "bin white with a eight again",
+      "raw": "bin green in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/swbb7n",
+      "reference": "set white by b seven now",
+      "raw": "sin een n n nine again",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/sgib6s",
+      "reference": "set green in b six soon",
+      "raw": "pla green in n nine ageain",
+      "constrained": "place green in n nine again"
+    },
+    {
+      "id": "s4/pgwe4s",
+      "reference": "place green with e four soon",
+      "raw": "bin bree in u sine pleasinen",
+      "constrained": "bin red in u nine please"
+    },
+    {
+      "id": "s4/sgav3p",
+      "reference": "set green at v three please",
+      "raw": "sea green an n ine again",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/bgiazs",
+      "reference": "bin green in a zero soon",
+      "raw": "bin bree in n sine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bgit3p",
+      "reference": "bin green in t three please",
+      "raw": "bin red in n nee again",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/prbj4a",
+      "reference": "place red by j four again",
+      "raw": "sen eeen in n nene sagain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sgwp5n",
+      "reference": "set green with p five now",
+      "raw": "bin ree win n ine aeain",
+      "constrained": "bin red in n one again"
+    },
+    {
+      "id": "s4/sgapza",
+      "reference": "set green at p zero again",
+      "raw": "bin een n i nine sgeain",
+      "constrained": "bin red in i nine again"
+    },
+    {
+      "id": "s4/lwiy5p",
+      "reference": "lay white in y five please",
+      "raw": "sen een nin n nen sganin",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/pgax7n",
+      "reference": "place green at x seven now",
+      "raw": "sen eee in n nine sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bbilzs",
+      "reference": "bin blue in l zero soon",
+      "raw": "ben eee in n nine seain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/swau6s",
+      "reference": "set white at u six soon",
+      "raw": "sen geen in s sine ageain",
+      "constrained": "set green in s nine again"
+    },
+    {
+      "id": "s4/sgbc6a",
+      "reference": "set green by c six again",
+      "raw": "sin ree win n sive sain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/lgbm2a",
+      "reference": "lay green by m two again",
+      "raw": "sen eee in n ine ageain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/pbbc1n",
+      "reference": "place blue by c one now",
+      "raw": "sen green in n nine soain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lwir2a",
+      "reference": "lay white in r two again",
+      "raw": "sin green in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/pwij2a",
+      "reference": "place white in j two again",
+      "raw": "bin bee in s o please",
+      "constrained": "bin red in s one please"
+    },
+    {
+      "id": "s4/prav7p",
+      "reference": "place red at v seven please",
+      "raw": "sen green in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bwwt9p",
+      "reference": "bin white with t nine please",
+      "raw": "sen ree n n nine sagain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sgbv6s",
+      "reference": "set green by v six soon",
+      "raw": "sen een n n nine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/bbal3n",
+      "reference": "bin blue at l three now",
+      "raw": "bin ree in n nine sgain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/pbao6s",
+      "reference": "place blue at o six soon",
+      "raw": "bin geen in n nine soon",
+      "constrained": "bin green in n nine soon"
+    },
+    {
+      "id": "s4/braf8a",
+      "reference": "bin red at f eight again",
+      "raw": "sin green in n nine sganin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bral9n",
+      "reference": "bin red at l nine now",
+      "raw": "pla geen in n nine again",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/lgbz7n",
+      "reference": "lay green by z seven now",
+      "raw": "set geen nin n nine sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/srwu9p",
+      "reference": "set red with u nine please",
+      "raw": "set green win n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/prwd2s",
+      "reference": "place red with d two soon",
+      "raw": "sin gree in n nine soanin",
+      "constrained": "set green in n nine soon"
+    },
+    {
+      "id": "s4/srin4a",
+      "reference": "set red in n four again",
+      "raw": "sen ee in n sine aleasin",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/brwt1n",
+      "reference": "bin red with t one now",
+      "raw": "sen green in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bgba8s",
+      "reference": "bin green by a eight soon",
+      "raw": "sen re in senen sgasin",
+      "constrained": "bin red in s seven again"
+    },
+    {
+      "id": "s4/lbakza",
+      "reference": "lay blue at k zero again",
+      "raw": "bin redn in n sine sgain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/pgwr4a",
+      "reference": "place green with r four again",
+      "raw": "sin gee in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/pgby4a",
+      "reference": "place green by y four again",
+      "raw": "set geen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lgil1n",
+      "reference": "lay green in l one now",
+      "raw": "sen eenen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/swau7p",
+      "reference": "set white at u seven please",
+      "raw": "set gree win n sine sganin",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/prap3p",
+      "reference": "place red at p three please",
+      "raw": "bin green in n nine sageain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/srit5n",
+      "reference": "set red in t five now",
+      "raw": "la genen in n nine again",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/bgim7n",
+      "reference": "bin green in m seven now",
+      "raw": "sen een in n n nen again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lbbd8s",
+      "reference": "lay blue by d eight soon",
+      "raw": "bin red in n sie seain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/lrbe5p",
+      "reference": "lay red by e five please",
+      "raw": "sin gree win n nine sgoin",
+      "constrained": "set green in n nine soon"
+    },
+    {
+      "id": "s4/bgat8a",
+      "reference": "bin green at t eight again",
+      "raw": "sin green in n nine sagin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/pgbq9p",
+      "reference": "place green by q nine please",
+      "raw": "set gree in n sinen sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/srig9p",
+      "reference": "set red in g nine please",
+      "raw": "sen red in n nine saleasien",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/pgakzs",
+      "reference": "place green at k zero soon",
+      "raw": "bin gree in n nine sginin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bgbt9n",
+      "reference": "bin green by t nine now",
+      "raw": "sen ee nin n sine sgain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/lrwfza",
+      "reference": "lay red with f zero again",
+      "raw": "lea gen nin n nine again",
+      "constrained": "lay red in n nine again"
+    },
+    {
+      "id": "s4/bwif9p",
+      "reference": "bin white in f nine please",
+      "raw": "sen genen in n nine sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bbaf2a",
+      "reference": "bin blue at f two again",
+      "raw": "sin gree in n nine sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lgwgzs",
+      "reference": "lay green with g zero soon",
+      "raw": "sen een n nene again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lriq6a",
+      "reference": "lay red in q six again",
+      "raw": "bin red in s sine sooon",
+      "constrained": "bin red in s nine soon"
+    },
+    {
+      "id": "s4/bwbn1p",
+      "reference": "bin white by n one please",
+      "raw": "bin gree it t sive sgeain",
+      "constrained": "bin green in t five again"
+    },
+    {
+      "id": "s4/pwbd6a",
+      "reference": "place white by d six again",
+      "raw": "sin red in n nene sgain",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/pwbq1n",
+      "reference": "place white by q one now",
+      "raw": "sin gree in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/lgwf9n",
+      "reference": "lay green with f nine now",
+      "raw": "set ge nin n inen again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/pbiu5n",
+      "reference": "place blue in u five now",
+      "raw": "set geen win n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sbis9n",
+      "reference": "set blue in s nine now",
+      "raw": "bin red in n sine sean",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/bwwh2a",
+      "reference": "bin white with h two again",
+      "raw": "bin green in n sine sgeain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bbbf4s",
+      "reference": "bin blue by f four soon",
+      "raw": "sen gen n nin n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pgaq3n",
+      "reference": "place green at q three now",
+      "raw": "bin ree in u se seain",
+      "constrained": "bin red in u six again"
+    },
+    {
+      "id": "s4/lrbe6a",
+      "reference": "lay red by e six again",
+      "raw": "set gee in i sive sgoain",
+      "constrained": "set red in i nine again"
+    },
+    {
+      "id": "s4/lrbk8s",
+      "reference": "lay red by k eight soon",
+      "raw": "set een t i iven asgain",
+      "constrained": "set red in i nine again"
+    },
+    {
+      "id": "s4/bbbs1n",
+      "reference": "bin blue by s one now",
+      "raw": "sen geen in n inin again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lrid5n",
+      "reference": "lay red in d five now",
+      "raw": "lay green wit n nine saeain",
+      "constrained": "lay green with n nine again"
+    },
+    {
+      "id": "s4/lwik8a",
+      "reference": "lay white in k eight again",
+      "raw": "bin ee wi sive sgain",
+      "constrained": "bin red in n five again"
+    },
+    {
+      "id": "s4/pgwe3n",
+      "reference": "place green with e three now",
+      "raw": "sen gree an n nene again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sraa9p",
+      "reference": "set red at a nine please",
+      "raw": "bin geen win n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/sgwj2s",
+      "reference": "set green with j two soon",
+      "raw": "sen een nin n nine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/sbbt7n",
+      "reference": "set blue by t seven now",
+      "raw": "sen green in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lgaf1n",
+      "reference": "lay green at f one now",
+      "raw": "sen een n sine sageaien",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bwba3p",
+      "reference": "bin white by a three please",
+      "raw": "sen gree in s ixe paleain",
+      "constrained": "bin green in s six again"
+    },
+    {
+      "id": "s4/bwba4a",
+      "reference": "bin white by a four again",
+      "raw": "set eee nin n ine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pbiu8a",
+      "reference": "place blue in u eight again",
+      "raw": "bin green in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bgwu6a",
+      "reference": "bin green with u six again",
+      "raw": "sen green in n nine sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pgaq6a",
+      "reference": "place green at q six again",
+      "raw": "bin gree in n nine aganin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bwbt6a",
+      "reference": "bin white by t six again",
+      "raw": "sea een ni n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lbwy3n",
+      "reference": "lay blue with y three now",
+      "raw": "sin genen win n n nen again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/pbao5n",
+      "reference": "place blue at o five now",
+      "raw": "sen geen in n nen sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sbag8a",
+      "reference": "set blue at g eight again",
+      "raw": "bin green in n nine sgain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bgwb1n",
+      "reference": "bin green with b one now",
+      "raw": "set genen nin n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/srit6s",
+      "reference": "set red in t six soon",
+      "raw": "bin red in s s ne sooasene",
+      "constrained": "bin red in s one please"
+    },
+    {
+      "id": "s4/swau8a",
+      "reference": "set white at u eight again",
+      "raw": "bin gee in n nie ageain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bbar9p",
+      "reference": "bin blue at r nine please",
+      "raw": "set green in n nine aganin",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/swwv5p",
+      "reference": "set white with v five please",
+      "raw": "bin redn in n nine sgain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/pgbq8s",
+      "reference": "place green by q eight soon",
+      "raw": "sen geen in n nine asgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pwwd7n",
+      "reference": "place white with d seven now",
+      "raw": "sea gene an n sine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lray4a",
+      "reference": "lay red at y four again",
+      "raw": "bin gee in n nine sgeanin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bbbz8a",
+      "reference": "bin blue by z eight again",
+      "raw": "bin geen in n sine sooin",
+      "constrained": "bin green in n nine soon"
+    },
+    {
+      "id": "s4/bgbbza",
+      "reference": "bin green by b zero again",
+      "raw": "lay reen n n sine again",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/sgwxzs",
+      "reference": "set green with x zero soon",
+      "raw": "sen eee in n sie seasin",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/pgbd9n",
+      "reference": "place green by d nine now",
+      "raw": "bin bree in u soue peasene",
+      "constrained": "bin blue in u one please"
+    },
+    {
+      "id": "s4/bgba7n",
+      "reference": "bin green by a seven now",
+      "raw": "set genen nin n inee sagain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pwbx6s",
+      "reference": "place white by x six soon",
+      "raw": "lay green in g nive again",
+      "constrained": "lay green in g nine again"
+    },
+    {
+      "id": "s4/sgbc5p",
+      "reference": "set green by c five please",
+      "raw": "bin ree in s sine pleaien",
+      "constrained": "bin red in s nine again"
+    },
+    {
+      "id": "s4/lwws2s",
+      "reference": "lay white with s two soon",
+      "raw": "sin geen in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/prav6s",
+      "reference": "place red at v six soon",
+      "raw": "bin red in i nine soon",
+      "constrained": "bin red in i nine soon"
+    },
+    {
+      "id": "s4/bgat7p",
+      "reference": "bin green at t seven please",
+      "raw": "bin eee nin n sine seain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/prwq1p",
+      "reference": "place red with q one please",
+      "raw": "la eee in s s sie palasen",
+      "constrained": "lay green in s nine again"
+    },
+    {
+      "id": "s4/prai8s",
+      "reference": "place red at i eight soon",
+      "raw": "la se inin n n ninene again",
+      "constrained": "lay blue in n nine again"
+    },
+    {
+      "id": "s4/swiu2s",
+      "reference": "set white in u two soon",
+      "raw": "sen gee in n sine sgeain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bbie7p",
+      "reference": "bin blue in e seven please",
+      "raw": "set green in n n nen sgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bgat6s",
+      "reference": "bin green at t six soon",
+      "raw": "sen een n in n n nin sooin",
+      "constrained": "set green in n nine soon"
+    },
+    {
+      "id": "s4/briz6a",
+      "reference": "bin red in z six again",
+      "raw": "sen een n s sine again",
+      "constrained": "set red in s nine again"
+    },
+    {
+      "id": "s4/sgwp6s",
+      "reference": "set green with p six soon",
+      "raw": "sen eee in s sive again",
+      "constrained": "set green in s nine again"
+    },
+    {
+      "id": "s4/sbit2a",
+      "reference": "set blue in t two again",
+      "raw": "sin ire win o one sooin",
+      "constrained": "set red in o one soon"
+    },
+    {
+      "id": "s4/sgiu8s",
+      "reference": "set green in u eight soon",
+      "raw": "bin ee nin n nine again",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/bbaf1p",
+      "reference": "bin blue at f one please",
+      "raw": "bin green win n nine seain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/lwws1n",
+      "reference": "lay white with s one now",
+      "raw": "sen gee win n see again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/brwg5p",
+      "reference": "bin red with g five please",
+      "raw": "bin red in u see sgain",
+      "constrained": "bin red in u five again"
+    },
+    {
+      "id": "s4/lriq3n",
+      "reference": "lay red in q three now",
+      "raw": "sen genen an n nive again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pbai1n",
+      "reference": "place blue at i one now",
+      "raw": "bin bree in s s se sageain",
+      "constrained": "bin blue in s seven again"
+    },
+    {
+      "id": "s4/bwbg8a",
+      "reference": "bin white by g eight again",
+      "raw": "sen ien n n n ninin sgoanin",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lrak5p",
+      "reference": "lay red at k five please",
+      "raw": "sen green n n nine ageain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pwbj8s",
+      "reference": "place white by j eight soon",
+      "raw": "sin gree in n nine sgain",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bgbn5n",
+      "reference": "bin green by n five now",
+      "raw": "sen geen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/swih6a",
+      "reference": "set white in h six again",
+      "raw": "set een n n nin sgain",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lgbs6a",
+      "reference": "lay green by s six again",
+      "raw": "bin red in s nee sleasin",
+      "constrained": "bin red in s nine again"
+    },
+    {
+      "id": "s4/lgbf5n",
+      "reference": "lay green by f five now",
+      "raw": "set een n n nine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lwar4s",
+      "reference": "lay white at r four soon",
+      "raw": "sen geen in n nin again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sgbp1n",
+      "reference": "set green by p one now",
+      "raw": "ben een n s sine plgaiene",
+      "constrained": "bin red in s nine again"
+    },
+    {
+      "id": "s4/bbwf9p",
+      "reference": "bin blue with f nine please",
+      "raw": "sen gree in n ive asgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lwazza",
+      "reference": "lay white at z zero again",
+      "raw": "set een n n n nine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/sbba5n",
+      "reference": "set blue by a five now",
+      "raw": "sen genen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pbbpzs",
+      "reference": "place blue by p zero soon",
+      "raw": "sen een in n nine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/bbwm1n",
+      "reference": "bin blue with m one now",
+      "raw": "bin green in n nine sgoin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/prbc8s",
+      "reference": "place red by c eight soon",
+      "raw": "sen geen in n n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pwwk3p",
+      "reference": "place white with k three please",
+      "raw": "bin bre in n sine again",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/sbaa4a",
+      "reference": "set blue at a four again",
+      "raw": "bin eree in n ne sgeain",
+      "constrained": "bin red in n one again"
+    },
+    {
+      "id": "s4/sgbi9p",
+      "reference": "set green by i nine please",
+      "raw": "bin ree in s sine sleasn",
+      "constrained": "bin red in s nine please"
+    },
+    {
+      "id": "s4/sbig1n",
+      "reference": "set blue in g one now",
+      "raw": "bin geen win n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/lgas1p",
+      "reference": "lay green at s one please",
+      "raw": "sen re nin n sene sgeain",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lwiy3n",
+      "reference": "lay white in y three now",
+      "raw": "sin ge in n n nee again",
+      "constrained": "bin blue in n nine again"
+    },
+    {
+      "id": "s4/bgahza",
+      "reference": "bin green at h zero again",
+      "raw": "bin eee in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/bwbg6s",
+      "reference": "bin white by g six soon",
+      "raw": "bin ie win n nie soiin",
+      "constrained": "bin red in n nine soon"
+    },
+    {
+      "id": "s4/lgbs3n",
+      "reference": "lay green by s three now",
+      "raw": "set green in n nine sgeain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lgaz4s",
+      "reference": "lay green at z four soon",
+      "raw": "set een nin n nin sgain",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lwbl6a",
+      "reference": "lay white by l six again",
+      "raw": "set gene nin n sine soain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bbie5n",
+      "reference": "bin blue in e five now",
+      "raw": "lay eene in n nine again",
+      "constrained": "lay red in n nine again"
+    },
+    {
+      "id": "s4/pwic6s",
+      "reference": "place white in c six soon",
+      "raw": "sen een n nin n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lwbf2a",
+      "reference": "lay white by f two again",
+      "raw": "bin eree in n ne segeain",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/sgbv8a",
+      "reference": "set green by v eight again",
+      "raw": "bin eree in s nene again",
+      "constrained": "bin red in s nine again"
+    },
+    {
+      "id": "s4/swbv2a",
+      "reference": "set white by v two again",
+      "raw": "bin genen in n nine sganin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/pbio3p",
+      "reference": "place blue in o three please",
+      "raw": "bin gee nin n nine soinin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/lbax8a",
+      "reference": "lay blue at x eight again",
+      "raw": "sen een n n n nine sagain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lgbf7p",
+      "reference": "lay green by f seven please",
+      "raw": "lay geen in n nine again",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/pwbkza",
+      "reference": "place white by k zero again",
+      "raw": "lea ee n s s seve sageain",
+      "constrained": "set red in s nine again"
+    },
+    {
+      "id": "s4/lgar9n",
+      "reference": "lay green at r nine now",
+      "raw": "sen geen in n ninen again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/lgiz2a",
+      "reference": "lay green in z two again",
+      "raw": "bin eee in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/lwak9n",
+      "reference": "lay white at k nine now",
+      "raw": "sen ben n sine son",
+      "constrained": "set blue in n nine soon"
+    },
+    {
+      "id": "s4/sbat5p",
+      "reference": "set blue at t five please",
+      "raw": "set gree in none ageain",
+      "constrained": "set green in u nine again"
+    },
+    {
+      "id": "s4/bbbl9p",
+      "reference": "bin blue by l nine please",
+      "raw": "sea eee in ni ageain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pwwq6s",
+      "reference": "place white with q six soon",
+      "raw": "sea green in n ine ageain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/bgan4a",
+      "reference": "bin green at n four again",
+      "raw": "bin gen nin n inen sgoin",
+      "constrained": "bin red in n nine soon"
+    },
+    {
+      "id": "s4/lgwm3n",
+      "reference": "lay green with m three now",
+      "raw": "sin gree in n nine agin",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/prwj5n",
+      "reference": "place red with j five now",
+      "raw": "sen green in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/prap4a",
+      "reference": "place red at p four again",
+      "raw": "sea geen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pbiu7p",
+      "reference": "place blue in u seven please",
+      "raw": "sen een in s sin again",
+      "constrained": "set green in s six again"
+    },
+    {
+      "id": "s4/srbh8a",
+      "reference": "set red by h eight again",
+      "raw": "bin red win n nine again",
+      "constrained": "bin red in n nine again"
+    },
+    {
+      "id": "s4/pwwk4a",
+      "reference": "place white with k four again",
+      "raw": "bin ee in s sise sleain",
+      "constrained": "bin red in s nine again"
+    },
+    {
+      "id": "s4/bbbmza",
+      "reference": "bin blue by m zero again",
+      "raw": "sen eenen in n n nine sganin",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/priv4a",
+      "reference": "place red in v four again",
+      "raw": "lay green in n nine again",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/sbbt8s",
+      "reference": "set blue by t eight soon",
+      "raw": "la een in n nine again",
+      "constrained": "lay red in n nine again"
+    },
+    {
+      "id": "s4/pbbv5p",
+      "reference": "place blue by v five please",
+      "raw": "set een n n nine sgain",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/sbwbzs",
+      "reference": "set blue with b zero soon",
+      "raw": "sen green it n ninie sgasin",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/swiu4a",
+      "reference": "set white in u four again",
+      "raw": "set geen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sbim8a",
+      "reference": "set blue in m eight again",
+      "raw": "set red in n nine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/bwbn2a",
+      "reference": "bin white by n two again",
+      "raw": "sen eed in n nine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/srau1p",
+      "reference": "set red at u one please",
+      "raw": "sen gen nin n nine sagain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/swibzs",
+      "reference": "set white in b zero soon",
+      "raw": "set gen win n ninie again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lgwg2a",
+      "reference": "lay green with g two again",
+      "raw": "bin ge win nine seoin",
+      "constrained": "bin red in n nine soon"
+    },
+    {
+      "id": "s4/pgayza",
+      "reference": "place green at y zero again",
+      "raw": "bin green in n sine sgein",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/pbbi7p",
+      "reference": "place blue by i seven please",
+      "raw": "set een n ine again",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/pbav1p",
+      "reference": "place blue at v one please",
+      "raw": "la ee in s sine pleasen",
+      "constrained": "lay red in s nine please"
+    },
+    {
+      "id": "s4/srit7p",
+      "reference": "set red in t seven please",
+      "raw": "bin green in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/srbu4s",
+      "reference": "set red by u four soon",
+      "raw": "sin green in n nine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/swbo6s",
+      "reference": "set white by o six soon",
+      "raw": "sea genen in n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/sgio5p",
+      "reference": "set green in o five please",
+      "raw": "set eenen nin n nine asgain",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/prav8a",
+      "reference": "place red at v eight again",
+      "raw": "sen een ni n nine again",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/srig7n",
+      "reference": "set red in g seven now",
+      "raw": "sen bree in n sine slgeain",
+      "constrained": "bin blue in n nine again"
+    },
+    {
+      "id": "s4/sbag7p",
+      "reference": "set blue at g seven please",
+      "raw": "set genen win n nine sganin",
+      "constrained": "set green in n nine again"
+    },
+    {
+      "id": "s4/pgaj9n",
+      "reference": "place green at j nine now",
+      "raw": "sen geen in n sine again",
+      "constrained": "bin green in n nine again"
+    },
+    {
+      "id": "s4/srah2s",
+      "reference": "set red at h two soon",
+      "raw": "la geen in n nine again",
+      "constrained": "lay green in n nine again"
+    },
+    {
+      "id": "s4/brir9n",
+      "reference": "bin red in r nine now",
+      "raw": "sen ee nin n nine sgain",
+      "constrained": "set red in n nine again"
+    },
+    {
+      "id": "s4/lwae6s",
+      "reference": "lay white at e six soon",
+      "raw": "place green in i sive sooin",
+      "constrained": "place green in i five again"
+    }
+  ]
+}

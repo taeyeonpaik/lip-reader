@@ -1,0 +1,918 @@
+{
+  "raw": {
+    "clips": 150,
+    "errors": 819,
+    "words": 900,
+    "wer": 0.91,
+    "exact": 0
+  },
+  "constrained": {
+    "clips": 150,
+    "errors": 731,
+    "words": 900,
+    "wer": 0.8122222222222222,
+    "exact": 0
+  },
+  "predictions": [
+    {
+      "id": "s2/sban2s",
+      "reference": "set blue at n two soon",
+      "raw": "bin red win o son",
+      "constrained": "bin red in d one soon"
+    },
+    {
+      "id": "s2/pwax5p",
+      "reference": "place white at x five please",
+      "raw": "bin blue by ou sn",
+      "constrained": "bin blue by u four soon"
+    },
+    {
+      "id": "s2/bbil1n",
+      "reference": "bin blue in l one now",
+      "raw": "bin bre wih on son",
+      "constrained": "bin blue with o one soon"
+    },
+    {
+      "id": "s2/sgivzs",
+      "reference": "set green in v zero soon",
+      "raw": "set blue win x si son",
+      "constrained": "set blue in x six soon"
+    },
+    {
+      "id": "s2/bbas1p",
+      "reference": "bin blue at s one please",
+      "raw": "bin re in u so son",
+      "constrained": "bin red in u four soon"
+    },
+    {
+      "id": "s2/lbwy6s",
+      "reference": "lay blue with y six soon",
+      "raw": "bin blue with o son",
+      "constrained": "bin blue with o one soon"
+    },
+    {
+      "id": "s2/bwba3n",
+      "reference": "bin white by a three now",
+      "raw": "set re it s sixe soon",
+      "constrained": "set red in s six soon"
+    },
+    {
+      "id": "s2/bwat2s",
+      "reference": "bin white at t two soon",
+      "raw": "bin blee wit so son",
+      "constrained": "bin blue with x six soon"
+    },
+    {
+      "id": "s2/lgwaza",
+      "reference": "lay green with a zero again",
+      "raw": "bin blue wth or soon",
+      "constrained": "bin blue with r one soon"
+    },
+    {
+      "id": "s2/sbwu5p",
+      "reference": "set blue with u five please",
+      "raw": "bin blue in o son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/bwbn3p",
+      "reference": "bin white by n three please",
+      "raw": "bin reen in sove son",
+      "constrained": "bin green in o one soon"
+    },
+    {
+      "id": "s2/lrik1n",
+      "reference": "lay red in k one now",
+      "raw": "bin blue wiy or son",
+      "constrained": "bin blue by o one soon"
+    },
+    {
+      "id": "s2/lgiz2s",
+      "reference": "lay green in z two soon",
+      "raw": "bin brued with o son",
+      "constrained": "bin red with q one soon"
+    },
+    {
+      "id": "s2/lbbe1p",
+      "reference": "lay blue by e one please",
+      "raw": "bin red winh o son",
+      "constrained": "bin red with u four soon"
+    },
+    {
+      "id": "s2/bgia3p",
+      "reference": "bin green in a three please",
+      "raw": "bin red wth or son",
+      "constrained": "bin red with r four soon"
+    },
+    {
+      "id": "s2/brbm8a",
+      "reference": "bin red by m eight again",
+      "raw": "bin rue wih on son",
+      "constrained": "bin red with x one soon"
+    },
+    {
+      "id": "s2/swwv8a",
+      "reference": "set white with v eight again",
+      "raw": "bin blue wih b fr son",
+      "constrained": "bin blue with b four soon"
+    },
+    {
+      "id": "s2/swwi7n",
+      "reference": "set white with i seven now",
+      "raw": "sen ble in for son",
+      "constrained": "set blue in x four soon"
+    },
+    {
+      "id": "s2/lrbe8a",
+      "reference": "lay red by e eight again",
+      "raw": "bin blue with one son",
+      "constrained": "bin blue with x one soon"
+    },
+    {
+      "id": "s2/sbat8a",
+      "reference": "set blue at t eight again",
+      "raw": "bin blue biy u fou sn",
+      "constrained": "bin blue by u four soon"
+    },
+    {
+      "id": "s2/bwis8s",
+      "reference": "bin white in s eight soon",
+      "raw": "bin red it on son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/swwp1n",
+      "reference": "set white with p one now",
+      "raw": "bin blue bn oe soon",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/pwip7p",
+      "reference": "place white in p seven please",
+      "raw": "bin blue wiu u o son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/pgix8a",
+      "reference": "place green in x eight again",
+      "raw": "bin blue wth o son",
+      "constrained": "bin blue with o one soon"
+    },
+    {
+      "id": "s2/lriq7p",
+      "reference": "lay red in q seven please",
+      "raw": "bin rue winh o son",
+      "constrained": "bin blue with m four soon"
+    },
+    {
+      "id": "s2/bwwbza",
+      "reference": "bin white with b zero again",
+      "raw": "bin blue by u or son",
+      "constrained": "bin blue by u four soon"
+    },
+    {
+      "id": "s2/pwidza",
+      "reference": "place white in d zero again",
+      "raw": "bin rued win o son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/sbwb4a",
+      "reference": "set blue with b four again",
+      "raw": "bin blue win soe soon",
+      "constrained": "bin blue in x one soon"
+    },
+    {
+      "id": "s2/bwwh3p",
+      "reference": "bin white with h three please",
+      "raw": "plnc re winh so son",
+      "constrained": "bin red with d one soon"
+    },
+    {
+      "id": "s2/sgwj4s",
+      "reference": "set green with j four soon",
+      "raw": "bin blue with u sor son",
+      "constrained": "bin blue with u one soon"
+    },
+    {
+      "id": "s2/pgwy9p",
+      "reference": "place green with y nine please",
+      "raw": "bin red wn o on soon",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/lgir8s",
+      "reference": "lay green in r eight soon",
+      "raw": "bin brued win u one son",
+      "constrained": "bin red in u one soon"
+    },
+    {
+      "id": "s2/lbwe5p",
+      "reference": "lay blue with e five please",
+      "raw": "plnce blue in on son",
+      "constrained": "place blue in o one soon"
+    },
+    {
+      "id": "s2/bgwu8a",
+      "reference": "bin green with u eight again",
+      "raw": "bin blue wiuh u or son",
+      "constrained": "bin blue with u four soon"
+    },
+    {
+      "id": "s2/lbwe6a",
+      "reference": "lay blue with e six again",
+      "raw": "bin blud win o son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/sgio7p",
+      "reference": "set green in o seven please",
+      "raw": "bin brue in o son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/lwir2s",
+      "reference": "lay white in r two soon",
+      "raw": "bin re with o son",
+      "constrained": "bin red with o one soon"
+    },
+    {
+      "id": "s2/pgay2a",
+      "reference": "place green at y two again",
+      "raw": "bin blee with oe soon",
+      "constrained": "bin blue with x one soon"
+    },
+    {
+      "id": "s2/lbad6s",
+      "reference": "lay blue at d six soon",
+      "raw": "plny brued wiyh fou son",
+      "constrained": "lay blue with u four soon"
+    },
+    {
+      "id": "s2/lwiy8a",
+      "reference": "lay white in y eight again",
+      "raw": "bin red win b or soon",
+      "constrained": "bin red in b one soon"
+    },
+    {
+      "id": "s2/bwba5p",
+      "reference": "bin white by a five please",
+      "raw": "bin bred win son son",
+      "constrained": "bin red in s one soon"
+    },
+    {
+      "id": "s2/brwt5p",
+      "reference": "bin red with t five please",
+      "raw": "bin re in on soon",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/bbbm1p",
+      "reference": "bin blue by m one please",
+      "raw": "bin blue in one soon",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/sbba7n",
+      "reference": "set blue by a seven now",
+      "raw": "bin blue in so soon",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/lrak6s",
+      "reference": "lay red at k six soon",
+      "raw": "bin red in one son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/swwc3n",
+      "reference": "set white with c three now",
+      "raw": "bin red win o o son",
+      "constrained": "bin red in o four soon"
+    },
+    {
+      "id": "s2/bgwu6s",
+      "reference": "bin green with u six soon",
+      "raw": "bin gre wn o son",
+      "constrained": "bin green in o one soon"
+    },
+    {
+      "id": "s2/pric1n",
+      "reference": "place red in c one now",
+      "raw": "set ree wit so son",
+      "constrained": "set red with o one soon"
+    },
+    {
+      "id": "s2/lbid3p",
+      "reference": "lay blue in d three please",
+      "raw": "bin bled with zou son",
+      "constrained": "bin blue with j four soon"
+    },
+    {
+      "id": "s2/swbv3p",
+      "reference": "set white by v three please",
+      "raw": "bin blue in oe son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/bbwg1p",
+      "reference": "bin blue with g one please",
+      "raw": "bin red wnh on son",
+      "constrained": "bin red with o one soon"
+    },
+    {
+      "id": "s2/pbib6s",
+      "reference": "place blue in b six soon",
+      "raw": "bin brue wn o or sn",
+      "constrained": "bin blue with o four soon"
+    },
+    {
+      "id": "s2/brbm6s",
+      "reference": "bin red by m six soon",
+      "raw": "bin blue bn one son",
+      "constrained": "bin blue by o one soon"
+    },
+    {
+      "id": "s2/sbaa4s",
+      "reference": "set blue at a four soon",
+      "raw": "bin re win o o son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/sbwn9n",
+      "reference": "set blue with n nine now",
+      "raw": "bin blue with four pln",
+      "constrained": "bin blue with u four please"
+    },
+    {
+      "id": "s2/swio1p",
+      "reference": "set white in o one please",
+      "raw": "bin red win ou son",
+      "constrained": "bin red in o four soon"
+    },
+    {
+      "id": "s2/bbaf3p",
+      "reference": "bin blue at f three please",
+      "raw": "bin red ih ore son",
+      "constrained": "bin red with o one soon"
+    },
+    {
+      "id": "s2/swbv1n",
+      "reference": "set white by v one now",
+      "raw": "bin rued wiun or son",
+      "constrained": "bin red in u one soon"
+    },
+    {
+      "id": "s2/pbwv9n",
+      "reference": "place blue with v nine now",
+      "raw": "bin red wit sov son",
+      "constrained": ""
+    },
+    {
+      "id": "s2/srau4a",
+      "reference": "set red at u four again",
+      "raw": "bin blue by o son",
+      "constrained": "bin blue by o one soon"
+    },
+    {
+      "id": "s2/lrid8s",
+      "reference": "lay red in d eight soon",
+      "raw": "bin red wth or son",
+      "constrained": "bin red with h four soon"
+    },
+    {
+      "id": "s2/pgwe5n",
+      "reference": "place green with e five now",
+      "raw": "bin blue bn o son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/sbig3n",
+      "reference": "set blue in g three now",
+      "raw": "bin blue in o son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/pgaq8a",
+      "reference": "place green at q eight again",
+      "raw": "bin blue wiyh ore son",
+      "constrained": "bin blue with h one soon"
+    },
+    {
+      "id": "s2/lgbs5n",
+      "reference": "lay green by s five now",
+      "raw": "bin red win ore son",
+      "constrained": "bin red in u one soon"
+    },
+    {
+      "id": "s2/pwic9p",
+      "reference": "place white in c nine please",
+      "raw": "bin red wit or sn",
+      "constrained": "bin red with r four soon"
+    },
+    {
+      "id": "s2/pgij9p",
+      "reference": "place green in j nine please",
+      "raw": "bin blue in ov son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/lrae3p",
+      "reference": "lay red at e three please",
+      "raw": "set wlue by o soon",
+      "constrained": "set blue by o one soon"
+    },
+    {
+      "id": "s2/sgwx3p",
+      "reference": "set green with x three please",
+      "raw": "bin blue with sore son",
+      "constrained": "bin blue with x one soon"
+    },
+    {
+      "id": "s2/bgbbzs",
+      "reference": "bin green by b zero soon",
+      "raw": "bin blue in u on soon",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/swiu6a",
+      "reference": "set white in u six again",
+      "raw": "pinc blue bn oe son",
+      "constrained": "place blue in o one soon"
+    },
+    {
+      "id": "s2/brwg6s",
+      "reference": "bin red with g six soon",
+      "raw": "bin ble win sn soon",
+      "constrained": "bin blue in x one soon"
+    },
+    {
+      "id": "s2/sgwd1p",
+      "reference": "set green with d one please",
+      "raw": "bin blue with o sn",
+      "constrained": "bin blue with u one soon"
+    },
+    {
+      "id": "s2/sgwj3n",
+      "reference": "set green with j three now",
+      "raw": "bin rued win o son",
+      "constrained": "bin red in d one soon"
+    },
+    {
+      "id": "s2/lwal1n",
+      "reference": "lay white at l one now",
+      "raw": "plnc red in on son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/lrik3p",
+      "reference": "lay red in k three please",
+      "raw": "bin wre wth or soon",
+      "constrained": "bin red with h four soon"
+    },
+    {
+      "id": "s2/srwvzs",
+      "reference": "set red with v zero soon",
+      "raw": "bin blue in u on son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/pbwp6s",
+      "reference": "place blue with p six soon",
+      "raw": "bin red wn o so son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/bbbl9n",
+      "reference": "bin blue by l nine now",
+      "raw": "bin bred with sov son",
+      "constrained": "bin red with d one soon"
+    },
+    {
+      "id": "s2/prac8a",
+      "reference": "place red at c eight again",
+      "raw": "bin blue win o one son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/lbax9p",
+      "reference": "lay blue at x nine please",
+      "raw": "bin red in o son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/prav7n",
+      "reference": "place red at v seven now",
+      "raw": "bin blue with or soon",
+      "constrained": "bin blue with u one soon"
+    },
+    {
+      "id": "s2/swwv6s",
+      "reference": "set white with v six soon",
+      "raw": "bin red wn o son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/swwi8s",
+      "reference": "set white with i eight soon",
+      "raw": "bin rud with sr son",
+      "constrained": "bin blue with x one soon"
+    },
+    {
+      "id": "s2/pwaj7p",
+      "reference": "place white at j seven please",
+      "raw": "bin blue wu u ou son",
+      "constrained": "bin blue in u four soon"
+    },
+    {
+      "id": "s2/pgbe1n",
+      "reference": "place green by e one now",
+      "raw": "bin blue bu sove soon",
+      "constrained": "bin blue by d one soon"
+    },
+    {
+      "id": "s2/bgbu1n",
+      "reference": "bin green by u one now",
+      "raw": "bin red winh o son",
+      "constrained": "bin red with d one soon"
+    },
+    {
+      "id": "s2/swbb9n",
+      "reference": "set white by b nine now",
+      "raw": "set ree win sov soon",
+      "constrained": "set red in s seven soon"
+    },
+    {
+      "id": "s2/swbc2a",
+      "reference": "set white by c two again",
+      "raw": "bin blue bin so son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/lwae8s",
+      "reference": "lay white at e eight soon",
+      "raw": "bin red with o son",
+      "constrained": "bin red with o one soon"
+    },
+    {
+      "id": "s2/bbwg2a",
+      "reference": "bin blue with g two again",
+      "raw": "bin blue ih siv sn",
+      "constrained": "bin blue with x six soon"
+    },
+    {
+      "id": "s2/pbio3n",
+      "reference": "place blue in o three now",
+      "raw": "set ble in sve son",
+      "constrained": "set blue in n one soon"
+    },
+    {
+      "id": "s2/srihzs",
+      "reference": "set red in h zero soon",
+      "raw": "sen green with oe soon",
+      "constrained": "set green with i one soon"
+    },
+    {
+      "id": "s2/brbt2a",
+      "reference": "bin red by t two again",
+      "raw": "bin blue win sov son",
+      "constrained": "bin blue in s one soon"
+    },
+    {
+      "id": "s2/bwigzs",
+      "reference": "bin white in g zero soon",
+      "raw": "bin ree in or son",
+      "constrained": "bin blue in q one soon"
+    },
+    {
+      "id": "s2/sbbh4a",
+      "reference": "set blue by h four again",
+      "raw": "bin gred bn or son",
+      "constrained": "bin red in u four soon"
+    },
+    {
+      "id": "s2/lrbl1p",
+      "reference": "lay red by l one please",
+      "raw": "bin blue wih sove soon",
+      "constrained": "bin blue with h one soon"
+    },
+    {
+      "id": "s2/lwbl5n",
+      "reference": "lay white by l five now",
+      "raw": "bin red wth o son",
+      "constrained": "bin red with x one soon"
+    },
+    {
+      "id": "s2/bgwo2s",
+      "reference": "bin green with o two soon",
+      "raw": "bin blued win o son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/bwim4s",
+      "reference": "bin white in m four soon",
+      "raw": "bin ree with o sov son",
+      "constrained": "bin red with o one soon"
+    },
+    {
+      "id": "s2/swbo9p",
+      "reference": "set white by o nine please",
+      "raw": "bin re wn so son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/swbi3n",
+      "reference": "set white by i three now",
+      "raw": "set gren in sve son",
+      "constrained": "set green in x six soon"
+    },
+    {
+      "id": "s2/bgit6a",
+      "reference": "bin green in t six again",
+      "raw": "bin red wn o ore son",
+      "constrained": "bin red with o one soon"
+    },
+    {
+      "id": "s2/prajzs",
+      "reference": "place red at j zero soon",
+      "raw": "bin blue biy fou son",
+      "constrained": "bin blue by u four soon"
+    },
+    {
+      "id": "s2/lrwr7n",
+      "reference": "lay red with r seven now",
+      "raw": "bin blue with fou son",
+      "constrained": "bin blue with x four soon"
+    },
+    {
+      "id": "s2/priv6a",
+      "reference": "place red in v six again",
+      "raw": "bin red with o son",
+      "constrained": "bin red with r one soon"
+    },
+    {
+      "id": "s2/bgig7p",
+      "reference": "bin green in g seven please",
+      "raw": "set blue wih h or soon",
+      "constrained": "set blue with h one soon"
+    },
+    {
+      "id": "s2/sgii1n",
+      "reference": "set green in i one now",
+      "raw": "bin blue win or soon",
+      "constrained": "bin blue in x one soon"
+    },
+    {
+      "id": "s2/bbifza",
+      "reference": "bin blue in f zero again",
+      "raw": "bin blue win sov son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/pbaczs",
+      "reference": "place blue at c zero soon",
+      "raw": "sin blue winh so son",
+      "constrained": "bin blue with o one soon"
+    },
+    {
+      "id": "s2/pbiu8s",
+      "reference": "place blue in u eight soon",
+      "raw": "bln red wiy or son",
+      "constrained": "bin red by u one soon"
+    },
+    {
+      "id": "s2/sbwh6s",
+      "reference": "set blue with h six soon",
+      "raw": "bln blue winh so son",
+      "constrained": "bin blue with u four soon"
+    },
+    {
+      "id": "s2/pbav4a",
+      "reference": "place blue at v four again",
+      "raw": "bin blue bun on son",
+      "constrained": "bin blue by o one soon"
+    },
+    {
+      "id": "s2/sbbn5n",
+      "reference": "set blue by n five now",
+      "raw": "sin bue wit sre son",
+      "constrained": "bin blue with u one soon"
+    },
+    {
+      "id": "s2/bgbh3n",
+      "reference": "bin green by h three now",
+      "raw": "bin blue wiyh o son",
+      "constrained": "bin blue with r one soon"
+    },
+    {
+      "id": "s2/pwbd7p",
+      "reference": "place white by d seven please",
+      "raw": "bin blued wi ou son",
+      "constrained": "bin blue in b four soon"
+    },
+    {
+      "id": "s2/bgwb3n",
+      "reference": "bin green with b three now",
+      "raw": "bin blue ih x siv son",
+      "constrained": "bin blue in x six soon"
+    },
+    {
+      "id": "s2/srit7n",
+      "reference": "set red in t seven now",
+      "raw": "bin blued buy sour soon",
+      "constrained": "bin blue by d four soon"
+    },
+    {
+      "id": "s2/pbbi8s",
+      "reference": "place blue by i eight soon",
+      "raw": "bin red wn o oe son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/pwbj9n",
+      "reference": "place white by j nine now",
+      "raw": "set lue win so son",
+      "constrained": "set blue in o seven soon"
+    },
+    {
+      "id": "s2/pgwr5p",
+      "reference": "place green with r five please",
+      "raw": "bin brue win o son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/lrik4a",
+      "reference": "lay red in k four again",
+      "raw": "bin red in o on son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/brimza",
+      "reference": "bin red in m zero again",
+      "raw": "bin green i soe son",
+      "constrained": "bin green in x one soon"
+    },
+    {
+      "id": "s2/pgid3n",
+      "reference": "place green in d three now",
+      "raw": "biny blue wiyh ou son",
+      "constrained": ""
+    },
+    {
+      "id": "s2/lbbrza",
+      "reference": "lay blue by r zero again",
+      "raw": "biny red wih or son",
+      "constrained": "bin red with m four soon"
+    },
+    {
+      "id": "s2/pwwk6a",
+      "reference": "place white with k six again",
+      "raw": "bin blue bn so son",
+      "constrained": "bin blue in b one soon"
+    },
+    {
+      "id": "s2/bwbt8a",
+      "reference": "bin white by t eight again",
+      "raw": "bin blued by sou son",
+      "constrained": "bin blue by u four soon"
+    },
+    {
+      "id": "s2/pbav1n",
+      "reference": "place blue at v one now",
+      "raw": "bin brue wiyh one son",
+      "constrained": "bin red with d one soon"
+    },
+    {
+      "id": "s2/pgax9n",
+      "reference": "place green at x nine now",
+      "raw": "bin blee ih soe soon",
+      "constrained": "bin blue in x one soon"
+    },
+    {
+      "id": "s2/lbwr3p",
+      "reference": "lay blue with r three please",
+      "raw": "bin red winh h fou son",
+      "constrained": "bin red with h four soon"
+    },
+    {
+      "id": "s2/sbbt9n",
+      "reference": "set blue by t nine now",
+      "raw": "bin red it ov soon",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/lrieza",
+      "reference": "lay red in e zero again",
+      "raw": "bin rued with o son",
+      "constrained": "bin red with u one soon"
+    },
+    {
+      "id": "s2/prac7p",
+      "reference": "place red at c seven please",
+      "raw": "bin red wn o o son",
+      "constrained": "bin red in o one soon"
+    },
+    {
+      "id": "s2/sgio8a",
+      "reference": "set green in o eight again",
+      "raw": "bin blue with o son",
+      "constrained": "bin blue with x one soon"
+    },
+    {
+      "id": "s2/srah6a",
+      "reference": "set red at h six again",
+      "raw": "bin blue wih o son",
+      "constrained": "bin blue with o one soon"
+    },
+    {
+      "id": "s2/lway9n",
+      "reference": "lay white at y nine now",
+      "raw": "bin re with sor soon",
+      "constrained": "bin red with x six soon"
+    },
+    {
+      "id": "s2/pwbq5p",
+      "reference": "place white by q five please",
+      "raw": "bin ren it sove sn",
+      "constrained": "bin red with x six soon"
+    },
+    {
+      "id": "s2/pgbe2s",
+      "reference": "place green by e two soon",
+      "raw": "bin ree winh o sn",
+      "constrained": "bin red with o one soon"
+    },
+    {
+      "id": "s2/sbat5n",
+      "reference": "set blue at t five now",
+      "raw": "bin red win or son",
+      "constrained": "bin red in d one soon"
+    },
+    {
+      "id": "s2/pgak1n",
+      "reference": "place green at k one now",
+      "raw": "bin blue win u ov son",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/bwwa8s",
+      "reference": "bin white with a eight soon",
+      "raw": "set blue with sove soon",
+      "constrained": "set blue with o five soon"
+    },
+    {
+      "id": "s2/lbbq7n",
+      "reference": "lay blue by q seven now",
+      "raw": "bin rue winh ou son",
+      "constrained": "bin blue with u one soon"
+    },
+    {
+      "id": "s2/pwaqzs",
+      "reference": "place white at q zero soon",
+      "raw": "bin blue ith sone son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/lbbq9p",
+      "reference": "lay blue by q nine please",
+      "raw": "bin blue wiuh o son",
+      "constrained": "bin blue with u one soon"
+    },
+    {
+      "id": "s2/lwal3p",
+      "reference": "lay white at l three please",
+      "raw": "bin blue with siee sn",
+      "constrained": "bin blue with x six soon"
+    },
+    {
+      "id": "s2/pwbx9p",
+      "reference": "place white by x nine please",
+      "raw": "bin brued bu son son",
+      "constrained": "bin red by p one soon"
+    },
+    {
+      "id": "s2/lwbf3p",
+      "reference": "lay white by f three please",
+      "raw": "bin brue wn se son",
+      "constrained": "bin blue in o one soon"
+    },
+    {
+      "id": "s2/bras8a",
+      "reference": "bin red at s eight again",
+      "raw": "bin blue wih zor son",
+      "constrained": "bin blue with o four soon"
+    },
+    {
+      "id": "s2/lgaf3n",
+      "reference": "lay green at f three now",
+      "raw": "bin ble win o soon",
+      "constrained": "bin blue in u one soon"
+    },
+    {
+      "id": "s2/bgwu5n",
+      "reference": "bin green with u five now",
+      "raw": "bin brue in o one son",
+      "constrained": "bin blue in o one soon"
+    }
+  ]
+}

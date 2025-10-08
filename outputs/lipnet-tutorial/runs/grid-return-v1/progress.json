@@ -1,0 +1,61 @@
+{
+  "state": "complete",
+  "epochs_completed": 3,
+  "selected": "author",
+  "selected_epoch": 0,
+  "stop_reason": "validation_patience",
+  "baseline_validation": {
+    "raw": {
+      "clips": 150,
+      "errors": 784,
+      "words": 900,
+      "wer": 0.8711111111111111,
+      "exact": 0
+    },
+    "constrained": {
+      "clips": 150,
+      "errors": 720,
+      "words": 900,
+      "wer": 0.8,
+      "exact": 0
+    }
+  },
+  "baseline_test": {
+    "raw": {
+      "clips": 200,
+      "errors": 1115,
+      "words": 1200,
+      "wer": 0.9291666666666667,
+      "exact": 0
+    },
+    "constrained": {
+      "clips": 200,
+      "errors": 975,
+      "words": 1200,
+      "wer": 0.8125,
+      "exact": 0
+    }
+  },
+  "selected_test": {
+    "raw": {
+      "clips": 200,
+      "errors": 1115,
+      "words": 1200,
+      "wer": 0.9291666666666667,
+      "exact": 0
+    },
+    "constrained": {
+      "clips": 200,
+      "errors": 975,
+      "words": 1200,
+      "wer": 0.8125,
+      "exact": 0
+    }
+  },
+  "reports_recomputed": 5,
+  "local_speaker_disjoint": true,
+  "pretraining_speaker_independence_certified": false,
+  "physical_camera_tested": false,
+  "elapsed_seconds": 3035.8848059999873,
+  "no_further_automatic_training": true
+}

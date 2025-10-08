@@ -1,0 +1,37 @@
+{
+  "physical_camera_tested": false,
+  "device": "mps",
+  "fixed_example": {
+    "raw": "bin red at s nine again",
+    "constrained": "bin red at s nine again",
+    "seconds": 1.2446785000502132,
+    "model": "Tutorial author checkpoint (96 epochs)",
+    "mode": "original GRID crop",
+    "audio_used": false
+  },
+  "upload": {
+    "raw": "bin white at v sive again",
+    "constrained": "bin white at v five again",
+    "seconds": 3.092176791979,
+    "model": "Tutorial author checkpoint (96 epochs)",
+    "mode": "automatic face alignment; temporal resampling",
+    "audio_used": false
+  },
+  "upload_total_seconds": 3.554564416001085,
+  "recorded_webcam": {
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.0,
+        "text": "{\"raw\": \"bin red at a ive again\", \"constrained\": \"bin red at a five again\", \"seconds\": 0.42428120801923797, \"model\": \"Tutorial author checkpoint (96 epochs)\", \"mode\": \"automatic face alignment; temporal resampling\", \"audio_used\": false}",
+        "processing_seconds": 0.42431195796234533
+      }
+    ],
+    "busy": false,
+    "queued": 0,
+    "buffered_seconds": 0.0,
+    "closed": true,
+    "skipped": 0,
+    "notice": ""
+  }
+}

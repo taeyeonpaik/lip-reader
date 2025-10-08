@@ -1,0 +1,32 @@
+{
+  "seed": 91,
+  "train_speakers": [
+    "s1",
+    "s3",
+    "s5"
+  ],
+  "validation_speakers": [
+    "s2"
+  ],
+  "test_speakers": [
+    "s4"
+  ],
+  "train_clips_per_speaker": 200,
+  "validation_clips": 150,
+  "test_clips": 200,
+  "epochs": 6,
+  "minimum_epochs": 3,
+  "patience": 2,
+  "learning_rate": 1e-05,
+  "microbatch": 2,
+  "accumulation": 4,
+  "gradient_clip": 5.0,
+  "maximum_training_seconds": 7200,
+  "beam": 64,
+  "selection": "constrained validation WER improves >=0.5 percentage points; raw WER must not worsen; best valid constrained WER, raw WER tie-break",
+  "initialization_sha256": "f4cfdef51f145b4f8bdaf03ea6d1c29514f28ea3df96b204a26868b653ba9454",
+  "preprocessing": "automatic three-point face alignment to fixed GRID template; 75-frame resampling; tutorial grayscale/uint8 normalization",
+  "ctc": "actual target lengths, unlike tutorial padded-target loss; AMP float16 CNN with float32 LSTMs/CTC",
+  "trainable_parameters": 8471924,
+  "pretraining_speaker_independence_certified": false
+}
