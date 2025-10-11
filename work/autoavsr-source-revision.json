@@ -1,0 +1,142 @@
+{
+  "sha": "182b62837773ab01052d4ac21ef1d2203ea7d267",
+  "node_id": "C_kwDOJwVGPtoAKDE4MmI2MjgzNzc3M2FiMDEwNTJkNGFjMjFlZjFkMjIwM2VhN2QyNjc",
+  "commit": {
+    "author": {
+      "name": "Pingchuan Ma",
+      "email": "mapingchuan0420@gmail.com",
+      "date": "2025-01-08T12:54:54Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-01-08T12:54:54Z"
+    },
+    "message": "Merge pull request #43 from undefined-critter/main\n\nadd support to use MPS for data processing and change README.md",
+    "tree": {
+      "sha": "fdfcb0880b38663a4e10b6d6afe41ce3a680656f",
+      "url": "https://api.github.com/repos/mpc001/auto_avsr/git/trees/fdfcb0880b38663a4e10b6d6afe41ce3a680656f"
+    },
+    "url": "https://api.github.com/repos/mpc001/auto_avsr/git/commits/182b62837773ab01052d4ac21ef1d2203ea7d267",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnfnWeCRC1aQ7uu5UhlAAAUhUQAJe59hvReqTOqXxOgXiAEXRd\nhm4Wfy+PMcS1PkBXn6Pj3cwo3CHGBREBeicVSJ2QbDt7ZWXVQmjLHiH4xFn9YHA1\nHQNZj4DEhDeZG9YY9jy8UsfoNu8FiLbnkVWz3n/PBraawnoovfWojQWxFGSQbFUO\nCVSizXKP8jZnJ9jNGKTX6KvArNcPBoT63WtVXDslbSapoi7013Ce37MACgVqAkPK\nz0YyzxR8Yjk1vRjDzRSlxTuGBbs4blV8ttuftThQpheEWMIDQdk7zGxR/qPZypmx\nyOEnfPRbCayvpM6FAdSWjGq02RSSZUgATVH0sSLNOIHqAQCThw5oG7A2+i42P+B0\n/JFNRV13qGVqna2Gg0IXpr+RIpi5euETlEXQ3viEuKeeMsq9vMBTfse0DKgZc2id\nA8gxlTgARKGZBf0vAoIiAnWqSs5S1zr0CxWSP2VOXQxUcbyj8DK6pAlI8g1OAtw3\nxL6Mv+stjIRBCHLZTaVTR6VeUEK/UpjTInuJZ0buPqLhF6AM++6nd/D/KqMqXFS6\nRtCsX2/FPrpXFaN+gEfdEP6BMkDiwv3E0Rc/CUB35N3WhZNUPzEVwG1bEEF1dhXo\n1XcN7lDRauIH/UxFGuAB6JtM0/dai7Ln48RPYGTQYwsowno7unp5vapNCcILDgPB\nUTsImyo9sUjoGKJoPGTQ\n=Dka6\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree fdfcb0880b38663a4e10b6d6afe41ce3a680656f\nparent f8c0604b2a5cf1de84338107d2d36950e43384ed\nparent 2416a036c1f2ad71b50b19723f92d86c53ab6a94\nauthor Pingchuan Ma <mapingchuan0420@gmail.com> 1736340894 +0000\ncommitter GitHub <noreply@github.com> 1736340894 +0000\n\nMerge pull request #43 from undefined-critter/main\n\nadd support to use MPS for data processing and change README.md",
+      "verified_at": "2025-01-08T12:57:09Z"
+    }
+  },
+  "url": "https://api.github.com/repos/mpc001/auto_avsr/commits/182b62837773ab01052d4ac21ef1d2203ea7d267",
+  "html_url": "https://github.com/mpc001/auto_avsr/commit/182b62837773ab01052d4ac21ef1d2203ea7d267",
+  "comments_url": "https://api.github.com/repos/mpc001/auto_avsr/commits/182b62837773ab01052d4ac21ef1d2203ea7d267/comments",
+  "author": {
+    "login": "mpc001",
+    "id": 28733498,
+    "node_id": "MDQ6VXNlcjI4NzMzNDk4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/28733498?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mpc001",
+    "html_url": "https://github.com/mpc001",
+    "followers_url": "https://api.github.com/users/mpc001/followers",
+    "following_url": "https://api.github.com/users/mpc001/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mpc001/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mpc001/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mpc001/subscriptions",
+    "organizations_url": "https://api.github.com/users/mpc001/orgs",
+    "repos_url": "https://api.github.com/users/mpc001/repos",
+    "events_url": "https://api.github.com/users/mpc001/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mpc001/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "f8c0604b2a5cf1de84338107d2d36950e43384ed",
+      "url": "https://api.github.com/repos/mpc001/auto_avsr/commits/f8c0604b2a5cf1de84338107d2d36950e43384ed",
+      "html_url": "https://github.com/mpc001/auto_avsr/commit/f8c0604b2a5cf1de84338107d2d36950e43384ed"
+    },
+    {
+      "sha": "2416a036c1f2ad71b50b19723f92d86c53ab6a94",
+      "url": "https://api.github.com/repos/mpc001/auto_avsr/commits/2416a036c1f2ad71b50b19723f92d86c53ab6a94",
+      "html_url": "https://github.com/mpc001/auto_avsr/commit/2416a036c1f2ad71b50b19723f92d86c53ab6a94"
+    }
+  ],
+  "stats": {
+    "total": 29,
+    "additions": 25,
+    "deletions": 4
+  },
+  "files": [
+    {
+      "sha": "5d5e0cb95af411b3de09c65d11b423218c586986",
+      "filename": "preparation/README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/mpc001/auto_avsr/blob/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2FREADME.md",
+      "raw_url": "https://github.com/mpc001/auto_avsr/raw/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2FREADME.md",
+      "contents_url": "https://api.github.com/repos/mpc001/auto_avsr/contents/preparation%2FREADME.md?ref=182b62837773ab01052d4ac21ef1d2203ea7d267",
+      "patch": "@@ -47,6 +47,7 @@ python preprocess_lrs2lrs3.py \\\n     --detector [detector] \\\n     --root-dir [root_dir] \\\n     --dataset [dataset] \\\n+    --gpu_type [gpu_type] \\\n     --subset [subset] \\\n     --seg-duration [seg_duration] \\\n     --groups [n] \\\n@@ -59,6 +60,7 @@ python preprocess_lrs2lrs3.py \\\n - `detector`: Type of face detector. Valid values are: `mediapipe` and `retinaface`. Default: `retinaface`.\n - `root-dir`: Root directory of preprocessed dataset.\n - `dataset`: Name of dataset. Valid values are: `lrs2` and `lrs3`.\n+- `gpu_type`: Type of GPU to use. Valid values are `cuda` and `mps`. Default: `cuda`.\n - `subset`: Subset of dataset. For `lrs2`, the subset can be `train`, `val`, and `test`. For `lrs3`, the subset can be `train` and `test`.\n - `seg-duration`: Length of the maximal segment in seconds. Default: `16`.\n - `groups`: Number of groups to split the dataset into.\n@@ -136,6 +138,7 @@ This command will preprocess the dataset and store the preprocessed files in the\n python asr_infer.py \\\n     --root-dir [root-dir] \\\n     --dataset [dataset] \\\n+    --gpu_type [gpu_type] \\\n     --seg-duration [seg_duration] \\\n     --groups [n] \\\n     --job-index [j]\n@@ -144,6 +147,7 @@ python asr_infer.py \\\n ### Arguments\n - `root-dir`: Root directory of preprocessed dataset.\n - `dataset`: Name of dataset. Valid value is: `vox2`.\n+- `gpu_type`: Type of GPU to use. Valid values are `cuda` or `mps`. Default: `cuda`.\n - `seg-duration`: Length of the maximal segment in seconds. Default: `16`.\n - `groups`: Number of groups the dataset was split into during preprocessing.\n - `job-index`: Job index for the current group."
+    },
+    {
+      "sha": "9dd393d2dd2fcdd1c5feb9a7725ec18d697ec372",
+      "filename": "preparation/asr_infer.py",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "changes": 10,
+      "blob_url": "https://github.com/mpc001/auto_avsr/blob/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2Fasr_infer.py",
+      "raw_url": "https://github.com/mpc001/auto_avsr/raw/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2Fasr_infer.py",
+      "contents_url": "https://api.github.com/repos/mpc001/auto_avsr/contents/preparation%2Fasr_infer.py?ref=182b62837773ab01052d4ac21ef1d2203ea7d267",
+      "patch": "@@ -23,6 +23,12 @@\n     default=\"vox2\",\n     help=\"Name of dataset\",\n )\n+parser.add_argument(\n+    \"--gpu_type\",\n+    type=str,\n+    default=\"cuda\",\n+    help=\"GPU type, either mps or cuda. (Default: cuda)\",\n+)\n parser.add_argument(\n     \"--seg-duration\",\n     type=int,\n@@ -70,7 +76,9 @@\n f = open(label_filename, \"w\")\n \n # Load ASR model\n-model = whisper.load_model(\"medium.en\", device=\"cuda\")\n+if args.gpu_type != \"cuda\" or \"mps\":\n+    raise ValueError(\"Invalid GPU type. Valid values for gpu_type are \\\"cuda\\\" and \\\"mps\\\". \")\n+model = whisper.load_model(\"medium.en\", device=args.gpu_type)\n \n # Transcription\n for filename in tqdm(files_to_process):"
+    },
+    {
+      "sha": "a1657e3950ab7375d8ec89526ec9e20273e5e363",
+      "filename": "preparation/data/data_module.py",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/mpc001/auto_avsr/blob/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2Fdata%2Fdata_module.py",
+      "raw_url": "https://github.com/mpc001/auto_avsr/raw/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2Fdata%2Fdata_module.py",
+      "contents_url": "https://api.github.com/repos/mpc001/auto_avsr/contents/preparation%2Fdata%2Fdata_module.py?ref=182b62837773ab01052d4ac21ef1d2203ea7d267",
+      "patch": "@@ -10,14 +10,14 @@\n \n \n class AVSRDataLoader:\n-    def __init__(self, modality, detector=\"retinaface\", convert_gray=True):\n+    def __init__(self, modality, detector=\"retinaface\", convert_gray=True, gpu_type=\"cuda\"):\n         self.modality = modality\n         if modality == \"video\":\n             if detector == \"retinaface\":\n                 from detectors.retinaface.detector import LandmarksDetector\n                 from detectors.retinaface.video_process import VideoProcess\n \n-                self.landmarks_detector = LandmarksDetector(device=\"cuda:0\")\n+                self.landmarks_detector = LandmarksDetector(device=gpu_type+\":0\")\n                 self.video_process = VideoProcess(convert_gray=convert_gray)\n \n             if detector == \"mediapipe\":"
+    },
+    {
+      "sha": "4a25b16be7e82152d2afc876236aaea4cfb1a781",
+      "filename": "preparation/preprocess_lrs2lrs3.py",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "changes": 11,
+      "blob_url": "https://github.com/mpc001/auto_avsr/blob/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2Fpreprocess_lrs2lrs3.py",
+      "raw_url": "https://github.com/mpc001/auto_avsr/raw/182b62837773ab01052d4ac21ef1d2203ea7d267/preparation%2Fpreprocess_lrs2lrs3.py",
+      "contents_url": "https://api.github.com/repos/mpc001/auto_avsr/contents/preparation%2Fpreprocess_lrs2lrs3.py?ref=182b62837773ab01052d4ac21ef1d2203ea7d267",
+      "patch": "@@ -52,6 +52,13 @@\n     required=True,\n     help=\"Name of dataset\",\n )\n+parser.add_argument(\n+    \"--gpu_type\",\n+    type=str,\n+    required=True,\n+    default=\"cuda\",\n+    help=\"GPU type, either mps or cuda. (Default: cuda)\",\n+)\n parser.add_argument(\n     \"--seg-duration\",\n     type=int,\n@@ -84,8 +91,10 @@\n \n # Load Data\n args.data_dir = os.path.normpath(args.data_dir)\n+if args.gpu_type != \"cuda\" or \"mps\":\n+    raise ValueError(\"Invalid GPU type. Valid values for gpu_type are \\\"cuda\\\" and \\\"mps\\\". \")\n vid_dataloader = AVSRDataLoader(\n-    modality=\"video\", detector=args.detector, convert_gray=False\n+    modality=\"video\", detector=args.detector, convert_gray=False, gpu_type=args.gpu_type\n )\n aud_dataloader = AVSRDataLoader(modality=\"audio\")\n "
+    }
+  ]
+}
