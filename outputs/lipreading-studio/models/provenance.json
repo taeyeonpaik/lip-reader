@@ -1,0 +1,20 @@
+{
+  "source_repository": "https://github.com/mpc001/auto_avsr",
+  "source_revision": "182b62837773ab01052d4ac21ef1d2203ea7d267",
+  "checkpoint_name": "vsr_trlrs2lrs3vox2avsp_base.pth",
+  "checkpoint_source": "https://drive.google.com/file/d/1r1kx7l9sWnDOCnaFHIGvOtzuhFyFA88_/view",
+  "training_origin": "Auto-AVSR authors; not trained or fine-tuned locally",
+  "face_detector_source": "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/latest/blaze_face_short_range.tflite",
+  "files": {
+    "autoavsr.pth": {
+      "bytes": 1001892616,
+      "sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb"
+    },
+    "face_detector.tflite": {
+      "bytes": 229746,
+      "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f"
+    }
+  },
+  "decoder": "CTC/attention beam width 5; original reference width 40",
+  "vendor_changes": "Selected source files unchanged; new modern MediaPipe Tasks adapter and CPU/GPU inference wrapper in studio/pipeline.py"
+}
