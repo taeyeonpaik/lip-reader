@@ -93,3 +93,38 @@ def frame_chunks(path, seconds=12):
     finally:
         cap.release()
 
+
+def track_mouth(frames):
+    import mediapipe as mp
+    options = mp.tasks.vision.FaceDetectorOptions(
+        base_options=mp.tasks.BaseOptions(model_asset_path=str(ROOT / "models/face_detector.tflite"),
+                                         delegate=mp.tasks.BaseOptions.Delegate.CPU),
+        running_mode=mp.tasks.vision.RunningMode.VIDEO,
+        min_detection_confidence=0.7)
+    landmarks = []
+    with mp.tasks.vision.FaceDetector.create_from_options(options) as detector:
+        for index, frame in enumerate(frames):
+            result = detector.detect_for_video(
+                mp.Image(image_format=mp.ImageFormat.SRGB, data=frame), index * 40)
+            if len(result.detections) > 1:
+                raise ValueError("More than one face is visible. Crop the video to one speaker and retry.")
+            if not result.detections:
+                landmarks.append(None)
+                continue
+            face = result.detections[0]
+            if min(face.bounding_box.width, face.bounding_box.height) < 60:
+                raise ValueError("The face is too small. Use a closer, front-facing recording.")
+            h, w = frame.shape[:2]
+            landmarks.append(np.array([[p.x * w, p.y * h] for p in face.keypoints[:4]]))
+    valid = sum(lm is not None for lm in landmarks)
+    gap = longest_gap = 0
+    for lm in landmarks:
+        gap = gap + 1 if lm is None else 0
+        longest_gap = max(gap, longest_gap)
+    if valid < len(frames) * 0.8 or longest_gap > 12:
+        raise ValueError("The face could not be tracked reliably. Keep one well-lit face visible throughout.")
+    crops = VideoProcess(convert_gray=False)(frames, landmarks)
+    if crops is None or crops.shape[1:3] != (96, 96):
+        raise ValueError("The mouth could not be aligned. Try a front-facing recording.")
+    return crops, valid / len(frames)
+
