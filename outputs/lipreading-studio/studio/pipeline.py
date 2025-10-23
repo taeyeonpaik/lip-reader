@@ -197,3 +197,9 @@ class LipReader:
                 "audio_used": False}
 
 
+def subtitles(result):
+    def timestamp(seconds):
+        ms = round(seconds * 1000)
+        return f"{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}"
+    return "\n\n".join(f"{i}\n{timestamp(s['start'])} --> {timestamp(s['end'])}\n{s['text']}"
+                         for i, s in enumerate(result["segments"], 1)) + "\n"
