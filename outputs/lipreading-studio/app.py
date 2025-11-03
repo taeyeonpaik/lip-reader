@@ -14,6 +14,8 @@ import streamlit as st
 
 from studio.pipeline import ROOT, LipReader, prepare_video, subtitles, track_mouth
 
+from studio.live import LiveSession
+
 st.set_page_config(page_title="Lip Reading Studio", page_icon="💬", layout="wide")
 
 st.markdown("""<style>
@@ -37,7 +39,8 @@ def load_reader(adapter_path, adapter_modified, decoding_json):
 def get_reader():
     return load_reader(None, 0, json.dumps({"beam_size": 5, "lm_weight": 0.0}))
 
-upload_tab, = st.tabs(["Your video"])
+upload_tab, webcam_tab = st.tabs(["Your video", "Live webcam"])
+st.session_state["reader_choice"] = "Auto-AVSR"
 
 with upload_tab:
     uploaded = st.file_uploader("Upload your video", type=["mp4", "mov", "webm", "avi", "mkv", "mpg"],
@@ -96,3 +99,56 @@ with upload_tab:
             d2.download_button("Download subtitles", subtitles(result), "subtitles.srt", "text/plain")
             d3.download_button("Download details", json.dumps(result, indent=2), "result.json", "application/json")
             st.caption("Subtitle times mark processing segments, not exact word boundaries. Words across a segment boundary may be missed.")
+
+with webcam_tab:
+    st.subheader("Read your webcam")
+    st.write("Click Start and allow camera access. Face the camera and speak naturally; text appears after each eight-second segment.")
+    st.caption("Video only · no microphone · no recordings saved · local processing. There is an eight-second capture window plus processing delay.")
+    from streamlit_webrtc import webrtc_streamer, WebRtcMode
+    live_reader = get_reader()
+    def make_live_session():
+        def recognize_frames(frames):
+            crops, _ = track_mouth(frames)
+            return live_reader.recognize(crops)
+        return LiveSession(recognize_frames)
+    live_context = webrtc_streamer(
+        key="lipreading-webcam-" + st.session_state["reader_choice"], mode=WebRtcMode.SENDRECV,
+        rtc_configuration={"iceServers": []},
+        media_stream_constraints={"audio": False, "video": {
+            "width": {"ideal": 640}, "height": {"ideal": 480},
+            "frameRate": {"ideal": 25, "max": 30}, "facingMode": "user"}},
+        video_processor_factory=make_live_session, async_processing=True,
+        media_toggle_controls=False)
+    if live_context.video_processor is not None:
+        st.session_state["last_live_session"] = live_context.video_processor
+
+    @st.fragment(run_every=1)
+    def live_results():
+        session = st.session_state.get("last_live_session")
+        if session is None:
+            st.info("The camera is off. Start it when you are ready.")
+            return
+        state = session.snapshot()
+        if state["closed"] and not state["busy"] and not state["queued"]:
+            st.caption("Camera stopped. Your transcript is below.")
+        elif state["busy"]:
+            st.caption("Reading the latest segment…")
+        else:
+            st.caption(f"Collecting a segment: {state['buffered_seconds']:.1f} / 8.0 seconds")
+        if state["notice"]:
+            st.warning(f"{state['notice']} Skipped segments or interruptions: {state['skipped']}.")
+        for segment in state["segments"][-12:]:
+            label = f"{segment['start']:.1f}–{segment['end']:.1f}s"
+            if segment.get("error"):
+                st.warning(f"{label}: {segment['error']}")
+            else:
+                st.write(f"**{label}** · {segment['text'] or '(no words decoded)'}")
+        successful = [s for s in state["segments"] if not s.get("error")]
+        if successful:
+            result = {"segments": successful}
+            st.download_button("Download webcam transcript", "\n".join(s["text"] for s in successful),
+                               "webcam-transcript.txt", "text/plain", key="webcam-text")
+            st.download_button("Download webcam subtitles", subtitles(result), "webcam-subtitles.srt",
+                               "text/plain", key="webcam-srt")
+        st.caption("Words that cross segment boundaries may be missed. Up to 300 transcript segments are retained; download before starting another camera session.")
+    live_results()
