@@ -45,6 +45,14 @@ class LiveSession:
                 return
             if self.origin is None:
                 self.origin = self.next_sample = timestamp
+            if self.last_timestamp is not None:
+                if timestamp <= self.last_timestamp:
+                    return
+                if timestamp - self.last_timestamp > .5 or (self.frames and self.frames[-1].shape != rgb.shape):
+                    self.frames.clear()
+                    self.next_sample = timestamp
+                    self.skipped += 1
+                    self.error = "A camera interruption was detected; the incomplete segment was skipped."
             self.last_timestamp = timestamp
             while self.next_sample <= timestamp + 1e-7:
                 if not self.frames:
@@ -71,7 +79,10 @@ class LiveSession:
         with self.condition:
             if self.closed:
                 return
-            self.frames.clear()
+            if len(self.frames) >= 20:
+                self._enqueue()
+            else:
+                self.frames.clear()
             self.closed = True
             self.condition.notify_all()
 
