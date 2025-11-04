@@ -57,6 +57,11 @@ class LiveSession:
     def _enqueue(self):
         if not self.frames:
             return
+        # Keep only one waiting segment in addition to the one being processed.
+        if self.pending:
+            self.pending.clear()
+            self.skipped += 1
+            self.error = "Processing fell behind; an older waiting segment was skipped."
         end = self.chunk_start + len(self.frames) / 25
         self.pending.append((self.chunk_start, end, np.stack(self.frames)))
         self.frames.clear()
