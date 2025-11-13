@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:8502",
+  "uploaded_video": "examples/research-demo.mp4",
+  "upload_completed": true,
+  "transcript_rendered": true,
+  "video_seconds": 8,
+  "processing_seconds_observed": [
+    3.2,
+    7.5,
+    8.0
+  ],
+  "total_seconds_during_concurrent_checks": 8.6,
+  "export_controls_rendered": [
+    "transcript.txt",
+    "subtitles.srt",
+    "result.json"
+  ],
+  "download_check": "Subtitle button clicked; browser tool did not surface a download event. Actual export content verified through CLI and subtitle unit test.",
+  "live_webcam": {
+    "controls_rendered": true,
+    "initial_state": "camera off",
+    "physical_camera_tested": false,
+    "recorded_webrtc_transport_report": "webcam-webrtc-test.json"
+  },
+  "not_an_accuracy_benchmark": true,
+  "verified_utc": "2026-09-17T13:53:36.081274+00:00",
+  "latest_total_seconds": 9.1,
+  "completed_english_training_page_verified": true,
+  "cli_export_content": "cli-current"
+}

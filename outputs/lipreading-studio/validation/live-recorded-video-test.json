@@ -1,0 +1,19 @@
+{
+  "test": "Recorded video frames fed through webcam buffer and worker; no physical camera accessed",
+  "result": {
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+        "processing_seconds": 4.220181250013411
+      }
+    ],
+    "busy": false,
+    "queued": 0,
+    "buffered_seconds": 0.0,
+    "closed": true,
+    "skipped": 0,
+    "notice": ""
+  }
+}

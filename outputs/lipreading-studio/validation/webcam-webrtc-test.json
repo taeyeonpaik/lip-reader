@@ -1,0 +1,21 @@
+{
+  "transport": "two local aiortc peers, VP8 video over WebRTC",
+  "physical_camera_tested": false,
+  "audio_tracks": 0,
+  "frames_received": 200,
+  "seconds_including_capture": 11.31145874998765,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S",
+      "processing_seconds": 3.2025756670045666
+    }
+  ],
+  "busy": false,
+  "queued": 0,
+  "buffered_seconds": 0.0,
+  "closed": true,
+  "skipped": 0,
+  "notice": ""
+}

@@ -1,0 +1,9 @@
+{
+  "state": "passed",
+  "checked_clips": 31956,
+  "mismatches": [],
+  "reference": "Llama-AVSR authors public 30-hour LRS3 label list",
+  "reference_url": "https://drive.google.com/file/d/11t5BDnl05p3A5kR1rIaSosW2vXK915BN/view",
+  "reference_sha256": "a9f2c477ef4dfdea9cc2b5674103c7398dfc010a30bc73ae790e7c756c853432",
+  "note": "Processed distributor metadata has generic source/corpus_tier fields inconsistent with its README. Clip IDs, frame counts, and normalized transcripts are verified against this independent author label list; those generic fields are not used for splits or corpus identity."
+}

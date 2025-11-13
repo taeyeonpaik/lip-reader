@@ -1,0 +1,40 @@
+{
+  "last_epoch": 3,
+  "head_max_absolute_change": {
+    "ctc.ctc_lo.weight": 0.003504820168018341,
+    "ctc.ctc_lo.bias": 0.0024250149726867676,
+    "decoder.output_layer.weight": 0.0034505650401115417,
+    "decoder.output_layer.bias": 0.002555757761001587
+  },
+  "checkpoint_reload_checks": [
+    {
+      "id": "main/6327740528416575363/00028",
+      "identical_to_saved_epoch_evaluation": true
+    },
+    {
+      "id": "main/6329835613463566698/00027",
+      "identical_to_saved_epoch_evaluation": true
+    },
+    {
+      "id": "main/6329151425173313518/00073",
+      "identical_to_saved_epoch_evaluation": true
+    },
+    {
+      "id": "main/6326461057659161695/00016",
+      "identical_to_saved_epoch_evaluation": true
+    }
+  ],
+  "test_metrics_recomputed_from_predictions": true,
+  "test_metrics": {
+    "clips": 1243,
+    "word_errors": 1078,
+    "reference_words": 6660,
+    "wer": 0.16186186186186186,
+    "character_errors": 3437,
+    "reference_characters": 33565,
+    "cer": 0.10239833159541188,
+    "exact_sentences": 728,
+    "failures": 0
+  },
+  "production_base_unchanged": true
+}
