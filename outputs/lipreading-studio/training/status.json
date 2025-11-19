@@ -1,0 +1,14 @@
+{
+  "state": "completed",
+  "real_fine_tuning_started": true,
+  "real_fine_tuning_completed": true,
+  "accuracy_improvement_established": false,
+  "selected_model": "pretrained",
+  "epochs_completed": 3,
+  "optimizer_updates": 1500,
+  "test_wer": 0.16186186186186186,
+  "test_cer": 0.10239833159541188,
+  "test_clips": 1243,
+  "run": "runs/lrs2-heads-v1",
+  "data": "data-provenance.json"
+}

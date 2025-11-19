@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-09-17T06:05:00Z",
+  "review_deadline_utc": "2026-09-17T12:45:00Z",
+  "scope": "Local pretrained Auto-AVSR English upload and webcam application; no deployment",
+  "automation_id": "finish-lip-reading-project-overnight",
+  "dataset_strategy": "Public LRS2 split distributions on Hugging Face by MahmoodAnaam; verify file contents and split IDs, record provenance, no gated access bypass",
+  "download_budget_gb": 3,
+  "training_strategy": "Freeze encoder and decoder body; adapt CTC and attention output layers with true LRS2 training labels; select on validation, evaluate official test separately, retain pretrained weights unless validation improves",
+  "caveat": "Base checkpoint already trained on LRS2 train/validation-related data; adaptation validation is not evidence of unseen-speaker generalization. Official test split must not be used for tuning.",
+  "remaining": [],
+  "training_session_id": 30313,
+  "app_session_id": 46088,
+  "training_log": "work/overnight/experiment.log",
+  "state": "completed",
+  "result": "runs/lrs2-heads-v1/result.json",
+  "review_report": "../REVIEW.md",
+  "automation_status": "PAUSED"
+}

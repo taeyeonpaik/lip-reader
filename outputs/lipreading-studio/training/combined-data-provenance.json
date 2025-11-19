@@ -1,0 +1,482 @@
+{
+  "state": "completed",
+  "datasets": {
+    "LRS2": {
+      "train": 45814,
+      "validation": 1082,
+      "test": 1243
+    },
+    "LRS3-TED": {
+      "train": 30468,
+      "validation": 1488,
+      "test": 0
+    }
+  },
+  "lrs3_sources": [
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000000.tar",
+      "bytes": 797153280,
+      "sha256": "c498bd7d66d9b1aca82014ebed8ebea04d6f8ebe15e62890c2e1c541b707b581"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000001.tar",
+      "bytes": 774963200,
+      "sha256": "9cd2ae5af1f00fd7c8607a653fa2071a079227167f4c7442de4eac4376809d33"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000002.tar",
+      "bytes": 762439680,
+      "sha256": "7685575806382bba1f570447f39d791764bc9ab0cd2b25a2b4489f99e178aa30"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000003.tar",
+      "bytes": 789667840,
+      "sha256": "dd3e62a103a1f47142a7b982be772d3b81c2fd516ab424010e6962acd467fd13"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000004.tar",
+      "bytes": 791869440,
+      "sha256": "1eb67987556821e8459f48a7a231ffb74fba598a952597d9750c4d11cbd8c07c"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000005.tar",
+      "bytes": 737372160,
+      "sha256": "627de809d1cd95b3c649307cc75a4c8c52f9792cebbe8fa01f32e53498c4f74b"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000006.tar",
+      "bytes": 782848000,
+      "sha256": "336a816651d72b61bbf9e7826b8a64aef2649505b5b0641378b6b3b41e2c0b7b"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000007.tar",
+      "bytes": 767641600,
+      "sha256": "12a35a429db466d8ea1283a5977dd6d3ef7a2a441ea53670d967c5f290f051e2"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000008.tar",
+      "bytes": 778854400,
+      "sha256": "c22577ea9d258588b45b29ebd6a04edd66fe2d9f714020e3f60627310347b329"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000009.tar",
+      "bytes": 762552320,
+      "sha256": "89f536387c3eeada47c058fc41c09b0ac653bfae865cea3dfc11f456b1eb20d4"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000010.tar",
+      "bytes": 774174720,
+      "sha256": "2e97a17fbb8e6a1bf7653932321eaefb680ba3f625f6728ed86c950de8df5545"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000011.tar",
+      "bytes": 786995200,
+      "sha256": "b225dcd550cad1eac720e04420beac325a2e566e410e1f9a6dc6a6322e1efdad"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000012.tar",
+      "bytes": 751646720,
+      "sha256": "144651700387fcc10a41507163e6e3da8f7f23013d638dec70bf0107c7968e13"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000013.tar",
+      "bytes": 794490880,
+      "sha256": "92979757a87bffe38c5c02ed14ed1869a4b4f79f9ec71d0771d994942717943c"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000014.tar",
+      "bytes": 814489600,
+      "sha256": "47ebc970c0b0f2bae0e53b840525fcbacbd26d2b96b7fdfe77f04d272b16d252"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000015.tar",
+      "bytes": 798576640,
+      "sha256": "6c878b2b0e3674e5595921db849127b8de13066e6d97aac2cb94461d7a8c7d82"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000016.tar",
+      "bytes": 782049280,
+      "sha256": "7d62efc612489d95dbf4d14bdb729a7b93dcad41ccd6406e0fa729aad1cae6d3"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000017.tar",
+      "bytes": 764119040,
+      "sha256": "bd49fe18aa2de0acf547cffccf24005ab40715c9a64090fca07d2cf5f27821d7"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000018.tar",
+      "bytes": 830033920,
+      "sha256": "c5dd442bdc2d2c0d9e3df2bc69d5bf7208d1e742e4375a846886c2aff540a35b"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000019.tar",
+      "bytes": 763443200,
+      "sha256": "63ea986b7644c1b24e5717525bf4f6c859bcbc44aa6ee4b7c4e8ee8299fb3d7a"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000020.tar",
+      "bytes": 734402560,
+      "sha256": "e0582454a61c9f2c379a2226abd9d849595152f9f087edf42a789d9e68412bc5"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000021.tar",
+      "bytes": 776908800,
+      "sha256": "b863be8457fbd32738b9cbe30a539c6194d364efbf51b7d333b7f0a2ce9b33a5"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000022.tar",
+      "bytes": 807854080,
+      "sha256": "60fcbb1c5e3a08edee30fc213ea7b9b62d08d6fb8f858dc68d5dc6aa03e6aac3"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000023.tar",
+      "bytes": 797952000,
+      "sha256": "7eea9c54ebdb72ea1b2013e120bbab1ad79cea082c7a2c66df3289b60bf651ea"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000024.tar",
+      "bytes": 832102400,
+      "sha256": "af23fd0db3fd62025ef1e0df3af174f7bfa6ef7fbea94a09f8ffa5f73936e527"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000025.tar",
+      "bytes": 815237120,
+      "sha256": "b33ac963ecf0e89c00298808b61c288abffbc16d289ec7667ee5a1758d951830"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000026.tar",
+      "bytes": 773826560,
+      "sha256": "b5a0fafae608f2706fdfd2ce1d3f8657bdaef70daab4c67380145cff832ff732"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000027.tar",
+      "bytes": 790978560,
+      "sha256": "8131d0e58909ee1ad11539aa1a2e3b55d3817ba6454528a1d0df2c495f675a2e"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000028.tar",
+      "bytes": 791326720,
+      "sha256": "b616d4586ccaaf487095d8f21fe8d3a0c099eb844ed65a2eadc089aa446775c5"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000029.tar",
+      "bytes": 805079040,
+      "sha256": "c06993ddec174947881c3aa6cfe23b05c3855840fb575409a59c1e003be59c6e"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000030.tar",
+      "bytes": 766679040,
+      "sha256": "c245c416b88be6593258e6a3cc6589b3aee09ea592f570673cd194d53fa125fa"
+    },
+    {
+      "repository": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+      "revision": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+      "file": "shards/shard-000031.tar",
+      "bytes": 743434240,
+      "sha256": "90856a4e24bfeb81edaf8c4dbcdd195758979d572322b332cf5a2d2d967c6ecf"
+    }
+  ],
+  "lrs2_sources": [
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00000-of-00022.parquet",
+      "bytes": 474216029,
+      "sha256": "50e661b9dc675eb4a9c9f96c07ee0077d0c37d6828431c487eb2d16813e0c9ca",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00000-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00001-of-00022.parquet",
+      "bytes": 486427387,
+      "sha256": "4dd27360177d4e8a0f478d1c53976479add9a84c0c35eaf2ecf602bebff998cc",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00001-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00002-of-00022.parquet",
+      "bytes": 499537904,
+      "sha256": "ad3bafe9c4f3f41a8fe545edd916e314c1c9c4ca1646eed72b6a206ab580b3ca",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00002-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00003-of-00022.parquet",
+      "bytes": 486333230,
+      "sha256": "eca0aa4c85134d1709badabf3415e335d499885f6b921ca329660aa984f343bf",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00003-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00004-of-00022.parquet",
+      "bytes": 487497711,
+      "sha256": "34234d473723283812b0d27245a914aff05452df40ebbd67c7548decbc743405",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00004-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00005-of-00022.parquet",
+      "bytes": 484031442,
+      "sha256": "f229a5ca9ad329223d02228a0b676a91254303456ddca8d7fd81a4c9fea2640d",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00005-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00006-of-00022.parquet",
+      "bytes": 490652236,
+      "sha256": "a3b111bba40091e36b4ca872086ed5427626fc659ae6e77e82b13d64299f9b60",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00006-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00007-of-00022.parquet",
+      "bytes": 495202574,
+      "sha256": "0987effec31d1881f10bae070c5adf32dd732596b60aec1fce187c5cf0c34187",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00007-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00008-of-00022.parquet",
+      "bytes": 504968484,
+      "sha256": "ec3f186f01b89dab74f8004482f2e72b3d11a8543a2dfe411e1616749536df67",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00008-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00009-of-00022.parquet",
+      "bytes": 501735663,
+      "sha256": "41846841e55031fce70ae02bb42454688c225187211747c26d01ee47e9bf37ae",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00009-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00010-of-00022.parquet",
+      "bytes": 486046292,
+      "sha256": "45c7c499a3494e2864e987451f5f49cf247e66718d3c6ac681730cbece04148f",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00010-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00011-of-00022.parquet",
+      "bytes": 484543833,
+      "sha256": "2d27d9c044e1b27c515d386dd5aa05102d83c4113e199eb486d5dca6c2fd5791",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00011-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00012-of-00022.parquet",
+      "bytes": 474618468,
+      "sha256": "7f10e92dc5aaa6f0f307bd58d77f0019708e0a819f11abf0879cc082bf5e9324",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00012-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00013-of-00022.parquet",
+      "bytes": 441058247,
+      "sha256": "e57d5c8794783c927ad46885e45aea951acd6a016fd149ee09fda729b7c7a3fc",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00013-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00014-of-00022.parquet",
+      "bytes": 419286868,
+      "sha256": "02afa853b30c3b06e495c05761a01ade2c0cdce45f21ac77d9c127fd078615b5",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00014-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00015-of-00022.parquet",
+      "bytes": 466903917,
+      "sha256": "e9d3c0b9eba8cfd985c48ebeaa58747d7bf11181ca789ed685a49efb8cd5c5ed",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00015-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00016-of-00022.parquet",
+      "bytes": 515875571,
+      "sha256": "528ea6c284c890aa87d83a1cd812bf434d5e3cacc818bf1110d511c83b1df82f",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00016-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00017-of-00022.parquet",
+      "bytes": 499272308,
+      "sha256": "160bdfa5a29055a72bb11deebe1caf96c80acbbf697d6cb27611981d5e8ee255",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00017-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00018-of-00022.parquet",
+      "bytes": 492003986,
+      "sha256": "66029416b2684e1b1fce84a2aa3343ce1cbc97e07d152729fbccc21584c6944a",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00018-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00019-of-00022.parquet",
+      "bytes": 486371827,
+      "sha256": "6c2fd351566c742adb7c63cb60b43f499e7f95adcbd0a3e90c64134128b1b319",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00019-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00020-of-00022.parquet",
+      "bytes": 474230411,
+      "sha256": "d7bfcdeb4d78517b6f35c03dce2518bfa0142c5fd8d684ad08e22e3450114979",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00020-of-00022.parquet"
+    },
+    {
+      "split": "train",
+      "repository": "MahmoodAnaam/LRS2-Train",
+      "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+      "file": "data/train-00021-of-00022.parquet",
+      "bytes": 477702786,
+      "sha256": "4ac39b3c1a5c9c5a3c82ebdc74eb1a091ea93c6e7f8194b70ff1980df475762d",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00021-of-00022.parquet"
+    },
+    {
+      "split": "validation",
+      "repository": "MahmoodAnaam/LRS2-Validation",
+      "revision": "5f987b9729b85720a81b2b521491cc204c19ed6c",
+      "file": "data/validation-00000-of-00001.parquet",
+      "bytes": 252990175,
+      "sha256": "28c46a4827df4dc1efcce35af5c4ad87e94731f2025d824831257ff563c96acc",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Validation/resolve/5f987b9729b85720a81b2b521491cc204c19ed6c/data/validation-00000-of-00001.parquet"
+    },
+    {
+      "split": "test",
+      "repository": "MahmoodAnaam/LRS2-Test",
+      "revision": "e14bf18868ca78bd97b0b9ce6615b262a32dfdf1",
+      "file": "data/test-00000-of-00001.parquet",
+      "bytes": 211209413,
+      "sha256": "8ebd06e479c360d4f478c4d3ceb2d181c2e36e026c15502a26ac7433b290361d",
+      "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Test/resolve/e14bf18868ca78bd97b0b9ce6615b262a32dfdf1/data/test-00000-of-00001.parquet"
+    }
+  ],
+  "lrs3_recording_overlap": 0,
+  "limitations": [
+    "LRS2 main split and LRS3 trainval only; not the full pretraining corpora",
+    "LRS3 validation holds out recording sessions from local adaptation, not from original pretraining; speaker independence unverified",
+    "Official LRS3 test is not included",
+    "Original Auto-AVSR pretrained on both corpora",
+    "LRS3 grayscale quantized by distributor; LRS2 stored as RGB video"
+  ],
+  "original_manifest_sha256": "9ff64c3fab8d21db60bb0780b45fa298c1af4301f42af0e98621a0e31e0bb323",
+  "verified_manifest_sha256": "3bbb40aea3b8cd8f7b4086505df59162baed82036014437eee11e4d8411bdd47",
+  "quarantined": [
+    {
+      "id": "lrs3/kiUnJ1d8vvw/50004",
+      "split": "train",
+      "reason": "Not found in independent author 30h label list; excluded from local training and evaluation; original media retained"
+    }
+  ],
+  "lrs3_annotation_verification": {
+    "verified_clips": 31956,
+    "id_framecount_transcript_mismatches": 0,
+    "reference_url": "https://drive.google.com/file/d/11t5BDnl05p3A5kR1rIaSosW2vXK915BN/view",
+    "reference_sha256": "a9f2c477ef4dfdea9cc2b5674103c7398dfc010a30bc73ae790e7c756c853432"
+  }
+}
