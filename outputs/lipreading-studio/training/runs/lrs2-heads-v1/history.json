@@ -1,0 +1,56 @@
+[
+  {
+    "epoch": 1,
+    "training_loss": 4.040279884293676,
+    "training_clips": 4000,
+    "seconds": 388.51587833301164,
+    "validation": {
+      "clips": 500,
+      "word_errors": 808,
+      "reference_words": 3775,
+      "wer": 0.21403973509933774,
+      "character_errors": 2660,
+      "reference_characters": 19342,
+      "cer": 0.137524557956778,
+      "exact_sentences": 190,
+      "failures": 0,
+      "decode_seconds_including_uncached_encoding": 262.7090622591786
+    }
+  },
+  {
+    "epoch": 2,
+    "training_loss": 3.99631016144529,
+    "training_clips": 4000,
+    "seconds": 383.8683185830014,
+    "validation": {
+      "clips": 500,
+      "word_errors": 813,
+      "reference_words": 3775,
+      "wer": 0.21536423841059602,
+      "character_errors": 2684,
+      "reference_characters": 19342,
+      "cer": 0.13876538103608727,
+      "exact_sentences": 189,
+      "failures": 0,
+      "decode_seconds_including_uncached_encoding": 263.4552557102288
+    }
+  },
+  {
+    "epoch": 3,
+    "training_loss": 3.95347346990183,
+    "training_clips": 4000,
+    "seconds": 381.07817399996566,
+    "validation": {
+      "clips": 500,
+      "word_errors": 811,
+      "reference_words": 3775,
+      "wer": 0.2148344370860927,
+      "character_errors": 2673,
+      "reference_characters": 19342,
+      "cer": 0.13819667045807052,
+      "exact_sentences": 190,
+      "failures": 0,
+      "decode_seconds_including_uncached_encoding": 259.9868688893621
+    }
+  }
+]

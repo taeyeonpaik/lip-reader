@@ -1,0 +1,6 @@
+{
+  "selected": "pretrained",
+  "reason": "Final MWER pilot reduced mean validation WER by 0.289 points, below the preset 0.50-point threshold, and underperformed the matched conventional-training control (0.367-point gain). No candidate qualified; original pretrained weights and fast decoder retained.",
+  "experiment": "training/runs/mwer-v5",
+  "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb"
+}

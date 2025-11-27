@@ -1,0 +1,87 @@
+{
+  "state": "completed",
+  "completed_utc": "2026-09-17T06:56:09.263592+00:00",
+  "config": {
+    "manifest_sha256": "68fe25ef1ab54a43b1eb7261ef97157c3f85e53af4cf10d14afd7fc6c8437e2a",
+    "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+    "learning_rate": 3e-06,
+    "epochs": 8,
+    "patience": 3,
+    "seed": 42,
+    "accumulation": 8,
+    "beam_size": 5,
+    "trainable_parameters": 7765362,
+    "trainable_modules": [
+      "ctc.ctc_lo.weight",
+      "ctc.ctc_lo.bias",
+      "decoder.output_layer.weight",
+      "decoder.output_layer.bias"
+    ],
+    "encoder_device": "mps",
+    "heads_device": "cpu",
+    "splits": {
+      "train": 4000,
+      "validation": 500,
+      "test": 1243
+    },
+    "minimum_validation_wer_improvement": 0.005,
+    "input": "Distributor's 96x96 mouth crops; app-equivalent center crop and normalization",
+    "training_mode": "Frozen encoder and decoder body, evaluation-mode dropout, output-head updates only",
+    "test_used_for_selection": false
+  },
+  "epochs_completed": 3,
+  "training_steps": 1500,
+  "real_fine_tuning_completed": true,
+  "selection": {
+    "selected": "pretrained",
+    "best_epoch": 0,
+    "baseline_validation": {
+      "clips": 500,
+      "word_errors": 808,
+      "reference_words": 3775,
+      "wer": 0.21403973509933774,
+      "character_errors": 2661,
+      "reference_characters": 19342,
+      "cer": 0.13757625891841588,
+      "exact_sentences": 191,
+      "failures": 0,
+      "decode_seconds_including_uncached_encoding": 307.28588628501166
+    },
+    "best_validation_wer": 0.21403973509933774,
+    "required_absolute_wer_gain": 0.005,
+    "test_used_for_selection": false,
+    "reason": "Adaptation did not meet the preset validation improvement threshold"
+  },
+  "baseline_test": {
+    "clips": 1243,
+    "word_errors": 1078,
+    "reference_words": 6660,
+    "wer": 0.16186186186186186,
+    "character_errors": 3437,
+    "reference_characters": 33565,
+    "cer": 0.10239833159541188,
+    "exact_sentences": 728,
+    "failures": 0,
+    "decode_seconds_including_uncached_encoding": 594.0785707674222
+  },
+  "selected_test": {
+    "clips": 1243,
+    "word_errors": 1078,
+    "reference_words": 6660,
+    "wer": 0.16186186186186186,
+    "character_errors": 3437,
+    "reference_characters": 33565,
+    "cer": 0.10239833159541188,
+    "exact_sentences": 728,
+    "failures": 0,
+    "decode_seconds_including_uncached_encoding": 594.0785707674222
+  },
+  "held_out_test_improvement": false,
+  "production_weights_automatically_changed": false,
+  "limits": [
+    "Prepared-mouth LRS2 benchmark, not arbitrary webcam accuracy",
+    "Base model already trained on LRS2",
+    "No unseen-speaker claim",
+    "Small adaptation subset and single training seed"
+  ]
+}

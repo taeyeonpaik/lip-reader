@@ -1,0 +1,28 @@
+{
+  "manifest_sha256": "68fe25ef1ab54a43b1eb7261ef97157c3f85e53af4cf10d14afd7fc6c8437e2a",
+  "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+  "learning_rate": 3e-06,
+  "epochs": 8,
+  "patience": 3,
+  "seed": 42,
+  "accumulation": 8,
+  "beam_size": 5,
+  "trainable_parameters": 7765362,
+  "trainable_modules": [
+    "ctc.ctc_lo.weight",
+    "ctc.ctc_lo.bias",
+    "decoder.output_layer.weight",
+    "decoder.output_layer.bias"
+  ],
+  "encoder_device": "mps",
+  "heads_device": "cpu",
+  "splits": {
+    "train": 4000,
+    "validation": 500,
+    "test": 1243
+  },
+  "minimum_validation_wer_improvement": 0.005,
+  "input": "Distributor's 96x96 mouth crops; app-equivalent center crop and normalization",
+  "training_mode": "Frozen encoder and decoder body, evaluation-mode dropout, output-head updates only",
+  "test_used_for_selection": false
+}
