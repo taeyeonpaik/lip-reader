@@ -1,0 +1,17 @@
+{
+  "selected": "pretrained",
+  "best_epoch": 7,
+  "baseline_validation": {
+    "clips": 500,
+    "word_errors": 808,
+    "reference_words": 3775,
+    "wer": 0.21403973509933774,
+    "character_errors": 2661,
+    "reference_characters": 19342,
+    "cer": 0.13757625891841588,
+    "exact_sentences": 191,
+    "failures": 0
+  },
+  "best_validation_wer": 0.21059602649006623,
+  "test_used_for_selection": false
+}

@@ -1,0 +1,55 @@
+{
+  "state": "passed",
+  "metrics_recomputed": [
+    "baseline-test.json",
+    "baseline-validation.json",
+    "best-test.json",
+    "epoch-01-validation.json",
+    "epoch-02-validation.json",
+    "epoch-03-validation.json",
+    "epoch-04-validation.json",
+    "epoch-05-validation.json",
+    "epoch-06-validation.json",
+    "epoch-07-validation.json",
+    "epoch-08-validation.json",
+    "epoch-09-validation.json",
+    "epoch-10-validation.json"
+  ],
+  "best_checkpoint_epoch": 7,
+  "last_checkpoint_epoch": 10,
+  "optimizer_updates": 15000,
+  "changed_modules_max_absolute_delta": {
+    "encoder.encoders.10.": 0.018089711666107178,
+    "encoder.encoders.11.": 0.016574621200561523,
+    "encoder.after_norm.": 0.0058419834822416306,
+    "decoder.decoders.4.": 0.002569854259490967,
+    "decoder.decoders.5.": 0.0030158553272485733,
+    "decoder.after_norm.": 0.002521514892578125,
+    "decoder.output_layer.": 0.013042330741882324,
+    "ctc.ctc_lo.": 0.009912610054016113
+  },
+  "reloaded_prediction_checks": [
+    {
+      "id": "main/6327740528416575363/00028",
+      "matches_recorded_prediction": true
+    },
+    {
+      "id": "main/6329835613463566698/00027",
+      "matches_recorded_prediction": true
+    },
+    {
+      "id": "main/6329151425173313518/00073",
+      "matches_recorded_prediction": true
+    },
+    {
+      "id": "main/6326461057659161695/00016",
+      "matches_recorded_prediction": true
+    }
+  ],
+  "checkpoint_sha256": {
+    "best.pt": "2dc1b4624043cc0209c1c35664b0f9f6f02b8af037d10e5dacf3cd24fab1745f",
+    "last.pt": "cd2887107afd94f53b42699b8ac74a971df3a08ad6cd7d97a1b5db8325156a60"
+  },
+  "base_checkpoint_hash_verified": true,
+  "production_model": "original pretrained"
+}

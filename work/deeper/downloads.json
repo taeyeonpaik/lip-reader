@@ -1,0 +1,82 @@
+[
+  {
+    "split": "train",
+    "repository": "MahmoodAnaam/LRS2-Train",
+    "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+    "file": "data/train-00000-of-00022.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/train-00000-of-00022.parquet",
+    "bytes": 474216029,
+    "sha256": "50e661b9dc675eb4a9c9f96c07ee0077d0c37d6828431c487eb2d16813e0c9ca",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00000-of-00022.parquet"
+  },
+  {
+    "split": "train",
+    "repository": "MahmoodAnaam/LRS2-Train",
+    "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+    "file": "data/train-00011-of-00022.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/train-00011-of-00022.parquet",
+    "bytes": 484543833,
+    "sha256": "2d27d9c044e1b27c515d386dd5aa05102d83c4113e199eb486d5dca6c2fd5791",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00011-of-00022.parquet"
+  },
+  {
+    "split": "validation",
+    "repository": "MahmoodAnaam/LRS2-Validation",
+    "revision": "5f987b9729b85720a81b2b521491cc204c19ed6c",
+    "file": "data/validation-00000-of-00001.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/validation-00000-of-00001.parquet",
+    "bytes": 252990175,
+    "sha256": "28c46a4827df4dc1efcce35af5c4ad87e94731f2025d824831257ff563c96acc",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Validation/resolve/5f987b9729b85720a81b2b521491cc204c19ed6c/data/validation-00000-of-00001.parquet"
+  },
+  {
+    "split": "test",
+    "repository": "MahmoodAnaam/LRS2-Test",
+    "revision": "e14bf18868ca78bd97b0b9ce6615b262a32dfdf1",
+    "file": "data/test-00000-of-00001.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/test-00000-of-00001.parquet",
+    "bytes": 211209413,
+    "sha256": "8ebd06e479c360d4f478c4d3ceb2d181c2e36e026c15502a26ac7433b290361d",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Test/resolve/e14bf18868ca78bd97b0b9ce6615b262a32dfdf1/data/test-00000-of-00001.parquet"
+  },
+  {
+    "split": "train",
+    "repository": "MahmoodAnaam/LRS2-Train",
+    "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+    "file": "data/train-00004-of-00022.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/train-00004-of-00022.parquet",
+    "bytes": 487497711,
+    "sha256": "34234d473723283812b0d27245a914aff05452df40ebbd67c7548decbc743405",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00004-of-00022.parquet"
+  },
+  {
+    "split": "train",
+    "repository": "MahmoodAnaam/LRS2-Train",
+    "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+    "file": "data/train-00007-of-00022.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/train-00007-of-00022.parquet",
+    "bytes": 495202574,
+    "sha256": "0987effec31d1881f10bae070c5adf32dd732596b60aec1fce187c5cf0c34187",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00007-of-00022.parquet"
+  },
+  {
+    "split": "train",
+    "repository": "MahmoodAnaam/LRS2-Train",
+    "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+    "file": "data/train-00015-of-00022.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/train-00015-of-00022.parquet",
+    "bytes": 466903917,
+    "sha256": "e9d3c0b9eba8cfd985c48ebeaa58747d7bf11181ca789ed685a49efb8cd5c5ed",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00015-of-00022.parquet"
+  },
+  {
+    "split": "train",
+    "repository": "MahmoodAnaam/LRS2-Train",
+    "revision": "26dea093e50d1ee89fe717648b50922cc4b4011b",
+    "file": "data/train-00019-of-00022.parquet",
+    "local_file": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/work/overnight/data/train-00019-of-00022.parquet",
+    "bytes": 486371827,
+    "sha256": "6c2fd351566c742adb7c63cb60b43f499e7f95adcbd0a3e90c64134128b1b319",
+    "url": "https://huggingface.co/datasets/MahmoodAnaam/LRS2-Train/resolve/26dea093e50d1ee89fe717648b50922cc4b4011b/data/train-00019-of-00022.parquet"
+  }
+]

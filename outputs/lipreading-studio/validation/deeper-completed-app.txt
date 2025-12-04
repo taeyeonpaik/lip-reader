@@ -1,0 +1,98 @@
+- heading "A good recording" [level=2]
+- paragraph: Face the camera in good light. Keep your whole face visible and speak naturally.
+- paragraph: One speaker · English · 0.4–60 seconds · MP4, MOV, WebM or AVI
+- paragraph: Videos are processed locally. Audio is removed before recognition. Uploaded files are deleted from temporary storage after processing.
+- separator
+- paragraph: Lip reading can miss or invent words. Review the result against what was said.
+- generic "keyboard_arrow_right Model details":
+  - generic: keyboard_arrow_right
+  - paragraph: Model details
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- paragraph: LIP READING STUDIO / ON YOUR MAC
+- heading "Turn mouth movements into words." [level=1]:
+  - text: Turn mouth movements into words.
+  - link "Link to heading":
+    - /url: "#turn-mouth-movements-into-words"
+- paragraph: Upload a video or use your webcam. Get an English transcript from mouth movements alone.
+- tablist:
+  - tab "Your video":
+    - paragraph: Your video
+  - tab "Live webcam":
+    - paragraph: Live webcam
+  - tab "Try an example":
+    - paragraph: Try an example
+  - tab "Model & training" [active] [selected]:
+    - paragraph: Model & training
+- tabpanel "Model & training":
+  - heading "Model & measured results" [level=3]:
+    - text: Model & measured results
+    - link "Link to heading":
+      - /url: "#model-and-measured-results"
+  - paragraph: The visual-only Auto-AVSR model reads natural English sentences. It uses pretrained research weights and is a different architecture from the original LipNet tutorial.
+  - heading "Deeper fine-tuning · experiment 2" [level=3]:
+    - text: Deeper fine-tuning · experiment 2
+    - link "Link to heading":
+      - /url: "#deeper-fine-tuning-experiment-2"
+  - paragraph: 12,000 training clips · 55.1 million trainable parameters · final two visual-encoder blocks and final two decoder blocks, plus output layers.
+  - status:
+    - paragraph: "Experiment finished: 10 epochs and 15,000 optimizer updates."
+  - paragraph: Baseline validation word error
+  - paragraph: 21.40%
+  - paragraph: Best validation word error
+  - paragraph: 21.06%
+  - paragraph: Baseline test word error
+  - paragraph: 16.19%
+  - paragraph: Candidate test word error
+  - paragraph: 16.25%
+  - status:
+    - paragraph: The candidate did not meet the preset validation improvement threshold. The app retains the original pretrained model.
+  - paragraph: The candidate is the checkpoint chosen by validation, not the final training epoch. Lower word error is better; test results do not establish accuracy on arbitrary webcam speakers.
+  - button "Download deeper experiment results":
+    - paragraph: Download deeper experiment results
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph: Selection requires at least a 0.5 percentage-point reduction in validation word error with no increase in character error. Results use prepared LRS2 mouth crops; accuracy on new webcam speakers is not established.
+  - separator
+  - heading "Completed output-layer experiment · experiment 1" [level=3]:
+    - text: Completed output-layer experiment · experiment 1
+    - link "Link to heading":
+      - /url: "#completed-output-layer-experiment-experiment-1"
+  - status:
+    - paragraph: "Local fine-tuning experiment completed: 3 epochs and 1,500 optimizer updates."
+  - paragraph:
+    - strong: "App model:"
+    - text: Original pretrained Auto-AVSR.
+  - paragraph: Adaptation did not meet the preset validation improvement threshold.
+  - paragraph: Pretrained word error
+  - paragraph: 16.2%
+  - paragraph: Selected model word error
+  - paragraph: 16.2%
+  - paragraph: Test clips
+  - paragraph: 1,243
+  - paragraph: Word error counts substitutions, missing words and extra words per reference word; lower is better. These results use prepared LRS2 mouth crops. They do not measure the face tracker or establish accuracy on arbitrary webcam recordings.
+  - button "Download experiment results":
+    - paragraph: Download experiment results
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph:
+    - strong: "Experiment:"
+    - text: 4,000 training clips, 500 validation clips, and 1,243 test clips. Only the CTC and attention output layers are updated; the visual encoder stays fixed. Validation chooses the model before test evaluation.
+  - paragraph: The base model already trained on LRS2. These are local adaptation results, not a new unseen-speaker benchmark or a reproduction of the authors’ published score.
+  - generic "keyboard_arrow_right How the app works":
+    - generic: keyboard_arrow_right
+    - paragraph: How the app works
+  - generic "keyboard_arrow_right Project origins":
+    - generic: keyboard_arrow_right
+    - paragraph: Project origins
+  - link "Auto-AVSR source and paper":
+    - /url: https://github.com/mpc001/auto_avsr
+    - paragraph: Auto-AVSR source and paper

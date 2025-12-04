@@ -1,0 +1,39 @@
+{
+  "microbatch_checks": [
+    {
+      "clips": 4,
+      "frames": [
+        38,
+        37,
+        97,
+        35
+      ],
+      "loss": 4.981138706207275,
+      "seconds": 3.1026957079884596
+    },
+    {
+      "clips": 4,
+      "frames": [
+        37,
+        97,
+        35,
+        37
+      ],
+      "loss": 4.4781646728515625,
+      "seconds": 0.5882894590031356
+    },
+    {
+      "clips": 4,
+      "frames": [
+        97,
+        35,
+        37,
+        52
+      ],
+      "loss": 4.487128734588623,
+      "seconds": 0.5016622500261292
+    }
+  ],
+  "peak_process_rss_gib": 2.0729217529296875,
+  "includes_frozen_feature_extraction": true
+}

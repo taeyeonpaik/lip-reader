@@ -1,0 +1,36 @@
+{
+  "manifest_sha256": "44568ede5fbb81dad8367b2b40f887dc5e0c4bd0a35eeb9fcc0ae6cb6ffbbab3",
+  "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+  "prefixes": [
+    "encoder.encoders.10.",
+    "encoder.encoders.11.",
+    "encoder.after_norm.",
+    "decoder.decoders.4.",
+    "decoder.decoders.5.",
+    "decoder.after_norm.",
+    "decoder.output_layer.",
+    "ctc.ctc_lo."
+  ],
+  "learning_rate_visual": 1e-05,
+  "learning_rate_decoder": 3.3333333333333337e-06,
+  "epochs": 10,
+  "minimum_epochs": 6,
+  "patience": 4,
+  "accumulation": 8,
+  "microbatch": 4,
+  "seed": 43,
+  "trainable_parameters": 55080306,
+  "splits": {
+    "train": 8,
+    "validation": 4,
+    "test": 4
+  },
+  "beam_size": 5,
+  "regularization": "0.1 dropout in unfrozen blocks; frozen batchnorm statistics; optional 4-frame feature mask",
+  "feature_mask_probability": 0.3,
+  "warmup_epochs": 1,
+  "schedule": "one-epoch linear warmup then cosine decay to 10% peak",
+  "selection": "best validation WER with CER no worse than baseline; require 0.5 percentage point WER gain",
+  "test_used_for_selection": false,
+  "test_note": "Official test baseline was examined in v1; never used for gradients or hyperparameter selection"
+}

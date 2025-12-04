@@ -1,0 +1,172 @@
+[
+  {
+    "epoch": 1,
+    "training_loss": 4.335892976820469,
+    "validation": {
+      "clips": 500,
+      "word_errors": 809,
+      "reference_words": 3775,
+      "wer": 0.2143046357615894,
+      "character_errors": 2646,
+      "reference_characters": 19342,
+      "cer": 0.13680074449384758,
+      "exact_sentences": 192,
+      "failures": 0
+    },
+    "seconds": 818.1562421250273,
+    "updates": 1500
+  },
+  {
+    "epoch": 2,
+    "training_loss": 3.952775576730569,
+    "validation": {
+      "clips": 500,
+      "word_errors": 812,
+      "reference_words": 3775,
+      "wer": 0.21509933774834436,
+      "character_errors": 2655,
+      "reference_characters": 19342,
+      "cer": 0.13726605314858856,
+      "exact_sentences": 196,
+      "failures": 0
+    },
+    "seconds": 773.7428062499966,
+    "updates": 3000
+  },
+  {
+    "epoch": 3,
+    "training_loss": 3.6074369786431393,
+    "validation": {
+      "clips": 500,
+      "word_errors": 806,
+      "reference_words": 3775,
+      "wer": 0.21350993377483443,
+      "character_errors": 2638,
+      "reference_characters": 19342,
+      "cer": 0.1363871368007445,
+      "exact_sentences": 194,
+      "failures": 0
+    },
+    "seconds": 777.32275445899,
+    "updates": 4500
+  },
+  {
+    "epoch": 4,
+    "training_loss": 3.3292502166430156,
+    "validation": {
+      "clips": 500,
+      "word_errors": 814,
+      "reference_words": 3775,
+      "wer": 0.21562913907284767,
+      "character_errors": 2653,
+      "reference_characters": 19342,
+      "cer": 0.1371626512253128,
+      "exact_sentences": 195,
+      "failures": 0
+    },
+    "seconds": 772.508512542001,
+    "updates": 6000
+  },
+  {
+    "epoch": 5,
+    "training_loss": 3.089629642367363,
+    "validation": {
+      "clips": 500,
+      "word_errors": 799,
+      "reference_words": 3775,
+      "wer": 0.21165562913907285,
+      "character_errors": 2624,
+      "reference_characters": 19342,
+      "cer": 0.13566332333781408,
+      "exact_sentences": 192,
+      "failures": 0
+    },
+    "seconds": 772.2240673750057,
+    "updates": 7500
+  },
+  {
+    "epoch": 6,
+    "training_loss": 2.9163597658649087,
+    "validation": {
+      "clips": 500,
+      "word_errors": 796,
+      "reference_words": 3775,
+      "wer": 0.21086092715231788,
+      "character_errors": 2634,
+      "reference_characters": 19342,
+      "cer": 0.13618033295419293,
+      "exact_sentences": 196,
+      "failures": 0
+    },
+    "seconds": 921.5243120000232,
+    "updates": 9000
+  },
+  {
+    "epoch": 7,
+    "training_loss": 2.763618129943808,
+    "validation": {
+      "clips": 500,
+      "word_errors": 795,
+      "reference_words": 3775,
+      "wer": 0.21059602649006623,
+      "character_errors": 2612,
+      "reference_characters": 19342,
+      "cer": 0.13504291179815944,
+      "exact_sentences": 197,
+      "failures": 0
+    },
+    "seconds": 766.54024474998,
+    "updates": 10500
+  },
+  {
+    "epoch": 8,
+    "training_loss": 2.6747583305040994,
+    "validation": {
+      "clips": 500,
+      "word_errors": 803,
+      "reference_words": 3775,
+      "wer": 0.21271523178807947,
+      "character_errors": 2638,
+      "reference_characters": 19342,
+      "cer": 0.1363871368007445,
+      "exact_sentences": 196,
+      "failures": 0
+    },
+    "seconds": 776.5241588749923,
+    "updates": 12000
+  },
+  {
+    "epoch": 9,
+    "training_loss": 2.6031740745455028,
+    "validation": {
+      "clips": 500,
+      "word_errors": 811,
+      "reference_words": 3775,
+      "wer": 0.2148344370860927,
+      "character_errors": 2669,
+      "reference_characters": 19342,
+      "cer": 0.13798986661151896,
+      "exact_sentences": 195,
+      "failures": 0
+    },
+    "seconds": 829.1603464590153,
+    "updates": 13500
+  },
+  {
+    "epoch": 10,
+    "training_loss": 2.5665708886682985,
+    "validation": {
+      "clips": 500,
+      "word_errors": 814,
+      "reference_words": 3775,
+      "wer": 0.21562913907284767,
+      "character_errors": 2676,
+      "reference_characters": 19342,
+      "cer": 0.13835177334298418,
+      "exact_sentences": 195,
+      "failures": 0
+    },
+    "seconds": 791.5032000410138,
+    "updates": 15000
+  }
+]

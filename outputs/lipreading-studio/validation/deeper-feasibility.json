@@ -1,0 +1,39 @@
+{
+  "purpose": "Gradient, cache parity, and device feasibility; not measured accuracy improvement",
+  "trainable_parameters": 55080306,
+  "prefix_reconstruction_max_abs_error": 0.0,
+  "updates": [
+    {
+      "loss": 0.2929416298866272,
+      "seconds": 3.6313862500246614
+    },
+    {
+      "loss": 1.1319706439971924,
+      "seconds": 1.0228354170103557
+    },
+    {
+      "loss": 3.5822386741638184,
+      "seconds": 0.9671137909754179
+    },
+    {
+      "loss": 4.526786804199219,
+      "seconds": 0.5110439999843948
+    }
+  ],
+  "updated_module_max_abs_changes": {
+    "encoder.encoders.10.": 4.032254219055176e-05,
+    "encoder.encoders.11.": 4.0203332901000977e-05,
+    "encoder.after_norm.": 3.991648554801941e-05,
+    "decoder.decoders.4.": 1.3470649719238281e-05,
+    "decoder.decoders.5.": 1.3530254364013672e-05,
+    "decoder.after_norm.": 1.3828277587890625e-05,
+    "decoder.output_layer.": 1.3340264558792114e-05,
+    "ctc.ctc_lo.": 1.3221055269241333e-05
+  },
+  "frozen_parameter_spot_checks": [
+    "frontend.trunk.layer1.0.conv1.weight",
+    "encoder.encoders.0.norm_ff.weight",
+    "decoder.decoders.0.norm1.weight"
+  ],
+  "peak_process_rss_gib": 2.0962066650390625
+}
