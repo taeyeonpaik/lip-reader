@@ -1,0 +1,136 @@
+{
+  "lm_parameters": 53742649,
+  "incremental_full_prefix_max_abs_error": 5.91278076171875e-05,
+  "author_layer_exact_parity": true,
+  "smoke_predictions": [
+    {
+      "beam": 5,
+      "lm_weight": 0.0,
+      "id": "main/6327740528416575363/00028",
+      "reference": "THE PROBLEM IS MIGRATION AND THEREFORE WE SHOULD STOP THAT",
+      "prediction": "THE PROBLEM IS MIGRATION AND THEREFORE WE JUST DROPPED THAT",
+      "seconds": 0.41574391699396074
+    },
+    {
+      "beam": 5,
+      "lm_weight": 0.0,
+      "id": "main/6329835613463566698/00027",
+      "reference": "WHO IS THAT PERSON",
+      "prediction": "WHO IS THAT PERSON",
+      "seconds": 0.22338337497785687
+    },
+    {
+      "beam": 5,
+      "lm_weight": 0.0,
+      "id": "main/6329151425173313518/00073",
+      "reference": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT ST ANDREWS UNIVERSITY IN FIFE",
+      "prediction": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MADE TOGETHER AS TOWNS UNIVERSITY FIFTH",
+      "seconds": 0.6751456669881009
+    },
+    {
+      "beam": 5,
+      "lm_weight": 0.0,
+      "id": "main/6326461057659161695/00016",
+      "reference": "BEING CATERED FOR",
+      "prediction": "BEING CATERED FOR",
+      "seconds": 0.23686237499350682
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.0,
+      "id": "main/6327740528416575363/00028",
+      "reference": "THE PROBLEM IS MIGRATION AND THEREFORE WE SHOULD STOP THAT",
+      "prediction": "THE PROBLEM IS MIGRATION AND THEREFORE WE JUST DROPPED THAT",
+      "seconds": 0.6927112499834038
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.0,
+      "id": "main/6329835613463566698/00027",
+      "reference": "WHO IS THAT PERSON",
+      "prediction": "WHO IS THAT PERSON",
+      "seconds": 0.2904501250013709
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.0,
+      "id": "main/6329151425173313518/00073",
+      "reference": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT ST ANDREWS UNIVERSITY IN FIFE",
+      "prediction": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MADE TOGETHER AS TOWNS UNIVERSITY FIFTH",
+      "seconds": 1.6436007079901174
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.0,
+      "id": "main/6326461057659161695/00016",
+      "reference": "BEING CATERED FOR",
+      "prediction": "BEING CATERED FOR",
+      "seconds": 0.3310568750021048
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.3,
+      "id": "main/6327740528416575363/00028",
+      "reference": "THE PROBLEM IS MIGRATION AND THEREFORE WE SHOULD STOP THAT",
+      "prediction": "THE PROBLEM IS MIGRATION AND THEREFORE WE JUST DROPPED THAT",
+      "seconds": 1.2679994589998387
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.3,
+      "id": "main/6329835613463566698/00027",
+      "reference": "WHO IS THAT PERSON",
+      "prediction": "WHO IS THAT PERSON",
+      "seconds": 0.5733620829996653
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.3,
+      "id": "main/6329151425173313518/00073",
+      "reference": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT ST ANDREWS UNIVERSITY IN FIFE",
+      "prediction": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT STOUT UNIVERSITY",
+      "seconds": 2.726095666992478
+    },
+    {
+      "beam": 20,
+      "lm_weight": 0.3,
+      "id": "main/6326461057659161695/00016",
+      "reference": "BEING CATERED FOR",
+      "prediction": "BEING CATERED FOR",
+      "seconds": 1.1119354169932194
+    },
+    {
+      "beam": 40,
+      "lm_weight": 0.3,
+      "id": "main/6327740528416575363/00028",
+      "reference": "THE PROBLEM IS MIGRATION AND THEREFORE WE SHOULD STOP THAT",
+      "prediction": "THE PROBLEM IS MIGRATION AND THEREFORE WE JUST DROPPED THAT",
+      "seconds": 1.9433884170139208
+    },
+    {
+      "beam": 40,
+      "lm_weight": 0.3,
+      "id": "main/6329835613463566698/00027",
+      "reference": "WHO IS THAT PERSON",
+      "prediction": "WHO IS THAT PERSON",
+      "seconds": 0.8210466660093516
+    },
+    {
+      "beam": 40,
+      "lm_weight": 0.3,
+      "id": "main/6329151425173313518/00073",
+      "reference": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT ST ANDREWS UNIVERSITY IN FIFE",
+      "prediction": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT STOUT UNIVERSITY",
+      "seconds": 4.2715808330103755
+    },
+    {
+      "beam": 40,
+      "lm_weight": 0.3,
+      "id": "main/6326461057659161695/00016",
+      "reference": "BEING CATERED FOR",
+      "prediction": "BEING CATERED FOR",
+      "seconds": 1.0941107920370996
+    }
+  ],
+  "not_an_accuracy_benchmark": true
+}

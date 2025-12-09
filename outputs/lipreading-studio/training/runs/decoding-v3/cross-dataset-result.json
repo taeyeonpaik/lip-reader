@@ -1,0 +1,59 @@
+{
+  "state": "completed",
+  "selected_before_audit": "beam20",
+  "groups": {
+    "lrs2-extra-validation": {
+      "baseline": {
+        "clips": 582,
+        "word_errors": 1000,
+        "reference_words": 4091,
+        "wer": 0.24443901246638963,
+        "character_errors": 3285,
+        "reference_characters": 20940,
+        "cer": 0.15687679083094555,
+        "exact_sentences": 231,
+        "failures": 0
+      },
+      "selected": {
+        "clips": 582,
+        "word_errors": 999,
+        "reference_words": 4091,
+        "wer": 0.24419457345392326,
+        "character_errors": 3303,
+        "reference_characters": 20940,
+        "cer": 0.15773638968481377,
+        "exact_sentences": 231,
+        "failures": 0
+      },
+      "baseline_mean_seconds": 0.46756789439395424,
+      "selected_mean_seconds": 0.6429127067561731
+    },
+    "lrs3-session-validation": {
+      "baseline": {
+        "clips": 500,
+        "word_errors": 511,
+        "reference_words": 5732,
+        "wer": 0.08914863921842289,
+        "character_errors": 1619,
+        "reference_characters": 29568,
+        "cer": 0.054755140692640696,
+        "exact_sentences": 276,
+        "failures": 0
+      },
+      "selected": {
+        "clips": 500,
+        "word_errors": 510,
+        "reference_words": 5732,
+        "wer": 0.0889741800418702,
+        "character_errors": 1603,
+        "reference_characters": 29568,
+        "cer": 0.05421401515151515,
+        "exact_sentences": 277,
+        "failures": 0
+      },
+      "baseline_mean_seconds": 0.6692563770764973,
+      "selected_mean_seconds": 1.0455342667333316
+    }
+  },
+  "note": "LRS3 samples are held out of local adaptation by session; the original pretrained model already used LRS3. This is not the official LRS3 test benchmark."
+}

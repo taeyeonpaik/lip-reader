@@ -1,0 +1,74 @@
+{
+  "state": "completed",
+  "selection": {
+    "candidate": "beam20",
+    "decoding": {
+      "beam_size": 20,
+      "lm_weight": 0.0
+    },
+    "basis": "LRS2 validation only",
+    "validation": {
+      "baseline": {
+        "clips": 500,
+        "word_errors": 808,
+        "reference_words": 3775,
+        "wer": 0.21403973509933774,
+        "character_errors": 2661,
+        "reference_characters": 19342,
+        "cer": 0.13757625891841588,
+        "exact_sentences": 191,
+        "failures": 0
+      },
+      "beam20-lm015": {
+        "clips": 500,
+        "word_errors": 797,
+        "reference_words": 3775,
+        "wer": 0.21112582781456954,
+        "character_errors": 2668,
+        "reference_characters": 19342,
+        "cer": 0.1379381656498811,
+        "exact_sentences": 205,
+        "failures": 0
+      },
+      "beam20": {
+        "clips": 500,
+        "word_errors": 801,
+        "reference_words": 3775,
+        "wer": 0.21218543046357616,
+        "character_errors": 2634,
+        "reference_characters": 19342,
+        "cer": 0.13618033295419293,
+        "exact_sentences": 192,
+        "failures": 0
+      }
+    },
+    "test_used_for_selection": false
+  },
+  "baseline_test": {
+    "clips": 1243,
+    "word_errors": 1078,
+    "reference_words": 6660,
+    "wer": 0.16186186186186186,
+    "character_errors": 3437,
+    "reference_characters": 33565,
+    "cer": 0.10239833159541188,
+    "exact_sentences": 728,
+    "failures": 0
+  },
+  "selected_test": {
+    "clips": 1243,
+    "word_errors": 1075,
+    "reference_words": 6660,
+    "wer": 0.1614114114114114,
+    "character_errors": 3418,
+    "reference_characters": 33565,
+    "cer": 0.10183226575301653,
+    "exact_sentences": 728,
+    "failures": 0
+  },
+  "baseline_mean_test_seconds": 0.3134921919029058,
+  "selected_mean_test_seconds": 0.48444029092677243,
+  "visual_weights_changed": false,
+  "app_profile_changed": false,
+  "completed_utc": "2026-09-17T19:36:26.211472+00:00"
+}

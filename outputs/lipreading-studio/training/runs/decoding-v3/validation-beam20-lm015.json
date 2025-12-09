@@ -1,0 +1,3021 @@
+{
+  "candidate": "beam20-lm015",
+  "decoding": {
+    "beam_size": 20,
+    "lm_weight": 0.15
+  },
+  "metrics": {
+    "clips": 500,
+    "word_errors": 797,
+    "reference_words": 3775,
+    "wer": 0.21112582781456954,
+    "character_errors": 2668,
+    "reference_characters": 19342,
+    "cer": 0.1379381656498811,
+    "exact_sentences": 205,
+    "failures": 0
+  },
+  "mean_seconds": 1.1943004236816195,
+  "predictions": [
+    {
+      "id": "main/6327740528416575363/00028",
+      "reference": "THE PROBLEM IS MIGRATION AND THEREFORE WE SHOULD STOP THAT",
+      "prediction": "THE PROBLEM IS MIGRATION AND THEREFORE WE JUST DROPPED THAT",
+      "seconds": 1.2774314589914866
+    },
+    {
+      "id": "main/6329835613463566698/00027",
+      "reference": "WHO IS THAT PERSON",
+      "prediction": "WHO IS THAT PERSON",
+      "seconds": 0.6111675840220414
+    },
+    {
+      "id": "main/6329151425173313518/00073",
+      "reference": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT ST ANDREWS UNIVERSITY IN FIFE",
+      "prediction": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MADE TOGETHER AS TOWNS UNIVERSITY FIVE",
+      "seconds": 2.576807666977402
+    },
+    {
+      "id": "main/6326461057659161695/00016",
+      "reference": "BEING CATERED FOR",
+      "prediction": "BEING CATERED FOR",
+      "seconds": 0.7148401669692248
+    },
+    {
+      "id": "main/6314619832824012968/00010",
+      "reference": "THIS IS VERY POWERFUL",
+      "prediction": "AND THIS IS VERY POWERFUL",
+      "seconds": 0.6536507079727016
+    },
+    {
+      "id": "main/6306870852828565379/00013",
+      "reference": "THOUGHTS ABOUT THE BEAUTY OF NATURE",
+      "prediction": "NOT ABOUT THE BEAUTY OF NATURE",
+      "seconds": 0.9587557499762625
+    },
+    {
+      "id": "main/6326414672012357313/00085",
+      "reference": "WE WOULD LOOK TO MARKET THE PROPERTY AT AN ASKING PRICE IN THE REGION OF 385",
+      "prediction": "WE WOULD LOOK TO MARKET THE PROPERTY AT AN ASKING PRICE IN THE REGION OF 385",
+      "seconds": 2.418451500008814
+    },
+    {
+      "id": "main/6328111613590949805/00006",
+      "reference": "SOMEONE CALLED WIMPY KLOP",
+      "prediction": "SOMETHING CALLED A WHIMPER CLUB",
+      "seconds": 1.1650562499999069
+    },
+    {
+      "id": "main/6313936933024013236/00006",
+      "reference": "I WAS ALL RIGHT IN THE END",
+      "prediction": "IT WAS ALL RIGHT IN THE END",
+      "seconds": 0.7806567500228994
+    },
+    {
+      "id": "main/6313565847849574520/00013",
+      "reference": "FOR THE LAST TIME TONIGHT",
+      "prediction": "FOR THE LAST TIME TONIGHT",
+      "seconds": 0.7140813340083696
+    },
+    {
+      "id": "main/6329151425173313518/00004",
+      "reference": "IT WAS RATHER MALE",
+      "prediction": "IT WAS RATHER MALE",
+      "seconds": 0.6417877079802565
+    },
+    {
+      "id": "main/6313936933024013236/00008",
+      "reference": "IT WAS A ONE OFF",
+      "prediction": "IT WAS A WONDERFUL",
+      "seconds": 0.5696207910077646
+    },
+    {
+      "id": "main/6326538367070482119/00004",
+      "reference": "AND IT IS ENORMOUS",
+      "prediction": "AND IT IS ENORMOUS",
+      "seconds": 0.7271138340001926
+    },
+    {
+      "id": "main/6313936933024013236/00004",
+      "reference": "CONGRATULATIONS ABOUT THE BABY",
+      "prediction": "CONGRATULATIONS ABOUT THE BABY",
+      "seconds": 1.160452542011626
+    },
+    {
+      "id": "main/6324713864963081921/00026",
+      "reference": "MIGHTY OAKS WILL GROW",
+      "prediction": "MIGHTY OAKS WILL GROW",
+      "seconds": 0.7571267500170507
+    },
+    {
+      "id": "main/6324713864963081921/00001",
+      "reference": "IT DWARFS ANYTHING WE HAVE IN BRITAIN",
+      "prediction": "IT DWARFS ANYTHING WE HAVE IN BRITAIN",
+      "seconds": 1.27828991698334
+    },
+    {
+      "id": "main/6325119739372550419/00016",
+      "reference": "I LOVED THAT THEY WERE REALLY PRETTY AND DELICATE",
+      "prediction": "I LOVE THAT THEY WERE REALLY PRETTY",
+      "seconds": 1.2084420419996604
+    },
+    {
+      "id": "main/6306870852828565379/00010",
+      "reference": "EASTERN RAILWAYS WERE STILL ADVERTISING TRIPS TO GERMANY AND 6",
+      "prediction": "EASTERN RAILWAYS WERE STILL ADVERTISING TRIPS TO GERMANY AT 6",
+      "seconds": 2.083334000024479
+    },
+    {
+      "id": "main/6315405811839181004/00003",
+      "reference": "THOUSANDS OF TONNES OF AMMUNITION",
+      "prediction": "THOUSANDS OF TONS OF AMMUNITION",
+      "seconds": 1.183365291042719
+    },
+    {
+      "id": "main/6306811582279909115/00010",
+      "reference": "WHICH IS GREAT NEWS FOR TODAY'S BUYERS",
+      "prediction": "WHICH IS GREAT NEWS FOR TODAY'S BUYERS",
+      "seconds": 0.9854767500073649
+    },
+    {
+      "id": "main/6325119739372550419/00014",
+      "reference": "WAS BROKEN IN THE 1850S WHEN THE INDUSTRIAL REVOLUTION CAME TO",
+      "prediction": "WAS BROKEN IN THE 1850S WHEN THE INDUSTRIAL REVOLUTION CAME TO",
+      "seconds": 1.6851602920214646
+    },
+    {
+      "id": "main/6316024287129869379/00042",
+      "reference": "I'M SURE IT GENERATED A LOT OF INTEREST WHEN IT WENT UNDER THE HAMMER",
+      "prediction": "I'M SURE IT GENERATED A LOT OF INTEREST WHEN IT WENT UNDER THE HAMMER",
+      "seconds": 2.0215440419851802
+    },
+    {
+      "id": "main/6329151425173313518/00075",
+      "reference": "BUT FIRST THEY HAD TO BELIEVE IN WEALTH CREATION",
+      "prediction": "BUT FIRST THEY HAD TO BELIEVE IN WEALTH CREATION",
+      "seconds": 1.0900075410027057
+    },
+    {
+      "id": "main/6306870852828565379/00007",
+      "reference": "OCCUPATIONS ARE CHIEFLY WITH TIMBER",
+      "prediction": "OCCUPATIONS ARE CHIEFLY WITH TIMBER",
+      "seconds": 1.3393881249940023
+    },
+    {
+      "id": "main/6323221793324446979/00011",
+      "reference": "PRODUCE THEIR FRUIT ON THIS YEAR'S CANES",
+      "prediction": "PRODUCING FRUIT ON THIS YEAR'S CASE",
+      "seconds": 1.410781084035989
+    },
+    {
+      "id": "main/6329151425173313518/00006",
+      "reference": "IT WAS FIERCELY PRO BRITISH UNIONIST AND IT WAS MILDLY CONSERVATIVE",
+      "prediction": "IT WAS OFFICIALLY PRO BRITISH UNIONIST AND IT WAS MAINLY CONSERVATIVE",
+      "seconds": 1.8081234580022283
+    },
+    {
+      "id": "main/6328764878116731644/00031",
+      "reference": "WHEN WE'LL BE PUTTING MORE OBSCURE KNOWLEDGE TO THE TEST ON POINTLESS",
+      "prediction": "WE'LL BE PUTTING MORE OBSCURE KNOWLEDGE TO THE TEST ON BOYS",
+      "seconds": 1.8257595829782076
+    },
+    {
+      "id": "main/6324698403080812792/00017",
+      "reference": "HOW DO THEY MAKE THEM",
+      "prediction": "HOW DO THEY MAKE THEM",
+      "seconds": 0.6788301669876091
+    },
+    {
+      "id": "main/6318761040290818803/00009",
+      "reference": "SO WE'RE REALLY HAPPY THAT WE GOT TO DO THAT",
+      "prediction": "SO WE WERE REALLY HAPPY THAT WE GOT TO DO THAT",
+      "seconds": 1.1819072919897735
+    },
+    {
+      "id": "main/6327713470253076639/00055",
+      "reference": "BECAUSE WE ONLY HAVE THAT ONE PIECE",
+      "prediction": "BECAUSE WE ONLY HAVE THAT ONE PIECE",
+      "seconds": 0.9334739159676246
+    },
+    {
+      "id": "main/6324230681142278360/00010",
+      "reference": "APART FROM ANYTHING ELSE",
+      "prediction": "APART FROM ANYTHING ELSE",
+      "seconds": 0.6521760410396382
+    },
+    {
+      "id": "main/6311014637275749987/00050",
+      "reference": "WOULD LIKE TO LOOK A BIT BETTER AND WOULD LIKE A MAGIC INJECTION TO DO IT",
+      "prediction": "WOULD LIKE TO LOOK AT MY BEDROOM WOULD LIKE A MAJOR INJECTION TO DO IT",
+      "seconds": 2.1134047500090674
+    },
+    {
+      "id": "main/6328111613590949805/00025",
+      "reference": "I WOULD GUESS THE PROBABILITY OF THIS OCCURRING RANDOMLY APPROACHES THE SAME PROBABILITY OF SOMEONE",
+      "prediction": "I WOULD GUESS THE PROBABILITY OF THIS OCCURRING RANDOMLY APPROACHES THE SAME PROBABILITY OF SOMEONE",
+      "seconds": 2.0812840839498676
+    },
+    {
+      "id": "main/6324764116080445123/00019",
+      "reference": "IF YOU ACT QUICKLY ENOUGH",
+      "prediction": "IF YOU ACT QUICKLY ENOUGH",
+      "seconds": 0.716969083994627
+    },
+    {
+      "id": "main/6310195157515669986/00002",
+      "reference": "I'M KIM AND I'M AN NCS RECRUITMENT OFFICER",
+      "prediction": "I'M KIM AND I'M AN END STAGE RECRUITMENT OFFICER",
+      "seconds": 1.7375850829994306
+    },
+    {
+      "id": "main/6328393792942295524/00002",
+      "reference": "IT'S MUCH BETTER BECAUSE YOU DON'T CREATE LANDFILL AND YOU'RE REUSING WHAT YOU'VE GOT ABOUT",
+      "prediction": "IT'S MUCH BETTER BECAUSE YOU KNOW GREAT LANDFILL AND YOU'RE RE USING WHAT YOU'VE GOT",
+      "seconds": 3.3001927079749294
+    },
+    {
+      "id": "main/6313877662475262663/00033",
+      "reference": "I'VE GREAT RESPECT FOR THESE GUYS",
+      "prediction": "I HAD GREAT RESPECT FOR THESE COLLECTORS",
+      "seconds": 1.2762494170456193
+    },
+    {
+      "id": "main/6323956232732126743/00018",
+      "reference": "THERE WAS THE FATHER OF ORNITHOLOGY",
+      "prediction": "THAT WAS THE FATHER OF ORNITHOLOGY",
+      "seconds": 1.186983624997083
+    },
+    {
+      "id": "main/6328962017115556355/00002",
+      "reference": "INSTEAD OF BEING OPPOSITE ONE ANOTHER",
+      "prediction": "INSTEAD OF BEING OPPOSITE ONE ANOTHER",
+      "seconds": 0.9457207499654032
+    },
+    {
+      "id": "main/6325894121976022773/00006",
+      "reference": "DISAPPEARS WHEN YOU DON'T WANT IT",
+      "prediction": "IT DEPENDS WHETHER THEY WANT IT",
+      "seconds": 1.1281539169722237
+    },
+    {
+      "id": "main/6329835613463566698/00026",
+      "reference": "THE GRANT WAS OBTAINED UNDER WHICH WAS FOUNDED THE ROYAL FREE GRAMMAR SCHOOL OF SHREWSBURY",
+      "prediction": "THE CRIME WAS OBTAINED AS WIZARDS FOUNDED THE ROYAL FREE GRAMMAR SCHOOL OF CROSBY",
+      "seconds": 2.9300636670086533
+    },
+    {
+      "id": "main/6327740528416575363/00001",
+      "reference": "ALL DOING IT FOR A LIVING",
+      "prediction": "OR DOING IT FOR A LIVING",
+      "seconds": 0.781713625008706
+    },
+    {
+      "id": "main/6306811582279909115/00004",
+      "reference": "ON THE ANNIVERSARY OF HER DEATH",
+      "prediction": "ON THE ANNIVERSARY OF OUR DEATH",
+      "seconds": 1.0514766249689274
+    },
+    {
+      "id": "main/6323221793324446979/00025",
+      "reference": "AND THEN AS AUTUMN COMES AND IT GOES",
+      "prediction": "AND THEN AN AUTUMN COMES AND GOES",
+      "seconds": 1.1560562920058146
+    },
+    {
+      "id": "main/6323956232732126743/00027",
+      "reference": "MY PARENTS HAD IT BEFORE I WAS BORN",
+      "prediction": "MY PARENTS DIED BEFORE I WAS BORN",
+      "seconds": 0.9021444999962114
+    },
+    {
+      "id": "main/6324230681142278360/00009",
+      "reference": "I CAN'T SAY I DO",
+      "prediction": "I CAN'T SAY I DO",
+      "seconds": 0.9157719580107369
+    },
+    {
+      "id": "main/6326414672012357313/00001",
+      "reference": "VIEW YOUR PROPERTY",
+      "prediction": "VIEW YOUR PROPERTY",
+      "seconds": 0.5906850830069743
+    },
+    {
+      "id": "main/6329151425173313518/00076",
+      "reference": "OTHERWISE WHERE DID THE MONEY COME FROM",
+      "prediction": "OTHERWISE WHERE DID THE MONEY COME FROM",
+      "seconds": 0.8607640420086682
+    },
+    {
+      "id": "main/6323221793324446979/00016",
+      "reference": "WHO WAS BROUGHT UP THERE",
+      "prediction": "WHO WAS BROUGHT UP THERE",
+      "seconds": 0.7062712079496123
+    },
+    {
+      "id": "main/6324764116080445123/00007",
+      "reference": "IT IS THE GIVING OF AN ANAESTHETIC DRUG AND A PARALYTIC",
+      "prediction": "IT IS THE GIVING OF AN AESTHETIC DRUG AND A PARALYTIC",
+      "seconds": 2.0966553750331514
+    },
+    {
+      "id": "main/6309824072341293478/00009",
+      "reference": "IT IS TIME FOR THE FINAL ROUND",
+      "prediction": "IT'S TIME FOR THE FINAL ROUND",
+      "seconds": 0.943387083010748
+    },
+    {
+      "id": "main/6326360555424366722/00051",
+      "reference": "THEY WILL LAST THE WINTER THEY ARE HARDY",
+      "prediction": "THEY WERE NICE AND WE SAID HARD",
+      "seconds": 1.1138567089801654
+    },
+    {
+      "id": "main/6326553828952690654/00017",
+      "reference": "5 BILLION INTO IT ALREADY",
+      "prediction": "A BILLION DOLLARS INTO IT ALREADY",
+      "seconds": 0.9875899589969777
+    },
+    {
+      "id": "main/6323198600501050831/00020",
+      "reference": "THEY MIGHT SUFFER FROM LOW SELF ESTEEM",
+      "prediction": "THEY MIGHT SUFFER FROM LOW SELF ESTEEM",
+      "seconds": 1.0915595830301754
+    },
+    {
+      "id": "main/6328512334039666732/00013",
+      "reference": "WITH THE ENTIRE INDUSTRY BASED UPON SLAVERY",
+      "prediction": "WAS THE ENTIRE INDUSTRY BASED UPON SLAVERY",
+      "seconds": 1.1476399159873836
+    },
+    {
+      "id": "main/6329151425173313518/00082",
+      "reference": "THEY SPOKE FOR MANY SCOTS",
+      "prediction": "THEY SPOKE FOR MANY SCOTS",
+      "seconds": 1.3904693329823203
+    },
+    {
+      "id": "main/6321358636511442057/00008",
+      "reference": "IT WAS NOT A KNOCKOUT",
+      "prediction": "IT WAS NOT A KNOCKOUT",
+      "seconds": 0.9001525840139948
+    },
+    {
+      "id": "main/6326360555424366722/00017",
+      "reference": "BECAUSE YOU CAN CREATE THE RIGHT CONDITIONS FOR IT IN THE POT",
+      "prediction": "BECAUSE YOU CAN CREATE THE RIGHT CONDITIONS FOR IT IN THE POT",
+      "seconds": 1.4364395000156946
+    },
+    {
+      "id": "main/6326360555424366722/00021",
+      "reference": "THESE HAVE BEEN IN HERE FOR A COUPLE OF HOURS",
+      "prediction": "THEY'VE BEEN IN HERE FOR A COUPLE OF HOURS",
+      "seconds": 1.2089937909622677
+    },
+    {
+      "id": "main/6316024287129869379/00035",
+      "reference": "ABOUT QUARTER OF A MILE FROM THE METRO STATION",
+      "prediction": "ABOUT A QUARTER OF A MILE FROM THE METRO STATION",
+      "seconds": 1.408907457953319
+    },
+    {
+      "id": "main/6310166810731517953/00017",
+      "reference": "WHEN I WAS A LITTLE CHILD",
+      "prediction": "WHEN I WAS A LITTLE CHILD",
+      "seconds": 0.8765123329940252
+    },
+    {
+      "id": "main/6321358636511442057/00006",
+      "reference": "READY FOR THE NEXT BATTLE",
+      "prediction": "READY FOR THE NEXT PAL",
+      "seconds": 0.8224624159629457
+    },
+    {
+      "id": "main/6315050188547072188/00003",
+      "reference": "BEFORE THE RAILWAYS",
+      "prediction": "BEFORE THE RAILWAYS",
+      "seconds": 0.7581069589941762
+    },
+    {
+      "id": "main/6328111613590949805/00030",
+      "reference": "BECAUSE EVEN IF THERE IS CONFUSION ABOUT THE OWNERSHIP",
+      "prediction": "BECAUSE EVEN IF THERE IS CONFUSION ABOUT THE OWNERSHIP",
+      "seconds": 1.1160902919946238
+    },
+    {
+      "id": "main/6329151425173313518/00077",
+      "reference": "AND THEY HAD TO BELIEVE IN ORIGINAL SIN",
+      "prediction": "AND THEY HAD TO BELIEVE IN ORIGINAL SIN",
+      "seconds": 1.100082334014587
+    },
+    {
+      "id": "main/6323221793324446979/00045",
+      "reference": "WHICH MEANS YOU STAY AWAY",
+      "prediction": "WHICH MEANS YOU STAY AWAY",
+      "seconds": 0.7712351250229403
+    },
+    {
+      "id": "main/6315405811839181004/00029",
+      "reference": "TELL ME ABOUT THAT",
+      "prediction": "TELL ME ABOUT THAT",
+      "seconds": 0.6231658750330098
+    },
+    {
+      "id": "main/6326414672012357313/00018",
+      "reference": "WHO ENDS UP GETTING THE HOUSE AND HOW WELL IT'S DONE",
+      "prediction": "WHO ENDS UP GETTING THE HOUSE AND HOW WELL IT'S DONE",
+      "seconds": 1.4363474159617908
+    },
+    {
+      "id": "main/6322100806860254619/00009",
+      "reference": "FAMILY OF MY OWN",
+      "prediction": "FAMILY OF MY OWN",
+      "seconds": 0.6495452080271207
+    },
+    {
+      "id": "main/6324764116080445123/00017",
+      "reference": "FROM THAT POINT",
+      "prediction": "FROM THAT POINT",
+      "seconds": 0.5709096670034342
+    },
+    {
+      "id": "main/6326414672012357313/00061",
+      "reference": "BUT NOW THAT THE WORK'S BEEN DONE",
+      "prediction": "BUT NOW THE WORK'S BEEN DONE",
+      "seconds": 0.9555691659916192
+    },
+    {
+      "id": "main/6323198600501050831/00025",
+      "reference": "AND IF WE WANT A PROSPEROUS",
+      "prediction": "AND IF WE WANT A PROSPEROUS",
+      "seconds": 1.0282262079999782
+    },
+    {
+      "id": "main/6323221793324446979/00017",
+      "reference": "FROM THE SAME CANES",
+      "prediction": "FROM THE SAME CASE",
+      "seconds": 0.7165811670129187
+    },
+    {
+      "id": "main/6323956232732126743/00034",
+      "reference": "IT'S BEEN GREAT",
+      "prediction": "IT WOULD BE GREAT",
+      "seconds": 0.7673822499928065
+    },
+    {
+      "id": "main/6326360555424366722/00052",
+      "reference": "AFTER ALL AND THEN THEY'VE GOT A HEAD START AND WILL GROW AWAY NEXT SPRING",
+      "prediction": "AFTER ALL AND THEN THEY'VE GOT A HEAD START AND WILL GO AWAY NEXT SPRING",
+      "seconds": 2.188143040984869
+    },
+    {
+      "id": "main/6326360555424366722/00006",
+      "reference": "AND I HAVE GOT THE EFFECT I WANT",
+      "prediction": "AND I HAVE GOT THE EFFECT I WANT",
+      "seconds": 0.949963083025068
+    },
+    {
+      "id": "main/6311014637275749987/00069",
+      "reference": "MAYBE A SLIGHT BURNING",
+      "prediction": "MAYBE IT'S TIME BURNING",
+      "seconds": 0.9934497500071302
+    },
+    {
+      "id": "main/6315405811839181004/00041",
+      "reference": "DURING THE REVOLUTION",
+      "prediction": "DURING THE REVOLUTION",
+      "seconds": 0.6322538329986855
+    },
+    {
+      "id": "main/6327740528416575363/00004",
+      "reference": "AND THAT'S HOW THEY DO IT",
+      "prediction": "AND THAT'S HOW THEY DO IT",
+      "seconds": 0.9280701659736224
+    },
+    {
+      "id": "main/6301320037095305408/00004",
+      "reference": "JUST WHEN YOU THINK YOU'RE HAVING THE WORST DAY POSSIBLE",
+      "prediction": "THIS WAS LIKE HAVING ONE DAY POSSIBLE",
+      "seconds": 1.0358874169760384
+    },
+    {
+      "id": "main/6311014637275749987/00055",
+      "reference": "THAT I'VE GOT A TUMMY",
+      "prediction": "I'VE GOT A TUMMY",
+      "seconds": 1.1783688750001602
+    },
+    {
+      "id": "main/6306870852828565379/00027",
+      "reference": "AMONGST THE MANY GERMAN STATES THAT HAD BEEN OVERRUN BY THE FRENCH EMPEROR NAPOLEON AND WHOSE",
+      "prediction": "AMONGST THE MANY GERMAN STATES THAT HAVE BEEN OVERRUN BY THE FRENCH EMPEROR NAPOLEON AND",
+      "seconds": 3.2097145410371013
+    },
+    {
+      "id": "main/6306811582279909115/00025",
+      "reference": "WITH THE OTHER HOMES",
+      "prediction": "WITH THE OTHER HOMES",
+      "seconds": 0.6417496249778196
+    },
+    {
+      "id": "main/6312066045269810824/00028",
+      "reference": "WE'RE A LOT DIFFERENT THAN OTHER STATES IN TERMS OF OUR PHILOSOPHY",
+      "prediction": "WERE A LOT DIFFERENT ON THE STAGE IN TERMS OF NASHVILLE",
+      "seconds": 1.743490708002355
+    },
+    {
+      "id": "main/6329062519350282760/00002",
+      "reference": "BECAUSE USING VEGETABLES IN A DESSERT HAS BECOME MORE POPULAR NOWADAYS",
+      "prediction": "BECAUSE USING VEGETABLES EATS AND DIETS BECOME MORE POPULAR NOWADAYS",
+      "seconds": 1.6939477080013603
+    },
+    {
+      "id": "main/6325819389545137915/00011",
+      "reference": "AND THE BULL'S EYES",
+      "prediction": "AND THE BULLSEYES",
+      "seconds": 0.8327368339523673
+    },
+    {
+      "id": "main/6326360555424366722/00028",
+      "reference": "THE CHANCE OF ME EXPERIENCING JUNGLE IS NOT VERY HIGH",
+      "prediction": "THE CHANCE OF ME EXPERIENCING CHARCOAL IS NOT VERY HIGH",
+      "seconds": 1.9089138339622878
+    },
+    {
+      "id": "main/6328111613590949805/00027",
+      "reference": "IF WE CAN DO THAT",
+      "prediction": "IF WE CAN DO THAT",
+      "seconds": 0.8797988329897635
+    },
+    {
+      "id": "main/6329835613463566698/00011",
+      "reference": "IMAGINE THE KIND OF FARMER WHO HAS LEISURE TIME",
+      "prediction": "IMAGINE THE KIND OF FARMER WHO HAS TIME TO HAVE LEISURE TIME",
+      "seconds": 1.5156541670439765
+    },
+    {
+      "id": "main/6326553828952690654/00002",
+      "reference": "WE WILL RECEIVE ON UNITED STATES SOIL",
+      "prediction": "WE WILL RECEIVE OUR UNITED STATES SOIL",
+      "seconds": 0.9472785830148496
+    },
+    {
+      "id": "main/6326414672012357313/00013",
+      "reference": "AND IT WILL STILL SUIT THE NEEDS AND THE REQUIREMENTS OF THAT FAMILY",
+      "prediction": "AND ALSO DO THE NEEDS AND THE REQUIREMENTS OF THAT FAMILY",
+      "seconds": 1.6314805829897523
+    },
+    {
+      "id": "main/6329151425173313518/00046",
+      "reference": "SHE WAS AN ATTRACTIVE WOMAN",
+      "prediction": "SHE WAS AN ATTRACTIVE WOMAN",
+      "seconds": 0.7270875840331428
+    },
+    {
+      "id": "main/6311014637275749987/00041",
+      "reference": "AND IT'S THE ONLY MUSCLE THAT NEVER RESTS",
+      "prediction": "AND IT'S THE ONLY MUSCLE THAT NEVER RESTS",
+      "seconds": 1.345225458033383
+    },
+    {
+      "id": "main/6310166810731517953/00025",
+      "reference": "SO IT'S AGAINST ISLAMIC LAW",
+      "prediction": "SO IT'S LIKE A SYSTEMIC",
+      "seconds": 1.2659918750287034
+    },
+    {
+      "id": "main/6327295999301499598/00008",
+      "reference": "PROBABLY BEST TAKE CARE OF YOURSELF",
+      "prediction": "I'D PROBABLY BETTER TAKE CARE OF YOURSELF",
+      "seconds": 1.1084774589980952
+    },
+    {
+      "id": "main/6323956232732063947/00022",
+      "reference": "THE TEAMS ARE READY",
+      "prediction": "THE TEAMS ARE READY",
+      "seconds": 0.7819814590038732
+    },
+    {
+      "id": "main/6326360555424366722/00007",
+      "reference": "AND OVER THE NEXT FOUR WEEKS",
+      "prediction": "AND OVER THE NEXT FOUR WEEKS",
+      "seconds": 0.7138736670021899
+    },
+    {
+      "id": "main/6311280066254641716/00010",
+      "reference": "TRYING TO FIND DIRECTION",
+      "prediction": "TRY TO FIND DIRECTIONS",
+      "seconds": 0.76531587500358
+    },
+    {
+      "id": "main/6323198600501050831/00027",
+      "reference": "AND OFTEN IN SORT OF A CAPACITY OF CARE",
+      "prediction": "AND OFTEN IN THE CAPACITY OF CARE",
+      "seconds": 1.1467525420011953
+    },
+    {
+      "id": "main/6326360555424366722/00026",
+      "reference": "IT'S HAD ITS DIFFICULTIES",
+      "prediction": "THAT'S DIFFICULTIES",
+      "seconds": 0.7434082080144435
+    },
+    {
+      "id": "main/6323221793324446979/00012",
+      "reference": "SO IT IS A JOB TO DO",
+      "prediction": "SO IT'S A JOB TO DO",
+      "seconds": 0.8606606669491157
+    },
+    {
+      "id": "main/6325796196721673967/00005",
+      "reference": "BECAUSE THEY ADD THAT NICE BIT OF STRUCTURE",
+      "prediction": "BECAUSE IT HAD THAT NICE BIT OF STRUCTURE",
+      "seconds": 0.9287078329944052
+    },
+    {
+      "id": "main/6325440573560032726/00034",
+      "reference": "DO YOU WANT TO COME WITH ME",
+      "prediction": "DO YOU WANT TO COME WITH ME",
+      "seconds": 0.7620749159832485
+    },
+    {
+      "id": "main/6300370419826092098/00024",
+      "reference": "THEY'RE VERY LOW MAINTENANCE",
+      "prediction": "THEY ARE VERY LOW MAINTENANCE",
+      "seconds": 0.9582643340108916
+    },
+    {
+      "id": "main/6303167732026041278/00013",
+      "reference": "I WASN'T GIVEN IT",
+      "prediction": "I WASN'T GIVEN IT",
+      "seconds": 0.7707786670071073
+    },
+    {
+      "id": "main/6324230681142278360/00007",
+      "reference": "THIS IS ALL VERY PROMISING",
+      "prediction": "IT'S ALL VERY PROMISING",
+      "seconds": 0.9999512500362471
+    },
+    {
+      "id": "main/6310166810731517953/00011",
+      "reference": "I DON'T REMEMBER",
+      "prediction": "I DON'T REMEMBER",
+      "seconds": 0.6319967079907656
+    },
+    {
+      "id": "main/6326414672012357313/00041",
+      "reference": "FAMOUS FOR ITS MINING IN THE PAST",
+      "prediction": "I WAS FOR ITS MINING IN THE PAST",
+      "seconds": 1.1438053339952603
+    },
+    {
+      "id": "main/6328764878116731644/00019",
+      "reference": "SIX ON THE SECOND",
+      "prediction": "SITS ON THE SECOND",
+      "seconds": 0.6360202920041047
+    },
+    {
+      "id": "main/6306811582279909115/00009",
+      "reference": "MAKING HOMES IN THIS LOVELY COUNTY INCREDIBLE VALUE FOR THOSE SEEKING A RURAL RETREAT",
+      "prediction": "MAKING HOMES IN THIS LOVELY COUNTY INCREDIBLE VALUE FOR THOSE SEEKING A RURAL RETREAT",
+      "seconds": 2.5020233330433257
+    },
+    {
+      "id": "main/6315405811839181004/00021",
+      "reference": "AFTER TWO MONTHS OF ACTIVE DEBATING",
+      "prediction": "AFTER TWO MONTHS OF ACTIVE DEPENDING",
+      "seconds": 1.015575915982481
+    },
+    {
+      "id": "main/6328764878116731644/00032",
+      "reference": "AND PLAYING US OUT WITH MOVING ON UP",
+      "prediction": "AND PLAYING US OUT WITH MOVING ON UP",
+      "seconds": 0.9975728330318816
+    },
+    {
+      "id": "main/6328764878116731644/00014",
+      "reference": "WHO WAS YOUR DRUMMER",
+      "prediction": "THERE WAS NO TROUBLE",
+      "seconds": 0.80043341597775
+    },
+    {
+      "id": "main/6326414672012357313/00083",
+      "reference": "DID TODAY'S BUYERS FINISH THEIR PROJECTS OR WAS TIME THEIR ENEMY",
+      "prediction": "DID TODAY'S BUYERS FINISH THEIR PROJECTS OR WAS TIME THEIR ENEMY",
+      "seconds": 1.679058666981291
+    },
+    {
+      "id": "main/6325819389545137915/00002",
+      "reference": "THE ONLY THING THAT WOULD GET ME TO SLEEP WAS MY PARENTS READING ME THE TAKEAWAY MENU FROM OUR",
+      "prediction": "THE ONLY THING THAT WOULD GET ME TO SLEEP WAS MY PARENTS READING ME THE TAKEAWAY MENU FROM OUR",
+      "seconds": 2.5244633330148645
+    },
+    {
+      "id": "main/6327740528416575363/00020",
+      "reference": "IF I'M BEING HONEST",
+      "prediction": "IF I'M BEING HONEST",
+      "seconds": 0.922284625004977
+    },
+    {
+      "id": "main/6327295999301499598/00003",
+      "reference": "MY DAY ALREADY FEELS RATHER OVERWHELMING",
+      "prediction": "MEETING ALREADY FEELS RATHER OVERWHELMING",
+      "seconds": 0.9393404169823043
+    },
+    {
+      "id": "main/6328111613590949805/00029",
+      "reference": "THE SAD FACT IS YOU MAY NOT OWN THIS PICTURE",
+      "prediction": "THE SAD FACT IS YOU MAY NOT OWN THIS PICTURE",
+      "seconds": 1.2668587500229478
+    },
+    {
+      "id": "main/6314619832824012968/00007",
+      "reference": "BUT IT'S LOW TIDE",
+      "prediction": "IT'S LOW TIDE",
+      "seconds": 0.8054154999554157
+    },
+    {
+      "id": "main/6329893595522122781/00002",
+      "reference": "IT'S ALL BEEN FAIRLY RECENT",
+      "prediction": "IT'S ALL BEEN FAIRLY RICH",
+      "seconds": 0.9549183750059456
+    },
+    {
+      "id": "main/6328038169780654524/00003",
+      "reference": "THE VALENTINES SIX CYLINDER DIESEL ENGINES ROARED INTO LIFE",
+      "prediction": "OF 8 96 THE NISSAN LEGEND HAS WORN INTO LIFE",
+      "seconds": 2.3623430830193684
+    },
+    {
+      "id": "main/6325894121976022773/00016",
+      "reference": "TO MAKE SURE IT'S ALL RIGHT",
+      "prediction": "MAKE SURE IT'S ALL RIGHT",
+      "seconds": 0.892410958011169
+    },
+    {
+      "id": "main/6325440573560032726/00031",
+      "reference": "I WANT TO MEET ALL OF THE DIRECTOR GENERALS AND I WANT TO HEAR ABOUT WHAT THEY DO",
+      "prediction": "I WANT TO MEET ALL OF THE DIRECTOR GENERALS AND I WANT TO HEAR ABOUT WHAT THEY DO",
+      "seconds": 2.4270375840133056
+    },
+    {
+      "id": "main/6324698403080812792/00005",
+      "reference": "THEY SHARE A LOT OF THE SAME DESIGN AND TECHNOLOGY AS HIGH PERFORMANCE RUNNING SHOES",
+      "prediction": "THEY SHARE A LOT OF THE SAME DESIGN AND TECHNOLOGY AS HIGH PERFORMANCE READY TO USE",
+      "seconds": 2.420213083969429
+    },
+    {
+      "id": "main/6316024287129869379/00001",
+      "reference": "MORE AND MORE PEOPLE WOULD LOVE TO HAVE THEIR OWN PROPERTY PORTFOLIO",
+      "prediction": "MORE AND MORE PEOPLE WOULD LOVE TO HAVE THEIR OWN PROPERTY PORTFOLIO",
+      "seconds": 1.7576028750045225
+    },
+    {
+      "id": "main/6306870852828565379/00024",
+      "reference": "YOU'RE BLOWING AIR BETWEEN THESE TWO POINTS",
+      "prediction": "COMPARING AIR BETWEEN THESE TWO POINTS",
+      "seconds": 1.0438843329902738
+    },
+    {
+      "id": "main/6315405811839181004/00036",
+      "reference": "BUT IN NAVY'S AROUND THE WORLD AFTER THE BATTLE OF HAMPTON ROADS",
+      "prediction": "BY NAVIES AROUND THE WORLD AFTER THE BATTLE OF HAMPTON ROADS",
+      "seconds": 1.84984841698315
+    },
+    {
+      "id": "main/6326360555424366722/00050",
+      "reference": "IT'S WET AND IT'S COLD IN WINTER",
+      "prediction": "IT'S WET IN THIS COLD AND WINTER",
+      "seconds": 1.2396447499631904
+    },
+    {
+      "id": "main/6329151425173313518/00039",
+      "reference": "WHAT SCOTLAND NOW IS",
+      "prediction": "WHAT SCOTLAND NOW IS",
+      "seconds": 0.9610461670090444
+    },
+    {
+      "id": "main/6310166810731517953/00009",
+      "reference": "FOR NEW GENERATION AND NEW AGE",
+      "prediction": "FOR A NEW GENERATION AT NEW AGE",
+      "seconds": 0.9110703750047833
+    },
+    {
+      "id": "main/6323817075791736335/00013",
+      "reference": "IT'S ALL OVER THE WALLS",
+      "prediction": "IT'S ALL OVER THE WORLD",
+      "seconds": 0.9901984579628333
+    },
+    {
+      "id": "main/6309468449049188125/00017",
+      "reference": "AND THEY ARE REALLY ROUGH AND READY",
+      "prediction": "AND THEY'RE REALLY ROUGH AND READY",
+      "seconds": 1.0439947079867125
+    },
+    {
+      "id": "main/6327941532886024424/00006",
+      "reference": "YOU REALISE WHAT THIS MEANS",
+      "prediction": "YOU REALISE WHAT THIS MEANS",
+      "seconds": 0.7928367920103483
+    },
+    {
+      "id": "main/6327740528416575363/00007",
+      "reference": "ALTHOUGH FOUR BILLION SOUNDS A HUGE AMOUNT OF MONEY",
+      "prediction": "SO THAT'S A HUGE AMOUNT OF MONEY",
+      "seconds": 1.288974082970526
+    },
+    {
+      "id": "main/6316024287129869379/00048",
+      "reference": "PAUL AND ANDY HAVE GOT THEMSELVES A GREAT PROPERTY HERE",
+      "prediction": "PAUL AND ANDY HAVE GOT THEMSELVES A GREAT PROPERTY HERE",
+      "seconds": 1.330474124988541
+    },
+    {
+      "id": "main/6329151425173313518/00003",
+      "reference": "FOR WHAT IT'S WORTH",
+      "prediction": "FOR WHAT IT'S WORTH",
+      "seconds": 0.7391850000130944
+    },
+    {
+      "id": "main/6306870852828565379/00026",
+      "reference": "MODELS OF TRAINS",
+      "prediction": "MONITORS OF TRAINS",
+      "seconds": 0.9514329999801703
+    },
+    {
+      "id": "main/6315405811839181004/00018",
+      "reference": "WONDERING IF THEY'RE DOING IT CORRECTLY",
+      "prediction": "WONDERING IF YOU'RE DOING IT CORRECTLY",
+      "seconds": 1.3390247079660185
+    },
+    {
+      "id": "main/6322100806860254619/00008",
+      "reference": "EVEN WHEN IT WASN'T HIS FAULT",
+      "prediction": "EVEN WHEN IT WASN'T HIS FAULT",
+      "seconds": 0.9810569579713047
+    },
+    {
+      "id": "main/6326360555424366722/00016",
+      "reference": "NOT LEAST COS THE GROUND IS OFTEN VERY HARD",
+      "prediction": "NOR IS THE SURROUNDING ROOM VERY HARD",
+      "seconds": 1.04225212498568
+    },
+    {
+      "id": "main/6323198600501050831/00024",
+      "reference": "I DON'T THINK WE ARE",
+      "prediction": "I SHALL JUST BE HOME",
+      "seconds": 0.8766906669479795
+    },
+    {
+      "id": "main/6323956232732126743/00013",
+      "reference": "BUT IT'S STILL A STUNNING THING",
+      "prediction": "BUT INSTEAD I STUCK IT THERE",
+      "seconds": 1.0067746249842457
+    },
+    {
+      "id": "main/6329151425173313518/00042",
+      "reference": "GOING TO THIS SCHOOL",
+      "prediction": "RIGHT AT THIS SCHOOL",
+      "seconds": 0.7373373339651152
+    },
+    {
+      "id": "main/6318761040290818803/00022",
+      "reference": "AND THE PRICE OF SENSORS",
+      "prediction": "AND THE PRICE OF SENSORS",
+      "seconds": 0.883352458011359
+    },
+    {
+      "id": "main/6325819389545137915/00005",
+      "reference": "AT THE AGE OF SEVEN",
+      "prediction": "AT THE AGE OF SEVEN",
+      "seconds": 0.8030115829897113
+    },
+    {
+      "id": "main/6323221793324446979/00034",
+      "reference": "BUT FRANCES TOPHILL HAS BEEN PART OF SOME EXPERIMENTS AND TRIALS THAT THE RHS HAVE BEEN DOING AT",
+      "prediction": "BUT VERSUS TOPIC IT'S BEEN PART OF SOME EXPERIMENTS AND TRIALS THAT THE RHS HAVE BEEN DOING AT",
+      "seconds": 3.157871083007194
+    },
+    {
+      "id": "main/6313565847849574520/00006",
+      "reference": "AND WE WILL FOLLOW THEM",
+      "prediction": "AND WE WILL FOLLOW THEM",
+      "seconds": 0.6763259579893202
+    },
+    {
+      "id": "main/6324713864963081921/00013",
+      "reference": "SOME ITEMS ARE HELD FOR THREE MONTHS",
+      "prediction": "TO MAKE HIM SINGLE FOR THREE MONTHS",
+      "seconds": 1.0870010409853421
+    },
+    {
+      "id": "main/6329151425173313518/00098",
+      "reference": "IF THERE ARE ANY",
+      "prediction": "IF THERE ARE ANY",
+      "seconds": 0.6155125829973258
+    },
+    {
+      "id": "main/6326360555424366722/00022",
+      "reference": "OVERNIGHT IS PERFECT",
+      "prediction": "OVERNIGHT IN THE PROFIT",
+      "seconds": 0.9492760419961996
+    },
+    {
+      "id": "main/6311014637275749987/00057",
+      "reference": "AND I WAS IMMEDIATELY",
+      "prediction": "AND I WAS IMMEDIATELY",
+      "seconds": 0.7806195840239525
+    },
+    {
+      "id": "main/6326414672012357313/00022",
+      "reference": "HE'S GOT A TENANT ALREADY LINED UP WAITING TO MOVE IN",
+      "prediction": "HE'S GOT A TENANT ALREADY LINED UP WAITING TO MOVE IN",
+      "seconds": 1.915029791998677
+    },
+    {
+      "id": "main/6326553828952690654/00001",
+      "reference": "I HAVE LONG BEEN AN EARNEST ADVOCATE OF CLOSER TIES BETWEEN OUR TWO COUNTRIES",
+      "prediction": "HAVE CALLED ME A LONGEST ADVOCATE OF CLOSER TIES BETWEEN OUR TWO COUNTRIES",
+      "seconds": 1.7658271249965765
+    },
+    {
+      "id": "main/6312066045269810824/00017",
+      "reference": "31 YEARS ON ACTIVE DUTY AS A COLONEL",
+      "prediction": "31 YEARS ON ACTIVE DUTY AS A WHOLE",
+      "seconds": 1.2239284579991363
+    },
+    {
+      "id": "main/6328962017115556355/00004",
+      "reference": "WHICH ARE ABOUT THREE OR FOUR YEARS OLDER",
+      "prediction": "WHICH IS ABOUT THREE OR FOUR YEARS OLD",
+      "seconds": 0.9099437500117347
+    },
+    {
+      "id": "main/6326414672012357313/00024",
+      "reference": "WILL THEY STICK TO THEIR BUDGET",
+      "prediction": "WILL THEY STICK TO THEIR BUDGET",
+      "seconds": 0.7542119580321014
+    },
+    {
+      "id": "main/6329151425173313518/00104",
+      "reference": "A COMBINATION OF THAT",
+      "prediction": "THE COMBINATION OF THAT",
+      "seconds": 0.609309374995064
+    },
+    {
+      "id": "main/6316024287129869379/00016",
+      "reference": "THEY SEEM TO BE AS SAD AS I WILL BE TO SEE THIS FLOOR IN THE BACK GO",
+      "prediction": "THEY SEEM TO BE AS SAD AS I WOULD BE STILL AS FLOODING THE BANKING GO",
+      "seconds": 2.4747352919657715
+    },
+    {
+      "id": "main/6323221793324446979/00032",
+      "reference": "I GROW VEGETABLES BECAUSE I LIKE THE TASTE",
+      "prediction": "I COOK VEGETABLES BECAUSE I LIKE THE TASTE",
+      "seconds": 1.1525865840376355
+    },
+    {
+      "id": "main/6325456035311830751/00007",
+      "reference": "IT'S NOT EVEN A JOKE",
+      "prediction": "IT'S NOT EVEN A SHOW",
+      "seconds": 0.8387495419592597
+    },
+    {
+      "id": "main/6323817075791736335/00038",
+      "reference": "THIS HOUSE IS PROBABLY WORTH AROUND 120",
+      "prediction": "THIS HOUSE IS PROBABLY WORTH AROUND 120",
+      "seconds": 1.048848333011847
+    },
+    {
+      "id": "main/6328038169780654524/00005",
+      "reference": "PROTECTION FROM THE INCOMING WAVES",
+      "prediction": "PROTECTION FROM THE INCOMING WAVES",
+      "seconds": 0.9914350420003757
+    },
+    {
+      "id": "main/6310166810731517953/00007",
+      "reference": "PROBABLY BEEN AT THE HEART OF HUMAN AFFAIRS",
+      "prediction": "PROBABLY BEEN AT THE HEART OF HUMAN AFFAIRS",
+      "seconds": 1.1314874999807216
+    },
+    {
+      "id": "main/6327713470253076639/00002",
+      "reference": "WE WOULD PROBABLY HAVE A DIFFERENT NATIONAL IDENTITY",
+      "prediction": "WE WOULD PROBABLY HAVE A DIFFERENT NATIONAL IDENTITY",
+      "seconds": 0.9286238339846022
+    },
+    {
+      "id": "main/6327713470253076639/00039",
+      "reference": "AND HE MADE HIS NAME HELPING HENRY RESOLVE ONE OF THE GREATEST CRISES OF HIS REIGN",
+      "prediction": "AND HE MADE HIS NAME HELPING HENRY RESOLVE ONE OF THE GREATEST CRISES OF HIS REIGN",
+      "seconds": 2.5254204160301015
+    },
+    {
+      "id": "main/6310166810731517953/00014",
+      "reference": "ALL OF THESE TROGLODYTE CAVES EVERYWHERE AND THE NICE LANDSCAPE",
+      "prediction": "GO ON AND ENJOY THE NICE CAVES EVERYWHERE AND THE NICE LANDSCAPE",
+      "seconds": 1.7381638750084676
+    },
+    {
+      "id": "main/6326360555424366722/00025",
+      "reference": "LIKE MANY NEIGHBOURHOODS AROUND THE COUNTRY",
+      "prediction": "LIKE MANY NEIGHBOURHOODS AROUND THE COUNTRY",
+      "seconds": 0.8016562919947319
+    },
+    {
+      "id": "main/6329062519350282760/00017",
+      "reference": "I DIDN'T WANT TO BE GOING HOME ON THURSDAY",
+      "prediction": "I THINK WE'LL BE GOING ON MY FIRST DAY",
+      "seconds": 1.3689157080370933
+    },
+    {
+      "id": "main/6316024287129869379/00047",
+      "reference": "TIME HAS PASSED",
+      "prediction": "TIME HAS PASSED",
+      "seconds": 0.7258696249919012
+    },
+    {
+      "id": "main/6312066045269810824/00021",
+      "reference": "HAVING COME TO KNOW A LITTLE BIT ABOUT THIS MIGHTY RIVER",
+      "prediction": "HAVING COME TO KNOW A LITTLE BIT ABOUT THIS MIGHTY RIVER",
+      "seconds": 1.327585166960489
+    },
+    {
+      "id": "main/6323956232732126743/00020",
+      "reference": "AND IF WE TURN THIS ONE ROUND",
+      "prediction": "AND IF WE TURN THIS ONE ROUND",
+      "seconds": 0.8336319999652915
+    },
+    {
+      "id": "main/6324764116080445123/00006",
+      "reference": "HE'S GOT CHEST PAIN",
+      "prediction": "IT'S NOT JUST PAIN",
+      "seconds": 0.9141724169603549
+    },
+    {
+      "id": "main/6323817075791736335/00074",
+      "reference": "IT HAS BEEN DONE TO A HIGH STANDARD",
+      "prediction": "THIS HAS BEEN TO A HIGH STANDARD",
+      "seconds": 1.0422823330154642
+    },
+    {
+      "id": "main/6306811582279909115/00015",
+      "reference": "BECAUSE NIGEL WAS SO STERN ABOUT THE BUDGET",
+      "prediction": "BECAUSE NIGEL WAS SO CERTAIN ABOUT THE BUDGET",
+      "seconds": 1.2658727920497768
+    },
+    {
+      "id": "main/6329893595522122781/00007",
+      "reference": "IT'S NOT A STROKE",
+      "prediction": "IT'S NOT A STROKE",
+      "seconds": 0.7718501249910332
+    },
+    {
+      "id": "main/6325894121976022773/00008",
+      "reference": "BUT THAT'S NOTHING COMPARED TO THE PRICE OF SOME OF THE RACING BIKES",
+      "prediction": "BUT THAT'S NOTHING COMPARED TO THE PRICE OF SOME OF THE RANGING BUYERS",
+      "seconds": 1.8771463339799084
+    },
+    {
+      "id": "main/6328351272766065122/00003",
+      "reference": "BUT WORKING AS A TEAM",
+      "prediction": "BUT AS A TEAM",
+      "seconds": 0.7887386659858748
+    },
+    {
+      "id": "main/6314990917998387385/00003",
+      "reference": "THERE'S NO ROAD ACCESS AT ALL",
+      "prediction": "THERE'S NO ROAD ACCESS AT ALL",
+      "seconds": 0.8908529999898747
+    },
+    {
+      "id": "main/6329151425173313518/00011",
+      "reference": "SO THE QUESTION IS VERY STRAIGHTFORWARD AND SIMPLE TO POSE",
+      "prediction": "SO THE QUESTION IS VERY STRAIGHTFORWARD AND SIMPLE TO POSE",
+      "seconds": 1.3346045420039445
+    },
+    {
+      "id": "main/6310195157515669986/00008",
+      "reference": "NOTHING AT ALL IS COMING",
+      "prediction": "I THINK SCHOOL IS COMING",
+      "seconds": 1.022453083016444
+    },
+    {
+      "id": "main/6325440573560032726/00011",
+      "reference": "OR TELL YOU WHAT TO DO",
+      "prediction": "YOU TELL YOU WHAT TO DO",
+      "seconds": 0.9807904579793103
+    },
+    {
+      "id": "main/6308177381880006979/00005",
+      "reference": "BUT THE FLOWERS ARE OVER NOW",
+      "prediction": "BUT THE FLOWERS ARE OVER NOW",
+      "seconds": 0.9870392080047168
+    },
+    {
+      "id": "main/6326360555424366722/00029",
+      "reference": "I'M ABLE TO CREATE",
+      "prediction": "I'M ABSOLUTELY RIGHT",
+      "seconds": 1.046719125006348
+    },
+    {
+      "id": "main/6324713864963081921/00024",
+      "reference": "IT DEPENDS ON THE DRIVERS",
+      "prediction": "IT DEPENDS ON THE DRIVERS",
+      "seconds": 0.862147499981802
+    },
+    {
+      "id": "main/6326414672012357313/00086",
+      "reference": "IT WAS A BIT TIRED",
+      "prediction": "I WAS A BIT TIRED",
+      "seconds": 0.6478550840402022
+    },
+    {
+      "id": "main/6306870852828565379/00022",
+      "reference": "I THINK WITHOUT THE BURSCHENSCHAFTEN",
+      "prediction": "I THINK WITH HEALTHY BRITISH CHEFS",
+      "seconds": 0.9771218749810942
+    },
+    {
+      "id": "main/6302978323968228875/00023",
+      "reference": "VERY NICE LOOKING PLANT BY EARLY AUTUMN AND THEN YOU'RE MULTIPLYING YOUR FAVOURITE",
+      "prediction": "VERY NICE LOOKING PLANT BY EARLY AUTUMN AND THEN YOU MULTIPLY YOUR FAVOURITE",
+      "seconds": 2.692789292021189
+    },
+    {
+      "id": "main/6323817075791736335/00024",
+      "reference": "I'VE GOT THE MONIES IN PLACE",
+      "prediction": "I'VE GOT THE MONEY'S IN PLACE",
+      "seconds": 1.0138083749916404
+    },
+    {
+      "id": "main/6327295999301499598/00005",
+      "reference": "I'D SAY THERE OUGHT TO BE LESS OF IT",
+      "prediction": "AND SO THEY THOUGHT TO BE LESS OBVIOUS",
+      "seconds": 1.1886709169484675
+    },
+    {
+      "id": "main/6328962017115556355/00007",
+      "reference": "SOME OF MY FAVOURITE FRUITS",
+      "prediction": "SOME OF MY FAVOURITE VIEWS",
+      "seconds": 1.0031714590149932
+    },
+    {
+      "id": "main/6309468449049188125/00026",
+      "reference": "WE'VE HANDED OVER A LITTLE BIT OF MONEY ALONG THE WAY",
+      "prediction": "WE'VE HAD A LITTLE BIT OF MONEY ALONG THE WAY",
+      "seconds": 1.373677209019661
+    },
+    {
+      "id": "main/6324764116080445123/00005",
+      "reference": "BUT FROM THE ECG CHANGES AND LOOKING AT DAVID",
+      "prediction": "BUT FROM THE INSURGENT CHANGES AND LOOK IN ITSELF",
+      "seconds": 1.7279496249975637
+    },
+    {
+      "id": "main/6329893595522062514/00009",
+      "reference": "AT THE SAME LEVEL OF THEIR PROFESSION",
+      "prediction": "ON THE SAME LEVEL AS OUR PROFESSION",
+      "seconds": 1.0632448340184055
+    },
+    {
+      "id": "main/6315405811839181004/00054",
+      "reference": "THE FIRST THANKSGIVING IS HERE IN 1608 WHEN POCAHONTAS HERSELF BRINGS FOOD TO HELP THE COLONISTS",
+      "prediction": "THE FIRST THANKSGIVING DINNER SHE SAID HENRY BOGARTS ARE SAFE PLACE FOOD TO HELP THE COLLEGE",
+      "seconds": 3.8566079169977456
+    },
+    {
+      "id": "main/6323956232732126743/00005",
+      "reference": "AND HAS BEEN TURNED INTO A BANGLE",
+      "prediction": "IT'S BEEN TIED INTO A BANK",
+      "seconds": 1.090779250022024
+    },
+    {
+      "id": "main/6326866932068565154/00008",
+      "reference": "AND MEN WERE ENCOURAGED TO KEEP FIT",
+      "prediction": "AND MEN WERE ENCOURAGED TO KEEP FIT",
+      "seconds": 0.9365969159989618
+    },
+    {
+      "id": "main/6329151425173313518/00036",
+      "reference": "THE END OF HEAVY INDUSTRY ON THE CLYDE AND SO FORTH",
+      "prediction": "THE END OF EVERY INDUSTRIAL DECLINE AND SO FORTH",
+      "seconds": 1.3868942080298439
+    },
+    {
+      "id": "main/6313656042293295351/00008",
+      "reference": "IT MIGHT HAVE BEEN ON ITS OWN IN EUROPE",
+      "prediction": "IT MIGHT BE ON ITS OWN IN EUROPE",
+      "seconds": 1.0418356660520658
+    },
+    {
+      "id": "main/6318761040290818803/00021",
+      "reference": "WE COULDN'T HAVE IMAGINED TEN",
+      "prediction": "WE COULD HAVE IMAGINED IT",
+      "seconds": 0.7646626670029946
+    },
+    {
+      "id": "main/6329151425173313518/00010",
+      "reference": "WHERE WOMEN SEEM TO BE RUNNING ALMOST EVERYTHING AND WHICH IS",
+      "prediction": "WHERE WOMEN SEEM TO BE RUNNING ALMOST EVERYTHING AND WHICH IS",
+      "seconds": 1.19912037497852
+    },
+    {
+      "id": "main/6328351272766065122/00007",
+      "reference": "WHEN THE SCALES BECAME IN GREAT DEMAND FOR ASIAN WILDLIFE TRADE",
+      "prediction": "WHEN THE SCALES BECAME A GREAT DEMAND FOR ASIAN WILDLIFE TRADE",
+      "seconds": 1.6235301659908146
+    },
+    {
+      "id": "main/6315405811839181004/00002",
+      "reference": "LOTS OF OUTLYING FARMS AND A SMALL COLLECTION OF BUILDINGS",
+      "prediction": "LOTS OF ALLIED FARMS AND A SMALL COLLECTION OF BUILDINGS",
+      "seconds": 1.4706774160149507
+    },
+    {
+      "id": "main/6326360555424366722/00014",
+      "reference": "AND THAT KEEPS THEM DRY",
+      "prediction": "AND THAT KEEPS THEM DRY",
+      "seconds": 0.8376520829624496
+    },
+    {
+      "id": "main/6313656042293295351/00016",
+      "reference": "SAW THAT IT NO LONGER HAD THE STRATEGIC VALUE IT HAD",
+      "prediction": "SAW THAT IT NO LONGER HAD THE STRATEGIC VALUE IT HAD",
+      "seconds": 1.7745582920033485
+    },
+    {
+      "id": "main/6315405811839181004/00034",
+      "reference": "VIRTUALLY EVERY MAJOR COMBAT VESSEL THAT WAS DESIGNED",
+      "prediction": "VIRTUALLY EVERY MAJOR COMBAT VESSEL THAT WAS DESIGNED",
+      "seconds": 1.216181083000265
+    },
+    {
+      "id": "main/6314248747649637090/00018",
+      "reference": "SO WHAT WAS SHOCKING FOR HIM WAS THE RESULT",
+      "prediction": "SO WHAT WAS SHOCKING FOR HIM WAS TO RETIRE",
+      "seconds": 1.2671487500192598
+    },
+    {
+      "id": "main/6328312618060398848/00011",
+      "reference": "IF THE ROYAL SHAKESPEARE COMPANY GIVE ME SUITABLE PARTS",
+      "prediction": "IF THE ROYAL SHAKESPEARE COMPANY GIVE ME SUITABLE PARTS",
+      "seconds": 1.3461562920128927
+    },
+    {
+      "id": "main/6313656042293295351/00004",
+      "reference": "TO THE BEST OF MY RECOLLECTION",
+      "prediction": "TO THE BEST OF MY RECOLLECTION",
+      "seconds": 1.0914907499682158
+    },
+    {
+      "id": "main/6327713470253076639/00029",
+      "reference": "CAUSES SEVERE STOMACH PAIN",
+      "prediction": "USING SEVERE STOMACH PAIN",
+      "seconds": 0.8008363340049982
+    },
+    {
+      "id": "main/6329835613463566698/00005",
+      "reference": "THIS IS QUITE A BOLD PROJECT AND YET YOU DON'T SEEM REMOTELY FAZED BY ANY OF IT",
+      "prediction": "THIS IS QUITE A BOLD PROJECT AND YET YOU DON'T SEEM REMOTELY FACED BY ANY OF IT",
+      "seconds": 2.64777491701534
+    },
+    {
+      "id": "main/6324698403080812792/00027",
+      "reference": "SOMEWHERE IN THE WORLD",
+      "prediction": "SOMEWHERE IN THE WORLD",
+      "seconds": 0.7126901249866933
+    },
+    {
+      "id": "main/6326461057659161695/00018",
+      "reference": "WE SET YOU A TARGET OF 3",
+      "prediction": "WE SET YOU A TARGET OF 3",
+      "seconds": 0.8647665000171401
+    },
+    {
+      "id": "main/6310166810731517953/00015",
+      "reference": "MANY YEARS LATER",
+      "prediction": "MANY YEARS LATER",
+      "seconds": 0.4990544999600388
+    },
+    {
+      "id": "main/6327713470253076639/00020",
+      "reference": "AND OVER TIME IT BECAME A PERMANENT SAXON BASE",
+      "prediction": "AND OVER TIME IT BECAME A PERMANENT SAXON BASE",
+      "seconds": 1.2638384169549681
+    },
+    {
+      "id": "main/6300370419826092098/00001",
+      "reference": "SO WE NEED YOU TO HELP US IN OUR REVIVAL CAMPAIGN",
+      "prediction": "SO WE NEED YOU TO HELP US IN OUR REVIVAL CAMPAIGN",
+      "seconds": 1.460805499984417
+    },
+    {
+      "id": "main/6327980187591690710/00003",
+      "reference": "THAT WILL BE REALLY HELPFUL",
+      "prediction": "THAT WOULD BE REALLY HELPFUL",
+      "seconds": 0.7082595420069993
+    },
+    {
+      "id": "main/6329151425173313518/00068",
+      "reference": "EVEN MORE IMPORTANT",
+      "prediction": "EVEN MORE IMPORTANT",
+      "seconds": 0.6102044159779325
+    },
+    {
+      "id": "main/6326414672012357313/00021",
+      "reference": "BUT IF YOU'RE NOT SCARED OFF BY THE STATE OF THE PLACE AND YOU PAY NEAR THE GUIDE PRICE",
+      "prediction": "BUT IF YOU'RE NOT SCARED OFF BY THE STATE OF THE PLACE AND YOU PAY NEAR THE GUIDE PRICE",
+      "seconds": 2.5531856669695117
+    },
+    {
+      "id": "main/6318761040290818803/00012",
+      "reference": "THE FLIPPER WAS ONLY FIRING AT HALF POWER IN THE LAST FIGHT",
+      "prediction": "THE FILM WAS ONLY FIRING HALF POWER IN THE LAST FIGHT",
+      "seconds": 1.4124360839487053
+    },
+    {
+      "id": "main/6308177381880006979/00012",
+      "reference": "BUT INSECTS IN GENERAL",
+      "prediction": "BUT AS IT SHOWS",
+      "seconds": 0.8945526250172406
+    },
+    {
+      "id": "main/6303167732026041278/00001",
+      "reference": "THE MAJESTIC KIRBY HALL IN NORTHAMPTONSHIRE",
+      "prediction": "THE MAJESTIC CARPET HALL IN NORTHAMPTONSHIRE",
+      "seconds": 1.6632069579791278
+    },
+    {
+      "id": "main/6326360555424366722/00019",
+      "reference": "YOU CAN HAVE A FABULOUS SPRING DISPLAY",
+      "prediction": "YOU CAN HAVE A FABULOUS SPRING DISPLAY",
+      "seconds": 0.9688456250005402
+    },
+    {
+      "id": "main/6329151425173313518/00118",
+      "reference": "AND I THINK THEN WE NEED TO MOVE FORWARD AND SAY",
+      "prediction": "AND I THINK THAT WE NEED TO MOVE FORWARD AND SAY",
+      "seconds": 1.1978974580415525
+    },
+    {
+      "id": "main/6315405811839181004/00008",
+      "reference": "A LOT OF PEOPLE CONSIDER THAT ONE OF HIS GREATEST VICTORIES BECAUSE HE DROVE THE UNION ARMY FROM",
+      "prediction": "A LOT OF PEOPLE CONSIDER THEM ONE OF HIS GREATEST VICTORIES BECAUSE HE DROVE THE UNION ARMY FROM",
+      "seconds": 2.2042416670010425
+    },
+    {
+      "id": "main/6303167732026041278/00020",
+      "reference": "MY AUNT GAVE ME THESE DRESSES AS SHE KNOWS I'VE GOT AN INTEREST IN FASHION HISTORY",
+      "prediction": "MY AUNT GAVE ME THESE DRESSES AND SHE KNOWS I'VE GOT AN INTERESTING FASHION HISTORY",
+      "seconds": 2.3476897079963237
+    },
+    {
+      "id": "main/6329151425173313518/00062",
+      "reference": "IF THEY PUSH ON WITH THE UNACCEPTABLE PROPOSALS OF RECENT YEARS",
+      "prediction": "IF THEY PUT STOCK PUT ON WITH UNACCEPTABLE MUTUAL DEFICIENCIES",
+      "seconds": 2.1990226250491105
+    },
+    {
+      "id": "main/6328656644940810739/00006",
+      "reference": "THEY CAN COME HERE AND SPEND SOME TIME RELAXING",
+      "prediction": "THEY CAN COME HERE AND SPEND SOME TIME RELAXING",
+      "seconds": 1.1355251250206493
+    },
+    {
+      "id": "main/6325819389545137915/00008",
+      "reference": "I WANT YOU TO COME TO MY BEDROOM",
+      "prediction": "I WANT YOU TO COME TO MY BEDROOM",
+      "seconds": 0.9197802090202458
+    },
+    {
+      "id": "main/6318761040290818803/00013",
+      "reference": "AS WELL AS BEING COLD",
+      "prediction": "AS WELL AS BIGGER GOLD",
+      "seconds": 0.8310102919931524
+    },
+    {
+      "id": "main/6314248747649637090/00015",
+      "reference": "SOME PEOPLE STILL HAVE THE WALL IN THEIR HEADS",
+      "prediction": "SOME PEOPLE SHALL HAVE A WALL UNDER THEIR HEADS",
+      "seconds": 1.1540070839691907
+    },
+    {
+      "id": "main/6323956232732063947/00019",
+      "reference": "IT HEALED ITS SCARS",
+      "prediction": "AND HAIRY DOGS",
+      "seconds": 1.0823106659809127
+    },
+    {
+      "id": "main/6310968251628953184/00011",
+      "reference": "OR DID TO START THE FIGHT",
+      "prediction": "OR DID THE OTHERS WITH THE VINE",
+      "seconds": 1.165505957964342
+    },
+    {
+      "id": "main/6324698403080812792/00022",
+      "reference": "IN THE AFTERNOON",
+      "prediction": "GOING IN THE AFTERNOON",
+      "seconds": 0.744578875019215
+    },
+    {
+      "id": "main/6323956232732126743/00006",
+      "reference": "WHICH IN MANY WAYS IS VERY WEARABLE",
+      "prediction": "WHICH IN MANY WAYS IS VERY WEARABLE",
+      "seconds": 1.093197166977916
+    },
+    {
+      "id": "main/6316024287129869379/00029",
+      "reference": "WHERE WILL JOHN DECIDE HE WANTS THE WET ROOM",
+      "prediction": "WHERE WILL JOHN DECIDE HE WANTS THE WET ROOM",
+      "seconds": 1.2368096669670194
+    },
+    {
+      "id": "main/6328111613590949805/00016",
+      "reference": "NORMALLY WHAT WE WOULD DO IS WE WOULD PACKAGE UP THIS INFORMATION AND WE WOULD PRESENT IT TO A",
+      "prediction": "NORMALLY WHAT WE WOULD DO IS WE WOULD PACKAGE UP THIS INFORMATION AND WE WOULD PRESENT IT TO A",
+      "seconds": 2.3247734589967877
+    },
+    {
+      "id": "main/6310195157515669986/00014",
+      "reference": "BUT I THOUGHT 40",
+      "prediction": "BY ALL 40",
+      "seconds": 0.8925484170322306
+    },
+    {
+      "id": "main/6329151425173313518/00111",
+      "reference": "WHERE PEOPLE WANT A GREATER SENSE OF IDENTITY",
+      "prediction": "WHERE PEOPLE WANT A GREATER SENSE OF IDENTITY",
+      "seconds": 1.0511965419864282
+    },
+    {
+      "id": "main/6328111613590949805/00026",
+      "reference": "USING THE SAME PAINT IN EXACTLY THE SAME WAY",
+      "prediction": "USING THE SAME PATTERN IN THE SAME WAY",
+      "seconds": 1.0866169999935664
+    },
+    {
+      "id": "main/6329151425173313518/00112",
+      "reference": "LOOK FOR IDENTITY",
+      "prediction": "LOOKING FOR IDENTITY",
+      "seconds": 0.658361750014592
+    },
+    {
+      "id": "main/6328111613590949805/00003",
+      "reference": "WHO IS AN EXPERT IN YORK",
+      "prediction": "THERE WAS AN EXPERT ON SALE IN YORK",
+      "seconds": 1.3639375409693457
+    },
+    {
+      "id": "main/6325456035311830751/00006",
+      "reference": "BY ALL RECKONING",
+      "prediction": "BY RAINING",
+      "seconds": 0.6464749579899944
+    },
+    {
+      "id": "main/6328512334039666732/00010",
+      "reference": "AS RUTH GOODMAN'S BEEN LEARNING",
+      "prediction": "AS RUTH GOODMAN'S BEEN LEARNING",
+      "seconds": 1.0907147909747437
+    },
+    {
+      "id": "main/6324713864963081921/00008",
+      "reference": "IN 70 MILLION SQUARE FEET OF OFFICE SPACE",
+      "prediction": "IT'S 70 MILLION SQUARE FEET OF OFFICE SPACE",
+      "seconds": 1.4290878750034608
+    },
+    {
+      "id": "main/6327713470253076639/00019",
+      "reference": "THESE VISITS TO THE MOST IMPRESSIVE AND POWERFUL CITY IN THE WESTERN WORLD MADE A HUGE IMPRESSION",
+      "prediction": "THESE VISITS TO THE MOST IMPRESSIVE AND POWERFUL CITY IN THE WESTERN WORLD MADE A HUGE IMPRESSION",
+      "seconds": 2.351983582950197
+    },
+    {
+      "id": "main/6309824072341293478/00004",
+      "reference": "I DON'T KNOW ANYTHING ABOUT ELLA EYRE BUT ON THE BASIS THAT ELLIE GOULDING DEFINITELY HAD AN ALBUM",
+      "prediction": "I DON'T KNOW ANYTHING ABOUT IT BUT ON THE BASIS THAT I GO TO DEFINITELY GET AN ALBUM",
+      "seconds": 2.6914956659893505
+    },
+    {
+      "id": "main/6327740528416575363/00025",
+      "reference": "THEY DO SAY THAT MIGRATION HAS KEPT A DOWNWARD PRESSURE ON WAGES IN",
+      "prediction": "THEY DO SAY THAT MIGRATION HAS KEPT A DOWNWARD PRESSURE ON WAGES IN",
+      "seconds": 1.9422541669919156
+    },
+    {
+      "id": "main/6310195157515669986/00004",
+      "reference": "THAT WAS BRILLIANT",
+      "prediction": "THAT WAS BRILLIANT",
+      "seconds": 0.6137309590121731
+    },
+    {
+      "id": "main/6303167732026041278/00017",
+      "reference": "THERE WAS NO PAINT IN THE WAY THAT WE UNDERSTAND IT",
+      "prediction": "HE WAS SO PASSIONATE ABOUT THE SUN",
+      "seconds": 1.3413298330269754
+    },
+    {
+      "id": "main/6323198600501050831/00029",
+      "reference": "NEW JOBS DO ARISE",
+      "prediction": "NEW JOBS TO DO IT RIGHT",
+      "seconds": 0.7703194580390118
+    },
+    {
+      "id": "main/6313877662475262663/00030",
+      "reference": "THIS IS A SCHEDULED SERVICE",
+      "prediction": "THIS IS THE SCHEDULE SERIES",
+      "seconds": 0.8660352919832803
+    },
+    {
+      "id": "main/6326360555424366722/00043",
+      "reference": "IT COULD HAVE AS MUCH AS 30 OR 40 LITTLE STEMS",
+      "prediction": "IT COULD HAVE AS MUCH AS 30 OR 40 INITIAL STEPS",
+      "seconds": 1.7452137080254033
+    },
+    {
+      "id": "main/6324713864963081921/00006",
+      "reference": "THE REASON TRAVELLING SEEMS SO SEAMLESS IS BECAUSE OF ALL THE EFFORTS THAT GO ON BEHIND THE SCENES",
+      "prediction": "THE REASON TRAVELLING SEEMS SO SEAMLESS IS BECAUSE OF ALL THE EFFORT BEHIND THE SCENES",
+      "seconds": 2.5546139999642037
+    },
+    {
+      "id": "main/6315405811839181004/00053",
+      "reference": "WHERE THE INDIANS AND THE PILGRIMS SAT DOWN TOGETHER",
+      "prediction": "WITH THE INDIANS THAT BUILT THEM SAT DOWN TOGETHER",
+      "seconds": 1.6346825829823501
+    },
+    {
+      "id": "main/6315421273721446605/00003",
+      "reference": "DO GO TO OUR WEBSITE",
+      "prediction": "DO GO TO OUR WEBSITE BBC",
+      "seconds": 0.9367070840089582
+    },
+    {
+      "id": "main/6329151425173313518/00074",
+      "reference": "PERHAPS IT WOULD BE BEST",
+      "prediction": "PERHAPS IT WOULD BE BEST",
+      "seconds": 0.9184630830422975
+    },
+    {
+      "id": "main/6316024287129869379/00013",
+      "reference": "WE LOOKED AT A LOAD OF HOUSES IN THE UNIVERSITY AREA",
+      "prediction": "WELL WE'VE BEEN USING A LOT OF FILES AS KIND OF A NEW FASTING AREA",
+      "seconds": 2.4920159580069594
+    },
+    {
+      "id": "main/6315405811839181004/00022",
+      "reference": "88 VOTED TO SECEDE",
+      "prediction": "ANY KIND OF USAGE",
+      "seconds": 1.0417935829609632
+    },
+    {
+      "id": "main/6314308018198387664/00006",
+      "reference": "AND IF HE IMPROVES",
+      "prediction": "AND IF IT IMPROVES",
+      "seconds": 0.7491407910129055
+    },
+    {
+      "id": "main/6329835613463566698/00021",
+      "reference": "SHE WANTS THEM TO READ",
+      "prediction": "SHE WANTS THEM TO FEED",
+      "seconds": 0.8356518329819664
+    },
+    {
+      "id": "main/6326553828952690654/00007",
+      "reference": "AS MUCH INFORMATION AS YOUR ACTS WOULD ALLOW US TO HAVE IN ADVANCE OF YOU GETTING THE WEAPON INTO",
+      "prediction": "AS MUCH INFORMATION AS YOUR EXPERTS HAVE IN ADVANCE OF YOU GETTING THE WEAPON IN THE",
+      "seconds": 2.5796139999874867
+    },
+    {
+      "id": "main/6316024287129869379/00012",
+      "reference": "BUT YOU'VE GOT TO BE VERY",
+      "prediction": "BUT YOU'VE GOT TO BE FAIR",
+      "seconds": 1.0191994170309044
+    },
+    {
+      "id": "main/6324698403080812792/00013",
+      "reference": "WAS BROKEN IN THE 1850S WHEN THE INDUSTRIAL REVOLUTION CAME TO",
+      "prediction": "WAS BROKEN IN THE 1850S WHEN THE INDUSTRIAL REVOLUTION CAME TO",
+      "seconds": 1.9863130419980735
+    },
+    {
+      "id": "main/6326360555424366722/00045",
+      "reference": "BECAUSE THEY'RE LOVELY PLANTS",
+      "prediction": "BECAUSE THEY LOVE HIM NOT",
+      "seconds": 0.9750376660376787
+    },
+    {
+      "id": "main/6313656042293295351/00003",
+      "reference": "I'D NEVER SEEN A BLACK MAN",
+      "prediction": "I'D NEVER SEEN A BLACK MAN",
+      "seconds": 0.8494056249619462
+    },
+    {
+      "id": "main/6308177381880006979/00024",
+      "reference": "NOT LEAST FROM THE BUILDING AND GROUNDS",
+      "prediction": "NOT LITERALLY BUILDING THE GROUNDS",
+      "seconds": 0.8731513749808073
+    },
+    {
+      "id": "main/6327199362537275576/00007",
+      "reference": "I'M HAPPY TO SAY",
+      "prediction": "I'M HAPPY TO SAY",
+      "seconds": 0.6927054999978282
+    },
+    {
+      "id": "main/6315405811839181004/00011",
+      "reference": "AN IDEAL PLACE FOR ME TO BEGIN TO DISCOVER THE SPIRIT OF THE",
+      "prediction": "AN IDEAL PLACE FOR ME TO BEGIN TO DISCOVER THE SPIRIT OF",
+      "seconds": 1.5404492499656044
+    },
+    {
+      "id": "main/6325119739372550419/00022",
+      "reference": "IN THE AFTERNOON",
+      "prediction": "GOING IN THE AFTERNOON",
+      "seconds": 0.6928215000079945
+    },
+    {
+      "id": "main/6326414672012357313/00064",
+      "reference": "AND BEFORE THAT",
+      "prediction": "AND BEFORE THAT",
+      "seconds": 0.5148115830379538
+    },
+    {
+      "id": "main/6311014637275749987/00036",
+      "reference": "BECAUSE THIS WOULD MEAN THAT MEN WHO TAKE STEROIDS OVER LONG PERIODS OF TIME MIGHT BE AT GREATER",
+      "prediction": "BECAUSE THIS WOULD MEAN THAT MEN WHO TAKE SERIOUSLY FOR LONG PERIODS OF TIME MIGHT BE AT QUITE A",
+      "seconds": 2.2777052909950726
+    },
+    {
+      "id": "main/6329062519350282760/00014",
+      "reference": "AND THEN STEP BACK",
+      "prediction": "AND THEN SIT BACK",
+      "seconds": 0.8234542499994859
+    },
+    {
+      "id": "main/6326414672012357313/00037",
+      "reference": "WHAT CAN YOU DO ABOUT IT",
+      "prediction": "WHAT CAN YOU DO ABOUT IT",
+      "seconds": 0.7519501249771565
+    },
+    {
+      "id": "main/6316024287129869379/00040",
+      "reference": "THE OVERALL SIZE OF IT",
+      "prediction": "THE OVERALL SIZE OF IT",
+      "seconds": 0.6701061250059865
+    },
+    {
+      "id": "main/6323221793324446979/00029",
+      "reference": "AND ON TOP OF THAT",
+      "prediction": "AND ON TOP OF THAT",
+      "seconds": 0.664367624965962
+    },
+    {
+      "id": "main/6301320037095305408/00002",
+      "reference": "THE GIST OF IT IS",
+      "prediction": "THE GIST OF IT IS",
+      "seconds": 0.8709060410037637
+    },
+    {
+      "id": "main/6308177381880006979/00028",
+      "reference": "AS THE ONLY FEMALE IN A HARD",
+      "prediction": "AS ONLY FEMALE IN HER HEART",
+      "seconds": 0.9398582080029882
+    },
+    {
+      "id": "main/6316024287129869379/00010",
+      "reference": "MADE IN A LOCAL FACTORY",
+      "prediction": "AMAZING LOCAL FACTORY",
+      "seconds": 0.668728334014304
+    },
+    {
+      "id": "main/6312066045269810824/00012",
+      "reference": "IS ONE OF THE MOST ATTRACTIVE PLACES ON THE RIVER AND THE SEAT OF THE NATIONAL MILITARY ACADEMY",
+      "prediction": "IT'S ONE OF THE MOST ATTRACTIVE PLACES ON THE RIVER AND THE SEAT OF THE NATIONAL MILITARY ACADEMY",
+      "seconds": 2.3499172919546254
+    },
+    {
+      "id": "main/6311014637275749987/00032",
+      "reference": "AND IN ABOUT 10 OF THE CASES",
+      "prediction": "AND IN ABOUT 10 OF THE CASES",
+      "seconds": 0.9016477080294862
+    },
+    {
+      "id": "main/6326360555424366722/00054",
+      "reference": "HE HAS WON MANY GOLD MEDALS FROM CHELSEA AND IS A VERY",
+      "prediction": "HE HAS WON MANY GOLD MEDALS FROM CHELSEA AND IT'S A VERY",
+      "seconds": 2.2775397920049727
+    },
+    {
+      "id": "main/6309468449049188125/00018",
+      "reference": "IT'S GOING TO BE A LOT OF WORK",
+      "prediction": "IT'S GOING TO BE A LOT OF WORK",
+      "seconds": 0.9498690839973278
+    },
+    {
+      "id": "main/6329151425173313518/00024",
+      "reference": "WHICH HAD A GREAT PAST",
+      "prediction": "WHICH HE HAD A GREAT PAST",
+      "seconds": 0.7354944999678992
+    },
+    {
+      "id": "main/6326360555424366722/00033",
+      "reference": "THE ROYAL BOTANIC GARDEN AT KEW HAD OPENED WHAT WAS THE LARGEST HERBACEOUS",
+      "prediction": "THE WARM DELICATE QUEUE HAD OPENED WHAT WAS THE LARGEST",
+      "seconds": 2.3593544170144014
+    },
+    {
+      "id": "main/6325440573560032726/00036",
+      "reference": "IF HE HADN'T BEEN POSTMASTER GENERAL",
+      "prediction": "IF HE HADN'T BEEN A POSTMASTER GENERAL",
+      "seconds": 1.1871467499877326
+    },
+    {
+      "id": "main/6323198600501050831/00013",
+      "reference": "THE FINAL TEST FOR OUR FINAL FOUR",
+      "prediction": "THE FINAL TEST FOR OUR FINAL FOUR",
+      "seconds": 0.8320356669719331
+    },
+    {
+      "id": "main/6323956232732126743/00030",
+      "reference": "JUST LOOK AT IT",
+      "prediction": "JUST LOOK AT IT",
+      "seconds": 0.7634507920010947
+    },
+    {
+      "id": "main/6311014637275749987/00044",
+      "reference": "AND YET THEIR USE DOES NOT EXIST IN THE SHADOWS",
+      "prediction": "AND YET THEY'RE USED TO NOISES IN THE SHADOWS",
+      "seconds": 1.308080709015485
+    },
+    {
+      "id": "main/6311014637275749987/00026",
+      "reference": "HE ONLY GOT INTO THAT MUCH TROUBLE BECAUSE HE TOOK TOO MUCH",
+      "prediction": "IT ONLY GOT INTO THAT MUCH TROUBLE BECAUSE IT TOOK TOO MUCH",
+      "seconds": 1.2316406249883585
+    },
+    {
+      "id": "main/6316024287129869379/00017",
+      "reference": "BUT THEY MEAN NOISE AND TRAFFIC",
+      "prediction": "BUT THERE CAN BE NOISE AND TRAFFIC",
+      "seconds": 1.139161667029839
+    },
+    {
+      "id": "main/6316163444070195447/00007",
+      "reference": "HE'S DRIVING WELL",
+      "prediction": "IT'S DRIVING WELL",
+      "seconds": 0.6770807090215385
+    },
+    {
+      "id": "main/6327295999301439627/00014",
+      "reference": "AND A VISIT IS WELL WORTH IT",
+      "prediction": "IT'S WELL WORTH IT",
+      "seconds": 1.1119257080135867
+    },
+    {
+      "id": "main/6329151425173313518/00120",
+      "reference": "AND I DON'T THINK WE SHOULD JUST LET THIS GO ON YEAR AFTER YEAR",
+      "prediction": "I DON'T THINK WE SHOULD LET THIS GO ON A YEAR",
+      "seconds": 1.5561736669624224
+    },
+    {
+      "id": "main/6326414672012357313/00035",
+      "reference": "RIGHT BY THE SIDE",
+      "prediction": "RIGHT BY THE SIDE",
+      "seconds": 0.5857294169836678
+    },
+    {
+      "id": "main/6315405811839181004/00050",
+      "reference": "THAT THERE ARE GREAT CHUNKS OF VIRGINIAN HISTORY THAT I DID NOT KNOW",
+      "prediction": "THERE ARE GREAT CHUNKS OF FISHING HISTORY THAT I DID NOT KNOW",
+      "seconds": 1.4550312909996137
+    },
+    {
+      "id": "main/6326360555424366722/00048",
+      "reference": "AND THEY'RE TOUGH",
+      "prediction": "AND THEY'RE TOUGH",
+      "seconds": 0.7678330840426497
+    },
+    {
+      "id": "main/6324713864963081921/00017",
+      "reference": "WHICH IS BETWEEN THANKSGIVING AND CHRISTMAS",
+      "prediction": "WHICH IS THROUGHOUT BETWEEN THANKSGIVING AND CHRISTMAS",
+      "seconds": 1.316538417013362
+    },
+    {
+      "id": "main/6327713470253076639/00051",
+      "reference": "THE KEEPER OF THE JAIL WAS A MAN BY THE NAME OF MR PAGE",
+      "prediction": "THE KEEPER OF THE JAIL WAS A MAN BY THE NAME OF MR PAGE",
+      "seconds": 1.6864120839745738
+    },
+    {
+      "id": "main/6329151425173313518/00017",
+      "reference": "BACK IN THE DAY",
+      "prediction": "BE BACK IN THE DAY",
+      "seconds": 0.6537304159719497
+    },
+    {
+      "id": "main/6329151425173313518/00066",
+      "reference": "THEN BASICALLY WHAT WAS LEFT TENDED TO BE NON CATHOLIC",
+      "prediction": "AND THEN BASICALLY WHAT WAS LEFT HAD TO BE NON CATHOLIC",
+      "seconds": 1.4200483330059797
+    },
+    {
+      "id": "main/6326414672012357313/00002",
+      "reference": "DID TODAY'S BUYERS DO THEIR HOMEWORK",
+      "prediction": "DID TODAY'S BUYERS DO THEIR HOMEWORK",
+      "seconds": 0.9768852079869248
+    },
+    {
+      "id": "main/6328962017115556355/00003",
+      "reference": "WE'RE USED TO CRAB APPLES BEING BIG FRUIT",
+      "prediction": "WE USED TO COME UP WITH BIG FRUIT",
+      "seconds": 1.173162167018745
+    },
+    {
+      "id": "main/6326461057659161695/00005",
+      "reference": "BUT THIS FAMILY ARE SPENDING SO MUCH",
+      "prediction": "BUT THIS FAMILY IS SPENDING SO MUCH",
+      "seconds": 0.8195681250072084
+    },
+    {
+      "id": "main/6323221793324446979/00026",
+      "reference": "THE BROCCOLI CAN TAKE OVER THE WHOLE SPACE",
+      "prediction": "TO BROOKLYN TAKE OVER THE WHOLE SPACE",
+      "seconds": 1.2145757080288604
+    },
+    {
+      "id": "main/6325440573560032726/00035",
+      "reference": "AND WE WENT TO TRAFALGAR SQUARE AND",
+      "prediction": "AND SO WE WENT TO THE FOUNTAIN SQUARE",
+      "seconds": 1.2443271249649115
+    },
+    {
+      "id": "main/6326414672012357313/00047",
+      "reference": "SO EVEN IF THERE WAS A COLLAPSE SITUATION",
+      "prediction": "SO EVEN IF THERE WAS A COLLAPSE SITUATION",
+      "seconds": 1.2564206660026684
+    },
+    {
+      "id": "main/6325819389545137915/00013",
+      "reference": "AND TO PROVE IT",
+      "prediction": "AND TO PROVE IT",
+      "seconds": 0.6212485840078443
+    },
+    {
+      "id": "main/6327740528416575363/00012",
+      "reference": "IS PART AND PARCEL OF WORKING IN HOUSEKEEPING",
+      "prediction": "IT'S PART AND PARCEL OF WORKING IN HOUSEKEEPING",
+      "seconds": 1.6483557089813985
+    },
+    {
+      "id": "main/6327713470253076639/00052",
+      "reference": "AND MR PAGE TOLD HIM THAT IN ADVANCE OF THE BUILDING WORK",
+      "prediction": "AND MR PAGE TOLD HIM THAT IN ADVANCE OF THE BUILDING WORK",
+      "seconds": 1.4395329999970272
+    },
+    {
+      "id": "main/6328111613590949805/00015",
+      "reference": "HE WAS STAYING WITH THEM",
+      "prediction": "HE WAS STAYING WITH THEM",
+      "seconds": 0.7197473749984056
+    },
+    {
+      "id": "main/6306811582279909115/00026",
+      "reference": "WE'VE TRIED TO ACCOMMODATE THE FAMILY THAT THEY'RE GOING TO BE LEAVING BEHIND",
+      "prediction": "WE'VE TRIED TO ACCOMMODATE THE FAMILY THAT THEY'RE LEAVING BEHIND",
+      "seconds": 2.222555458021816
+    },
+    {
+      "id": "main/6328512334039666732/00012",
+      "reference": "STOP CONSUMING IT",
+      "prediction": "STOP CONSUMING",
+      "seconds": 0.7929956250009127
+    },
+    {
+      "id": "main/6325119739372550419/00005",
+      "reference": "THEY SHARE A LOT OF THE SAME DESIGN AND TECHNOLOGY AS HIGH PERFORMANCE RUNNING SHOES",
+      "prediction": "THEY SHARE A LOT OF THE SAME DESIGN AND TECHNOLOGY AS HIGH PERFORMANCE READY TO USE",
+      "seconds": 2.1810934160021134
+    },
+    {
+      "id": "main/6327740528416575363/00019",
+      "reference": "AND IN THIS HOTEL",
+      "prediction": "AND AT THIS HOTEL",
+      "seconds": 0.6445329170092009
+    },
+    {
+      "id": "main/6323817075791736335/00066",
+      "reference": "GET ME MONEY BACK IN THE POT",
+      "prediction": "GET MY MONEY BACK IN THE BOX",
+      "seconds": 0.7941356250084937
+    },
+    {
+      "id": "main/6310195157515669986/00005",
+      "reference": "I'M KATHERINE AND I'M A MENTORING COORDINATOR",
+      "prediction": "I'M CATHERINE AND I'M A MENTORING COORDINATOR",
+      "seconds": 1.7446761669707485
+    },
+    {
+      "id": "main/6328764878116731644/00008",
+      "reference": "LET'S JUST TALK ABOUT M PEOPLE",
+      "prediction": "LET'S JUST TALK ABOUT HIM",
+      "seconds": 0.9845658330013976
+    },
+    {
+      "id": "main/6329151425173313518/00108",
+      "reference": "SCOTLAND WANTED A SCOTTISH PARLIAMENT AND THEREFORE",
+      "prediction": "SCOTLAND WANTED A SCOTTISH PARLIAMENT AND THEREFORE",
+      "seconds": 1.3684342500055209
+    },
+    {
+      "id": "main/6315405811839181004/00031",
+      "reference": "IT WASN'T EVEN CLOSE TO THE USS MONITOR",
+      "prediction": "IT WASN'T EVEN CLOSE TO THE USS MARKET",
+      "seconds": 1.2922196250292473
+    },
+    {
+      "id": "main/6314248747649637090/00002",
+      "reference": "000 FOOT MOUNTAIN RANGE IN THE HEART OF EUROPE",
+      "prediction": "THOSE FULL MOUNTAIN RANGES OF EUROPE",
+      "seconds": 1.0907462080358528
+    },
+    {
+      "id": "main/6323198600501050831/00033",
+      "reference": "THAT WAS TWO REASONS",
+      "prediction": "THERE WAS TWO REASONS",
+      "seconds": 0.5928645409876481
+    },
+    {
+      "id": "main/6323198600501050831/00003",
+      "reference": "IT'S FREEZING COLD",
+      "prediction": "IT'S FREEZING COLD",
+      "seconds": 0.8050154169904999
+    },
+    {
+      "id": "main/6323817075791736335/00051",
+      "reference": "ANY PROFIT IS A PROFIT",
+      "prediction": "ANY PROFIT IS A PROFIT",
+      "seconds": 0.7950633340515196
+    },
+    {
+      "id": "main/6312066045269810824/00027",
+      "reference": "IT WILL BE THE LARGEST AND MOST SPLENDID EDIFICE IN AMERICA",
+      "prediction": "IT WILL BE THE LARGEST AND MOST SPLENDID EDIFICE IN AMERICA",
+      "seconds": 1.8620367079856806
+    },
+    {
+      "id": "main/6329151425173313518/00060",
+      "reference": "I WAS ABLE TO TRAVEL BACK IN TIME AND TAP MY YOUNGER SELF ON THE SHOULDER AND TELL HIM THAT",
+      "prediction": "I WAS ABLE TO TRAVEL BACK IN TIME AND TO TAP MY YOUNGER SELF ON THE SHOULDER AND TELL HIM THIS",
+      "seconds": 2.6019352090079337
+    },
+    {
+      "id": "main/6325440573560032726/00008",
+      "reference": "THE POST OFFICE APART",
+      "prediction": "WITH A SURFACE APART",
+      "seconds": 0.8645740830106661
+    },
+    {
+      "id": "main/6329062519350282760/00011",
+      "reference": "REGARDLESS OF THEIR BACKGROUND",
+      "prediction": "REGARDLESS OF THEIR BACKGROUND",
+      "seconds": 0.5919137499877252
+    },
+    {
+      "id": "main/6323956232732063947/00013",
+      "reference": "WE COULD HAVE FLIPPED THEM AT ONE POINT",
+      "prediction": "WE COULD FLIP THEM AT ONE POINT",
+      "seconds": 0.8467927090241574
+    },
+    {
+      "id": "main/6315405811839181004/00030",
+      "reference": "TO DESTROY THE BLOCKADE AND THAT CAME INTO BEING AS A VESSEL CALLED THE CONFEDERATE STATE",
+      "prediction": "TO DESTROY THE BLOCKADE AND THAT CAME INTO BEING AS A VESSEL CALLED CONFEDERATE STATE",
+      "seconds": 2.588754541997332
+    },
+    {
+      "id": "main/6324764116080445123/00013",
+      "reference": "PUSHING THE SPINAL CORD ACROSS",
+      "prediction": "PUSHING THE SPINAL CORD ACROSS",
+      "seconds": 0.8712902090046555
+    },
+    {
+      "id": "main/6326414672012357313/00025",
+      "reference": "THERE COULD BE SOME ROOM FOR SOME PROFIT HERE",
+      "prediction": "THERE COULD BE ROOM FOR SOME PROFIT HERE",
+      "seconds": 0.9687354170018807
+    },
+    {
+      "id": "main/6302978323968228875/00020",
+      "reference": "BUT IN THE WORLD",
+      "prediction": "I BELIEVE THE WORLD",
+      "seconds": 0.7932256250060163
+    },
+    {
+      "id": "main/6327713470253076639/00048",
+      "reference": "HE WAS ALSO CAREFUL TO KEEP HALF THE MEN IN RESERVE",
+      "prediction": "I WAS ALSO CAREFUL TO KEEP HALF THE MEN IN RESERVE",
+      "seconds": 1.3203563329880126
+    },
+    {
+      "id": "main/6323817075791736335/00055",
+      "reference": "I'M ALSO PLEASED HE'LL CONSIDER RENTING",
+      "prediction": "I'M ALSO PLEASED THAT I'LL CONSIDER RATING",
+      "seconds": 1.4824501660186797
+    },
+    {
+      "id": "main/6310166810731517953/00016",
+      "reference": "BECAUSE IT WAS EMPTY",
+      "prediction": "BECAUSE IT WAS HIM",
+      "seconds": 0.9494917499832809
+    },
+    {
+      "id": "main/6325119739372550419/00026",
+      "reference": "MY SHOES ARE BEHIND THERE",
+      "prediction": "MUCH CLOSER BEHIND THAT",
+      "seconds": 0.986539542034734
+    },
+    {
+      "id": "main/6326866932068565154/00016",
+      "reference": "I WANT TO SEE THAT SHE CAN DELIVER THAT",
+      "prediction": "I WANT TO SAY THAT SHE CAN DELIVER THAT",
+      "seconds": 1.0198971249628812
+    },
+    {
+      "id": "main/6308177381880006979/00022",
+      "reference": "BUT NOT UNTIL YOU'VE DONE THESE JOBS FOR THE WEEKEND",
+      "prediction": "BUT NOT UNTIL YOU'VE DONE THESE JOBS FOR THE WEEKEND",
+      "seconds": 1.4950303339865059
+    },
+    {
+      "id": "main/6313877662475262663/00018",
+      "reference": "AS A BRAVE NATION THAT HOWEVER HAS SOMETHING TO OFFER HERE AND NOW",
+      "prediction": "IT AS A DEPRIVED NATION THAT HOWEVER HAS SOMETHING TO SORT OF CLEAR IT OUT",
+      "seconds": 1.9530748330289498
+    },
+    {
+      "id": "main/6301320037095305408/00010",
+      "reference": "LIKE I NEVER DO",
+      "prediction": "LIKE I NEVER DO",
+      "seconds": 0.7653636249597184
+    },
+    {
+      "id": "main/6323817075791736335/00064",
+      "reference": "I WAS EXPECTING AROUND THE 70",
+      "prediction": "I WAS EXPECTED AROUND THE 70",
+      "seconds": 1.0600839580292813
+    },
+    {
+      "id": "main/6326414672012357313/00019",
+      "reference": "MICHAEL HAS A TEAM OF BUILDERS ALL READY TO GO",
+      "prediction": "MICHAEL HAS A TEAM OF BUILDERS ALL READY TO GO",
+      "seconds": 1.2041987089905888
+    },
+    {
+      "id": "main/6324698403080812792/00002",
+      "reference": "HOW WATERPROOF THEY ARE",
+      "prediction": "AND WHAT A PROOF THEY ARE",
+      "seconds": 0.7816076669842005
+    },
+    {
+      "id": "main/6314248747649637090/00004",
+      "reference": "PART OF THE CARPATHIAN RANGE",
+      "prediction": "PART OF THE CARPATHIAN RANGE",
+      "seconds": 1.1012602919945493
+    },
+    {
+      "id": "main/6308177381880006979/00017",
+      "reference": "SO THAT SHOULD ANYTHING HAPPEN IN ONE AREA WHERE THE PLANTS WERE DISPLAYED",
+      "prediction": "SO THAT SHOULD ANYTHING HAPPEN IN ONE AREA WHERE THE PLANTS WERE DISPLAYED",
+      "seconds": 1.7918822500505485
+    },
+    {
+      "id": "main/6324764116080445123/00018",
+      "reference": "IF YOU PRESS ENOUGH ON THAT",
+      "prediction": "IF YOU PRESS ENOUGH ON THAT",
+      "seconds": 0.9865965420030989
+    },
+    {
+      "id": "main/6306811582279909115/00022",
+      "reference": "I THINK IT'S A GORGEOUS PLACE",
+      "prediction": "I THINK IT'S A LOOSE PLACE",
+      "seconds": 1.0616148330154829
+    },
+    {
+      "id": "main/6323198600501050831/00016",
+      "reference": "AND MAKE NO MISTAKE",
+      "prediction": "AND MAKE NO MISTAKE",
+      "seconds": 0.6537752500153147
+    },
+    {
+      "id": "main/6324698403080875597/00007",
+      "reference": "DON'T WORRY ABOUT IT",
+      "prediction": "I WANT TO TELL EVERYBODY",
+      "seconds": 1.0997653329977766
+    },
+    {
+      "id": "main/6327713470253076639/00031",
+      "reference": "AND AFFECTED HIM FOR YEARS TO COME",
+      "prediction": "IT AFFECTED THEM FOR YEARS TO COME",
+      "seconds": 0.8660222500329837
+    },
+    {
+      "id": "main/6323817075791736335/00034",
+      "reference": "YOU MAY VERY WELL END UP DISAPPOINTED",
+      "prediction": "IT MAY VERY WELL END UP DISAPPOINTED",
+      "seconds": 1.0194991249591112
+    },
+    {
+      "id": "main/6324698403080812792/00010",
+      "reference": "I'M DOING OK HERE",
+      "prediction": "I'M DOING OK HERE",
+      "seconds": 0.821111292054411
+    },
+    {
+      "id": "main/6325440573560032726/00006",
+      "reference": "OR NEXT TO NO MONEY",
+      "prediction": "ALL THAT MONEY",
+      "seconds": 0.8192566249636002
+    },
+    {
+      "id": "main/6311014637275749987/00040",
+      "reference": "THE HEART IN FACT IS THE STRONGEST MUSCLE IN THE BODY",
+      "prediction": "THE HEART IN FACT IS THE STRONGEST MUSCLE IN THE BODY",
+      "seconds": 1.272062125033699
+    },
+    {
+      "id": "main/6313656042293295351/00014",
+      "reference": "THEY'VE BEEN LIKENED TO THE BATTLE OF STALINGRAD AND THE BATTLE OF EL ALAMEIN AND MIDWAY AS",
+      "prediction": "THEY'VE BEEN LIKING TO THE BATTLE OF STALINGRAD AND BATTLE OF ALABAMA IN MIDWAY AS",
+      "seconds": 2.6983062920044176
+    },
+    {
+      "id": "main/6327713470253076639/00011",
+      "reference": "JUST FOUR YEARS AFTER HIS BURIAL",
+      "prediction": "JUST FOUR YEARS AFTER HIS BURIAL",
+      "seconds": 0.936295416962821
+    },
+    {
+      "id": "main/6312066045269810824/00023",
+      "reference": "GOING BACK TO THAT TO TRY TO FORM A STRONGER AMERICAN IDENTITY WHEN SO MANY THINGS ARE BEING",
+      "prediction": "GOING BACK TO TRYING TO FORM A STRONGER AMERICAN IDENTITY WITH SO MANY THINGS SO MANY",
+      "seconds": 1.9806235000141896
+    },
+    {
+      "id": "main/6323221793324446979/00043",
+      "reference": "SO EXTRA TIME TO DO EXTRA JOBS IN THE GARDEN",
+      "prediction": "TO EXTRA TIME TO DO EXTRA JOBS IN THE",
+      "seconds": 1.2827139580040239
+    },
+    {
+      "id": "main/6326414672012357313/00016",
+      "reference": "THAT'S A RELATIVELY SMALL BUDGET",
+      "prediction": "THAT'S A RELATIVELY SMALL BUDGET",
+      "seconds": 0.8520758749800734
+    },
+    {
+      "id": "main/6325440573560032726/00021",
+      "reference": "BUT YOU REMEMBER THE OLD DAYS IN THE POST OFFICE",
+      "prediction": "BUT YOU REMEMBER THE OLD DAYS WHEN THEY DID POST OFFICE",
+      "seconds": 1.597521791991312
+    },
+    {
+      "id": "main/6329151425173313518/00099",
+      "reference": "BUT ESPECIALLY IN THE LOCAL AREAS",
+      "prediction": "ESPECIALLY IN THE RURAL AREAS",
+      "seconds": 0.808266292035114
+    },
+    {
+      "id": "main/6308177381880006979/00027",
+      "reference": "GROW THEM ON AND YOU'LL BE HARVESTING THEM IN LATE SEPTEMBER AND OCTOBER",
+      "prediction": "GROW THEM ON AND YOU'LL BE HARVESTING THEM IN LATE SEPTEMBER AND OCTOBER",
+      "seconds": 1.7396577500039712
+    },
+    {
+      "id": "main/6325440573560032726/00028",
+      "reference": "THE POST OFFICE",
+      "prediction": "THE POST OFFICE",
+      "seconds": 0.6226699169492349
+    },
+    {
+      "id": "main/6327740528416575363/00017",
+      "reference": "WE WANT TO WORK",
+      "prediction": "WE WANT TO",
+      "seconds": 0.6463050419697538
+    },
+    {
+      "id": "main/6325440573560032726/00026",
+      "reference": "COS I HAD THE HEAVIEST DELIVERY IN EUROPE",
+      "prediction": "JUST LIKE DAVID AND DAVID IN EUROPE",
+      "seconds": 1.185395458014682
+    },
+    {
+      "id": "main/6328111613590949805/00012",
+      "reference": "AND GET THE MONEY",
+      "prediction": "EXACTLY MAN",
+      "seconds": 0.6773307920084335
+    },
+    {
+      "id": "main/6325894121976022773/00014",
+      "reference": "YOU GET A STANDARD SADDLE BUT IF YOU REALLY WANT LUXURY FOR YOUR BOTTOM",
+      "prediction": "YOU GET A SAD SALE BUT IF YOU REALLY WANT A LUXURY FROM THE BOTTOM",
+      "seconds": 2.292253458988853
+    },
+    {
+      "id": "main/6324230681142278360/00002",
+      "reference": "WHO LURCHES FROM ONE STATE HAND OUT TO THE NEXT",
+      "prediction": "NOT IF YOU THINK SHE'S ON ONE SIDE OR THE OTHER",
+      "seconds": 1.9479955839924514
+    },
+    {
+      "id": "main/6326414672012357313/00006",
+      "reference": "EVERYTHING NEEDS DOING",
+      "prediction": "EVERYTHING NEEDS DOING",
+      "seconds": 0.6102065830491483
+    },
+    {
+      "id": "main/6329893595522062514/00006",
+      "reference": "I'M NOT FLAMING GOING IN THE TRANSPORT THAT HE'S ORGANISED",
+      "prediction": "I'M NOT FLAMING COLD IN THE TRANSPORT THAT IS ORGANISED",
+      "seconds": 2.5263668749830686
+    },
+    {
+      "id": "main/6326461057659161695/00008",
+      "reference": "SHE KNOWS THAT SHE CAN'T GET TO THE PARALYMPICS",
+      "prediction": "SHE KNOWS THAT SHE CAN'T GET TO PARALYMPICS",
+      "seconds": 1.505884958023671
+    },
+    {
+      "id": "main/6311014637275749987/00053",
+      "reference": "YOU'RE ON ALL THESE DOSAGES",
+      "prediction": "YOU'RE ON ALL THESE NOTES JUST",
+      "seconds": 1.105678915977478
+    },
+    {
+      "id": "main/6323221793324446979/00022",
+      "reference": "BECAUSE WE THINK JEKYLL DID IT ALL REMOTELY",
+      "prediction": "BECAUSE WE THINK SHE ONLY KNOWS ABOUT IT",
+      "seconds": 1.1526065839570947
+    },
+    {
+      "id": "main/6323817075791736335/00042",
+      "reference": "THE PROBLEM THAT YOU'RE LIKELY TO FACE IS ACTUALLY SELLING THE THING",
+      "prediction": "BUT THE PROBLEM THAT YOU'RE LIKELY TO FACE IS ACTUALLY SELLING THE THING",
+      "seconds": 1.7475053329835646
+    },
+    {
+      "id": "main/6327740528416575363/00024",
+      "reference": "DO YOU THINK IN CERTAIN SECTORS IT KEEPS THE WAGES DOWN BECAUSE MIGRANTS ARE PREPARED TO WORK FOR",
+      "prediction": "DO YOU THINK IN CERTAIN SECTORS IT KEEPS THE WAGES DOWN BECAUSE MIGRANTS ARE PREPARED TO WORK FOR",
+      "seconds": 2.330291958001908
+    },
+    {
+      "id": "main/6306870852828565379/00004",
+      "reference": "IN MAKING PEOPLE THINK THAT THEY HAD A COMMON GERMAN HERITAGE TO LOOK BACK",
+      "prediction": "IN MAKING PEOPLE THINK THAT THEY HAD COMMON HUMAN HERITAGE TO LOOK BACK",
+      "seconds": 1.8239833330153488
+    },
+    {
+      "id": "main/6326360555424366722/00039",
+      "reference": "SEVEN OR NINE STEMS",
+      "prediction": "SEVEN OR NINE STEPS",
+      "seconds": 0.6977132500032894
+    },
+    {
+      "id": "main/6327295999301499598/00004",
+      "reference": "IN TIMES OF GREAT STRESS AND CONFUSION",
+      "prediction": "IN TIMES OF GREAT STRESS AND CONFUSION",
+      "seconds": 1.0003157080500387
+    },
+    {
+      "id": "main/6311014637275749987/00035",
+      "reference": "IT WOULD BE VERY WORRYING",
+      "prediction": "HE WOULD BE VERY WORRIED",
+      "seconds": 0.7658289580140263
+    },
+    {
+      "id": "main/6325440573560032726/00032",
+      "reference": "SO HE WAS RESTLESS",
+      "prediction": "HE WAS RESTLESS",
+      "seconds": 0.7787032499909401
+    },
+    {
+      "id": "main/6315405811839181004/00006",
+      "reference": "WHATEVER THEY COULDN'T CARRY OFF",
+      "prediction": "WHENEVER THEY CARRY OFF",
+      "seconds": 0.7636134590138681
+    },
+    {
+      "id": "main/6324698403080812792/00016",
+      "reference": "I LOVED THAT THEY WERE REALLY PRETTY AND DELICATE",
+      "prediction": "I LOVE THAT THEY WERE REALLY PRETTY",
+      "seconds": 1.1457130000344478
+    },
+    {
+      "id": "main/6323817075791736335/00029",
+      "reference": "WILL HE GET IT SORTED OUT",
+      "prediction": "WE GET IT ALL SORTED OUT",
+      "seconds": 0.8474252079613507
+    },
+    {
+      "id": "main/6310968251628953184/00001",
+      "reference": "AND THEY MIGHT NOT EVEN MAKE IT THROUGH THE FIRST BATTLE",
+      "prediction": "AND THEY MIGHT NOT EVEN MAKE HISTORY'S FIRST BATTLE",
+      "seconds": 1.2519639999954961
+    },
+    {
+      "id": "main/6315405811839181004/00045",
+      "reference": "TO USE THE TERM",
+      "prediction": "TO USE THE TERM",
+      "seconds": 0.5938572080340236
+    },
+    {
+      "id": "main/6311014637275749987/00034",
+      "reference": "THE LONGER THAT YOU HAVE BEEN TAKING YOUR STEROIDS",
+      "prediction": "THE LONGER THIS WILL BE TAKEN SERIOUSLY",
+      "seconds": 1.0731029579765163
+    },
+    {
+      "id": "main/6306870852828565379/00017",
+      "reference": "THAT'S THE IMPRESSION MANY PEOPLE HAVE",
+      "prediction": "THAT'S THE IMPRESSION MANY PEOPLE GET",
+      "seconds": 0.8453081250190735
+    },
+    {
+      "id": "main/6329151425173313518/00119",
+      "reference": "IF THERE ARE PROBLEMS OF UNCERTAINTY AND LACK OF CLARITY",
+      "prediction": "IF THERE ARE PROBLEMS OF EITHER SIDE AS A LACK OF CLARITY",
+      "seconds": 1.2657720420393161
+    },
+    {
+      "id": "main/6327740528416575363/00002",
+      "reference": "A WAGE THAT ALLOWS YOU TO BRING UP A FAMILY AND ALLOWS YOU TO LIVE A DECENT LIFE",
+      "prediction": "A WAGE THAT ALLOWS YOU TO BRING UP A FAMILY AND ALLOWS YOU TO LIVE A DECENT LIFE",
+      "seconds": 2.5791001669713296
+    },
+    {
+      "id": "main/6308177381880006979/00010",
+      "reference": "BUT I THINK IT CAN BE DONE",
+      "prediction": "BUT I THINK IT CAN BE DONE",
+      "seconds": 0.8217748330207542
+    },
+    {
+      "id": "main/6328764878116731644/00003",
+      "reference": "AND ALL OUR CELEBRITIES HAVE TO DO IS COME UP WITH THE ANSWERS THAT NONE OF THOSE 100 PEOPLE COULD",
+      "prediction": "AND ALL OUR CELEBRITIES HAVE TO DO IS COME UP WITH THE ANSWERS THAT NONE OF THOSE 100 PEOPLE COULD",
+      "seconds": 3.0721927910344675
+    },
+    {
+      "id": "main/6324764116080445123/00008",
+      "reference": "BECAUSE HIS HEART IS STILL STRUGGLING TO WORK",
+      "prediction": "BECAUSE HIS HEART IS STILL STRUGGLING TO WORK",
+      "seconds": 1.1498622090439312
+    },
+    {
+      "id": "main/6302978323968228875/00015",
+      "reference": "WITHOUT PEOPLE LIKE YOURSELVES",
+      "prediction": "WITH HEALTHY PEOPLE LIKE YOURSELVES",
+      "seconds": 0.8865564999869093
+    },
+    {
+      "id": "main/6318761040290818803/00023",
+      "reference": "AND EVEN THE HOUSE ROBOTS AREN'T SAFE",
+      "prediction": "AND EVEN THE HOUSE ROBOTS AREN'T SAFE",
+      "seconds": 0.9660193329909816
+    },
+    {
+      "id": "main/6323221793324446979/00033",
+      "reference": "AND I DON'T TRY AND EXPERIMENT TOO MUCH OUTSIDE THINGS THAT I KNOW MYSELF",
+      "prediction": "AND I DON'T TRY AND EXPERIMENT TOO MUCH OUTSIDE THINGS THAT I KNOW MYSELF",
+      "seconds": 1.95499016699614
+    },
+    {
+      "id": "main/6326360555424366722/00030",
+      "reference": "TROPICAL AND UNUSUAL",
+      "prediction": "TROPICAL AND UNUSUAL WELL",
+      "seconds": 0.8947746669873595
+    },
+    {
+      "id": "main/6315421273721446605/00006",
+      "reference": "THANKS FOR WATCHING",
+      "prediction": "THANKS FOR WATCHING",
+      "seconds": 0.5506533749867231
+    },
+    {
+      "id": "main/6306870852828565379/00008",
+      "reference": "WAS HEARD IN THESE VALLEYS",
+      "prediction": "WAS HEARD IN THESE VALLEYS",
+      "seconds": 0.847838458023034
+    },
+    {
+      "id": "main/6308177381880006979/00004",
+      "reference": "BUT I DO WANT TO SHARE AND CELEBRATE THE ANIMALS THAT ARE ENJOYING IT",
+      "prediction": "BUT I DO WANT TO SHARE AND CELEBRATE THE ANIMALS THAT ARE ENJOYING IT",
+      "seconds": 1.6308742090477608
+    },
+    {
+      "id": "main/6313656042293295351/00001",
+      "reference": "MY FATHER WENT TO WEST AFRICA",
+      "prediction": "MY FATHER WENT TO WEST AFRICA",
+      "seconds": 0.7228024580399506
+    },
+    {
+      "id": "main/6327713470253076639/00032",
+      "reference": "GUTHRUM AND HIS MEN MOUNTED A SURPRISE ATTACK",
+      "prediction": "GUTHROP AND HIS MEN MOUNTED A SURPRISE ATTACK",
+      "seconds": 1.5328643749817275
+    },
+    {
+      "id": "main/6327740528416575363/00038",
+      "reference": "THEY WILL THEN PAY TAXES",
+      "prediction": "THEY WILL THEN PAY TAXES",
+      "seconds": 0.7176311659859493
+    },
+    {
+      "id": "main/6311014637275749987/00048",
+      "reference": "I THINK BECAUSE I",
+      "prediction": "IN THE BIG DAY",
+      "seconds": 0.7606967089814134
+    },
+    {
+      "id": "main/6329151425173313518/00043",
+      "reference": "THEREFORE I VOTE FOR THAT PARTY",
+      "prediction": "THEREFORE I VOTE FOR THAT PARTY",
+      "seconds": 0.9262710830080323
+    },
+    {
+      "id": "main/6323817075791736335/00030",
+      "reference": "YOU CAN FIND OUT LATER IN THE SHOW",
+      "prediction": "YOU CAN FIND OUT LATER IN THE SHOW",
+      "seconds": 1.0664224170031957
+    },
+    {
+      "id": "main/6326461057659161695/00019",
+      "reference": "BIG FAN OF THE BRANDS AND CONVENIENCE FOOD",
+      "prediction": "BIG FAN OF THE BRANDS AND CONVENIENCE FOOD",
+      "seconds": 1.503886207996402
+    },
+    {
+      "id": "main/6328764878116731644/00010",
+      "reference": "A LOT OF PEOPLE",
+      "prediction": "NO",
+      "seconds": 1.0378200000268407
+    },
+    {
+      "id": "main/6327295999301439627/00001",
+      "reference": "95 OF PEOPLE DO",
+      "prediction": "95 OF PEOPLE DO",
+      "seconds": 0.8130426669958979
+    },
+    {
+      "id": "main/6326990627126693682/00005",
+      "reference": "WHEN IT IS SIMPLE",
+      "prediction": "WHEN IT IS SIMPLE",
+      "seconds": 0.6433834580238909
+    },
+    {
+      "id": "main/6314990917998387385/00004",
+      "reference": "I'M HEADING SOUTH NOW",
+      "prediction": "I MADE IT SOUTH NOW",
+      "seconds": 0.7982556250062771
+    },
+    {
+      "id": "main/6329151425173313518/00064",
+      "reference": "IT LOOKS FROM THE LATEST FIGURES",
+      "prediction": "IT TOOK FROM THE LATEST FIGURES",
+      "seconds": 1.0765227089868858
+    },
+    {
+      "id": "main/6314248747649637090/00017",
+      "reference": "WHAT PEOPLE PLAN",
+      "prediction": "WAS IT THE PEOPLE PLANNED",
+      "seconds": 0.7845926660229452
+    },
+    {
+      "id": "main/6312066045269810824/00008",
+      "reference": "AND A WHOLE BUDGET OF OTHERS",
+      "prediction": "AND A WHOLE BUNCH OF OTHERS",
+      "seconds": 0.8573112910380587
+    },
+    {
+      "id": "main/6324698403080812792/00023",
+      "reference": "YOU MIGHT GET ONE SIZE",
+      "prediction": "YOU MIGHT GET ONE SIZE",
+      "seconds": 0.6282670830260031
+    },
+    {
+      "id": "main/6329062519350282760/00016",
+      "reference": "THROUGH TO THE JUDGES",
+      "prediction": "FOR TWO JUDGES",
+      "seconds": 0.7364465419668704
+    },
+    {
+      "id": "main/6311651151429016127/00014",
+      "reference": "MUCH MORE INDEPENDENT",
+      "prediction": "MUCH MORE INDEPENDENT",
+      "seconds": 0.8344439170323312
+    },
+    {
+      "id": "main/6306870852828565379/00014",
+      "reference": "NOW IT'S SURROUNDED BY THE SKYSCRAPERS OF THE MODERN CITY OF FRANKFURT",
+      "prediction": "NOW IS SURROUNDED BY THE SKYSCRAPERS OF THE MODERN CITY OF FRANKFURT",
+      "seconds": 2.5456795829813927
+    },
+    {
+      "id": "main/6327609102417316299/00011",
+      "reference": "THICK BAMBOO BREAKS",
+      "prediction": "THIRD BAMBOO BREAKS",
+      "seconds": 1.0152170000365004
+    },
+    {
+      "id": "main/6306870852828565379/00029",
+      "reference": "GERMANY WAS A GREAT POWER",
+      "prediction": "GERMANY WAS A GREAT POWER",
+      "seconds": 0.751930458995048
+    },
+    {
+      "id": "main/6328962017115556355/00011",
+      "reference": "BECAUSE THAT'S IT",
+      "prediction": "BECAUSE THAT'S IT",
+      "seconds": 0.697292374970857
+    },
+    {
+      "id": "main/6303167732026041278/00018",
+      "reference": "AND SINGLE OBJECTS THAT ARE FOUND IN THIS WAY",
+      "prediction": "AND SINGLE OBJECTS THAT HAVE FOUND ITS WAY",
+      "seconds": 1.080029333010316
+    },
+    {
+      "id": "main/6323198600501050831/00008",
+      "reference": "THERE IS SOME HEALTH RISK",
+      "prediction": "THERE IS SOME HEALTH RISK",
+      "seconds": 0.7201126249856316
+    },
+    {
+      "id": "main/6329054788409218032/00008",
+      "reference": "SO I HOPE THAT HE DOES LIKE IT",
+      "prediction": "SO I HOPE THAT HE DOESN'T LIKE IT",
+      "seconds": 1.0473586249863729
+    },
+    {
+      "id": "main/6329054788409218032/00003",
+      "reference": "TEN FAVOURITE DISHES THAT I COOK",
+      "prediction": "TEN FAVOURITE DISHES I COOK",
+      "seconds": 1.0511601659818552
+    },
+    {
+      "id": "main/6311014637275749987/00056",
+      "reference": "WHICH MEANS THAT THEY HAVE TO TELL US WHERE THEY'RE AVAILABLE TO BE TESTED EVERY SINGLE DAY OF THE",
+      "prediction": "WHICH MEANS THEY HAVE TO TELL US WHERE THEY ARE AVAILABLE TO BE TESTED EVERY SINGLE DAY OF THE",
+      "seconds": 2.439196166989859
+    },
+    {
+      "id": "main/6329151425173313518/00029",
+      "reference": "AND THEY WERE IMMENSELY PROUD OF THE SHIPS THEY SENT DOWN THE CLYDE",
+      "prediction": "AND THEY WERE IMMENSELY PROUD OF THE SHIPS THEY SENT DOWN THE LINE",
+      "seconds": 2.0392282079556026
+    },
+    {
+      "id": "main/6324764116080445123/00011",
+      "reference": "AND YOU NEED TO PIECE TOGETHER ALL THOSE BITS",
+      "prediction": "AND YOU REALLY COULD PIECE TOGETHER ALL THOSE BITS",
+      "seconds": 1.274989916011691
+    },
+    {
+      "id": "main/6306811582279909115/00021",
+      "reference": "AND THEN HAD IT BUILT",
+      "prediction": "AND THEN ACTING BUILT",
+      "seconds": 0.9200719589716755
+    },
+    {
+      "id": "main/6315405811839181004/00044",
+      "reference": "THEY DIDN'T MUCH LIKE BEING TOLD BY YANKEES THAT THEY SHOULDN'T OWN SLAVES",
+      "prediction": "THEY DID MUCH LIKE BEING TOLD BY YANKEES THAT THEY SHOULDN'T OWN SLAVES",
+      "seconds": 2.4719477079925127
+    },
+    {
+      "id": "main/6328312618060398848/00009",
+      "reference": "THANK YOU FOR SUPPORTING MY MALVOLIO",
+      "prediction": "THANK YOU FOR SUPPORTING MY MAIL",
+      "seconds": 1.1730884170392528
+    },
+    {
+      "id": "main/6325819389545137915/00001",
+      "reference": "WHEN I WAS A CHILD",
+      "prediction": "WHEN I WAS A CHILD",
+      "seconds": 0.6401935829780996
+    },
+    {
+      "id": "main/6328111613590949805/00023",
+      "reference": "IT'S ALWAYS GOING TO RAISE QUESTIONS",
+      "prediction": "IT'S ALWAYS GOING TO RAISE QUESTIONS",
+      "seconds": 1.115781957982108
+    },
+    {
+      "id": "main/6316024287129869379/00018",
+      "reference": "THE ROAD ITSELF IS ATTRACTIVE",
+      "prediction": "THE ROAD ITSELF IS ATTRACTIVE",
+      "seconds": 0.7920317079988308
+    },
+    {
+      "id": "main/6323956232732063947/00020",
+      "reference": "THIS IS THE FINAL I WOULD HAVE ASKED FOR",
+      "prediction": "THIS IS THE FINAL I WOULD HAVE ASKED FOR",
+      "seconds": 1.0281366250128485
+    },
+    {
+      "id": "main/6329835613463566698/00023",
+      "reference": "WE CAN SAY IT WASN'T IN BUDGET BUT IT NEEDS TO BE DONE",
+      "prediction": "WE CAN SAY IT WAS DONE BY CHER BUT IT NEEDS TO BE DONE",
+      "seconds": 1.9911453750100918
+    },
+    {
+      "id": "main/6306811582279909115/00018",
+      "reference": "THAT'S MY WHOLE LIFE SORTED",
+      "prediction": "THAT'S MY WHOLE LIFE",
+      "seconds": 1.0289824170176871
+    },
+    {
+      "id": "main/6329151425173313518/00100",
+      "reference": "THAT DIDN'T MEAN IT WASN'T SUCCESSFUL IN SCOTLAND",
+      "prediction": "BUT IT WASN'T SUCCESSFUL IN SCOTLAND",
+      "seconds": 1.3167584579787217
+    },
+    {
+      "id": "main/6329151425173313518/00040",
+      "reference": "PRODUCES A POST INDUSTRIAL POLITICS",
+      "prediction": "BUT THAT IS OPPOSED TO INDUSTRIAL POLITICS",
+      "seconds": 1.1411597909755073
+    },
+    {
+      "id": "main/6311651151429016127/00019",
+      "reference": "NICE MEMORIES OF THE SOVIET DAYS",
+      "prediction": "NICE MEMORIES OF THE SOVIET DAYS",
+      "seconds": 0.9891279159928672
+    },
+    {
+      "id": "main/6325819389545137915/00010",
+      "reference": "MY NAME IS CARLOS",
+      "prediction": "BUT I'M A CHILD",
+      "seconds": 0.9521325830137357
+    },
+    {
+      "id": "main/6328038169780654524/00008",
+      "reference": "WHAT IT WOULD HAVE BEEN LIKE FOR SOMEONE LIKE FRANK",
+      "prediction": "WHAT IT WOULD HAVE BEEN LIKE FOR SOMEONE LIKE FRANK",
+      "seconds": 1.2673471669550054
+    },
+    {
+      "id": "main/6328512334039666732/00008",
+      "reference": "JUDGING FROM TODAY",
+      "prediction": "JUDGING FROM TODAY",
+      "seconds": 0.6424888750188984
+    },
+    {
+      "id": "main/6323817075791736335/00101",
+      "reference": "I WOULD SUGGEST THAT HE RENTS EACH PROPERTY OUT AT BETWEEN 500 AND",
+      "prediction": "HOUSE I WOULD SUGGEST HE RENTS EACH PROPERTY OUT AT A FIGURE OF BETWEEN 500 AND",
+      "seconds": 2.213140834006481
+    },
+    {
+      "id": "main/6329151425173313518/00095",
+      "reference": "PART OF EVERY ONE OF US",
+      "prediction": "PART OF EVERY ONE OF US",
+      "seconds": 0.7010414579999633
+    },
+    {
+      "id": "main/6309824072341293478/00007",
+      "reference": "I THINK IT'S A WHITE CROSS ON A BLUE BACKGROUND",
+      "prediction": "IT'S QUITE TRUE SO THE BLUE BACKGROUND",
+      "seconds": 1.3596359170041978
+    },
+    {
+      "id": "main/6316024287129869379/00002",
+      "reference": "THEN AT LEAST YOU'D HAVE YOUR FOOT ON THE PROPERTY DEVELOPING LADDER",
+      "prediction": "THEN AN INITIATIVE AFFORDED ON THE PROPERTY DEVELOPING",
+      "seconds": 1.7113093750085682
+    },
+    {
+      "id": "main/6329151425173313518/00054",
+      "reference": "AND IF YOU WISH IT",
+      "prediction": "AND A FEW WISHES",
+      "seconds": 0.7335146669647656
+    },
+    {
+      "id": "main/6327199362537275576/00005",
+      "reference": "AND LIGHTING YOUR WAY TO THE FUTURE",
+      "prediction": "AND LIGHTING YOUR WAY TO THE FUTURE",
+      "seconds": 0.89607216703007
+    },
+    {
+      "id": "main/6303167732026041278/00006",
+      "reference": "UNDER THE GLASS DOMES",
+      "prediction": "UNDER THE LAST HOMES",
+      "seconds": 0.8415684589999728
+    },
+    {
+      "id": "main/6309824072341293478/00008",
+      "reference": "THIS IS WHAT WE HAVE BEEN PLAYING TOWARDS",
+      "prediction": "THIS IS WHAT WE HAVE BEEN PLAYING TOWARDS",
+      "seconds": 0.9468064589891583
+    },
+    {
+      "id": "main/6310166810731517953/00026",
+      "reference": "I'M REALLY NOT A GOOD MUSLIM PERSON",
+      "prediction": "I AM REALLY TOUCHING WITH MOST IMPORTANT THINGS",
+      "seconds": 1.1789087500073947
+    },
+    {
+      "id": "main/6328393792942295524/00004",
+      "reference": "WHICH MEANS IT'S FIVE SAND TO ONE CEMENT",
+      "prediction": "WHICH MEANS IT'S VERY SAD TO WANT TO MAKE",
+      "seconds": 1.374885292025283
+    },
+    {
+      "id": "main/6329893595522062514/00007",
+      "reference": "WHAT IS THE PLURAL FOR MECCA",
+      "prediction": "WHAT IS APPROVAL FOR BILLY",
+      "seconds": 0.8501074169762433
+    },
+    {
+      "id": "main/6329151425173313518/00031",
+      "reference": "AND IF YOU WEREN'T LABOUR",
+      "prediction": "AND IF YOU WENT LABOUR",
+      "seconds": 0.8697205000207759
+    },
+    {
+      "id": "main/6325440573560032726/00025",
+      "reference": "SO THEY CAN COME DOWN",
+      "prediction": "SO THEY CAME DOWN",
+      "seconds": 0.6400488340295851
+    },
+    {
+      "id": "main/6329151425173313518/00007",
+      "reference": "IN EVERY POSSIBLE CULTURAL WAY",
+      "prediction": "AND EVERYBODY WILL COUNT YOU AWAY",
+      "seconds": 0.8236992909805849
+    },
+    {
+      "id": "main/6329151425173313518/00105",
+      "reference": "BECAUSE PEOPLE IN SCOTLAND WANTED A PARLIAMENT",
+      "prediction": "BECAUSE PEOPLE IN SCOTLAND WANTED A PARLIAMENT",
+      "seconds": 0.990495958016254
+    },
+    {
+      "id": "main/6315405811839181004/00042",
+      "reference": "WE SEE OURSELVES AS SOMETHING ELSE",
+      "prediction": "WE SEE OURSELVES AS SOMETHING ELSE",
+      "seconds": 0.8205522499629296
+    },
+    {
+      "id": "main/6309468449049188125/00016",
+      "reference": "CHUNKY BITS OF TIMBER",
+      "prediction": "TINY BITS OF THEM",
+      "seconds": 0.7634160000015981
+    },
+    {
+      "id": "main/6326990627126693682/00003",
+      "reference": "WHAT WE'RE LOOKING FOR IS WHIPPED",
+      "prediction": "WHAT WE'RE LOOKING FOR IS WHIPS",
+      "seconds": 1.0900549169746228
+    },
+    {
+      "id": "main/6326414672012357313/00080",
+      "reference": "YOU CAN FIND OUT LATER IN THE SHOW",
+      "prediction": "YOU CAN FIND OUT LATER IN THE SHOW",
+      "seconds": 0.8661402910365723
+    },
+    {
+      "id": "main/6329893595522122781/00005",
+      "reference": "IT'S NOT DIABETES",
+      "prediction": "IT'S NOT DIABETES",
+      "seconds": 0.6568840840482153
+    },
+    {
+      "id": "main/6323221793324446979/00039",
+      "reference": "THIS IS HUNDREDS AND THOUSANDS",
+      "prediction": "THERE'S HUNDREDS AND THOUSANDS",
+      "seconds": 0.9658189580077305
+    },
+    {
+      "id": "main/6308177381880006979/00001",
+      "reference": "THE WRITING GARDEN WHICH",
+      "prediction": "THE RISING GARDEN WAS",
+      "seconds": 0.7334589590318501
+    },
+    {
+      "id": "main/6312022236603390541/00013",
+      "reference": "WE ARE A GEOGRAPHICAL PART OF EUROPE AND WE TRAVEL MORE TO POLAND AND TO LITHUANIA",
+      "prediction": "WE'RE A GEOGRAPHICAL PART OF EUROPE AND WE TRAVEL ABROAD TO POLAND AND TO",
+      "seconds": 3.0312150830286555
+    },
+    {
+      "id": "main/6313877662475262663/00001",
+      "reference": "THINGS DIDN'T REALLY GET MUCH BETTER",
+      "prediction": "THINGS DIDN'T REALLY GET MUCH BETTER",
+      "seconds": 0.9484775000018999
+    },
+    {
+      "id": "main/6325894121976022773/00011",
+      "reference": "OTHER TYRES ON OTHER BIKES",
+      "prediction": "OTHER TYRES ON OTHER BIKES",
+      "seconds": 1.0435909159714356
+    },
+    {
+      "id": "main/6326414672012357313/00073",
+      "reference": "SO MOVE INTO WHILE I'M DOING THE WORK",
+      "prediction": "SO I MOVE INTO WHAT I'M DOING",
+      "seconds": 1.3645897089736536
+    },
+    {
+      "id": "main/6325440573560032726/00005",
+      "reference": "PEOPLE WITH NO MONEY AT ALL",
+      "prediction": "PEOPLE WITH NO MONEY AT ALL",
+      "seconds": 0.7628987079951912
+    },
+    {
+      "id": "main/6326360555424366722/00040",
+      "reference": "NO MORE THAN THAT",
+      "prediction": "NO MORE THAN THAT",
+      "seconds": 0.6183479580213316
+    },
+    {
+      "id": "main/6323817075791736335/00049",
+      "reference": "THAT'S FAIR ENOUGH",
+      "prediction": "THAT'S FAIR ENOUGH",
+      "seconds": 0.8003892499837093
+    },
+    {
+      "id": "main/6303167732026041278/00023",
+      "reference": "IN ITS DAY IT WAS HOME TO SUMPTUOUS WEALTH AND SIR CHRISTOPHER HATTON",
+      "prediction": "IN HIS DAY HE WAS HOME TO SOME JEWISH WEALTH SIR CHRISTOPHER HATTON",
+      "seconds": 2.2490321249933913
+    },
+    {
+      "id": "main/6329835613463566698/00018",
+      "reference": "WE CAN'T FINISH OUR STRUCTURAL PHASE OF OUR MORTGAGE",
+      "prediction": "WE CAN'T FINISH A STRUCTURAL PHASE OF OUR MORTGAGE",
+      "seconds": 1.4973535420140252
+    },
+    {
+      "id": "main/6328512334039666732/00003",
+      "reference": "IS IT POSSIBLE TO DO THAT",
+      "prediction": "IS IT POSSIBLE THAT YOU",
+      "seconds": 0.7513226250302978
+    },
+    {
+      "id": "main/6323221793324446979/00028",
+      "reference": "AND BY THE END OF THE SEASON IT'S RIGHT UP HERE",
+      "prediction": "AND BY THE END OF THE SEASON IT'S RIGHT UP HERE",
+      "seconds": 1.266386125003919
+    },
+    {
+      "id": "main/6313877662475262663/00028",
+      "reference": "WHAT ABOUT YOUR LOVE LIFE HERE",
+      "prediction": "WHAT ABOUT YOUR LOVE LIFE HERE",
+      "seconds": 0.9933663339470513
+    },
+    {
+      "id": "main/6314248747649637090/00003",
+      "reference": "BUT THESE ARE THE HIGH TATRAS",
+      "prediction": "BUT THESE ARE THE HIGH DANGERS",
+      "seconds": 0.8824374999967404
+    },
+    {
+      "id": "main/6323817075791736335/00041",
+      "reference": "ON PAPER AND IN THEORY",
+      "prediction": "ON PAPER AND IN THEORY",
+      "seconds": 0.8222861670074053
+    },
+    {
+      "id": "main/6311651151429016127/00001",
+      "reference": "THERE WAS ONE HOUSE ON THIS GRAND AND ELEGANT STREET WHERE YOU NEVER WANTED TO END UP",
+      "prediction": "THERE WAS ONE HOUSE THAT THIS CREATED ANGLICAN STREET WHERE YOU NEVER WANTED TO",
+      "seconds": 2.337605708045885
+    },
+    {
+      "id": "main/6328393792942295524/00003",
+      "reference": "IT'S FIVE TO ONE",
+      "prediction": "IT'S FIVE TO ONE",
+      "seconds": 0.7371525839553215
+    },
+    {
+      "id": "main/6327609102417316299/00004",
+      "reference": "TAKE ALL THE NUTRIENTS AND ENERGY BACK INTO THE SOIL WHERE IT CAN BE USED BY THE PLANTS AGAIN TO",
+      "prediction": "TAKE ALL THE NUTRIENTS AND ENERGY BACK INTO THE SOIL WHERE IT CAN BE USED BY THE PLANT CENTRE",
+      "seconds": 2.4605510410037823
+    },
+    {
+      "id": "main/6327609102417316299/00006",
+      "reference": "ALL THESE PLANTS WOULD DIE",
+      "prediction": "ALL THESE PLANTS WILL DIE",
+      "seconds": 0.7568395420094021
+    },
+    {
+      "id": "main/6326360555424366722/00044",
+      "reference": "THEY'RE POTENTIAL FLOWERS",
+      "prediction": "THEIR POTENTIAL FLOWERS",
+      "seconds": 0.6732654169900343
+    },
+    {
+      "id": "main/6325796196721673967/00007",
+      "reference": "HOPEFULLY OVER TIME",
+      "prediction": "HOPEFULLY OVER TIME",
+      "seconds": 0.5376741660293192
+    },
+    {
+      "id": "main/6323198600501050831/00017",
+      "reference": "AS LONG AS YOU HAVE GOT THE RIGHT TRAINING TO DO THE JOB",
+      "prediction": "AS LONG AS YOU'VE GOT THE RIGHT TRAINING TO DO THE JOB",
+      "seconds": 1.6352406250080094
+    },
+    {
+      "id": "main/6306870852828565379/00015",
+      "reference": "THERE WERE THREE STATIONS BEFORE THAT",
+      "prediction": "THERE WERE THREE STATIONS BEFORE THAT",
+      "seconds": 0.9079097079811618
+    },
+    {
+      "id": "main/6311280066254641716/00013",
+      "reference": "HOW MUCH HAS ROMANIA CHANGED",
+      "prediction": "HOW MUCH HAS REMAINED AS IT IS",
+      "seconds": 0.9962216249550693
+    },
+    {
+      "id": "main/6329151425173313518/00041",
+      "reference": "WHAT DOES THAT MEAN",
+      "prediction": "WHAT DOES THAT MEAN",
+      "seconds": 0.5681621250114404
+    },
+    {
+      "id": "main/6328351272766065122/00002",
+      "reference": "ESPECIALLY MAMMAL LIFE",
+      "prediction": "IT'S PART OF THE MAMMAL LIFE",
+      "seconds": 0.9008580839727074
+    },
+    {
+      "id": "main/6323817075791736335/00033",
+      "reference": "IF YOU'RE INTENT ON RECOUPING THE CASH AND POCKETING THE PROFIT",
+      "prediction": "IF YOU'RE INTENT ON RECOUPING THE CASH AND POCKETING THE PROFIT",
+      "seconds": 2.171574291016441
+    },
+    {
+      "id": "main/6329893595522122781/00011",
+      "reference": "SIMILAR PARTIAL PARALYSIS",
+      "prediction": "SOMEONE WHO BUYS A PARALYSIS",
+      "seconds": 1.051539167005103
+    },
+    {
+      "id": "main/6303167732026041278/00007",
+      "reference": "POSSIBLY EVEN INTO THE EARLY PART OF THE 20TH CENTURY",
+      "prediction": "POSSIBLY EVEN AS THE EARLY PART OF THE 20TH CENTURY",
+      "seconds": 1.41453987499699
+    },
+    {
+      "id": "main/6315405811839181004/00033",
+      "reference": "ONLY ONE TURRET",
+      "prediction": "ONLY ONE JOINT",
+      "seconds": 0.684087083034683
+    },
+    {
+      "id": "main/6300370419826092098/00016",
+      "reference": "THEY LOOK FANTASTIC",
+      "prediction": "THEY LOOK FANTASTIC",
+      "seconds": 0.5716305829701014
+    },
+    {
+      "id": "main/6311014637275749987/00051",
+      "reference": "BUT THIS IS NOT THE WAY",
+      "prediction": "BUT THIS IS NOT THE WAY",
+      "seconds": 0.6901270420057699
+    },
+    {
+      "id": "main/6308177381880006979/00011",
+      "reference": "WHEN YOU'RE PLANTING FOR BEES IN PARTICULAR",
+      "prediction": "WHEN YOU PLANT IT FOR BEES IN PARTICULAR",
+      "seconds": 1.1445447920123115
+    },
+    {
+      "id": "main/6329151425173313518/00117",
+      "reference": "IN THE COMING DAYS",
+      "prediction": "IN THE COMING DAYS",
+      "seconds": 0.5742032920243219
+    },
+    {
+      "id": "main/6327941532886024424/00001",
+      "reference": "THE SAFER SOCIETY WILL BE",
+      "prediction": "THE TOUGHER SOCIETY WILL BE",
+      "seconds": 0.8486855000373907
+    },
+    {
+      "id": "main/6329151425173313518/00047",
+      "reference": "COULD SUSTAIN ITSELF",
+      "prediction": "COULD SUSTAIN ITSELF",
+      "seconds": 0.7115515000186861
+    },
+    {
+      "id": "main/6303167732026041278/00019",
+      "reference": "ARE VERY SELDOM VIEWED AS TREASURE TROVE",
+      "prediction": "A VERY SELDOM VIEWED TREASURE TROVE",
+      "seconds": 1.3268561660079286
+    }
+  ]
+}

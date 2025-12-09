@@ -1,0 +1,109 @@
+{
+ "split": "trainval",
+ "clips_in": 31982,
+ "clips_bridged": 31957,
+ "shards": 32,
+ "skipped_missing_inputs": [],
+ "dropped": [
+  [
+   "2NENlXsW4pM/50013",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "Vqm8fXFFHyY/50010",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "XAcARiiK5uY/50004",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "XAcARiiK5uY/50010",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "XAcARiiK5uY/50012",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "bo4HiVetBd0/50001",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "YuEm03Ko0J8/50001",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "SK095wuESeE/50007",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "wUKAVcj9NVA/50002",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "wUKAVcj9NVA/50005",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "VohNDqzWP9E/50003",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "rWhLSORCwW0/50002",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "gevXeQwS1jg/50001",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "6XS8TA4RBog/50015",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "6XS8TA4RBog/50018",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "ZWfCi9WxK1E/50002",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "ZBDablzQ9ts/50003",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "3QZp6smeSQA/50001",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "3QZp6smeSQA/50005",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "3QZp6smeSQA/50007",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "3QZp6smeSQA/50008",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "dkLcwHmnPV4/50001",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "dkLcwHmnPV4/50004",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "dkLcwHmnPV4/50005",
+   "ValueError: VideoProcess returned no patch"
+  ],
+  [
+   "gPEECGFJFb8/50005",
+   "ValueError: VideoProcess returned no patch"
+  ]
+ ]
+}

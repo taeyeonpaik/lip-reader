@@ -1,0 +1,29 @@
+{
+  "_id": "6729eb9e6cc63cc1ba50daf4",
+  "id": "Sqli11/LRS3-Dataset",
+  "author": "Sqli11",
+  "sha": "4bc4ea2c0cbbe844f145339697c7c9216b54dbe9",
+  "lastModified": "2024-11-05T09:55:42.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 4,
+  "likes": 0,
+  "cardData": {
+    "license": "mit"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    }
+  ],
+  "createdAt": "2024-11-05T09:55:42.000Z",
+  "usedStorage": 0
+}

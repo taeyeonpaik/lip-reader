@@ -1,0 +1,8 @@
+{
+  "app_decoder": "beam5-no-lm",
+  "validation_selected_candidate": "beam20-no-lm",
+  "candidate_activated": false,
+  "reason": "Tiny observed word-error changes, extra LRS2 audit CER regression, and slower upload/webcam processing. Retain fast baseline.",
+  "new_tuning_on_test_or_audit": false,
+  "runtime_evidence": "validation/decoding-throughput.json"
+}

@@ -1,0 +1,77 @@
+{
+  "state": "passed",
+  "independent_full_matrix_edit_distance": true,
+  "reports": [
+    {
+      "report": "baseline-test.json",
+      "clips": 1243,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs2-extra-validation-baseline.json",
+      "clips": 582,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs2-extra-validation-selected.json",
+      "clips": 582,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs3-session-validation-baseline.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs3-session-validation-selected.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-baseline.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam20-lm015.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam20-lm030.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam20.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam40-lm030.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "selected-test.json",
+      "clips": 1243,
+      "metrics_match": true
+    },
+    {
+      "report": "validation-baseline.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "validation-beam20-lm015.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "validation-beam20.json",
+      "clips": 500,
+      "metrics_match": true
+    }
+  ],
+  "cross_dataset_audit_included": true
+}

@@ -1,0 +1,8 @@
+{
+  "candidates": [
+    "beam20-lm015",
+    "beam20"
+  ],
+  "pilot_clips": 100,
+  "test_used": false
+}

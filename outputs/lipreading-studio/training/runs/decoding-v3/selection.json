@@ -1,0 +1,44 @@
+{
+  "candidate": "beam20",
+  "decoding": {
+    "beam_size": 20,
+    "lm_weight": 0.0
+  },
+  "basis": "LRS2 validation only",
+  "validation": {
+    "baseline": {
+      "clips": 500,
+      "word_errors": 808,
+      "reference_words": 3775,
+      "wer": 0.21403973509933774,
+      "character_errors": 2661,
+      "reference_characters": 19342,
+      "cer": 0.13757625891841588,
+      "exact_sentences": 191,
+      "failures": 0
+    },
+    "beam20-lm015": {
+      "clips": 500,
+      "word_errors": 797,
+      "reference_words": 3775,
+      "wer": 0.21112582781456954,
+      "character_errors": 2668,
+      "reference_characters": 19342,
+      "cer": 0.1379381656498811,
+      "exact_sentences": 205,
+      "failures": 0
+    },
+    "beam20": {
+      "clips": 500,
+      "word_errors": 801,
+      "reference_words": 3775,
+      "wer": 0.21218543046357616,
+      "character_errors": 2634,
+      "reference_characters": 19342,
+      "cer": 0.13618033295419293,
+      "exact_sentences": 192,
+      "failures": 0
+    }
+  },
+  "test_used_for_selection": false
+}

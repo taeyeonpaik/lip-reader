@@ -1,0 +1,153 @@
+{
+  "physical_camera_tested": false,
+  "audio_used": false,
+  "note": "One eight-second included example; two upload repeats and two paced webcam windows per decoder. No general throughput guarantee. Model loading excluded; uploads include normalization, tracking and recognition.",
+  "profiles": {
+    "5": {
+      "uploads": [
+        {
+          "total_seconds": 4.4735006670234725,
+          "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+          "segments": [
+            {
+              "start": 0.0,
+              "end": 8.0,
+              "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+              "face_coverage": 1.0
+            }
+          ],
+          "processing_seconds": 3.790012084005866,
+          "video_seconds": 8.0,
+          "device": "mps",
+          "model": "Auto-AVSR author pretrained visual-only; beam width 5",
+          "decoding": {
+            "beam_size": 5,
+            "lm_weight": 0.0,
+            "ctc_weight": 0.1,
+            "length_bonus": 0.0
+          },
+          "audio_used": false
+        },
+        {
+          "total_seconds": 3.0257054999819957,
+          "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+          "segments": [
+            {
+              "start": 0.0,
+              "end": 8.0,
+              "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+              "face_coverage": 1.0
+            }
+          ],
+          "processing_seconds": 2.304696834005881,
+          "video_seconds": 8.0,
+          "device": "mps",
+          "model": "Auto-AVSR author pretrained visual-only; beam width 5",
+          "decoding": {
+            "beam_size": 5,
+            "lm_weight": 0.0,
+            "ctc_weight": 0.1,
+            "length_bonus": 0.0
+          },
+          "audio_used": false
+        }
+      ],
+      "paced_webcam": {
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 8.0,
+            "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+            "processing_seconds": 2.1341614160337485
+          },
+          {
+            "start": 8.000000000000005,
+            "end": 16.000000000000007,
+            "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+            "processing_seconds": 2.1048725830041803
+          }
+        ],
+        "busy": false,
+        "queued": 0,
+        "buffered_seconds": 0.0,
+        "closed": true,
+        "skipped": 0,
+        "notice": ""
+      },
+      "capture_and_drain_seconds": 18.133048417046666
+    },
+    "20": {
+      "uploads": [
+        {
+          "total_seconds": 4.720521334034856,
+          "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+          "segments": [
+            {
+              "start": 0.0,
+              "end": 8.0,
+              "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+              "face_coverage": 1.0
+            }
+          ],
+          "processing_seconds": 3.9525950830429792,
+          "video_seconds": 8.0,
+          "device": "mps",
+          "model": "Auto-AVSR author pretrained visual-only; beam width 20",
+          "decoding": {
+            "beam_size": 20,
+            "lm_weight": 0.0,
+            "ctc_weight": 0.1,
+            "length_bonus": 0.0
+          },
+          "audio_used": false
+        },
+        {
+          "total_seconds": 4.671628749987576,
+          "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+          "segments": [
+            {
+              "start": 0.0,
+              "end": 8.0,
+              "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+              "face_coverage": 1.0
+            }
+          ],
+          "processing_seconds": 3.9434997090138495,
+          "video_seconds": 8.0,
+          "device": "mps",
+          "model": "Auto-AVSR author pretrained visual-only; beam width 20",
+          "decoding": {
+            "beam_size": 20,
+            "lm_weight": 0.0,
+            "ctc_weight": 0.1,
+            "length_bonus": 0.0
+          },
+          "audio_used": false
+        }
+      ],
+      "paced_webcam": {
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 8.0,
+            "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+            "processing_seconds": 3.8156074170256034
+          },
+          {
+            "start": 8.000000000000005,
+            "end": 16.000000000000007,
+            "text": "WHAT'S THAT THAT SOUNDS KIND OF COOL AND THEN LIKE I'LL FORM LIKE A MELODY AROUND IT AND THAT'S A LOT OF FUN",
+            "processing_seconds": 4.414407625037711
+          }
+        ],
+        "busy": false,
+        "queued": 0,
+        "buffered_seconds": 0.0,
+        "closed": true,
+        "skipped": 0,
+        "notice": ""
+      },
+      "capture_and_drain_seconds": 20.47528987500118
+    }
+  }
+}

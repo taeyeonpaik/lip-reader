@@ -1,0 +1,153 @@
+{
+  "_id": "6a5ddfdc27b2c876f271fb56",
+  "id": "TheNHz/ellipsis-lrs3-trainval-autoavsr",
+  "author": "TheNHz",
+  "sha": "a9b5374e19082b3217171be8ece589f35c8a2a71",
+  "lastModified": "2026-07-20T16:59:12.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:automatic-speech-recognition",
+    "language:en",
+    "license:cc-by-4.0",
+    "library:webdataset",
+    "arxiv:1809.00496",
+    "region:us",
+    "lip-reading",
+    "visual-speech-recognition",
+    "lrs3",
+    "webdataset"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tLRS3 trainval \u2014 auto_avsr mouth crops, bridged to WebDataset\n\t\n\nThe LRS3 trainval split (30 h) as [T,96,96] uint8 grayscale mouth-ROI shards with character\ntranscripts, produced with auto_avsr's own crop geometry so results stay comparable to that\nproject's published LRS3 numbers.\nDerived from TheNHz/ellipsis-lrs3-raw\n(itself a verified mirror of LRS3-TED, whose official distribution was discontinued).\n\n\t\n\t\t\n\t\n\t\n\t\tAttribution\n\t\n\nLRS3-TED is by Triantafyllos Afouras, Joon Son Chung\u2026 See the full description on the dataset page: https://huggingface.co/datasets/TheNHz/ellipsis-lrs3-trainval-autoavsr.",
+  "downloads": 101,
+  "likes": 0,
+  "cardData": {
+    "license": "cc-by-4.0",
+    "task_categories": [
+      "automatic-speech-recognition"
+    ],
+    "language": [
+      "en"
+    ],
+    "tags": [
+      "lip-reading",
+      "visual-speech-recognition",
+      "lrs3",
+      "webdataset"
+    ],
+    "pretty_name": "LRS3 trainval \u2014 auto_avsr mouth crops as WebDataset shards"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "shards/bridge-report.json"
+    },
+    {
+      "rfilename": "shards/dataset-manifest.jsonl"
+    },
+    {
+      "rfilename": "shards/shard-000000.tar"
+    },
+    {
+      "rfilename": "shards/shard-000001.tar"
+    },
+    {
+      "rfilename": "shards/shard-000002.tar"
+    },
+    {
+      "rfilename": "shards/shard-000003.tar"
+    },
+    {
+      "rfilename": "shards/shard-000004.tar"
+    },
+    {
+      "rfilename": "shards/shard-000005.tar"
+    },
+    {
+      "rfilename": "shards/shard-000006.tar"
+    },
+    {
+      "rfilename": "shards/shard-000007.tar"
+    },
+    {
+      "rfilename": "shards/shard-000008.tar"
+    },
+    {
+      "rfilename": "shards/shard-000009.tar"
+    },
+    {
+      "rfilename": "shards/shard-000010.tar"
+    },
+    {
+      "rfilename": "shards/shard-000011.tar"
+    },
+    {
+      "rfilename": "shards/shard-000012.tar"
+    },
+    {
+      "rfilename": "shards/shard-000013.tar"
+    },
+    {
+      "rfilename": "shards/shard-000014.tar"
+    },
+    {
+      "rfilename": "shards/shard-000015.tar"
+    },
+    {
+      "rfilename": "shards/shard-000016.tar"
+    },
+    {
+      "rfilename": "shards/shard-000017.tar"
+    },
+    {
+      "rfilename": "shards/shard-000018.tar"
+    },
+    {
+      "rfilename": "shards/shard-000019.tar"
+    },
+    {
+      "rfilename": "shards/shard-000020.tar"
+    },
+    {
+      "rfilename": "shards/shard-000021.tar"
+    },
+    {
+      "rfilename": "shards/shard-000022.tar"
+    },
+    {
+      "rfilename": "shards/shard-000023.tar"
+    },
+    {
+      "rfilename": "shards/shard-000024.tar"
+    },
+    {
+      "rfilename": "shards/shard-000025.tar"
+    },
+    {
+      "rfilename": "shards/shard-000026.tar"
+    },
+    {
+      "rfilename": "shards/shard-000027.tar"
+    },
+    {
+      "rfilename": "shards/shard-000028.tar"
+    },
+    {
+      "rfilename": "shards/shard-000029.tar"
+    },
+    {
+      "rfilename": "shards/shard-000030.tar"
+    },
+    {
+      "rfilename": "shards/shard-000031.tar"
+    }
+  ],
+  "createdAt": "2026-07-20T08:44:12.000Z",
+  "usedStorage": 25041162240
+}

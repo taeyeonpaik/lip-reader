@@ -1,0 +1,45 @@
+{
+  "manifest_sha256": "68fe25ef1ab54a43b1eb7261ef97157c3f85e53af4cf10d14afd7fc6c8437e2a",
+  "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+  "lm": {
+    "source": "Auto-AVSR authors English subword language model",
+    "repository": "https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages",
+    "download": "https://drive.google.com/file/d/1g31HGxJnnOwYl17b70ObFQZ1TSnPvRQv/view",
+    "sha256": {
+      "model.pth": "c75aa39020dec98f432c8689b145d3f4cc407d4daa90a0c64202386c34f83c18",
+      "model.json": "6e2d2004e4066af3e5a3d74c53b0d648fd53904da07178671d1cbe28a206d548"
+    },
+    "token_list_sha256": "334bbd704f478ab03a9d456845dddd353204fa6fc0971ee6f8388638ff1a963f",
+    "vocabulary_checked_against_author_file": "https://raw.githubusercontent.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages/master/pipelines/tokens/unigram5000_units.txt",
+    "parameters": 53742649,
+    "note": "External pretrained Transformer LM used only to score transcript hypotheses; audio never used for inference. This is not a locally trained language model."
+  },
+  "candidates": {
+    "baseline": {
+      "beam_size": 5,
+      "lm_weight": 0.0
+    },
+    "beam20": {
+      "beam_size": 20,
+      "lm_weight": 0.0
+    },
+    "beam20-lm015": {
+      "beam_size": 20,
+      "lm_weight": 0.15
+    },
+    "beam20-lm030": {
+      "beam_size": 20,
+      "lm_weight": 0.3
+    },
+    "beam40-lm030": {
+      "beam_size": 40,
+      "lm_weight": 0.3
+    }
+  },
+  "pilot_validation_clips": 100,
+  "full_validation_clips": 500,
+  "finalists": 2,
+  "selection": "Lowest full-validation WER among two pilot finalists, CER no worse than baseline; no test tuning",
+  "test_note": "LRS2 test baseline already examined in previous experiments; test remains excluded from parameter selection",
+  "visual_weights_changed": false
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "6804dc76d3cbfa5d68cb153b",
+  "id": "BrokenMoon/processed_lrs3",
+  "author": "BrokenMoon",
+  "sha": "72fa60d94d0bdb36af41de8204b5641fa26704dc",
+  "lastModified": "2025-04-20T11:42:57.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 33,
+  "likes": 0,
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "lrs3.tar"
+    }
+  ],
+  "createdAt": "2025-04-20T11:37:26.000Z",
+  "usedStorage": 3265136640
+}
