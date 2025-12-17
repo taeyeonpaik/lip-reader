@@ -1,0 +1,42 @@
+{
+  "selected": "pretrained",
+  "best_epoch": 0,
+  "baseline_validation": {
+    "clips": 2570,
+    "word_errors": 3315,
+    "reference_words": 25192,
+    "wer": 0.13158939345824072,
+    "character_errors": 10635,
+    "reference_characters": 129079,
+    "cer": 0.08239140371400461,
+    "exact_sentences": 1259,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 1082,
+        "word_errors": 1800,
+        "reference_words": 7866,
+        "wer": 0.2288329519450801,
+        "character_errors": 5937,
+        "reference_characters": 40282,
+        "cer": 0.14738592919914603,
+        "exact_sentences": 423,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 1488,
+        "word_errors": 1515,
+        "reference_words": 17326,
+        "wer": 0.08744084035553504,
+        "character_errors": 4698,
+        "reference_characters": 88797,
+        "cer": 0.052907192810567924,
+        "exact_sentences": 836,
+        "failures": 0
+      }
+    },
+    "macro_wer": 0.15813689615030757
+  },
+  "test_used_for_selection": false,
+  "best_validation_macro_wer": 0.15813689615030757
+}

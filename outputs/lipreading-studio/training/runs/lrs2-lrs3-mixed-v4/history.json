@@ -1,0 +1,128 @@
+[
+  {
+    "epoch": 1,
+    "training_loss": 4.023749875020151,
+    "validation": {
+      "clips": 2570,
+      "word_errors": 3292,
+      "reference_words": 25192,
+      "wer": 0.13067640520800253,
+      "character_errors": 10595,
+      "reference_characters": 129079,
+      "cer": 0.08208151597083957,
+      "exact_sentences": 1280,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 1082,
+          "word_errors": 1806,
+          "reference_words": 7866,
+          "wer": 0.2295957284515637,
+          "character_errors": 5932,
+          "reference_characters": 40282,
+          "cer": 0.1472618042798272,
+          "exact_sentences": 427,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 1488,
+          "word_errors": 1486,
+          "reference_words": 17326,
+          "wer": 0.08576705529262381,
+          "character_errors": 4663,
+          "reference_characters": 88797,
+          "cer": 0.05251303535029336,
+          "exact_sentences": 853,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.15768139187209376
+    },
+    "seconds": 5923.036762707983,
+    "updates": 4768
+  },
+  {
+    "epoch": 2,
+    "training_loss": 3.836905718283393,
+    "validation": {
+      "clips": 2570,
+      "word_errors": 3270,
+      "reference_words": 25192,
+      "wer": 0.12980311209907908,
+      "character_errors": 10525,
+      "reference_characters": 129079,
+      "cer": 0.08153921242030075,
+      "exact_sentences": 1290,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 1082,
+          "word_errors": 1811,
+          "reference_words": 7866,
+          "wer": 0.23023137554030002,
+          "character_errors": 5967,
+          "reference_characters": 40282,
+          "cer": 0.14813067871505883,
+          "exact_sentences": 427,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 1488,
+          "word_errors": 1459,
+          "reference_words": 17326,
+          "wer": 0.08420870368232714,
+          "character_errors": 4558,
+          "reference_characters": 88797,
+          "cer": 0.05133056296946969,
+          "exact_sentences": 863,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.1572200396113136
+    },
+    "seconds": 5924.775149541034,
+    "updates": 9536
+  },
+  {
+    "epoch": 3,
+    "training_loss": 3.732706138822698,
+    "validation": {
+      "clips": 2570,
+      "word_errors": 3255,
+      "reference_words": 25192,
+      "wer": 0.12920768497935853,
+      "character_errors": 10449,
+      "reference_characters": 129079,
+      "cer": 0.08095042570828717,
+      "exact_sentences": 1294,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 1082,
+          "word_errors": 1803,
+          "reference_words": 7866,
+          "wer": 0.2292143401983219,
+          "character_errors": 5926,
+          "reference_characters": 40282,
+          "cer": 0.14711285437664465,
+          "exact_sentences": 425,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 1488,
+          "word_errors": 1452,
+          "reference_words": 17326,
+          "wer": 0.08380468659817615,
+          "character_errors": 4523,
+          "reference_characters": 88797,
+          "cer": 0.05093640550919513,
+          "exact_sentences": 869,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.15650951339824903
+    },
+    "seconds": 5915.934578292014,
+    "updates": 14304
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "metrics": {
+    "clips": 2,
+    "word_errors": 2,
+    "reference_words": 16,
+    "wer": 0.125,
+    "character_errors": 10,
+    "reference_characters": 92,
+    "cer": 0.10869565217391304,
+    "exact_sentences": 1,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 1,
+        "word_errors": 2,
+        "reference_words": 10,
+        "wer": 0.2,
+        "character_errors": 10,
+        "reference_characters": 58,
+        "cer": 0.1724137931034483,
+        "exact_sentences": 0,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 1,
+        "word_errors": 0,
+        "reference_words": 6,
+        "wer": 0.0,
+        "character_errors": 0,
+        "reference_characters": 34,
+        "cer": 0.0,
+        "exact_sentences": 1,
+        "failures": 0
+      }
+    },
+    "macro_wer": 0.1
+  },
+  "predictions": [
+    {
+      "id": "lrs2/main/6327740528416575363/00028",
+      "reference": "THE PROBLEM IS MIGRATION AND THEREFORE WE SHOULD STOP THAT",
+      "prediction": "THE PROBLEM IS MIGRATION AND THEREFORE WE JUST DROPPED THAT",
+      "dataset": "LRS2",
+      "seconds": 1.078910625015851
+    },
+    {
+      "id": "lrs3/lECfUfqNVoo/50001",
+      "reference": "WHAT IS HAPPINESS ACCORDING TO YOU",
+      "prediction": "WHAT IS HAPPINESS ACCORDING TO YOU",
+      "dataset": "LRS3-TED",
+      "seconds": 0.9418460419983603
+    }
+  ],
+  "split": "validation",
+  "prepared_mouth_crops": true
+}

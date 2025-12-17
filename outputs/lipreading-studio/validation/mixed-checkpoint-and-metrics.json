@@ -1,0 +1,144 @@
+{
+  "state": "passed",
+  "metrics_recomputed": [
+    {
+      "report": "baseline-test.json",
+      "clips": 1243,
+      "metrics_match": true
+    },
+    {
+      "report": "baseline-validation.json",
+      "clips": 2570,
+      "metrics_match": true
+    },
+    {
+      "report": "epoch-01-validation.json",
+      "clips": 2570,
+      "metrics_match": true
+    },
+    {
+      "report": "epoch-02-validation.json",
+      "clips": 2570,
+      "metrics_match": true
+    },
+    {
+      "report": "epoch-03-validation.json",
+      "clips": 2570,
+      "metrics_match": true
+    }
+  ],
+  "decoder_metrics_recomputed": [
+    {
+      "report": "baseline-test.json",
+      "clips": 1243,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs2-extra-validation-baseline.json",
+      "clips": 582,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs2-extra-validation-selected.json",
+      "clips": 582,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs3-session-validation-baseline.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "lrs3-session-validation-selected.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-baseline.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam20-lm015.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam20-lm030.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam20.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "pilot-beam40-lm030.json",
+      "clips": 100,
+      "metrics_match": true
+    },
+    {
+      "report": "selected-test.json",
+      "clips": 1243,
+      "metrics_match": true
+    },
+    {
+      "report": "validation-baseline.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "validation-beam20-lm015.json",
+      "clips": 500,
+      "metrics_match": true
+    },
+    {
+      "report": "validation-beam20.json",
+      "clips": 500,
+      "metrics_match": true
+    }
+  ],
+  "last_checkpoint_epoch": 3,
+  "optimizer_updates": 14304,
+  "changed_modules_max_absolute_delta": {
+    "encoder.encoders.10.": 0.008270147256553173,
+    "encoder.encoders.11.": 0.005687447264790535,
+    "encoder.after_norm.": 0.0027283430099487305,
+    "decoder.decoders.4.": 0.0011717677116394043,
+    "decoder.decoders.5.": 0.0016497224569320679,
+    "decoder.after_norm.": 0.0006319880485534668,
+    "decoder.output_layer.": 0.006366945803165436,
+    "ctc.ctc_lo.": 0.005471999756991863
+  },
+  "reloaded_prediction_checks": [
+    {
+      "id": "lrs2/main/6327740528416575363/00028",
+      "dataset": "LRS2",
+      "matches_recorded_prediction": true
+    },
+    {
+      "id": "lrs2/main/6329835613463566698/00027",
+      "dataset": "LRS2",
+      "matches_recorded_prediction": true
+    },
+    {
+      "id": "lrs3/lECfUfqNVoo/50001",
+      "dataset": "LRS3-TED",
+      "matches_recorded_prediction": true
+    },
+    {
+      "id": "lrs3/lECfUfqNVoo/50002",
+      "dataset": "LRS3-TED",
+      "matches_recorded_prediction": true
+    }
+  ],
+  "checkpoint_sha256": {
+    "last.pt": "6e38b32f387cb93d1b591c2641edb23508906d0223fc146cdad34cc0e526571a"
+  },
+  "base_checkpoint_hash_verified": true,
+  "selection_rule_verified": true,
+  "production_model": "original pretrained",
+  "adapted_test_evaluated": false,
+  "adapted_test_note": "No validation checkpoint qualified, so no adapted test evaluation was run."
+}

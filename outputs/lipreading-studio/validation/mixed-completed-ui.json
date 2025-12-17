@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-09-18T05:24:22.802444+00:00",
+  "url": "http://127.0.0.1:8502/",
+  "tab": "Model & training",
+  "checks": {
+    "completed_epochs": 3,
+    "optimizer_updates": 14304,
+    "baseline_macro_wer_display": "15.81%",
+    "lowest_observed_macro_wer_display": "15.65%",
+    "lrs2_baseline_final_display": [
+      "22.88%",
+      "22.92%"
+    ],
+    "lrs3_baseline_final_display": [
+      "8.74%",
+      "8.38%"
+    ],
+    "pretrained_retained_notice": true,
+    "no_adapted_test_notice": true,
+    "result_download_button": true
+  },
+  "method": "Browser DOM inspection"
+}

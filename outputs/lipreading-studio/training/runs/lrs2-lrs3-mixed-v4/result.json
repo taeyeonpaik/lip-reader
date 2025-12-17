@@ -1,0 +1,124 @@
+{
+  "state": "completed",
+  "config": {
+    "manifest_sha256": "3bbb40aea3b8cd8f7b4086505df59162baed82036014437eee11e4d8411bdd47",
+    "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+    "prefixes": [
+      "encoder.encoders.10.",
+      "encoder.encoders.11.",
+      "encoder.after_norm.",
+      "decoder.decoders.4.",
+      "decoder.decoders.5.",
+      "decoder.after_norm.",
+      "decoder.output_layer.",
+      "ctc.ctc_lo."
+    ],
+    "learning_rate_visual": 3e-06,
+    "learning_rate_decoder": 1e-06,
+    "epochs": 6,
+    "minimum_epochs": 3,
+    "patience": 2,
+    "accumulation": 16,
+    "microbatch": 4,
+    "seed": 44,
+    "trainable_parameters": 55080306,
+    "splits": {
+      "train": 76282,
+      "validation": 2570,
+      "test": 1243
+    },
+    "beam_size": 20,
+    "regularization": "0.1 dropout in unfrozen blocks; frozen batchnorm statistics; optional 4-frame feature mask",
+    "feature_mask_probability": 0.15,
+    "warmup_epochs": 1,
+    "schedule": "one-epoch linear warmup then cosine decay to 10% peak",
+    "selection": "Lowest mean of per-dataset validation WER, with no per-dataset WER or CER regression versus baseline; require 0.5 percentage point mean WER gain",
+    "test_used_for_selection": false,
+    "test_note": "LRS2 official test only, previously examined. LRS3 trainval validation is held out of local training, not original pretraining; no official LRS3 test included.",
+    "dataset_counts": {
+      "LRS2": {
+        "train": 45814,
+        "validation": 1082,
+        "test": 1243
+      },
+      "LRS3-TED": {
+        "train": 30468,
+        "validation": 1488,
+        "test": 0
+      }
+    },
+    "balanced_datasets": true
+  },
+  "selection": {
+    "selected": "pretrained",
+    "best_epoch": 0,
+    "baseline_validation": {
+      "clips": 2570,
+      "word_errors": 3315,
+      "reference_words": 25192,
+      "wer": 0.13158939345824072,
+      "character_errors": 10635,
+      "reference_characters": 129079,
+      "cer": 0.08239140371400461,
+      "exact_sentences": 1259,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 1082,
+          "word_errors": 1800,
+          "reference_words": 7866,
+          "wer": 0.2288329519450801,
+          "character_errors": 5937,
+          "reference_characters": 40282,
+          "cer": 0.14738592919914603,
+          "exact_sentences": 423,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 1488,
+          "word_errors": 1515,
+          "reference_words": 17326,
+          "wer": 0.08744084035553504,
+          "character_errors": 4698,
+          "reference_characters": 88797,
+          "cer": 0.052907192810567924,
+          "exact_sentences": 836,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.15813689615030757
+    },
+    "test_used_for_selection": false,
+    "best_validation_macro_wer": 0.15813689615030757
+  },
+  "epochs_completed": 3,
+  "updates": 14304,
+  "baseline_test": {
+    "clips": 1243,
+    "word_errors": 1075,
+    "reference_words": 6660,
+    "wer": 0.1614114114114114,
+    "character_errors": 3418,
+    "reference_characters": 33565,
+    "cer": 0.10183226575301653,
+    "exact_sentences": 728,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 1243,
+        "word_errors": 1075,
+        "reference_words": 6660,
+        "wer": 0.1614114114114114,
+        "character_errors": 3418,
+        "reference_characters": 33565,
+        "cer": 0.10183226575301653,
+        "exact_sentences": 728,
+        "failures": 0
+      }
+    },
+    "macro_wer": 0.1614114114114114
+  },
+  "best_test": null,
+  "production_weights_changed": false,
+  "completed_utc": "2026-09-18T04:47:13.897950+00:00"
+}

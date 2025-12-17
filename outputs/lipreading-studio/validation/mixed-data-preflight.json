@@ -1,0 +1,8 @@
+{
+  "clips": 80095,
+  "ctc_infeasible": [],
+  "additional_cache_gib": 13.121079444885254,
+  "free_gib": 29.70952606201172,
+  "maximum_frames": 155,
+  "train_clips": 76282
+}
