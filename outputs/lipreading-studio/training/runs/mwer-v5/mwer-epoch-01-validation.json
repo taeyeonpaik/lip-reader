@@ -1,0 +1,2840 @@
+{
+  "metrics": {
+    "clips": 400,
+    "word_errors": 635,
+    "reference_words": 3736,
+    "wer": 0.1699678800856531,
+    "character_errors": 2102,
+    "reference_characters": 19010,
+    "cer": 0.11057338243029984,
+    "exact_sentences": 185,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 396,
+        "reference_words": 1533,
+        "wer": 0.2583170254403131,
+        "character_errors": 1321,
+        "reference_characters": 7747,
+        "cer": 0.17051761972376403,
+        "exact_sentences": 75,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 239,
+        "reference_words": 2203,
+        "wer": 0.10848842487517023,
+        "character_errors": 781,
+        "reference_characters": 11263,
+        "cer": 0.06934209358075114,
+        "exact_sentences": 110,
+        "failures": 0
+      }
+    },
+    "macro_wer": 0.18340272515774167
+  },
+  "predictions": [
+    {
+      "id": "lrs2/main/6328962017115556355/00003",
+      "dataset": "LRS2",
+      "reference": "WE'RE USED TO CRAB APPLES BEING BIG FRUIT",
+      "prediction": "WE USED TO GRAB OUR BOOKS WITH BIG ROOTS",
+      "seconds": 0.8263798340340145
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00049",
+      "dataset": "LRS2",
+      "reference": "AND THEY'RE MAKING THE SLIGHT ERROR OF NOT COSTING IN THEIR OWN TIME AND EFFORT WHICH",
+      "prediction": "AND THEY ARE MAKING THE SLIGHT AREA OF NOT COSTING THEIR OWN TIME AND EFFORT WHICH",
+      "seconds": 1.7707262499607168
+    },
+    {
+      "id": "lrs2/main/6306870852828565379/00021",
+      "dataset": "LRS2",
+      "reference": "BY YOUR LANGUAGE",
+      "prediction": "BY LANGUAGE",
+      "seconds": 0.4102696669870056
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00002",
+      "dataset": "LRS2",
+      "reference": "YOU GET THEM IN THE POST",
+      "prediction": "YOU GET THEM IN THE POST",
+      "seconds": 0.4421172080328688
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00008",
+      "dataset": "LRS2",
+      "reference": "IT COMES EITHER FROM THE OWNERS OF COMPANIES",
+      "prediction": "IT COMES EITHER FROM THE OWNERS OF COMPANIES",
+      "seconds": 0.8012663329718634
+    },
+    {
+      "id": "lrs2/main/6303167732026041278/00019",
+      "dataset": "LRS2",
+      "reference": "ARE VERY SELDOM VIEWED AS TREASURE TROVE",
+      "prediction": "A VERY SELDOM VIEWED AS TREASURE TROVE",
+      "seconds": 0.9056171670090407
+    },
+    {
+      "id": "lrs2/main/6324713864963081921/00021",
+      "dataset": "LRS2",
+      "reference": "AT THE END OF THE DAY",
+      "prediction": "AT THE END OF THE DAY",
+      "seconds": 0.448898124974221
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00064",
+      "dataset": "LRS2",
+      "reference": "IF YOU'RE ANYTHING LIKE ME",
+      "prediction": "IF YOU'RE ANYTHING LIKE ME",
+      "seconds": 0.5286417080205865
+    },
+    {
+      "id": "lrs2/main/6302978323968228875/00010",
+      "dataset": "LRS2",
+      "reference": "WHY DID YOU BRING ME IN HERE",
+      "prediction": "WHY DID YOU BRING ME IN HERE",
+      "seconds": 0.5683617919567041
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00019",
+      "dataset": "LRS2",
+      "reference": "AND IN THIS HOTEL",
+      "prediction": "AND AT THIS HOTEL",
+      "seconds": 0.3931429159711115
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00033",
+      "dataset": "LRS2",
+      "reference": "ONLY ONE TURRET",
+      "prediction": "ONLY ONE JOY",
+      "seconds": 0.44590325001627207
+    },
+    {
+      "id": "lrs2/main/6300370419826092098/00003",
+      "dataset": "LRS2",
+      "reference": "THOSE SHOULD HAVE ROOTED",
+      "prediction": "NOT ENOUGH WOOD",
+      "seconds": 0.5243893750011921
+    },
+    {
+      "id": "lrs2/main/6326990627126693682/00003",
+      "dataset": "LRS2",
+      "reference": "WHAT WE'RE LOOKING FOR IS WHIPPED",
+      "prediction": "WHAT WE'RE LOOKING FOR IS WHIPS",
+      "seconds": 0.7603216249844991
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00032",
+      "dataset": "LRS2",
+      "reference": "ALTHOUGH IN THIS CASE",
+      "prediction": "ALTHOUGH IN THIS CASE",
+      "seconds": 0.3886570419999771
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00033",
+      "dataset": "LRS2",
+      "reference": "ALFRED HAD FOUGHT ALONGSIDE HIS BROTHERS SO HE WAS NO STRANGER TO THE BATTLEFIELD",
+      "prediction": "ALFRED HAD FOUGHT ALONGSIDE HIS BROTHERS SO HE WAS NO STRANGER TO THE BATTLEFIELD",
+      "seconds": 2.063084291003179
+    },
+    {
+      "id": "lrs2/main/6314308018198387664/00002",
+      "dataset": "LRS2",
+      "reference": "YOU MAY FIND HIM",
+      "prediction": "YOU MAY FIND HIM",
+      "seconds": 0.4235877500032075
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00018",
+      "dataset": "LRS2",
+      "reference": "THE ROAD ITSELF IS ATTRACTIVE",
+      "prediction": "THE ROAD ITSELF IS ATTRACTIVE",
+      "seconds": 0.508624458045233
+    },
+    {
+      "id": "lrs2/main/6308177381880006979/00026",
+      "dataset": "LRS2",
+      "reference": "I DON'T FLOOD THEM EVERY NOW AND THEN AND LET THEM DRY OUT",
+      "prediction": "I DON'T FLOOD THEM EVERY NOW AND THEN AND LET THEM DRY OUT",
+      "seconds": 1.1289771659648977
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00065",
+      "dataset": "LRS2",
+      "reference": "I HAVE SPENT A LOT OF MONEY ON THESE FLATS",
+      "prediction": "I HAVE SPENT A LOT OF MONEY ON THESE FLATS",
+      "seconds": 0.9539791669812985
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00022",
+      "dataset": "LRS2",
+      "reference": "BECAUSE WE THINK JEKYLL DID IT ALL REMOTELY",
+      "prediction": "BECAUSE WE THINK SHE ONLY KNOWS ABOUT IT",
+      "seconds": 0.8138163330149837
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00007",
+      "dataset": "LRS2",
+      "reference": "WHEN YOU CAME INTO CONTACT WITH THE STATE",
+      "prediction": "WHEN YOU CAME INTO CONTACT WITH THE STATE",
+      "seconds": 0.6728126669768244
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00042",
+      "dataset": "LRS2",
+      "reference": "BUT YOU'VE GOT A BANK HOLIDAY WEEKEND COMING UP",
+      "prediction": "BUT YOU'VE GOT A BANK HOLIDAY WEEKEND COMING UP",
+      "seconds": 0.8627087080385536
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00066",
+      "dataset": "LRS2",
+      "reference": "AND I THINK FOR THAT 80",
+      "prediction": "AND I THINK FOR THAT 80",
+      "seconds": 0.6636394579545595
+    },
+    {
+      "id": "lrs2/main/6325119739372550419/00026",
+      "dataset": "LRS2",
+      "reference": "MY SHOES ARE BEHIND THERE",
+      "prediction": "MUCH CLOSER BEHIND THAT",
+      "seconds": 0.539404499984812
+    },
+    {
+      "id": "lrs2/main/6300370419826092098/00001",
+      "dataset": "LRS2",
+      "reference": "SO WE NEED YOU TO HELP US IN OUR REVIVAL CAMPAIGN",
+      "prediction": "SO WE NEED YOU TO HELP US IN OUR REVIVAL CAMPAIGN",
+      "seconds": 1.0790147499646991
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00005",
+      "dataset": "LRS2",
+      "reference": "PEOPLE WITH NO MONEY AT ALL",
+      "prediction": "PEOPLE WITH NO MONEY AT ALL",
+      "seconds": 0.5045707920216955
+    },
+    {
+      "id": "lrs2/main/6312066045269810824/00026",
+      "dataset": "LRS2",
+      "reference": "NEW YORK MADE A STATEMENT",
+      "prediction": "NEW YORK MADE A STATEMENT",
+      "seconds": 0.4874765829881653
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00026",
+      "dataset": "LRS2",
+      "reference": "THAT DOMINATED THE LANDSCAPE",
+      "prediction": "THEY DOMINATED THE LANDSCAPE",
+      "seconds": 0.5979560829582624
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00063",
+      "dataset": "LRS2",
+      "reference": "AND AT THAT POINT",
+      "prediction": "AND AT THAT POINT",
+      "seconds": 0.36254641599953175
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00051",
+      "dataset": "LRS2",
+      "reference": "THEY WILL LAST THE WINTER THEY ARE HARDY",
+      "prediction": "THEY WERE NICE AND WE SAID HARD",
+      "seconds": 0.7566526250448078
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00018",
+      "dataset": "LRS2",
+      "reference": "SO WE WORK IN TANDEM WITH EACH OTHER BECAUSE THEY COME IN OBVIOUSLY TO POST THEIR PARCELS",
+      "prediction": "SO WE WORK AS SORT OF ASYLUM WITH EACH OTHER BECAUSE THEN I'M OBVIOUSLY SUPPOSED TO THE PARTNERS",
+      "seconds": 2.0217389999888837
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00029",
+      "dataset": "LRS2",
+      "reference": "NEW JOBS DO ARISE",
+      "prediction": "NEW JOBS TO DO IT RIGHT",
+      "seconds": 0.5635266250465065
+    },
+    {
+      "id": "lrs2/main/6300370419826092098/00013",
+      "dataset": "LRS2",
+      "reference": "SO THEY LOOK RADICALLY DIFFERENT BUT THEIR ORIGINS ARE ACTUALLY FROM THE SAME PLACE",
+      "prediction": "SO THEY LOOK RADICALLY DIFFERENT BUT THEIR ORIGINS ARE ACTUALLY FROM THE SAME PLACE",
+      "seconds": 1.421488749969285
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00017",
+      "dataset": "LRS2",
+      "reference": "BACK IN THE DAY",
+      "prediction": "BE BACK IN THE DAY",
+      "seconds": 0.4476813330547884
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00026",
+      "dataset": "LRS2",
+      "reference": "COS I HAD THE HEAVIEST DELIVERY IN EUROPE",
+      "prediction": "JUST LIKE DAVID AND DAVID IN EUROPE",
+      "seconds": 0.7944399580010213
+    },
+    {
+      "id": "lrs2/main/6324698403080812792/00021",
+      "dataset": "LRS2",
+      "reference": "WHAT DOES IT LIKE",
+      "prediction": "WHAT IS IT LIKE",
+      "seconds": 0.383623042027466
+    },
+    {
+      "id": "lrs2/main/6302978323968228875/00021",
+      "dataset": "LRS2",
+      "reference": "BETWEEN FOUR TO SIX WEEKS TIME AND BY THE END OF THIS SEASON",
+      "prediction": "BETWEEN FOUR TO SIX WEEKS' TIME AND BY THE END OF THIS SEASON",
+      "seconds": 1.306793875002768
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00021",
+      "dataset": "LRS2",
+      "reference": "AND THEN HAD IT BUILT",
+      "prediction": "AND THEN ACTING BUILT",
+      "seconds": 0.5163960409699939
+    },
+    {
+      "id": "lrs2/main/6314308018198387664/00008",
+      "dataset": "LRS2",
+      "reference": "IF YOUR SYMPTOMS FADE WHILE YOU'RE IN HERE",
+      "prediction": "IF YOUR SYMPTOMS FADE WHILE YOU'RE IN HERE",
+      "seconds": 0.849932582990732
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00067",
+      "dataset": "LRS2",
+      "reference": "WHO SET UP THE ADAM SMITH INSTITUTE SUBSEQUENTLY",
+      "prediction": "YOU SET UP THE ADAM SMITH INSTITUTE SUBSEQUENTLY",
+      "seconds": 1.0960137079819106
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00005",
+      "dataset": "LRS2",
+      "reference": "THAT KIND OF ENTICES THE GENERAL MANAGERS INTO THINKING",
+      "prediction": "THAT'S KIND OF EXCITING TO GENERAL MANAGERS INTO THE LEAGUE",
+      "seconds": 1.214878291997593
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00030",
+      "dataset": "LRS2",
+      "reference": "YOU CAN FIND OUT LATER IN THE SHOW",
+      "prediction": "YOU CAN FIND OUT LATER IN THE SHOW",
+      "seconds": 0.6483754999935627
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00018",
+      "dataset": "LRS2",
+      "reference": "WONDERING IF THEY'RE DOING IT CORRECTLY",
+      "prediction": "WONDERING IF YOU'RE DOING IT CORRECTLY",
+      "seconds": 0.8586085840361193
+    },
+    {
+      "id": "lrs2/main/6308177381880006979/00001",
+      "dataset": "LRS2",
+      "reference": "THE WRITING GARDEN WHICH",
+      "prediction": "THE RISING GARDEN WHICH",
+      "seconds": 0.5152060000109486
+    },
+    {
+      "id": "lrs2/main/6324230681142278360/00007",
+      "dataset": "LRS2",
+      "reference": "THIS IS ALL VERY PROMISING",
+      "prediction": "IT'S ALL VERY PROMISING",
+      "seconds": 0.6904744580388069
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00011",
+      "dataset": "LRS2",
+      "reference": "SO THE QUESTION IS VERY STRAIGHTFORWARD AND SIMPLE TO POSE",
+      "prediction": "SO THE QUESTION IS VERY STRAIGHTFORWARD AND SIMPLE TO POSE",
+      "seconds": 0.942013791995123
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00044",
+      "dataset": "LRS2",
+      "reference": "AND YET THEIR USE DOES NOT EXIST IN THE SHADOWS",
+      "prediction": "AND YET THEY USED TO TOYS THESE OTHER SHADOWS",
+      "seconds": 1.0227942080236971
+    },
+    {
+      "id": "lrs2/main/6311651151429016127/00004",
+      "dataset": "LRS2",
+      "reference": "WHERE WE ARE LOCATED",
+      "prediction": "WHERE WE ARE LOCATIONS",
+      "seconds": 0.5594662919756956
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00086",
+      "dataset": "LRS2",
+      "reference": "THE RANDOMNESS OF HUMAN LIFE IS VERY",
+      "prediction": "THE RANDOMNESS OF HUMAN LIFE IS VERY",
+      "seconds": 1.0003119169850834
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00023",
+      "dataset": "LRS2",
+      "reference": "BECAUSE HE WAS TO GROW INTO A COMMITTED",
+      "prediction": "BECAUSE IT WAS TO GROW INTO A COMMITTED",
+      "seconds": 0.664647082972806
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00007",
+      "dataset": "LRS2",
+      "reference": "WORKING THESE ANTISOCIAL HOURS",
+      "prediction": "WORK IN THESE ANTISOCIAL HOURS",
+      "seconds": 0.7239748330321163
+    },
+    {
+      "id": "lrs2/main/6324764116080445123/00017",
+      "dataset": "LRS2",
+      "reference": "FROM THAT POINT",
+      "prediction": "FROM THAT POINT",
+      "seconds": 0.3512756249983795
+    },
+    {
+      "id": "lrs2/main/6326553828952690654/00017",
+      "dataset": "LRS2",
+      "reference": "5 BILLION INTO IT ALREADY",
+      "prediction": "A BILLION DOLLARS INTO IT ALREADY",
+      "seconds": 0.5511440000263974
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00018",
+      "dataset": "LRS2",
+      "reference": "WHAT WORRIES PEOPLE IS BEING SUED",
+      "prediction": "WHAT WORRIES PEOPLE AS BIG AS YOU",
+      "seconds": 0.608037083002273
+    },
+    {
+      "id": "lrs2/main/6313877662475262663/00012",
+      "dataset": "LRS2",
+      "reference": "WE'RE BUILDING A HOUSE NOW IN THE FOREST",
+      "prediction": "BUILDING A HOUSE NOW IN THE FOREST",
+      "seconds": 0.6942613340215757
+    },
+    {
+      "id": "lrs2/main/6329062519350282760/00013",
+      "dataset": "LRS2",
+      "reference": "RIGHT HAND OUT TO SHAKE",
+      "prediction": "AND HOW TO SHAKE",
+      "seconds": 0.6110461250063963
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00050",
+      "dataset": "LRS2",
+      "reference": "YOU HAVE GOT A GREAT WORK ETHIC AND",
+      "prediction": "YOU HAVE GOT A GREAT WORK ETHIC IN ATLANTA",
+      "seconds": 1.002753583015874
+    },
+    {
+      "id": "lrs2/main/6328038169780654524/00003",
+      "dataset": "LRS2",
+      "reference": "THE VALENTINES SIX CYLINDER DIESEL ENGINES ROARED INTO LIFE",
+      "prediction": "OF 8 96 THE NISSAN LEGEND HAS WORN INTO LIFE",
+      "seconds": 1.3509513749741018
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00013",
+      "dataset": "LRS2",
+      "reference": "WE CALL HIM THE OLD GENERAL",
+      "prediction": "WE'RE GOING TO BE OUR GENERAL",
+      "seconds": 0.5746817920007743
+    },
+    {
+      "id": "lrs2/main/6324698403080812792/00024",
+      "dataset": "LRS2",
+      "reference": "YOU'LL BUY A PERFECT SHOE THAT FITS",
+      "prediction": "YOU BUY MANUFACTURED ALL THEIR FITS",
+      "seconds": 0.798906458017882
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00012",
+      "dataset": "LRS2",
+      "reference": "WHEN I'M GOING TO SIT DOWN IN THE EVENING WITH A NICE GLASS OF BOURBON",
+      "prediction": "IN WITH THAT BEING SIT DOWN IN THE EVENING THIS REALLY IS THE LAST MOMENT",
+      "seconds": 1.5707297080080025
+    },
+    {
+      "id": "lrs2/main/6310195157515669986/00006",
+      "dataset": "LRS2",
+      "reference": "SO IT'S A ROUND",
+      "prediction": "SO HE TURNED IT ROUND",
+      "seconds": 0.4302353750099428
+    },
+    {
+      "id": "lrs2/main/6326553828952690654/00019",
+      "dataset": "LRS2",
+      "reference": "I UNDERSTAND THAT IT IS IN THE UK'S INTEREST TO DEFINE ASSIGNED AS LOOSELY AS",
+      "prediction": "I UNDERSTAND I THEN CONSIDER THE UK'S INTEREST TO DEFINE AS KIND AS LOOSELY AS",
+      "seconds": 2.070780250011012
+    },
+    {
+      "id": "lrs2/main/6325119739372550419/00027",
+      "dataset": "LRS2",
+      "reference": "SOMEWHERE IN THE WORLD",
+      "prediction": "SOMEWHERE IN THE WORLD",
+      "seconds": 0.4470520419999957
+    },
+    {
+      "id": "lrs2/main/6312066045269810824/00021",
+      "dataset": "LRS2",
+      "reference": "HAVING COME TO KNOW A LITTLE BIT ABOUT THIS MIGHTY RIVER",
+      "prediction": "HAVING COME TO KNOW A LITTLE BIT ABOUT THIS MIGHTY RIVER",
+      "seconds": 0.9423894159845077
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00025",
+      "dataset": "LRS2",
+      "reference": "AND THERE ARE PEOPLE WHO WILL SAY",
+      "prediction": "AND THERE ARE PEOPLE WHO WOULD SAY",
+      "seconds": 0.559330666961614
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00016",
+      "dataset": "LRS2",
+      "reference": "BUT THEY WERE SOON ENTHUSIASTIC ABOUT MAKING PILGRIMAGES TO ROME",
+      "prediction": "BUT THEY WERE SOON ENTHUSIASTIC ABOUT MAKING PILGRIMAGES TO ROME",
+      "seconds": 1.6172633329988457
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00003",
+      "dataset": "LRS2",
+      "reference": "MORE THAN 400 YEARS LATER",
+      "prediction": "MORE THAN 400 YEARS LATER",
+      "seconds": 0.5724011670099571
+    },
+    {
+      "id": "lrs2/main/6313936933024013236/00011",
+      "dataset": "LRS2",
+      "reference": "BUT YOU HAVE TO UNDERSTAND",
+      "prediction": "BUT YOU HAVE TO UNDERSTAND",
+      "seconds": 0.5057928749592975
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00037",
+      "dataset": "LRS2",
+      "reference": "THEY WANT TO WORK",
+      "prediction": "THEY WANT SOME WORK",
+      "seconds": 0.36318183300318196
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00024",
+      "dataset": "LRS2",
+      "reference": "IT'S FROM BRUCE KAISER",
+      "prediction": "IT'S FROM BLUE SKIES",
+      "seconds": 0.6810130419908091
+    },
+    {
+      "id": "lrs2/main/6325456035311830751/00006",
+      "dataset": "LRS2",
+      "reference": "BY ALL RECKONING",
+      "prediction": "BY RAINING",
+      "seconds": 0.38035145797766745
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00027",
+      "dataset": "LRS2",
+      "reference": "SO EACH ONE 40 POUNDS",
+      "prediction": "SO THIS ONE IS 40 MILLION",
+      "seconds": 0.6480754590011202
+    },
+    {
+      "id": "lrs2/main/6325819389545137915/00002",
+      "dataset": "LRS2",
+      "reference": "THE ONLY THING THAT WOULD GET ME TO SLEEP WAS MY PARENTS READING ME THE TAKEAWAY MENU FROM OUR",
+      "prediction": "THE ONLY THING THAT WOULD GET ME TO SLEEP WAS MY PARENTS READING ME THE TAKEAWAY MENU FROM OUR",
+      "seconds": 2.032951208006125
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00112",
+      "dataset": "LRS2",
+      "reference": "LOOK FOR IDENTITY",
+      "prediction": "LOOKING FOR IDENTITY",
+      "seconds": 0.4439082909957506
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00036",
+      "dataset": "LRS2",
+      "reference": "THE END OF HEAVY INDUSTRY ON THE CLYDE AND SO FORTH",
+      "prediction": "THE END OF EVERY INDUSTRIAL DECLINE AND SO FORTH",
+      "seconds": 0.8600176670006476
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00058",
+      "dataset": "LRS2",
+      "reference": "THE DAY THAT PAPER CAME OUT",
+      "prediction": "THE DAY THAT PAPER CAME OUT",
+      "seconds": 0.5167606250033714
+    },
+    {
+      "id": "lrs2/main/6300370419826092098/00004",
+      "dataset": "LRS2",
+      "reference": "MAYBE IN A GREENHOUSE",
+      "prediction": "MAYBE IN A GREENHOUSE",
+      "seconds": 0.39842504099942744
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00024",
+      "dataset": "LRS2",
+      "reference": "WILL THEY STICK TO THEIR BUDGET",
+      "prediction": "WILL THEY STICK TO THEIR BUDGET",
+      "seconds": 0.5224674580385908
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00010",
+      "dataset": "LRS2",
+      "reference": "WHICH IS GREAT NEWS FOR TODAY'S BUYERS",
+      "prediction": "WHICH IS GREAT NEWS FOR TODAY'S BUYERS",
+      "seconds": 0.7170307920314372
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00036",
+      "dataset": "LRS2",
+      "reference": "BUT IN NAVY'S AROUND THE WORLD AFTER THE BATTLE OF HAMPTON ROADS",
+      "prediction": "BY NAVIES AROUND THE WORLD AFTER THE BATTLE OF HAMPTON ROADS",
+      "seconds": 1.2719125419971533
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00023",
+      "dataset": "LRS2",
+      "reference": "I FEEL MUCH THAT MAKES ME FEEL AT HOME",
+      "prediction": "I FEEL MUCH THAT MAKES ME FEEL AT HOME",
+      "seconds": 0.6631211250205524
+    },
+    {
+      "id": "lrs2/main/6325796196721673967/00007",
+      "dataset": "LRS2",
+      "reference": "HOPEFULLY OVER TIME",
+      "prediction": "HOPEFULLY OVER TIME",
+      "seconds": 0.4081824999884702
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00003",
+      "dataset": "LRS2",
+      "reference": "AUTUMN COMING IN",
+      "prediction": "AUTUMN COMING IN",
+      "seconds": 0.5095571670099162
+    },
+    {
+      "id": "lrs2/main/6300370419826092098/00007",
+      "dataset": "LRS2",
+      "reference": "I THINK THEY'RE AN IMPORTANT PART OF OUR HERITAGE AND ONE THAT WE SHOULD BE PROUD TO REVIVE",
+      "prediction": "I THINK THEY'RE AN IMPORTANT PART OF OUR HERITAGE AND ONE THAT WE SHOULD BE PROUD TO",
+      "seconds": 2.046572500024922
+    },
+    {
+      "id": "lrs2/main/6314308018198387664/00001",
+      "dataset": "LRS2",
+      "reference": "AND I MAY BE NO ACTION WOMAN",
+      "prediction": "AND I MAY BE NO ACTION WOMAN",
+      "seconds": 0.6590083750197664
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00008",
+      "dataset": "LRS2",
+      "reference": "A LOT OF PEOPLE CONSIDER THAT ONE OF HIS GREATEST VICTORIES BECAUSE HE DROVE THE UNION ARMY FROM",
+      "prediction": "A LOT OF PEOPLE CONSIDER THEM ONE OF THE STRANGE VICTORIES BECAUSE HE DROVE THE UNION ARMY FROM",
+      "seconds": 1.6767512090154923
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00031",
+      "dataset": "LRS2",
+      "reference": "AND AFFECTED HIM FOR YEARS TO COME",
+      "prediction": "IT AFFECTED THEM FOR YEARS TO COME",
+      "seconds": 0.692320916976314
+    },
+    {
+      "id": "lrs2/main/6329835613463566698/00020",
+      "dataset": "LRS2",
+      "reference": "WHICH WE DON'T NEED",
+      "prediction": "WHICH WERE NOT THEN",
+      "seconds": 0.4626449170173146
+    },
+    {
+      "id": "lrs2/main/6314308018198387664/00009",
+      "dataset": "LRS2",
+      "reference": "WE'RE LOOKING BACK AT HOW SPORT AND MUSIC CAME TOGETHER IN THE 80S TO CREATE SOME AMAZING AND SOME",
+      "prediction": "WE'RE LOOKING BACK AT HOW SPORT AND MUSIC CAME TOGETHER IN THE 80S TO CREATE SOME AMAZING AND SOME",
+      "seconds": 2.23073537502205
+    },
+    {
+      "id": "lrs2/main/6328962017115556355/00007",
+      "dataset": "LRS2",
+      "reference": "SOME OF MY FAVOURITE FRUITS",
+      "prediction": "SOME OF MY FAVOURITE VIEWS",
+      "seconds": 0.6783014159882441
+    },
+    {
+      "id": "lrs2/main/6328764878116731644/00010",
+      "dataset": "LRS2",
+      "reference": "A LOT OF PEOPLE",
+      "prediction": "A LOT OF PEOPLE NO",
+      "seconds": 0.5881312910350971
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00016",
+      "dataset": "LRS2",
+      "reference": "THEY SEEM TO BE AS SAD AS I WILL BE TO SEE THIS FLOOR IN THE BACK GO",
+      "prediction": "THEY SEEM TO BE AS SAD AS I WOULD BE STILL AS FLOODING THE BANKING GO",
+      "seconds": 1.7183175419922918
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00024",
+      "dataset": "LRS2",
+      "reference": "I DON'T THINK WE ARE",
+      "prediction": "I SHALL JUST BE HOME",
+      "seconds": 0.5756603340269066
+    },
+    {
+      "id": "lrs2/main/6302978323968228875/00016",
+      "dataset": "LRS2",
+      "reference": "THE PELARGONIUM INDUSTRY",
+      "prediction": "THE PLACARDIUM INDUSTRY",
+      "seconds": 0.6830758749856614
+    },
+    {
+      "id": "lrs2/main/6327570447711650000/00005",
+      "dataset": "LRS2",
+      "reference": "YOU'VE BEEN ROBBED",
+      "prediction": "YOU'VE BEEN ROBBED",
+      "seconds": 0.48430054204072803
+    },
+    {
+      "id": "lrs2/main/6329835613463566698/00014",
+      "dataset": "LRS2",
+      "reference": "IN THE SECTION ABOUT THE DUDLESTON FARMS",
+      "prediction": "AND THIS TELLS YOU ABOUT THE SIGNATURE OF FARMS",
+      "seconds": 0.818192166974768
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00003",
+      "dataset": "LRS2",
+      "reference": "FOR WHAT IT'S WORTH",
+      "prediction": "FOR WHAT IT'S WORTH",
+      "seconds": 0.43342045799363405
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00046",
+      "dataset": "LRS2",
+      "reference": "THEN YOU CAN TELL ME TO SHUT UP",
+      "prediction": "YOU NEED SOMEONE TO CHECK UP",
+      "seconds": 0.6071424169931561
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00057",
+      "dataset": "LRS2",
+      "reference": "AND I WAS IMMEDIATELY",
+      "prediction": "AND I WAS IMMEDIATELY",
+      "seconds": 0.44652233296073973
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00040",
+      "dataset": "LRS2",
+      "reference": "AND ALL THE WHILE",
+      "prediction": "AND ALL THE WHILE",
+      "seconds": 0.4041326670558192
+    },
+    {
+      "id": "lrs2/main/6328393792942295524/00006",
+      "dataset": "LRS2",
+      "reference": "AND MY GRANDMA AND MY GRANDAD",
+      "prediction": "GETTING MY GRANDMOM IN RACING",
+      "seconds": 0.7188941669883206
+    },
+    {
+      "id": "lrs2/main/6325119739372550419/00023",
+      "dataset": "LRS2",
+      "reference": "YOU MIGHT GET ONE SIZE",
+      "prediction": "YOU MIGHT GET ONE SIZE",
+      "seconds": 0.4472453329944983
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00002",
+      "dataset": "LRS2",
+      "reference": "LOTS OF OUTLYING FARMS AND A SMALL COLLECTION OF BUILDINGS",
+      "prediction": "LOTS OF ALLIED FARMS AND A SMALL COLLECTION OF BUILDINGS",
+      "seconds": 1.0452045839629136
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00029",
+      "dataset": "LRS2",
+      "reference": "AND IT IS JUST SO REMARKABLY STYLISH",
+      "prediction": "IT IS JUST SO REMARKABLY CHALLENGING",
+      "seconds": 0.7640227910014801
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00026",
+      "dataset": "LRS2",
+      "reference": "WHO MAY THINK THAT THOSE JOBS AREN'T THE KIND OF JOBS THEY WANT TO DO",
+      "prediction": "WHO MAY THINK THAT THOSE JOBS ARE THE KIND OF JOBS THEY WANT TO DO",
+      "seconds": 1.2348300000303425
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00062",
+      "dataset": "LRS2",
+      "reference": "IF THEY PUSH ON WITH THE UNACCEPTABLE PROPOSALS OF RECENT YEARS",
+      "prediction": "IF THEY PUT STOCK PUT ON WITH UNACCEPTABLE MUTUAL DEFICIENCIES",
+      "seconds": 1.549846708017867
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00014",
+      "dataset": "LRS2",
+      "reference": "AND THE SAME PERSON THAT CONVERTED THOSE BUILT THIS HOUSE IN THE SAME STYLE",
+      "prediction": "ARE THE SAME BECAUSE THE CONVERSION GOES BUILT THIS HOUSE IN THE SAME STYLE OF",
+      "seconds": 1.4621037089964375
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00037",
+      "dataset": "LRS2",
+      "reference": "ALL I'VE KNOWN IS FARMING",
+      "prediction": "HER LIFE'S ONLY FAMILY",
+      "seconds": 0.5600583750056103
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00013",
+      "dataset": "LRS2",
+      "reference": "THAT TASTES REALLY CLEAN AND FRESH",
+      "prediction": "THAT TASTES REALLY CLEAN AND FRESH",
+      "seconds": 0.6324742499855347
+    },
+    {
+      "id": "lrs2/main/6325819389545137915/00001",
+      "dataset": "LRS2",
+      "reference": "WHEN I WAS A CHILD",
+      "prediction": "WHEN I WAS A CHILD",
+      "seconds": 0.3927507920307107
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00007",
+      "dataset": "LRS2",
+      "reference": "AND THEN THE SHAME",
+      "prediction": "AND THEN THE SHAME",
+      "seconds": 0.4268274169880897
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00049",
+      "dataset": "LRS2",
+      "reference": "GRIMBALD FROM FRANCE AND",
+      "prediction": "SHE PULLED FROM FRANCE AND",
+      "seconds": 0.5342828339780681
+    },
+    {
+      "id": "lrs2/main/6302978323968228875/00012",
+      "dataset": "LRS2",
+      "reference": "WHETHER YOU'VE GOT A HANGING BASKET",
+      "prediction": "WHEN THEY'VE GOT A HANGING BARGE IN",
+      "seconds": 0.8518568750005215
+    },
+    {
+      "id": "lrs2/main/6315421273721446605/00003",
+      "dataset": "LRS2",
+      "reference": "DO GO TO OUR WEBSITE",
+      "prediction": "DO GO TO OUR WEBSITE BBC",
+      "seconds": 0.6194478329853155
+    },
+    {
+      "id": "lrs2/main/6326553828952690654/00006",
+      "dataset": "LRS2",
+      "reference": "IF ENTRUSTED TO OUR NAVIES",
+      "prediction": "GIVING TRUST TO OUR NEIGHBOURS",
+      "seconds": 0.7622006249730475
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00007",
+      "dataset": "LRS2",
+      "reference": "ALTHOUGH FOUR BILLION SOUNDS A HUGE AMOUNT OF MONEY",
+      "prediction": "SO THOUGH 4P SOUNDS A HUGE AMOUNT OF MONEY",
+      "seconds": 0.8724972500349395
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00015",
+      "dataset": "LRS2",
+      "reference": "AFTER FIVE YEARS",
+      "prediction": "AFTER FIVE YEARS",
+      "seconds": 0.3242950420244597
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00045",
+      "dataset": "LRS2",
+      "reference": "TO USE THE TERM",
+      "prediction": "TO USE THE TERM",
+      "seconds": 0.3871984169818461
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00072",
+      "dataset": "LRS2",
+      "reference": "JUST TWO YEARS BEFORE SHE WAS FORCED FROM POWER",
+      "prediction": "JUST TWO YEARS BEFORE SHE WAS FORCED FROM POWER",
+      "seconds": 0.802873249980621
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00032",
+      "dataset": "LRS2",
+      "reference": "AND IN ABOUT 10 OF THE CASES",
+      "prediction": "AND IN ABOUT 10 OF THE CASES",
+      "seconds": 0.6445806249976158
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00012",
+      "dataset": "LRS2",
+      "reference": "IS PART AND PARCEL OF WORKING IN HOUSEKEEPING",
+      "prediction": "IT'S PART AND PARCEL OF WORKING IN HOUSEKEEPING",
+      "seconds": 1.148346957983449
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00040",
+      "dataset": "LRS2",
+      "reference": "THE OVERALL SIZE OF IT",
+      "prediction": "THE OVERALL SIZE OF IT",
+      "seconds": 0.4351682079723105
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00111",
+      "dataset": "LRS2",
+      "reference": "WHERE PEOPLE WANT A GREATER SENSE OF IDENTITY",
+      "prediction": "WHERE PEOPLE WANT A GREATER SENSE OF IDENTITY",
+      "seconds": 0.7281205829931423
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00029",
+      "dataset": "LRS2",
+      "reference": "AND ON TOP OF THAT",
+      "prediction": "AND ON TOP OF THAT",
+      "seconds": 0.4059776670183055
+    },
+    {
+      "id": "lrs2/main/6308177381880006979/00012",
+      "dataset": "LRS2",
+      "reference": "BUT INSECTS IN GENERAL",
+      "prediction": "BUT AS IT SHOWS",
+      "seconds": 0.5620451249997132
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00018",
+      "dataset": "LRS2",
+      "reference": "WHO ENDS UP GETTING THE HOUSE AND HOW WELL IT'S DONE",
+      "prediction": "WHO ENDS UP GETTING THE HOUSE AND HOW WELL IT'S DONE",
+      "seconds": 0.9372349160257727
+    },
+    {
+      "id": "lrs2/main/6314308018198387664/00007",
+      "dataset": "LRS2",
+      "reference": "I WANT TO ISOLATE A PATIENT FROM EXPOSURE TO THE WI FI",
+      "prediction": "I WANT TO ISOLATE A PATIENT FROM EXPOSURE TO WIFI",
+      "seconds": 1.0015428750193678
+    },
+    {
+      "id": "lrs2/main/6329835613463566698/00005",
+      "dataset": "LRS2",
+      "reference": "THIS IS QUITE A BOLD PROJECT AND YET YOU DON'T SEEM REMOTELY FAZED BY ANY OF IT",
+      "prediction": "THIS IS QUITE A BOLD PROJECT AND YET YOU DON'T SEEM REMOTELY FACED BY ANY OF IT",
+      "seconds": 2.1807030420168303
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00052",
+      "dataset": "LRS2",
+      "reference": "THESE ARE DANGEROUS DRUGS",
+      "prediction": "THESE ARE DANGEROUS DRUGS",
+      "seconds": 0.47390937502495944
+    },
+    {
+      "id": "lrs2/main/6324764116080445123/00001",
+      "dataset": "LRS2",
+      "reference": "HE STILL HAD A CHANCE OF NOT SURVIVING THIS INJURY",
+      "prediction": "HE STILL HAD A CHANCE OF NOT SURVIVING THIS INJURY",
+      "seconds": 0.9036579169915058
+    },
+    {
+      "id": "lrs2/main/6324713864963081921/00011",
+      "dataset": "LRS2",
+      "reference": "THEY'VE JUST COMPLETED THE MAIN STAGE OF CONSTRUCTION",
+      "prediction": "THEY'VE JUST COMPLETED THE MAIN STAGE OF CONSTRUCTION",
+      "seconds": 1.0662802919978276
+    },
+    {
+      "id": "lrs2/main/6325119739372550419/00024",
+      "dataset": "LRS2",
+      "reference": "YOU'LL BUY A PERFECT SHOE THAT FITS",
+      "prediction": "YOU'LL PAY PROFESSIONAL DEFENSE",
+      "seconds": 0.799459958972875
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00056",
+      "dataset": "LRS2",
+      "reference": "I JUST HOPE WHOEVER BOUGHT IT WAS PREPARED TO KEEP HOLD",
+      "prediction": "I JUST HOPE WHOEVER BOUGHT IT WAS PREPARED TO KEEP HOLD",
+      "seconds": 1.2026720839785412
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00013",
+      "dataset": "LRS2",
+      "reference": "WE LOOKED AT A LOAD OF HOUSES IN THE UNIVERSITY AREA",
+      "prediction": "WELL WE'VE BEEN LOOKED AT AND FOUND AS KIND OF A NEWLY FASTING AREA",
+      "seconds": 1.8759339170064777
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00073",
+      "dataset": "LRS2",
+      "reference": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MET TOGETHER AT ST ANDREWS UNIVERSITY IN FIFE",
+      "prediction": "A GROUP OF FREE MARKET LIBERTARIAN STUDENTS MADE TOGETHER AS TOWNS UNIVERSITY FIFTH",
+      "seconds": 1.8663972910144366
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00019",
+      "dataset": "LRS2",
+      "reference": "THESE VISITS TO THE MOST IMPRESSIVE AND POWERFUL CITY IN THE WESTERN WORLD MADE A HUGE IMPRESSION",
+      "prediction": "THESE VISITS TO THE MOST IMPRESSIVE AND POWERFUL CITY IN THE WESTERN WORLD MADE A HUGE IMPRESSION",
+      "seconds": 1.9871181669877842
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00029",
+      "dataset": "LRS2",
+      "reference": "AND THEY WERE IMMENSELY PROUD OF THE SHIPS THEY SENT DOWN THE CLYDE",
+      "prediction": "AND THEY WERE IMMENSELY PROUD OF THE SHIPS THEY SENT DOWN THE CLYDE",
+      "seconds": 1.261014999996405
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00036",
+      "dataset": "LRS2",
+      "reference": "BECAUSE THIS WOULD MEAN THAT MEN WHO TAKE STEROIDS OVER LONG PERIODS OF TIME MIGHT BE AT GREATER",
+      "prediction": "BECAUSE THIS WOULD MEAN THAT MEN WHO TAKE SERIOUSLY FOR LONG PERIODS OF TIME MIGHT BE AT QUITE A",
+      "seconds": 1.8931577499606647
+    },
+    {
+      "id": "lrs2/main/6312066045269810824/00028",
+      "dataset": "LRS2",
+      "reference": "WE'RE A LOT DIFFERENT THAN OTHER STATES IN TERMS OF OUR PHILOSOPHY",
+      "prediction": "WERE A LOT DIFFERENT ON THE STAGE IN TERMS OF NASHVILLE",
+      "seconds": 1.1693777079926804
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00011",
+      "dataset": "LRS2",
+      "reference": "WE HAVE THE SEASIDE",
+      "prediction": "BECAUSE WE NEVER SEE IT AGAIN",
+      "seconds": 0.624712584016379
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00006",
+      "dataset": "LRS2",
+      "reference": "OR NEXT TO NO MONEY",
+      "prediction": "ALL THAT AND NO MONEY",
+      "seconds": 0.5157797500141896
+    },
+    {
+      "id": "lrs2/main/6311651151429016127/00015",
+      "dataset": "LRS2",
+      "reference": "THIS IS THE LEVADIA PALACE",
+      "prediction": "THEY JUST THINK THEY FIND THEIR BALANCE",
+      "seconds": 0.8631649579619989
+    },
+    {
+      "id": "lrs2/main/6325894121976022773/00003",
+      "dataset": "LRS2",
+      "reference": "I GENERALLY FEEL SAFE",
+      "prediction": "I GENERALLY FEEL SAFE",
+      "seconds": 0.40802291699219495
+    },
+    {
+      "id": "lrs2/main/6329893595522122781/00006",
+      "dataset": "LRS2",
+      "reference": "IT'S NOT AN INFECTION",
+      "prediction": "IT'S NOT AN AFFECTION",
+      "seconds": 0.5173787079984322
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00043",
+      "dataset": "LRS2",
+      "reference": "IT COULD HAVE AS MUCH AS 30 OR 40 LITTLE STEMS",
+      "prediction": "IT COULD HAVE AS MUCH AS 30 OR 40 INITIAL STEPS",
+      "seconds": 1.2460396249662153
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00018",
+      "dataset": "LRS2",
+      "reference": "WE SET YOU A TARGET OF 3",
+      "prediction": "WE SET YOU A TARGET OF 3",
+      "seconds": 0.577411791018676
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00007",
+      "dataset": "LRS2",
+      "reference": "IT SORT OF WORKS",
+      "prediction": "IN SORTS OF WORDS",
+      "seconds": 0.4617377920076251
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00044",
+      "dataset": "LRS2",
+      "reference": "THEY DIDN'T MUCH LIKE BEING TOLD BY YANKEES THAT THEY SHOULDN'T OWN SLAVES",
+      "prediction": "THEY DID MUCH LIKE BEING TOLD BY GANNIES THAT THEY SHOULDN'T OWN SLAVES",
+      "seconds": 1.6981564589659683
+    },
+    {
+      "id": "lrs2/main/6308177381880006979/00013",
+      "dataset": "LRS2",
+      "reference": "IT'S COVERING WHAT I'M DOING NOW",
+      "prediction": "IT'S COVERING WHAT I'M DOING NOW",
+      "seconds": 0.7658594170352444
+    },
+    {
+      "id": "lrs2/main/6329062519350282760/00017",
+      "dataset": "LRS2",
+      "reference": "I DIDN'T WANT TO BE GOING HOME ON THURSDAY",
+      "prediction": "I THINK WE'LL BE GOING ON ON FIRST DATE",
+      "seconds": 0.876593499968294
+    },
+    {
+      "id": "lrs2/main/6328764878116731644/00019",
+      "dataset": "LRS2",
+      "reference": "SIX ON THE SECOND",
+      "prediction": "SITS ON THE SECOND",
+      "seconds": 0.4225117500172928
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00085",
+      "dataset": "LRS2",
+      "reference": "BUT THERE'S STILL PLANNING ISSUES TO RESOLVE AND WILL HE BE ABLE TO SELL THE PROPERTIES",
+      "prediction": "BUT THERE'S STILL PLANNING ISSUES TO RESOLVE AND WILL HE BE ABLE TO SELL THE PROPERTY'S",
+      "seconds": 1.8779364579822868
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00002",
+      "dataset": "LRS2",
+      "reference": "THAT IS INCREDIBLE",
+      "prediction": "IT'S INCREDIBLE",
+      "seconds": 0.43721266696229577
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00023",
+      "dataset": "LRS2",
+      "reference": "IT WAS ON THE MARKET FOR 450",
+      "prediction": "IT WAS ON THE MARKET FOR 450",
+      "seconds": 0.8395013340050355
+    },
+    {
+      "id": "lrs2/main/6328764878116731644/00028",
+      "dataset": "LRS2",
+      "reference": "THIS HAS TO BE POINTLESS FOR YOU TO WIN THAT JACKPOT",
+      "prediction": "THIS HAS TO BE BOILED FOR YOU WITH THAT JACKPOT",
+      "seconds": 1.1479552499949932
+    },
+    {
+      "id": "lrs2/main/6308312673349834578/00004",
+      "dataset": "LRS2",
+      "reference": "WOMBATS ARE LIKE LITTLE BULLDOZERS",
+      "prediction": "WHAT BEDS ARE LIKE LITTLE BULLDOZERS",
+      "seconds": 0.8032936250092462
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00074",
+      "dataset": "LRS2",
+      "reference": "IT HAS BEEN DONE TO A HIGH STANDARD",
+      "prediction": "THIS HAS BEEN TO A HIGH STANDARD",
+      "seconds": 0.6666578750009649
+    },
+    {
+      "id": "lrs2/main/6329893595522122781/00002",
+      "dataset": "LRS2",
+      "reference": "IT'S ALL BEEN FAIRLY RECENT",
+      "prediction": "IT'S ALL BEEN FAIRLY RICH",
+      "seconds": 0.6462418750161305
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00054",
+      "dataset": "LRS2",
+      "reference": "HOW DO YOU FEEL",
+      "prediction": "THEY COULD FEEL",
+      "seconds": 0.3704797909595072
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00054",
+      "dataset": "LRS2",
+      "reference": "HE HAS WON MANY GOLD MEDALS FROM CHELSEA AND IS A VERY",
+      "prediction": "HE HAS WON MANY GOLD MEDALS FROM CHELSEA AND IT'S A VERY",
+      "seconds": 1.9451900419662707
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00009",
+      "dataset": "LRS2",
+      "reference": "MAKING HOMES IN THIS LOVELY COUNTY INCREDIBLE VALUE FOR THOSE SEEKING A RURAL RETREAT",
+      "prediction": "MAKING HOMES IN THIS LOVELY COUNTY INCREDIBLE VALUE FOR THOSE SEEKING A RURAL RETREAT",
+      "seconds": 1.8536152089945972
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00013",
+      "dataset": "LRS2",
+      "reference": "IT'S ALL OVER THE WALLS",
+      "prediction": "IT'S ALL OVER THE WORLD",
+      "seconds": 0.6478676249971613
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00107",
+      "dataset": "LRS2",
+      "reference": "BECAUSE PEOPLE WANTED",
+      "prediction": "BECAUSE PEOPLE WANTED IT",
+      "seconds": 0.4360240829992108
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00034",
+      "dataset": "LRS2",
+      "reference": "THE LONGER THAT YOU HAVE BEEN TAKING YOUR STEROIDS",
+      "prediction": "THE LONGER THIS WILL BE TAKING YOUR SERIES",
+      "seconds": 0.792167250008788
+    },
+    {
+      "id": "lrs2/main/6328764878116731644/00003",
+      "dataset": "LRS2",
+      "reference": "AND ALL OUR CELEBRITIES HAVE TO DO IS COME UP WITH THE ANSWERS THAT NONE OF THOSE 100 PEOPLE COULD",
+      "prediction": "AND ALL OUR CELEBRITIES HAVE TO DO IS COME UP WITH THE ANSWERS THAT NONE OF THOSE 100 PEOPLE COULD",
+      "seconds": 2.082241917029023
+    },
+    {
+      "id": "lrs2/main/6301320037095305408/00009",
+      "dataset": "LRS2",
+      "reference": "IF YOU DON'T GO UNDER AGAIN",
+      "prediction": "IF YOU DON'T GO UNDER AGAIN",
+      "seconds": 0.6873211250058375
+    },
+    {
+      "id": "lrs2/main/6312066045269810824/00007",
+      "dataset": "LRS2",
+      "reference": "DOWN WITH THE TRAIN",
+      "prediction": "DOWN WITH THE GRAIN",
+      "seconds": 0.4243482079473324
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00009",
+      "dataset": "LRS2",
+      "reference": "BUT I THINK IT'S IMPORTANT THAT WHEN WE LOOK BACK ON THAT AND TAKE A CERTAIN PRIDE IN THAT THAT WE",
+      "prediction": "I THINK IT'S IMPORTANT THAT WHEN WE LOOK BACK ON THAT AND TAKE SOME PRIDE IN THAT THAT WE",
+      "seconds": 1.8319004999939352
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00027",
+      "dataset": "LRS2",
+      "reference": "LONG GAP WITH TRYING TO SORT OUT THE PAPERWORK",
+      "prediction": "LONG GAP WITH TRYING TO SORT OUT THE PAPERWORK",
+      "seconds": 0.9105925409821793
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00025",
+      "dataset": "LRS2",
+      "reference": "THERE COULD BE SOME ROOM FOR SOME PROFIT HERE",
+      "prediction": "THERE COULD BE ROOM FOR SOME PROFIT HERE",
+      "seconds": 0.6102409999584779
+    },
+    {
+      "id": "lrs2/main/6327609102417316299/00004",
+      "dataset": "LRS2",
+      "reference": "TAKE ALL THE NUTRIENTS AND ENERGY BACK INTO THE SOIL WHERE IT CAN BE USED BY THE PLANTS AGAIN TO",
+      "prediction": "TAKE ALL THE NUTRIENTS AND ENERGY BACK INTO THE SOIL WHERE IT CAN BE USED BY THE PLANT CENTRE",
+      "seconds": 1.869466750009451
+    },
+    {
+      "id": "lrs2/main/6325119739372550419/00022",
+      "dataset": "LRS2",
+      "reference": "IN THE AFTERNOON",
+      "prediction": "GOING IN THE AFTERNOON",
+      "seconds": 0.5081177089596167
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00027",
+      "dataset": "LRS2",
+      "reference": "CARRYING THE REMAINS OF KING ALFRED",
+      "prediction": "CARRYING THE REMAINS OF KING ALFRED",
+      "seconds": 0.7398465420119464
+    },
+    {
+      "id": "lrs2/main/6321358636511442057/00010",
+      "dataset": "LRS2",
+      "reference": "THE GAS SYSTEM WAS MISBEHAVING",
+      "prediction": "THE LAST SIX MONTHS MUST BE OUT OF IT",
+      "seconds": 0.7225048330146819
+    },
+    {
+      "id": "lrs2/main/6310166810731517953/00025",
+      "dataset": "LRS2",
+      "reference": "SO IT'S AGAINST ISLAMIC LAW",
+      "prediction": "SO IT'S LIKE A SYSTEMIC OR",
+      "seconds": 0.849500291980803
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00028",
+      "dataset": "LRS2",
+      "reference": "I WAS BROUGHT UP WITH IT",
+      "prediction": "I WAS BROUGHT UP WITH IT",
+      "seconds": 0.5168750419979915
+    },
+    {
+      "id": "lrs2/main/6302978323968228875/00020",
+      "dataset": "LRS2",
+      "reference": "BUT IN THE WORLD",
+      "prediction": "I BELIEVE THE WORLD",
+      "seconds": 0.5311244170297869
+    },
+    {
+      "id": "lrs2/main/6328393792942295524/00010",
+      "dataset": "LRS2",
+      "reference": "AND BIRDS ACTUALLY LIKE TO BE ABLE TO HOP IN AND LOOK AROUND IN A HEDGE",
+      "prediction": "AND BIRDS ACTUALLY LIKE TO BE ABLE TO HOP IN AND LOOK AROUND AGE",
+      "seconds": 1.5470381249906495
+    },
+    {
+      "id": "lrs2/main/6329835613463566698/00011",
+      "dataset": "LRS2",
+      "reference": "IMAGINE THE KIND OF FARMER WHO HAS LEISURE TIME",
+      "prediction": "IMAGINE THE KIND OF FARMER WHO HAS TIME TO HAVE LEISURE TIME",
+      "seconds": 1.1035725840483792
+    },
+    {
+      "id": "lrs2/main/6323956232732063947/00019",
+      "dataset": "LRS2",
+      "reference": "IT HEALED ITS SCARS",
+      "prediction": "AND HAIRY DOGS",
+      "seconds": 0.5917516250046901
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00010",
+      "dataset": "LRS2",
+      "reference": "AND EAT STUFF OUT OF POTS THAT YOU POUR BOILING WATER OVER",
+      "prediction": "AND GETTING STUFF OUT OF POTS THAT THE POT BOILING WATER OVER",
+      "seconds": 1.528822417021729
+    },
+    {
+      "id": "lrs2/main/6324698403080812792/00016",
+      "dataset": "LRS2",
+      "reference": "I LOVED THAT THEY WERE REALLY PRETTY AND DELICATE",
+      "prediction": "I LOVE THAT THEY WERE REALLY PRETTY TAILORED",
+      "seconds": 0.8214186250115745
+    },
+    {
+      "id": "lrs2/main/6329062519350282760/00006",
+      "dataset": "LRS2",
+      "reference": "BUT ANYTHING CAN HAPPEN WITH DESSERT",
+      "prediction": "BUT ANYTHING CAN HAPPEN WHICH IS NOT",
+      "seconds": 0.7007990409620106
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00032",
+      "dataset": "LRS2",
+      "reference": "I THINK I COULD LIVE ON THE MINIMUM WAGE",
+      "prediction": "I THINK I COULD GIVE ON THE MINIMUM WAGE",
+      "seconds": 0.6930527089862153
+    },
+    {
+      "id": "lrs2/main/6324764116080445123/00011",
+      "dataset": "LRS2",
+      "reference": "AND YOU NEED TO PIECE TOGETHER ALL THOSE BITS",
+      "prediction": "AND YOU REALLY COULD PIECE TOGETHER ALL THOSE BITS",
+      "seconds": 0.883095917000901
+    },
+    {
+      "id": "lrs2/main/6324698403080812792/00013",
+      "dataset": "LRS2",
+      "reference": "WAS BROKEN IN THE 1850S WHEN THE INDUSTRIAL REVOLUTION CAME TO",
+      "prediction": "WAS BROKEN IN THE 1850S WHEN THE INDUSTRIAL REVOLUTION CAME TO",
+      "seconds": 1.386528167000506
+    },
+    {
+      "id": "lrs2/main/6306870852828565379/00017",
+      "dataset": "LRS2",
+      "reference": "THAT'S THE IMPRESSION MANY PEOPLE HAVE",
+      "prediction": "THAT'S THE IMPRESSION MANY PEOPLE GET",
+      "seconds": 0.5879399580298923
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00032",
+      "dataset": "LRS2",
+      "reference": "SO HE WAS RESTLESS",
+      "prediction": "HE WAS RESTLESS",
+      "seconds": 0.587827917013783
+    },
+    {
+      "id": "lrs2/main/6300370419826092098/00002",
+      "dataset": "LRS2",
+      "reference": "OR INTO VODKA AND ADDING A BIT OF HONEY",
+      "prediction": "ALL OF A SUDDEN HE LET HIM HIS FATHER",
+      "seconds": 0.9502543339622207
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00047",
+      "dataset": "LRS2",
+      "reference": "THEY WILL ALWAYS GIVE YOU PLEASURE",
+      "prediction": "THEY WILL ALWAYS GIVE YOU PLEASURE",
+      "seconds": 0.5046221250086091
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00042",
+      "dataset": "LRS2",
+      "reference": "THIS MAIN SPIKE WILL LEAN OVER AND SPLIT THE CROWN AT THE BOTTOM",
+      "prediction": "THIS PINCH POINT WOULD LEAN OVER AND SPLIT THE GROUND AT THE BOTTOM",
+      "seconds": 1.6574072920484468
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00043",
+      "dataset": "LRS2",
+      "reference": "SIX SEVEN BEDROOMS UPSTAIRS",
+      "prediction": "SIX AND SEVEN BEDROOMS UPSTAIRS",
+      "seconds": 0.8307963340193965
+    },
+    {
+      "id": "lrs2/main/6324713864963081921/00015",
+      "dataset": "LRS2",
+      "reference": "200 PEOPLE ALL DAY",
+      "prediction": "OVER TO BE BROUGHT THERE",
+      "seconds": 0.7255344580044039
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00022",
+      "dataset": "LRS2",
+      "reference": "IT'S INTERESTING THAT",
+      "prediction": "IT'S INTERESTING THAT",
+      "seconds": 0.3912154999561608
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00030",
+      "dataset": "LRS2",
+      "reference": "MALE PATTERN BALDNESS",
+      "prediction": "HOW BAD BORN IS",
+      "seconds": 0.5631893340032548
+    },
+    {
+      "id": "lrs2/main/6313656042293295351/00007",
+      "dataset": "LRS2",
+      "reference": "AND THE MEDICAL OFFICER MIGHT HAVE BEEN YOUR FATHER",
+      "prediction": "AND THE MEDICAL OFFICER MIGHT HAVE BEEN YOUR FATHER",
+      "seconds": 0.8292994999792427
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00039",
+      "dataset": "LRS2",
+      "reference": "THIS IS HUNDREDS AND THOUSANDS",
+      "prediction": "THERE'S HUNDREDS AND THOUSANDS",
+      "seconds": 0.6576208329643123
+    },
+    {
+      "id": "lrs2/main/6314248747649637090/00018",
+      "dataset": "LRS2",
+      "reference": "SO WHAT WAS SHOCKING FOR HIM WAS THE RESULT",
+      "prediction": "SO WHAT WAS SHOCKING FOR HIM WAS TO RETIRE",
+      "seconds": 0.9106317920377478
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00013",
+      "dataset": "LRS2",
+      "reference": "LET ME FINISH NOW",
+      "prediction": "AND A BIT OF RATIO",
+      "seconds": 0.512422791973222
+    },
+    {
+      "id": "lrs3/NVPxmzSPvUw/50005",
+      "dataset": "LRS3-TED",
+      "reference": "BUT SOME OF YOU MIGHT BE MORE INTO NPR THAN SCIENCE LG",
+      "prediction": "BUT SOME OF YOU MIGHT BE MORE INTO NPR THAN SCIENCE",
+      "seconds": 0.9849345829570666
+    },
+    {
+      "id": "lrs3/aEjUlH7bNDo/50023",
+      "dataset": "LRS3-TED",
+      "reference": "AND HERE'S WHERE I SUGGEST WE START",
+      "prediction": "AND HERE'S WHERE I SUGGEST WE START",
+      "seconds": 0.689333834045101
+    },
+    {
+      "id": "lrs3/7c5t6FkvUG0/50004",
+      "dataset": "LRS3-TED",
+      "reference": "WE HAVE FOUND THE MILLER'S CHILD WAS THE MESSAGE",
+      "prediction": "WE HAVE FOUND THE MILLER'S CHILD WAS THE MESSAGE",
+      "seconds": 0.965852833003737
+    },
+    {
+      "id": "lrs3/ulLFP8axZVQ/50008",
+      "dataset": "LRS3-TED",
+      "reference": "SO WE TRACK THEM AND WE TRACK OURSELVES AND FIGURE OUT IF ANYTHING WE DO IS OF HELP",
+      "prediction": "SO WE TRACK THEM AND WE TRACK OURSELVES AND FIGURE OUT IF ANYTHING WE DO IS OF HELP",
+      "seconds": 1.7581091249594465
+    },
+    {
+      "id": "lrs3/H2rG4Dg6xyI/50012",
+      "dataset": "LRS3-TED",
+      "reference": "WE HAD TO WALK HIM HOME NBSP AFTER THE GROUP BUT WE WERE USED TO HIM WE LIKED HIM",
+      "prediction": "WE HAD TO WALK THEM HOME EVERY NIGHT AFTER THE CLASS BUT WE WERE USED TO THEM WE LIKED THEM",
+      "seconds": 1.6429382500355132
+    },
+    {
+      "id": "lrs3/UVDgemuZdho/50010",
+      "dataset": "LRS3-TED",
+      "reference": "ARE YOU BOTHERED BY LANGUAGE FADS AND LANGUAGE CHANGE",
+      "prediction": "ARE YOU BOTHERED BY LANGUAGE FACTS AND LANGUAGE CHANGE",
+      "seconds": 1.0301640419638716
+    },
+    {
+      "id": "lrs3/G8gJJuCdPSA/50008",
+      "dataset": "LRS3-TED",
+      "reference": "AND YOU KNOW WHAT",
+      "prediction": "AND YOU KNOW WHAT",
+      "seconds": 0.3602541250293143
+    },
+    {
+      "id": "lrs3/rni41c9iq54/50005",
+      "dataset": "LRS3-TED",
+      "reference": "I WAS IN THE GRIPS OF REAL LONELINESS BACK THEN BUT I WAS SURROUNDED BY PEOPLE ALL DAY SO IT",
+      "prediction": "I WAS IN THE GRIPS OF REAL LONELINESS BACK THEN BUT I WAS SURROUNDED BY PEOPLE ALL DAY SO IN",
+      "seconds": 2.257104291988071
+    },
+    {
+      "id": "lrs3/bUaU9kdt9I8/50017",
+      "dataset": "LRS3-TED",
+      "reference": "NOBODY TOLD ME TO DO THIS I HAD THE IDEA ON MY OWN AND I CARRIED IT THROUGH ON MY OWN",
+      "prediction": "NOBODY TOLD ME TO DO THIS I HAD THE IDEA ON MY OWN AND I CARRIED IT THROUGH ON MY OWN",
+      "seconds": 2.133203500008676
+    },
+    {
+      "id": "lrs3/Zctk6MZaxMk/50002",
+      "dataset": "LRS3-TED",
+      "reference": "I'M KIND OF AN OPPOSITIONAL KIND A GUY I SEE PEOPLE RUNNING THIS WAY I'M GOING TO GO AND TAKE A LOOK",
+      "prediction": "I'M KIND OF AN OPPOSITIONAL KIND OF GUY I SEE PEOPLE RUNNING THIS WAY I'M GOING TO GO AND TAKE A LOOK",
+      "seconds": 2.582750917004887
+    },
+    {
+      "id": "lrs3/nItwVO9stX8/50007",
+      "dataset": "LRS3-TED",
+      "reference": "WE DO HAVE ARTISTS BUT UNFORTUNATELY WE HAVE NOT DISCOVERED THEM YET",
+      "prediction": "WE DO HAVE OUR KIDS BUT UNFORTUNATELY WE HAVE NOT DISCOVERED THEM YET",
+      "seconds": 1.1604953749920242
+    },
+    {
+      "id": "lrs3/H2rG4Dg6xyI/50044",
+      "dataset": "LRS3-TED",
+      "reference": "I SAID WHAT",
+      "prediction": "I SAID WHAT",
+      "seconds": 0.3327535840217024
+    },
+    {
+      "id": "lrs3/bzlYyhh3X0w/50001",
+      "dataset": "LRS3-TED",
+      "reference": "BILLION DOLLAR INDUSTRIES THRIVE BECAUSE OF THE FEAR OF IT AND THOSE OF US WHO",
+      "prediction": "BILLION DOLLAR INDUSTRIES THRIVE BECAUSE OF THE FEAR OF IT AND THOSE OF US WHO",
+      "seconds": 1.5184722089907154
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50010",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S NOT AN AFRICAN PROBLEM",
+      "prediction": "SO THEY HAVE HEALTH PROBLEMS",
+      "seconds": 0.6243012080085464
+    },
+    {
+      "id": "lrs3/bUaU9kdt9I8/50007",
+      "dataset": "LRS3-TED",
+      "reference": "I WENT TO MY FRIEND JAMILA AND SHE SAID ONLY IF I CAN PLAY HORATIO",
+      "prediction": "I WENT TO MY FRIEND JAMILA AND SHE SAID ONLY IF I CAN PLAY HORATIO",
+      "seconds": 1.8076709170127288
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50024",
+      "dataset": "LRS3-TED",
+      "reference": "SO WHEN YOU'RE COMING TOGETHER IN A FLASH MOB WITH OTHER PEOPLE IT'S AS IF YOU BECOME THIS GROUP",
+      "prediction": "SO WHEN YOU'RE COMING TOGETHER IN A FLASH MOB WITH OTHER PEOPLE IT'S AS IF YOU BECOME THIS GROUP",
+      "seconds": 2.3336515830014832
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50005",
+      "dataset": "LRS3-TED",
+      "reference": "YOU OWN THE KNOWLEDGE",
+      "prediction": "CONTINUE THAT",
+      "seconds": 0.4131295830011368
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50016",
+      "dataset": "LRS3-TED",
+      "reference": "HE QUIT SMOKING AS A RESULT OF READING THAT REPORT AND SO DID MANY OTHER PEOPLE",
+      "prediction": "HE QUIT SMOKING AS A RESULT OF READING THAT REPORT AND SO DID MANY OTHER PEOPLE",
+      "seconds": 1.4726102920249104
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50006",
+      "dataset": "LRS3-TED",
+      "reference": "I WOULD JUST LIKE TO SAY THAT THAT'S ABSOLUTE RUBBISH",
+      "prediction": "AND I WOULD JUST LIKE TO SAY THAT THAT'S ABSOLUTE RUBBISH",
+      "seconds": 0.9737424159538932
+    },
+    {
+      "id": "lrs3/KQEWc3LVfyc/50010",
+      "dataset": "LRS3-TED",
+      "reference": "DEATH IS NOT A BATTLE WE HAVE LOST",
+      "prediction": "DEATH IS NOT A BATTLE WE HAVE LOST",
+      "seconds": 0.6323523329920135
+    },
+    {
+      "id": "lrs3/tBbyP0P7BRg/50007",
+      "dataset": "LRS3-TED",
+      "reference": "SO I PUT IN AN APPLICATION",
+      "prediction": "SO I PUT IT IN AN APPLICATION",
+      "seconds": 0.584927250049077
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50001",
+      "dataset": "LRS3-TED",
+      "reference": "A WAY TO MAKE A LOT OF MONEY",
+      "prediction": "A WAY TO MAKE A LOT OF MONEY",
+      "seconds": 0.606141583994031
+    },
+    {
+      "id": "lrs3/rTJpJlVkRTA/50001",
+      "dataset": "LRS3-TED",
+      "reference": "SHE WAS A SINGLE FEMALE PARENT",
+      "prediction": "SHE WAS A SINGLE FEMALE PARENT",
+      "seconds": 0.5726172080030665
+    },
+    {
+      "id": "lrs3/59SRn1SkWAA/50006",
+      "dataset": "LRS3-TED",
+      "reference": "AND THE ADRENAL GLANDS MAKE ANDROGENS WHICH ARE A MASCULINIZING HORMONE",
+      "prediction": "AND THE ADRENAL GLANDS MAKE ANDROGENS WHICH ARE A MASCULINIZING HORMONE",
+      "seconds": 2.03017808299046
+    },
+    {
+      "id": "lrs3/ziGD7vQOwl8/50009",
+      "dataset": "LRS3-TED",
+      "reference": "DAVID ONLY HAS ONE STICK",
+      "prediction": "DAVID ONLY HAS ONE STICK",
+      "seconds": 0.5034034579875879
+    },
+    {
+      "id": "lrs3/ulLFP8axZVQ/50001",
+      "dataset": "LRS3-TED",
+      "reference": "AND THEN THEY WOULD GO HOME DEAL DRUGS AND SHOOT PEOPLE",
+      "prediction": "AND THEN THEY WOULD GO HOME DEAL DRUGS AND SHOOT PEOPLE",
+      "seconds": 1.011552040989045
+    },
+    {
+      "id": "lrs3/KOtFDsC8JC0/50006",
+      "dataset": "LRS3-TED",
+      "reference": "WE CAN DO THINGS LIKE PREDICTIVE WORK",
+      "prediction": "WE CAN DO THINGS LIKE PREDICTIVE WORK",
+      "seconds": 0.6130235419841483
+    },
+    {
+      "id": "lrs3/SJyE40koQyA/50001",
+      "dataset": "LRS3-TED",
+      "reference": "THERE'S NOTHING TO SEE HERE",
+      "prediction": "THERE'S NOTHING TO HEAR",
+      "seconds": 0.4766179579892196
+    },
+    {
+      "id": "lrs3/rTJpJlVkRTA/50007",
+      "dataset": "LRS3-TED",
+      "reference": "THERE'S SOME 3000 PEOPLE A YEAR IN THE UNITED STATES ALONE PERHAPS 10 TIMES THAT NUMBER",
+      "prediction": "THERE'S SOME 3000 PEOPLE A YEAR IN THE UNITED STATES ALONE PERHAPS 10 TIMES THAT NUMBER",
+      "seconds": 1.7232085000141524
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50035",
+      "dataset": "LRS3-TED",
+      "reference": "THERE'S A LOT OF AMAZING THINGS ABOUT TEENAGE GIRL CULTURE BUT THERE'S A LOT OF REALLY TOXIC THINGS",
+      "prediction": "THERE ARE A LOT OF AMAZING THINGS ABOUT TEENAGE GIRL CULTURE BUT A LOT OF REALLY TOXIC THINGS",
+      "seconds": 2.0119028750341386
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50011",
+      "dataset": "LRS3-TED",
+      "reference": "THIS IS ALSO WHY WE BUY LOTTERY TICKETS",
+      "prediction": "THIS IS ALSO WHY WE BUY LOTTERY TICKETS",
+      "seconds": 0.817851709027309
+    },
+    {
+      "id": "lrs3/H2rG4Dg6xyI/50055",
+      "dataset": "LRS3-TED",
+      "reference": "WHAT ARE YOU TALKING NBSP ABOUT",
+      "prediction": "WHAT ARE YOU TALKING ABOUT",
+      "seconds": 0.38792050001211464
+    },
+    {
+      "id": "lrs3/j06dz9eDgqY/50002",
+      "dataset": "LRS3-TED",
+      "reference": "REGULAR BLOOD FLOW IS CALLED LAMINAR WHICH MEANS STREAMLINED NO BUMPS STRAIGHT PATH",
+      "prediction": "REGULAR BLOOD FLOW IS CALLED LAMINAR WHICH MEANS STREAMLINED NO BUMPS STRAIGHT PATH",
+      "seconds": 1.8648713750299066
+    },
+    {
+      "id": "lrs3/H2rG4Dg6xyI/50032",
+      "dataset": "LRS3-TED",
+      "reference": "SOMEBODY LOOKED AT THEM AND SAID WHAT A PAIR OF DINGBATS",
+      "prediction": "SOMEBODY LOOKED AT HIM AND SAID WHAT A PARENT DID ANYBODY ASK",
+      "seconds": 1.235925999993924
+    },
+    {
+      "id": "lrs3/HCJRXoYOoaI/50005",
+      "dataset": "LRS3-TED",
+      "reference": "YOU'RE AN ALCHEMIST",
+      "prediction": "YOU'RE AN ALCHEMIST",
+      "seconds": 0.5743757500313222
+    },
+    {
+      "id": "lrs3/V2DgJBx3cyA/50007",
+      "dataset": "LRS3-TED",
+      "reference": "SO THE STANDARD OF CARE IN THESE PLACES IS TO WAIT FOR SOMEBODY TO GET BITTEN BY A POTENTIALLY RABID ANIMAL",
+      "prediction": "SO THE STANDARD OF CARE IN THESE PLACES IS TO WAIT FOR SOMEBODY TO GET BITTEN BY A POTENTIALLY RABID ANIMAL",
+      "seconds": 2.4102972079999745
+    },
+    {
+      "id": "lrs3/YlmZkY1uqXM/50009",
+      "dataset": "LRS3-TED",
+      "reference": "SO WE'RE TALKING ABOUT WHAT'S THE MOST POPULAR DIET",
+      "prediction": "SO WE TALK ABOUT WHAT'S THE MOST POPULAR DAD",
+      "seconds": 0.9943585830042139
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50020",
+      "dataset": "LRS3-TED",
+      "reference": "AND WE NEED TO START RECOGNIZING ITS LIMITATIONS AND NOT JUST RELIGIOUSLY APPLYING",
+      "prediction": "AND WE NEED TO START RECOGNIZING ITS LIMITATIONS AND NOT JUST RELIGIOUSLY APPLYING",
+      "seconds": 1.6300950000295416
+    },
+    {
+      "id": "lrs3/oeL72c6scAs/50002",
+      "dataset": "LRS3-TED",
+      "reference": "INSTEAD ONLY EAT MEAT AND CHEESE FROM COWS THAT WERE FED ON",
+      "prediction": "INSTEAD ONLY EAT MEAT AND CHEESE FROM COWS THAT WERE FED ON",
+      "seconds": 1.5423542920034379
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50049",
+      "dataset": "LRS3-TED",
+      "reference": "THAT IS GIVING MYSELF PERMISSION TO EXPERIMENT AND TRY THINGS OUT AND LET MY STORY BE HOW",
+      "prediction": "THAT IS GIVING MYSELF PERMISSION TO EXPERIMENT AND TRY THINGS OUT AND LET MY STORY BE HOW",
+      "seconds": 1.6018085830146447
+    },
+    {
+      "id": "lrs3/59SRn1SkWAA/50014",
+      "dataset": "LRS3-TED",
+      "reference": "AND IT'S NOT JUST IN TERMS OF SEX",
+      "prediction": "AND IT'S NOT JUST IN TERMS OF SEX",
+      "seconds": 0.7929529169923626
+    },
+    {
+      "id": "lrs3/RbNqU2K0qzo/50003",
+      "dataset": "LRS3-TED",
+      "reference": "AND I TOLD YOU ROADKILL IS A BIG PROBLEM FOR TAPIRS IN THE CERRADO SO WE JUST CAME UP WITH THE IDEA",
+      "prediction": "AND I TOLD YOU ROADKILL IS A BIG PROBLEM FOR NEIGHBORS IN CHICAGO SO WE JUST CAME UP WITH THE IDEA",
+      "seconds": 2.4117354169720784
+    },
+    {
+      "id": "lrs3/LWULB9Aoopc/50009",
+      "dataset": "LRS3-TED",
+      "reference": "SIMPLE AS THAT",
+      "prediction": "AS SIMPLE AS THAT",
+      "seconds": 0.5092038749717176
+    },
+    {
+      "id": "lrs3/mk3KSVrveSE/50004",
+      "dataset": "LRS3-TED",
+      "reference": "THE FEAR IS THE CHILD",
+      "prediction": "THE FAKE CONDITION",
+      "seconds": 0.6139530420186929
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50017",
+      "dataset": "LRS3-TED",
+      "reference": "DREAMS ARE A FORM OF CONSCIOUSNESS ON THIS DEFINITION",
+      "prediction": "DREAMS ARE A FORM OF CONSCIOUSNESS ON THIS DEFINITION",
+      "seconds": 0.7731962910038419
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50050",
+      "dataset": "LRS3-TED",
+      "reference": "BUT WE DO NEED TO GIVE OURSELVES THIS FREEDOM BECAUSE MAYBE THE BEST WAY OF TELLING YOUR STORY IS THROUGH A FICTIONAL VOICE",
+      "prediction": "BUT WE DO NEED TO GIVE OURSELVES THIS FREEDOM BECAUSE MAYBE THE BEST WAY OF TELLING YOUR STORY IS THROUGH FICTIONAL VOICE",
+      "seconds": 2.2110466670128517
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50009",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S A COMPUTER PROGRAM RUNNING IN THE BRAIN",
+      "prediction": "IT'S A COMPUTER PROGRAM RUNNING IN THE BRAIN",
+      "seconds": 0.8551814999664202
+    },
+    {
+      "id": "lrs3/s2F41IQSPGE/50010",
+      "dataset": "LRS3-TED",
+      "reference": "SO IT'S NO SURPRISE THEN THAT WE SPEND SO MUCH OF OUR TIME THINKING ABOUT WHO WE ARE AND WHO WE WOULD LIKE",
+      "prediction": "SO IT'S NO SURPRISE THEN THAT WE SPEND SO MUCH OF OUR TIME THINKING ABOUT WHO WE ARE AND WHO WE WOULD LIKE",
+      "seconds": 2.1491203749901615
+    },
+    {
+      "id": "lrs3/SU1foLW8h54/50009",
+      "dataset": "LRS3-TED",
+      "reference": "BUT THAT WASN'T QUITE YET ENOUGH FOR ME TO OWN MY OWN IDENTITY",
+      "prediction": "BUT THAT WASN'T QUITE YET ENOUGH FOR ME TO OWN MY OWN IDENTITY",
+      "seconds": 1.147861416975502
+    },
+    {
+      "id": "lrs3/acikxzM6GaY/50001",
+      "dataset": "LRS3-TED",
+      "reference": "WHEN OUR GOVERNMENTS FRAME SLUMS AS THREATS IN ORDER TO JUSTIFY VIOLENT LAND GRABS OR FORCED EVICTIONS THEY'RE COUNTING ON THOSE",
+      "prediction": "WHEN OUR GOVERNMENTS FRAME SLUMS AS THREATS IN ORDER TO JUSTIFY VIOLENT LAND GRABS OR FORCED EVICTIONS THEY'RE COUNTING ON THOSE",
+      "seconds": 2.6943964160163887
+    },
+    {
+      "id": "lrs3/H2rG4Dg6xyI/50021",
+      "dataset": "LRS3-TED",
+      "reference": "WE VE GOT EVERYTHING",
+      "prediction": "WE GOT EVERYTHING OUT",
+      "seconds": 0.4881005419883877
+    },
+    {
+      "id": "lrs3/KOtFDsC8JC0/50009",
+      "dataset": "LRS3-TED",
+      "reference": "IT WAS SAD TO SEE AN ICON A FUNNYMAN COMMIT SUICIDE AND THERE WERE THREE HOUR WAIT TIMES ON",
+      "prediction": "IT WAS SAD TO SEE AN ICON A FUNNY MAN COMMIT SUICIDE AND THERE WERE THREE HOUR WAIT TIMES ON",
+      "seconds": 1.8643047080258839
+    },
+    {
+      "id": "lrs3/bUaU9kdt9I8/50004",
+      "dataset": "LRS3-TED",
+      "reference": "BUT I PROBABLY SHOULD HAVE STOPPED AND THOUGHT",
+      "prediction": "I PROBABLY SHOULD HAVE STOPPED A LOT",
+      "seconds": 0.6242963750264607
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50003",
+      "dataset": "LRS3-TED",
+      "reference": "I WAS THINKING I'M MUTILATED",
+      "prediction": "IN THAT MIDDLE CLASS",
+      "seconds": 0.4699237499735318
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50010",
+      "dataset": "LRS3-TED",
+      "reference": "HOW COULD SPIRITUALITY MOVE ANYTHING",
+      "prediction": "HOW COULD SPIRITUALITY MOVE ANYTHING",
+      "seconds": 0.6363428329932503
+    },
+    {
+      "id": "lrs3/SJWoKsfsSaA/50009",
+      "dataset": "LRS3-TED",
+      "reference": "SO WHILE I'M WHACKING ON ONE MOLE NEW MOLES POP UP",
+      "prediction": "SO WHILE I'M WALKING ON ONE BOAT TWO BOATS POP UP",
+      "seconds": 1.1438482080120593
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50004",
+      "dataset": "LRS3-TED",
+      "reference": "SO FOR EXAMPLE A BEHAVIORAL INTERVENTION FOR SMOKING CESSATION MIGHT INCLUDE PRE CESSATION",
+      "prediction": "SO FOR EXAMPLE A BEHAVIORAL INTERVENTION FOR SMOKING CESSATION MIGHT INCLUDE PRE CESSATION",
+      "seconds": 1.676316708966624
+    },
+    {
+      "id": "lrs3/n4YcornnWFI/50001",
+      "dataset": "LRS3-TED",
+      "reference": "I'D HEARD ABOUT A ZEN MONASTERY WHICH IS IN ENGLAND",
+      "prediction": "I'D HEARD ABOUT A DEAF MONASTERY WHICH IS IN ENGLAND",
+      "seconds": 1.3375517910462804
+    },
+    {
+      "id": "lrs3/VbeovM4RCh4/50003",
+      "dataset": "LRS3-TED",
+      "reference": "A WORLD WHERE I DON'T NEED A COSTUME IN ORDER TO FIT IN",
+      "prediction": "A WORLD WHERE I DON'T NEED A COSTUME IN ORDER TO FIT IN",
+      "seconds": 1.3517745420103893
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50016",
+      "dataset": "LRS3-TED",
+      "reference": "WE'RE NOT READY FOR A SCIENTIFIC DEFINITION BUT HERE'S A COMMON SENSE DEFINITION",
+      "prediction": "WE'RE NOT READY FOR A SCIENTIFIC DEFINITION BUT HERE'S A COMMON SENSE DEFINITION",
+      "seconds": 1.3588223749538884
+    },
+    {
+      "id": "lrs3/Zctk6MZaxMk/50013",
+      "dataset": "LRS3-TED",
+      "reference": "AND THAT DESIGN COULD BE FDA PROVED AND REGULATED",
+      "prediction": "AND THAT DESIGN CAN BE FDA APPROVED AND REGULATED",
+      "seconds": 1.0794105419772677
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50022",
+      "dataset": "LRS3-TED",
+      "reference": "WE'RE EXAMINING THE PERFORMANCE OF THESE 15 COMPONENTS IN A SET OF 3",
+      "prediction": "WE'RE EXAMINING THE PERFORMANCE OF THESE 15 COMPONENTS IN A SET OF THREE",
+      "seconds": 1.8499736249796115
+    },
+    {
+      "id": "lrs3/Zctk6MZaxMk/50001",
+      "dataset": "LRS3-TED",
+      "reference": "TODAY WE DON'T EVEN GET A DAY OFF OF WORK IF WE GET AN INFECTION",
+      "prediction": "TODAY WE DON'T EVEN GET A DAY OFF OF WORK IF WE GET AN INFECTION",
+      "seconds": 1.3788451660075225
+    },
+    {
+      "id": "lrs3/aEjUlH7bNDo/50012",
+      "dataset": "LRS3-TED",
+      "reference": "AND INVOLVED A LOT OF HARD WORK TO BE ABLE TO MOVE FORWARD",
+      "prediction": "AND INVOLVED A LOT OF HARD WORK TO BE ABLE TO MOVE FORWARD",
+      "seconds": 1.0358252500300296
+    },
+    {
+      "id": "lrs3/qKlzdSH2X9w/50003",
+      "dataset": "LRS3-TED",
+      "reference": "WE BETTER GET IN THAT QUEUE",
+      "prediction": "WE BEGAN THAT QUEUE",
+      "seconds": 0.604569791990798
+    },
+    {
+      "id": "lrs3/SU1foLW8h54/50032",
+      "dataset": "LRS3-TED",
+      "reference": "IN ITS PUREST FORM WHAT PRIDE AND WHAT THESE STUDENTS WERE DOING WAS SAYING I AM HERE FOR ME",
+      "prediction": "IN ITS PUREST FORM WHEN PRIDE AND WHAT THESE STUDENTS WERE DOING WAS SAYING I AM HERE FOR ME",
+      "seconds": 2.2558500840095803
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50026",
+      "dataset": "LRS3-TED",
+      "reference": "I THINK ONCE AGAIN THERE ARE LOTS OF THINGS THAT STOCK MARKETS ARE GOOD AT",
+      "prediction": "I THINK ONCE AGAIN THERE LOTS OF THINGS THAT STOCK MARKETS ARE GOOD AT",
+      "seconds": 1.219904041965492
+    },
+    {
+      "id": "lrs3/X4LOF6ftJVU/50002",
+      "dataset": "LRS3-TED",
+      "reference": "YOU HEAR ABOUT PEOPLE WITH GOOGLE GLASS BEING ATTACKED",
+      "prediction": "TALKING ABOUT PEOPLE WITH GOOGLE GLASS BEING ATTACKED",
+      "seconds": 0.8893644580384716
+    },
+    {
+      "id": "lrs3/aEjUlH7bNDo/50006",
+      "dataset": "LRS3-TED",
+      "reference": "BUT TO HAVE THE GOOGLE APP YOU HAVE TO HAVE ACCESS TO THE INTERNET",
+      "prediction": "BUT TO HAVE THE GOOGLE APP YOU THEN HAVE TO HAVE ACCESS TO THE INTERNET",
+      "seconds": 1.215554249996785
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50011",
+      "dataset": "LRS3-TED",
+      "reference": "I SAY A LOT",
+      "prediction": "I SAY A LOT",
+      "seconds": 0.3883141669793986
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50004",
+      "dataset": "LRS3-TED",
+      "reference": "DID YOU SEE HOW YOU LANDED",
+      "prediction": "YOU SEE HOW YOU LIKE IT",
+      "seconds": 0.9484676669817418
+    },
+    {
+      "id": "lrs3/KfK3eKSkOQA/50002",
+      "dataset": "LRS3-TED",
+      "reference": "SO OUR CAVEMEN IN THE STONE AGE DIDN'T HAVE ANY NOTICE OF COMPLEXITY HIS LIFE WAS",
+      "prediction": "SO OUR CAVEMEN IN THE STONE AGE DIDN'T HAVE ANY NOTICE OF COMPLEXITY HIS LIFE WAS",
+      "seconds": 1.9028752089943737
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50001",
+      "dataset": "LRS3-TED",
+      "reference": "MEN DO YOU NEED MORE THAN ONE WIFE",
+      "prediction": "MEN USE IT MORE THAN ONE WAY",
+      "seconds": 0.6933242089580745
+    },
+    {
+      "id": "lrs3/SU1foLW8h54/50004",
+      "dataset": "LRS3-TED",
+      "reference": "THAT WAS REAL TAPE",
+      "prediction": "THE GLASSES ARE THAT WAS A REAL TAP",
+      "seconds": 0.7182922080392018
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50009",
+      "dataset": "LRS3-TED",
+      "reference": "TOM AND I WROTE OUR FIRST FEDERAL GRANT AND OUR CLINICAL TRIAL WAS BORN",
+      "prediction": "TOM AND I WROTE OUR FIRST FEDERAL GRANT AND OUR CLINICAL TRIAL WAS BORN",
+      "seconds": 1.439006166998297
+    },
+    {
+      "id": "lrs3/VNGFep6rncY/50008",
+      "dataset": "LRS3-TED",
+      "reference": "IF YOU HAVE TUNNEL VISION THAT'S A BIT OF A PROBLEM BECAUSE IT CONFUSES PEOPLE ABOUT THEIR OWN PERFORMANCE",
+      "prediction": "IF YOU HAVE TUNNEL VISION THAT'S A BIT OF A PROBLEM BECAUSE IT CONFUSES PEOPLE ABOUT THEIR OWN PERFORMANCE",
+      "seconds": 2.204677207977511
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50017",
+      "dataset": "LRS3-TED",
+      "reference": "THINGS ARE DIFFERENT NOW OF COURSE MANY FEWER PEOPLE SMOKE",
+      "prediction": "THINGS ARE DIFFERENT NOW OF COURSE MANY FEWER PEOPLE SMOKE",
+      "seconds": 0.847451415960677
+    },
+    {
+      "id": "lrs3/cfR6tiSWSAM/50015",
+      "dataset": "LRS3-TED",
+      "reference": "BUT JUST A SPARK OF IMAGINATION IS NOT GOOD ENOUGH",
+      "prediction": "BUT JUST THE SPARK OF IMAGINATION IS NOT GOOD ENOUGH",
+      "seconds": 0.8854409590130672
+    },
+    {
+      "id": "lrs3/qyecmU5r9SI/50004",
+      "dataset": "LRS3-TED",
+      "reference": "WE NEED OTHER PEOPLE",
+      "prediction": "WE NEED OTHER PEOPLE",
+      "seconds": 0.40734966698801145
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50008",
+      "dataset": "LRS3-TED",
+      "reference": "THEY HAD A RECESSION SO MORE PEOPLE FELL INTO UNEMPLOYMENT AND NEEDED UNEMPLOYMENT BENEFITS",
+      "prediction": "THEY HAD A RECESSION SO MORE PEOPLE FELL INTO UNEMPLOYMENT AND NEEDED UNEMPLOYMENT BENEFITS",
+      "seconds": 1.5082619999884628
+    },
+    {
+      "id": "lrs3/mk3KSVrveSE/50006",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S FLOWN AROUND THE WORLD",
+      "prediction": "IT'S PHONE AROUND THE WORLD",
+      "seconds": 0.5849488750100136
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50043",
+      "dataset": "LRS3-TED",
+      "reference": "YOU'RE GIVING UP ON 300 YEARS OF HUMAN PROGRESS AND HUMAN HOPE AND ALL THE REST OF IT",
+      "prediction": "YOU'RE LIVING UP TO 300 YEARS OF HUMAN PROGRESS AND HUMAN HOPE AND ALL THE REST OF IT",
+      "seconds": 1.6634602920385078
+    },
+    {
+      "id": "lrs3/FzAyOddR5u4/50020",
+      "dataset": "LRS3-TED",
+      "reference": "AND YOU'LL DO IT",
+      "prediction": "AND YOU'RE DOING",
+      "seconds": 0.42366124998079613
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50043",
+      "dataset": "LRS3-TED",
+      "reference": "WE'LL SEE A RADICAL DIMINUTION OF THE ABUSE",
+      "prediction": "WE'LL SEE A RADICAL DIMINUTION OF THE ABUSE",
+      "seconds": 1.0768924999865703
+    },
+    {
+      "id": "lrs3/SJyE40koQyA/50008",
+      "dataset": "LRS3-TED",
+      "reference": "I CRIED IN THE BATHROOM WHILE I WASHED OUT THE PUMP EQUIPMENT",
+      "prediction": "I CRIED IN THE BATHROOM WHILE I WATCHED EVERY PUBLIC ONE OF THEM",
+      "seconds": 1.3572593749850057
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50013",
+      "dataset": "LRS3-TED",
+      "reference": "WELL WE HAVE CANCELED THE SEA RESCUE MISSIONS TO HELP THESE PEOPLE",
+      "prediction": "UK WE'VE CANCELLED THE SEA RESCUE MISSIONS TO HELP THESE PEOPLE",
+      "seconds": 1.2294520839932375
+    },
+    {
+      "id": "lrs3/2OlhCITl1J4/50007",
+      "dataset": "LRS3-TED",
+      "reference": "ONE OF THE PUBLIC UNIVERSITIES IN GREECE IS AMONG THE TOP 40 AS WELL",
+      "prediction": "ONE OF THE PUBLIC UNIVERSITIES IN GREECE IS AMONG THE TOP 40 AS WELL",
+      "seconds": 1.4603252089582384
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50012",
+      "dataset": "LRS3-TED",
+      "reference": "I FINALLY FIGURED OUT HOW THE OESTROGEN RECEPTOR WAS BROKEN WHAT A",
+      "prediction": "I FINALLY FIGURED OUT HOW THE OESTROGEN RECEPTOR WAS BROKEN HOW I WANT TO",
+      "seconds": 1.75120441702893
+    },
+    {
+      "id": "lrs3/EXo3qA9V3eI/50005",
+      "dataset": "LRS3-TED",
+      "reference": "DO I SAY HI",
+      "prediction": "WHY IS THAT",
+      "seconds": 0.4390097919967957
+    },
+    {
+      "id": "lrs3/LlQXs0yofMs/50006",
+      "dataset": "LRS3-TED",
+      "reference": "THEY SHOULD HAVE HAD AT LEAST A DEFINITION",
+      "prediction": "THEY SHOULD HAVE HAD AT LEAST A DEFINITION",
+      "seconds": 0.6302890839870088
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50010",
+      "dataset": "LRS3-TED",
+      "reference": "IT IS BEING BEYONC",
+      "prediction": "IT IS BEING ME US",
+      "seconds": 0.5495981249841861
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50026",
+      "dataset": "LRS3-TED",
+      "reference": "THE MORE I PLAY THE BETTER I WORK",
+      "prediction": "THE MORE I PLAY THE BETTER AT WORK",
+      "seconds": 0.7753040419775061
+    },
+    {
+      "id": "lrs3/UVDgemuZdho/50001",
+      "dataset": "LRS3-TED",
+      "reference": "WHEN PEOPLE MEET ME AT PARTIES AND THEY FIND OUT THAT I'M AN ENGLISH PROFESSOR WHO SPECIALIZES IN",
+      "prediction": "WHEN PEOPLE MEET ME AT PARTIES AND THEY FIND OUT THAT I'M AN ENGLISH PROFESSOR WHO SPECIALIZES IN",
+      "seconds": 2.0927881660172716
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50008",
+      "dataset": "LRS3-TED",
+      "reference": "TOM AND I AGREED THAT WE WANT TO STIMULATE THE OESTROGEN RECEPTOR",
+      "prediction": "TOM AND I AGREED THAT WE WANT TO STIMULATE THE OESTROGEN RECEPTOR",
+      "seconds": 1.529877916967962
+    },
+    {
+      "id": "lrs3/ziGD7vQOwl8/50007",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S NOT THIS RIGHT",
+      "prediction": "JUST LIKE THIS WHEN",
+      "seconds": 0.5926166670396924
+    },
+    {
+      "id": "lrs3/CypPMzZinys/50009",
+      "dataset": "LRS3-TED",
+      "reference": "HOW WILL THEY ADOPT THE TECHNOLOGY",
+      "prediction": "HOW WOULD THEY ADOPT THE TECHNOLOGY",
+      "seconds": 0.499216583033558
+    },
+    {
+      "id": "lrs3/xMS9HlSSLSA/50001",
+      "dataset": "LRS3-TED",
+      "reference": "MY FAMILY HAD SEEN SUMMER HEAT SO INTENSE THAT IT SPLIT ANCIENT OAK TREES",
+      "prediction": "MY FAMILY HAD SEEN SUMMER HEAT SO INTENSE THAT IT SPLIT ANCIENT OAK TREES",
+      "seconds": 1.7369790420052595
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50007",
+      "dataset": "LRS3-TED",
+      "reference": "SHOW US LET US SIGN",
+      "prediction": "THE DOORS THAT YOU DECIDE",
+      "seconds": 0.6093260000343435
+    },
+    {
+      "id": "lrs3/Zctk6MZaxMk/50011",
+      "dataset": "LRS3-TED",
+      "reference": "GIVE ME AN INHALER TOO",
+      "prediction": "CAN BE AN INHALER TOO",
+      "seconds": 0.580334042024333
+    },
+    {
+      "id": "lrs3/s2F41IQSPGE/50038",
+      "dataset": "LRS3-TED",
+      "reference": "ALL SHE KNEW ABOUT ME WAS THAT I HAD LONG HAIR",
+      "prediction": "ALL SHE KNEW ABOUT ME WAS THAT IT HAD LONG HAIR",
+      "seconds": 0.985178624978289
+    },
+    {
+      "id": "lrs3/SJWoKsfsSaA/50002",
+      "dataset": "LRS3-TED",
+      "reference": "AFTER ALMOST A HALF A CENTURY THE THEORY OF SCRAMJETS WAS FINALLY PROVEN",
+      "prediction": "AFTER ALMOST A HALF A CENTURY THE THEORY OF SCRAMJETS WAS FINALLY PROVEN",
+      "seconds": 1.7460682910168543
+    },
+    {
+      "id": "lrs3/Y2y7BzjbSNo/50001",
+      "dataset": "LRS3-TED",
+      "reference": "I MEAN THAT'S SO COOL",
+      "prediction": "I MEAN THAT'S SO COOL",
+      "seconds": 0.574055542005226
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50023",
+      "dataset": "LRS3-TED",
+      "reference": "AND OBVIOUSLY THIS IS AN EVENT THAT'S BEEN ORGANIZED BY THE LONDON BUSINESS SCHOOL SO I IMAGINE LOTS OF PEOPLE IN",
+      "prediction": "AND OBVIOUSLY THIS IS AN EVENT THAT'S BEEN ORGANIZED BY THE LONDON BUSINESS SCHOOL SO I IMAGINE LOTS OF PEOPLE IN",
+      "seconds": 1.9952092500170693
+    },
+    {
+      "id": "lrs3/qNvDRuGK84I/50006",
+      "dataset": "LRS3-TED",
+      "reference": "THEY THOUGHT THE STORY WAS GOING TO GET OUT",
+      "prediction": "THEY TOLD THAT THE STORY WAS GOING TO GET OUT",
+      "seconds": 0.7267012079828419
+    },
+    {
+      "id": "lrs3/7c5t6FkvUG0/50001",
+      "dataset": "LRS3-TED",
+      "reference": "AND I SAID SOMETHING SO AWESOME AND GREAT",
+      "prediction": "AND YET SOMETHING SO AWESOME AND GREAT",
+      "seconds": 1.1160062500275671
+    },
+    {
+      "id": "lrs3/X41iulkRqZU/50005",
+      "dataset": "LRS3-TED",
+      "reference": "THEY DO IT BY PREARRANGEMENT WITH THEMSELVES",
+      "prediction": "THEY DO IT BY PREARRANGEMENT WITH THEMSELVES",
+      "seconds": 0.8639067920157686
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50031",
+      "dataset": "LRS3-TED",
+      "reference": "AND SIMILARLY IF A BUSINESS WANTS TO LOCATE IN THE CAYMAN ISLANDS IT SHOULD BE ALLOWED TO DO THAT",
+      "prediction": "AND SIMILARLY IF A BUSINESS WANTS TO LOCATE IN THE CAYMAN ISLANDS IT SHOULD BE ALLOWED TO DO THAT",
+      "seconds": 2.2207059580250643
+    },
+    {
+      "id": "lrs3/G8gJJuCdPSA/50001",
+      "dataset": "LRS3-TED",
+      "reference": "WHAT DO HUNTERS WANT",
+      "prediction": "WENT TO HUNTERS' WATER",
+      "seconds": 0.5076627079979517
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50011",
+      "dataset": "LRS3-TED",
+      "reference": "I LOVE WORKING",
+      "prediction": "I LOVE WORKING",
+      "seconds": 0.3661307089496404
+    },
+    {
+      "id": "lrs3/aEjUlH7bNDo/50018",
+      "dataset": "LRS3-TED",
+      "reference": "YOU'D HAVE LOW PAID YOU'D HAVE HIGH PAID AND YOU'D HAVE YOUR MIDDLE PAID",
+      "prediction": "YOU'D HAVE THE LOW PAID YOU'D HAVE THE HIGH PAID YOU'D HAVE THE MIDDLE PAID",
+      "seconds": 1.5863152920501307
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50021",
+      "dataset": "LRS3-TED",
+      "reference": "AND WE'RE SO EXCITED",
+      "prediction": "AND WE'RE SO EXCITED",
+      "seconds": 0.4643749169772491
+    },
+    {
+      "id": "lrs3/U4Lx5rcii38/50006",
+      "dataset": "LRS3-TED",
+      "reference": "BUT THAT'S FOR ANOTHER TALK",
+      "prediction": "BUT THAT'S FOR ANOTHER SONG",
+      "seconds": 0.7221121250186116
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50003",
+      "dataset": "LRS3-TED",
+      "reference": "AND THINK ABOUT THAT IT'S NOT JUST THE FRESHMAN NOT JUST THE SOPHOMORES AND NOT JUST ONE YEAR BUT",
+      "prediction": "AND THINK ABOUT THAT IT'S NOT JUST A FRESHMAN NOT JUST A SOPHOMORE AND NOT JUST ONE YEAR BUT",
+      "seconds": 2.4774545410182327
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50005",
+      "dataset": "LRS3-TED",
+      "reference": "AND IT'S NOT MY ACADEMIC CREDENTIALS THAT QUALIFY ME TO SHARE THIS WITH YOU IT'S MY",
+      "prediction": "AND IT'S NOT MY ACADEMIC CREDENTIALS THAT QUALIFY ME TO SHARE THIS WITH YOU IT'S MY",
+      "seconds": 2.3766577500500716
+    },
+    {
+      "id": "lrs3/rTJpJlVkRTA/50002",
+      "dataset": "LRS3-TED",
+      "reference": "THE REALITY IS A GENDER FLUIDITY THAT CROSSES THE ENTIRE CONTINUUM FROM MALE TO",
+      "prediction": "THE REALITY IS A GENDER FLUIDITY THAT CROSSES THE ENTIRE CONTINUUM FROM MALE TO",
+      "seconds": 1.647071292041801
+    },
+    {
+      "id": "lrs3/85bqT904VWA/50003",
+      "dataset": "LRS3-TED",
+      "reference": "OF COURSE I PRACTICED MY ARTWORK AND MY HANDWRITING INCESSANTLY SO MUCH SO THAT I GAINED A",
+      "prediction": "OF COURSE I PRACTICED MY ARTWORK AND MY HANDWRITING INCESSANTLY SO MUCH SO THAT I GAINED A",
+      "seconds": 2.753980833978858
+    },
+    {
+      "id": "lrs3/ac1mOswXxLs/50009",
+      "dataset": "LRS3-TED",
+      "reference": "IT JUST WAS LIKE A TON OF BRICKS THAT WERE DROPPED ON MY CHEST",
+      "prediction": "IT JUST WAS LIKE A TON OF BRICKS THAT WERE DROPPED ON MY CHEST",
+      "seconds": 1.3149751250166446
+    },
+    {
+      "id": "lrs3/CypPMzZinys/50005",
+      "dataset": "LRS3-TED",
+      "reference": "THINK OF MEDIA THINK OF THE TELEVISION AND THE NEWS SERVICES THAT WE EXPECT",
+      "prediction": "MEDIA THINK OF THE TELEVISION AND THE NEWS SERVICES THAT WE EXPECT",
+      "seconds": 0.9992090829764493
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50009",
+      "dataset": "LRS3-TED",
+      "reference": "OF COURSE PEOPLE WANT TO REACH SAFETY AND SECURITY AND SOME OF THEM ARE WILLING TO PUT THEIR LIVES AT RISK",
+      "prediction": "OF COURSE PEOPLE WANT TO REACH SAFETY AND SECURITY AND SOME OF THEM ARE WILLING TO PUT THEIR LIVES AT RISK",
+      "seconds": 1.9548077920335345
+    },
+    {
+      "id": "lrs3/46w99bZ3WSM/50002",
+      "dataset": "LRS3-TED",
+      "reference": "OF A PIECE OF MUSIC RIGHT",
+      "prediction": "OF A PIECE OF MUSIC RIGHT",
+      "seconds": 0.5737353329895996
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50017",
+      "dataset": "LRS3-TED",
+      "reference": "AND THIS ISN'T SOMETHING THAT I'M JUST MAKING UP",
+      "prediction": "AND THIS ISN'T SOMETHING THAT I'M JUST MAKING UP",
+      "seconds": 0.877893416036386
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50010",
+      "dataset": "LRS3-TED",
+      "reference": "BECAUSE I REMEMBER MY FATHER'S REACTION TO THE REPORT",
+      "prediction": "BECAUSE I REMEMBER MY FATHER'S REACTION TO THE REPORT",
+      "seconds": 0.9219605830148794
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50020",
+      "dataset": "LRS3-TED",
+      "reference": "EVEN THIS SCHOOL YOU KNOW",
+      "prediction": "EVEN THIS TOOL USED",
+      "seconds": 0.44905908295186237
+    },
+    {
+      "id": "lrs3/3ls2SgSAyvk/50006",
+      "dataset": "LRS3-TED",
+      "reference": "THOSE PEOPLE WHO MAKE YOU SAD ALL THE TIME ARE NOT YOUR FRIENDS DARLING",
+      "prediction": "THOSE PEOPLE WHO MAKE YOU SAD ALL THE TIME ARE NOT YOUR FRIENDS DYING",
+      "seconds": 1.1436810409650207
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50036",
+      "dataset": "LRS3-TED",
+      "reference": "THIS ISN'T FOR NO REASON",
+      "prediction": "AND THIS ISN'T FOR NO REASON",
+      "seconds": 0.6039719170075841
+    },
+    {
+      "id": "lrs3/dsMCVMVTdn0/50001",
+      "dataset": "LRS3-TED",
+      "reference": "AND IN DOING SO WE CAN SUDDENLY FOLD ANYTHING",
+      "prediction": "AND IN DOING SO WE CAN SUDDENLY AVOID ANYTHING",
+      "seconds": 0.8161891250056215
+    },
+    {
+      "id": "lrs3/okQXrB7ySAw/50001",
+      "dataset": "LRS3-TED",
+      "reference": "THERE ARE THOUSANDS OF SUPPLIERS IN THERE",
+      "prediction": "THERE ARE THOUSANDS OF SUPPLIERS IN THERE",
+      "seconds": 0.7018992090015672
+    },
+    {
+      "id": "lrs3/LWULB9Aoopc/50005",
+      "dataset": "LRS3-TED",
+      "reference": "AND SO TIRED PEOPLE TEND TO HAVE HIGHER RATES OF OVERALL INFECTION AND THERE'S SOME VERY GOOD STUDIES SHOWING THAT SHIFT",
+      "prediction": "AND SO TIRED PEOPLE TEND TO HAVE HIGHER RATES OF OVERALL INFECTION AND THERE'S SOME VERY GOOD STUDIES SHOWING THAT SHIFT",
+      "seconds": 2.310142374946736
+    },
+    {
+      "id": "lrs3/H2rG4Dg6xyI/50059",
+      "dataset": "LRS3-TED",
+      "reference": "HE SAID YEAH IF YOU HAD STEAK THIS MONTH SOMEWHERE THERE'S A COWBOY",
+      "prediction": "HE SAYS IF YOU HAD A SNAKE THIS MONTH SOMEWHERE THERE'S A KEYBOARD",
+      "seconds": 1.5082558750291355
+    },
+    {
+      "id": "lrs3/EaYS6muHSSI/50001",
+      "dataset": "LRS3-TED",
+      "reference": "AND I'LL TELL YOU WHY",
+      "prediction": "AND I'LL TELL YOU WHY",
+      "seconds": 0.47659608302637935
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50018",
+      "dataset": "LRS3-TED",
+      "reference": "THE QUESTIONS ARE NOT ABOUT MARY THEY'RE ABOUT JOHN",
+      "prediction": "THE QUESTIONS ARE NOT ABOUT MALES THEY'RE ABOUT JOHN",
+      "seconds": 1.1237584170303307
+    },
+    {
+      "id": "lrs3/s2F41IQSPGE/50050",
+      "dataset": "LRS3-TED",
+      "reference": "AS A YOUNG GIRL I WOULD OFTEN STARE INTO THE MIRROR AND FANTASIZE ABOUT HAVING A SHORT SOPHISTICATED BOB",
+      "prediction": "AS A YOUNG GIRL I WOULD OFTEN STARE INTO THE MIRROR AND FANTASIZE ABOUT HAVING A SHORT SOPHISTICATED BOMB",
+      "seconds": 2.2949834589962848
+    },
+    {
+      "id": "lrs3/SU1foLW8h54/50003",
+      "dataset": "LRS3-TED",
+      "reference": "THIS WAS THE OUTFIT",
+      "prediction": "THIS WAS THE OUTFIT",
+      "seconds": 0.42575566697632894
+    },
+    {
+      "id": "lrs3/SQe8cR4Jl10/50002",
+      "dataset": "LRS3-TED",
+      "reference": "SOME PEOPLE MIGHT FEAR SHARKS",
+      "prediction": "SOME PEOPLE MAY FEEL SO",
+      "seconds": 0.5497262499993667
+    },
+    {
+      "id": "lrs3/H7Gn2a0GnAc/50003",
+      "dataset": "LRS3-TED",
+      "reference": "THEY BOTH WORKED",
+      "prediction": "THEY BOTH WORKED",
+      "seconds": 0.3649402500013821
+    },
+    {
+      "id": "lrs3/U4Lx5rcii38/50002",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S PRETTY COOL WHEN YOU KNOW SOMEONE WHO STARTS A BAKERY",
+      "prediction": "IT'S PRETTY COOL WHEN YOU KNOW SOMEBODY STARTS A BAKERY",
+      "seconds": 1.2050614170148037
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50029",
+      "dataset": "LRS3-TED",
+      "reference": "PEOPLE IN THE AUDIENCE WERE SNAPPING AND RESPONDING AND I KNEW THAT I WAS IN THIS MOMENT OF REALLY INCREDIBLE",
+      "prediction": "PEOPLE IN THE AUDIENCE WERE SNAPPING AND RESPONDING AND I KNEW THAT I WAS IN THIS MOMENT OF REALLY INCREDIBLE",
+      "seconds": 2.0334264999837615
+    },
+    {
+      "id": "lrs3/YlmZkY1uqXM/50002",
+      "dataset": "LRS3-TED",
+      "reference": "MY NAME IS NEREIDA",
+      "prediction": "MY NAME IS NINA",
+      "seconds": 0.5293082920252346
+    },
+    {
+      "id": "lrs3/tBbyP0P7BRg/50008",
+      "dataset": "LRS3-TED",
+      "reference": "I HAD AN INTERVIEW AND I GOT THE JOB",
+      "prediction": "I HAD AN INTERVIEW AND I GOT THE JOB",
+      "seconds": 0.6724800420342945
+    },
+    {
+      "id": "lrs3/CypPMzZinys/50004",
+      "dataset": "LRS3-TED",
+      "reference": "WHAT'S HAPPENING IS THERE'S A SHIFT FROM CENTRALIZED BUREAUCRATIC HIERARCHIES",
+      "prediction": "WHAT'S HAPPENING IS THERE IS A SHIFT FROM CENTRALIZED BUREAUCRATIC HIERARCHIES",
+      "seconds": 2.257318584015593
+    },
+    {
+      "id": "lrs3/LPrS7Skx9Y0/50006",
+      "dataset": "LRS3-TED",
+      "reference": "AND SHE WAS LIKE WHY",
+      "prediction": "AND SHE WAS LIKE WHY",
+      "seconds": 0.45105633401544765
+    },
+    {
+      "id": "lrs3/CypPMzZinys/50007",
+      "dataset": "LRS3-TED",
+      "reference": "THINK OF THE CAPACITY THAT INDIVIDUALS THAT FAMILIES THE COMMUNITIES HAVE NOW THE POTENTIAL TO WORK",
+      "prediction": "THINK OF THE CAPACITY THAT INDIVIDUALS THAT FAMILIES THE COMMUNITIES HAVE NOW THE POTENTIAL TO WORK",
+      "seconds": 1.4856795420055278
+    },
+    {
+      "id": "lrs3/KElS5nZD5yc/50002",
+      "dataset": "LRS3-TED",
+      "reference": "LIKE AM I INTO THIS",
+      "prediction": "BREAK MY HAIR AND HE SAID",
+      "seconds": 0.5745303750154562
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50001",
+      "dataset": "LRS3-TED",
+      "reference": "NOT ONLY WORLDWIDE BUT JUST HERE IN THE UNITED STATES",
+      "prediction": "NOT ONLY WORLDWIDE BUT JUST HERE IN THE UNITED STATES",
+      "seconds": 0.8331495000165887
+    },
+    {
+      "id": "lrs3/VNGFep6rncY/50009",
+      "dataset": "LRS3-TED",
+      "reference": "THIS IS THE REASON THAT MANY PEOPLE GO THROUGH LIFE ACTING LIKE A MEDIOCRE RACE CAR DRIVER",
+      "prediction": "THIS IS THE REASON THAT MANY PEOPLE GO THROUGH LIFE ACTING LIKE MEDIOCRE RACE CAR DRIVERS",
+      "seconds": 2.209424707980361
+    },
+    {
+      "id": "lrs3/bUaU9kdt9I8/50006",
+      "dataset": "LRS3-TED",
+      "reference": "I DID HAVE SOME GREAT INITIAL SUPPORT",
+      "prediction": "I DID HAVE SOME GREAT INITIAL SUPPORT",
+      "seconds": 0.6183501670020632
+    },
+    {
+      "id": "lrs3/jKM0jlPW8x0/50002",
+      "dataset": "LRS3-TED",
+      "reference": "BUT ONCE AFRICAN INDUSTRY STARTS TO SCALE THE POTENTIAL IS HUGE",
+      "prediction": "BUT ONCE AFRICAN INDUSTRY STARTS TO SCALE THE POTENTIAL IS HUGE",
+      "seconds": 1.1947812080034055
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50002",
+      "dataset": "LRS3-TED",
+      "reference": "SO I DID THE ONLY THING MY FRANTIC SEVEN YEAR OLD BRAIN COULD THINK TO DO TO AVERT THIS TRAGEDY",
+      "prediction": "SO I DID THE ONLY THING MY NEW FRIENDS AND A SEVEN YEAR OLD BRAIN COULD THINK TO DO TO AVERT THIS TRAGEDY",
+      "seconds": 2.377796125016175
+    },
+    {
+      "id": "lrs3/ulLFP8axZVQ/50003",
+      "dataset": "LRS3-TED",
+      "reference": "THIS BECAME THE WHOLE PURPOSE OF OUR WORK",
+      "prediction": "THIS BECAME THE WHOLE PURPOSE OF OUR WORK",
+      "seconds": 0.7136766660260037
+    },
+    {
+      "id": "lrs3/LPrS7Skx9Y0/50010",
+      "dataset": "LRS3-TED",
+      "reference": "AND HERE'S JUST ONE EXAMPLE",
+      "prediction": "AND HERE'S JUST ONE EXAMPLE",
+      "seconds": 0.5823851670138538
+    },
+    {
+      "id": "lrs3/ZhDgwrKSBWQ/50032",
+      "dataset": "LRS3-TED",
+      "reference": "NOW I WOULD 100 AGREE WITH BOTH OF THOSE THINGS",
+      "prediction": "NOW I WOULD 100 AGREE WITH BOTH OF THOSE THINGS",
+      "seconds": 0.9306281250319444
+    },
+    {
+      "id": "lrs3/ac1mOswXxLs/50010",
+      "dataset": "LRS3-TED",
+      "reference": "I DIDN'T KNOW WHAT TO DO WHERE TO GO",
+      "prediction": "THEY DIDN'T KNOW WHAT TO DO WHERE TO GO",
+      "seconds": 0.7777777500450611
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50007",
+      "dataset": "LRS3-TED",
+      "reference": "AND THIS IS A FRAMEWORK THAT WE SHARED FIRST WITH ME BY TONY ROBBINS WHO'S PULLED THESE NEEDS TOGETHER BUT IT'S BASED ON",
+      "prediction": "AND THIS IS A FRAMEWORK THAT WE SHARED FIRST WITH ME BY TONY ROBBINS WHO'S PULLED THESE NEEDS TOGETHER BUT IT'S BASED ON",
+      "seconds": 2.899809541006107
+    },
+    {
+      "id": "lrs3/LPrS7Skx9Y0/50011",
+      "dataset": "LRS3-TED",
+      "reference": "THANK YOU VERY MUCH",
+      "prediction": "THANK YOU VERY MUCH",
+      "seconds": 0.5429765000008047
+    },
+    {
+      "id": "lrs3/FzAyOddR5u4/50014",
+      "dataset": "LRS3-TED",
+      "reference": "BUT WHAT ARE YOU GOING TO DO WITH ALL THESE IDEAS",
+      "prediction": "BUT WHAT ARE YOU GOING TO DO WITH ALL THESE IDEAS",
+      "seconds": 0.7545924999867566
+    },
+    {
+      "id": "lrs3/nItwVO9stX8/50001",
+      "dataset": "LRS3-TED",
+      "reference": "AND YES QATAR WANTS TO BE A MODERN NATION",
+      "prediction": "AND YES ALLAH WANTS TO BE A MODERN NATION",
+      "seconds": 1.070970791974105
+    },
+    {
+      "id": "lrs3/J6SSCMhcCfQ/50004",
+      "dataset": "LRS3-TED",
+      "reference": "IN FACT IMAGINE SOMETHING EVEN WORSE",
+      "prediction": "IN FACT IMAGINE SOMETHING EVEN WORSE",
+      "seconds": 0.7899696659878828
+    },
+    {
+      "id": "lrs3/ygmlKMQ8kc4/50004",
+      "dataset": "LRS3-TED",
+      "reference": "A HUNDRED YEARS AGO WE TENDED TO DIE OF INFECTIOUS DISEASES LIKE PNEUMONIA THAT IF THEY TOOK HOLD WOULD TAKE US AWAY",
+      "prediction": "A HUNDRED YEARS AGO WE TENDED TO DIE OF INFECTIOUS DISEASES LIKE PNEUMONIA THAT IF THEY TOOK HOLD WOULD TAKE US AWAY",
+      "seconds": 2.3534860410145484
+    },
+    {
+      "id": "lrs3/KQEWc3LVfyc/50012",
+      "dataset": "LRS3-TED",
+      "reference": "ONE OF MY PATIENTS WAS TELLING ME HOW UPSET SHE WAS WITH HER ONCOLOGIST",
+      "prediction": "ONE OF MY PATIENTS WAS TELLING ME HOW UPSET SHE WAS WITH HER ONCOLOGIST",
+      "seconds": 1.4780580840306357
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50016",
+      "dataset": "LRS3-TED",
+      "reference": "YOU GOT GOOD GRADES NOW YOU HAVE TO GET BETTER GRADES YOU GOT INTO A GOOD SCHOOL AND AFTER YOU GET INTO A BETTER ONE YOU GOT A GOOD JOB NOW YOU HAVE",
+      "prediction": "I SAID I'D HAVE TO GET BETTER GRADES I GOT INTO GOOD SCHOOL GOT A GOOD JOB GOT A",
+      "seconds": 2.656591542006936
+    },
+    {
+      "id": "lrs3/T3I6LwDSfPE/50001",
+      "dataset": "LRS3-TED",
+      "reference": "AND FOR ME SPACE IS THAT WHITE AREA LEFT ON THAT MAP IT'S THE PLACE WE STILL HAVE",
+      "prediction": "AND FOR ME SPACE IS THAT WHITE AREA LEFT ON THAT MAP IT'S THE PLACE THAT WE STILL HAVE",
+      "seconds": 2.144435667025391
+    },
+    {
+      "id": "lrs3/VmP574ikRFs/50023",
+      "dataset": "LRS3-TED",
+      "reference": "AND IT WILL BE THE SAME THING FOR MANY OF OUR KIDS THAT WE ARE HELPING",
+      "prediction": "AND IT WILL BE THE SAME THING FOR MANY OF OUR KIDS THAT ARE HELPING",
+      "seconds": 1.4182467499631457
+    },
+    {
+      "id": "lrs3/HByDu4uOFY4/50002",
+      "dataset": "LRS3-TED",
+      "reference": "INSTEAD OF SAYING A DUTCH GIRL PLAYING SALSA THAT CAN'T BE RIGHT",
+      "prediction": "INSTEAD OF SAYING A DUTCH EUROPEAN DANCER THAT CAN'T BE RIGHT",
+      "seconds": 1.150006208976265
+    },
+    {
+      "id": "lrs3/s2F41IQSPGE/50031",
+      "dataset": "LRS3-TED",
+      "reference": "OUR TRUE SELVES ARE CAPTURED IN A PHOTOGRAPH",
+      "prediction": "OUR TRUE SELVES ARE CAPTURED IN A PHOTOGRAPH",
+      "seconds": 0.7461776250274852
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50010",
+      "dataset": "LRS3-TED",
+      "reference": "AND I IMAGINED HIM BEING ABLE TO PURSUE HIS INTEREST IN MATH AND ENGINEERING",
+      "prediction": "AND I IMAGINED HIM BEING ABLE TO PURSUE HIS INTEREST IN MATH AND ENGINEERING",
+      "seconds": 1.3960184580064379
+    },
+    {
+      "id": "lrs3/FzAyOddR5u4/50012",
+      "dataset": "LRS3-TED",
+      "reference": "THE REST WAS UP TO HIM",
+      "prediction": "THE REST WAS UP TO HIM",
+      "seconds": 0.4383180410368368
+    },
+    {
+      "id": "lrs3/qKlzdSH2X9w/50011",
+      "dataset": "LRS3-TED",
+      "reference": "THIS IS NOT EXCITING ENOUGH",
+      "prediction": "THIS IS NOT EXCITING ENOUGH",
+      "seconds": 0.506223916017916
+    },
+    {
+      "id": "lrs3/J6SSCMhcCfQ/50007",
+      "dataset": "LRS3-TED",
+      "reference": "AND WHEN YOU TURN THE SWITCH ON THE LIGHT GOES ON",
+      "prediction": "AND WHEN YOU DO A SWITCH THE LIGHT GOES ON",
+      "seconds": 0.9466923750005662
+    },
+    {
+      "id": "lrs3/s2F41IQSPGE/50034",
+      "dataset": "LRS3-TED",
+      "reference": "IT CAME AS A SHOCK TO BE CALLED A FREAK BUT WHAT MADE IT PAINFUL WAS THAT I DIDN'T KNOW THIS GIRL IN FACT",
+      "prediction": "IT CAME AS A SHOCK TO BE CALLED A FREAK BUT WHAT MADE IT PAINFUL WAS THAT I DIDN'T KNOW THIS GIRL IN FACT",
+      "seconds": 2.482132833043579
+    },
+    {
+      "id": "lrs3/erBJuxVR7IE/50005",
+      "dataset": "LRS3-TED",
+      "reference": "AND IN FACT RIGHT NOW THERE IS NEW CIRCADIAN LIGHTING IN OUR INTERNATIONAL SPACE STATION TO",
+      "prediction": "AND IN FACT RIGHT NOW THERE IS NEW CIRCADIAN LIGHTING IN OUR INTERNATIONAL SPACE STATION TO",
+      "seconds": 2.173697207996156
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50030",
+      "dataset": "LRS3-TED",
+      "reference": "I'VE BEEN SO ADDICTED TO THAT FEELING EVER SINCE",
+      "prediction": "I'VE BEEN SO ADDICTED TO THAT FEELING EVER SINCE",
+      "seconds": 1.0336506249732338
+    },
+    {
+      "id": "lrs3/VNGFep6rncY/50013",
+      "dataset": "LRS3-TED",
+      "reference": "BECAUSE WHAT WE HAVE FOUND IS THAT BREAKTHROUGH INNOVATION EXTRAORDINARY RESULTS HAPPEN",
+      "prediction": "BECAUSE WHAT WE HAVE FOUND IS THAT BREAKTHROUGH INNOVATION EXTRAORDINARY RESULTS HAPPEN",
+      "seconds": 1.4861023330013268
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50031",
+      "dataset": "LRS3-TED",
+      "reference": "SINCE WE DON'T KNOW HOW OUR BRAINS DO IT WE'RE NOT IN A POSITION SO FAR TO BUILD A CONSCIOUS MACHINE",
+      "prediction": "SINCE WE DON'T KNOW HOW OUR BRAINS DO IT WE'RE NOT IN A POSITION SO FAR TO BUILD A CONSCIOUS MACHINE",
+      "seconds": 2.589505082985852
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50016",
+      "dataset": "LRS3-TED",
+      "reference": "WHEN DID THAT HAPPEN",
+      "prediction": "WHEN DID THAT HAPPEN",
+      "seconds": 0.35385870799655095
+    },
+    {
+      "id": "lrs3/aFDKHFsVRnY/50001",
+      "dataset": "LRS3-TED",
+      "reference": "AND IS PRESIDENT OF THE MATH CLUB",
+      "prediction": "AND HE'S PRESIDENT OF THE BAT CLUB",
+      "seconds": 0.7836783329839818
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50015",
+      "dataset": "LRS3-TED",
+      "reference": "I'M OBSESSED WITH CLOUDS",
+      "prediction": "I'M OBSESSED WITH IT",
+      "seconds": 0.5696132919983938
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50022",
+      "dataset": "LRS3-TED",
+      "reference": "YOU CAN'T GET RID OF IT",
+      "prediction": "YOU CAN'T GET RID OF IT",
+      "seconds": 0.6034919999656267
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50060",
+      "dataset": "LRS3-TED",
+      "reference": "BECAUSE YOU HAVE ALWAYS HAD A HOME INSIDE THE FOUR WALLS OF YOUR OWN SKIN BUT GIRL I",
+      "prediction": "BECAUSE YOU HAVE ALWAYS HAD A HOME INSIDE THE FOUR WALLS OF YOUR OWN SKIN BUT GIRL I",
+      "seconds": 1.9581282919971272
+    },
+    {
+      "id": "lrs3/46w99bZ3WSM/50001",
+      "dataset": "LRS3-TED",
+      "reference": "NO NO I DIDN'T WRITE THAT",
+      "prediction": "THANK YOU NO NO I DIDN'T WRITE THAT",
+      "seconds": 0.7527363339904696
+    },
+    {
+      "id": "lrs3/ulLFP8axZVQ/50015",
+      "dataset": "LRS3-TED",
+      "reference": "OUR LATEST OBSESSION IS TEACHING YOUNG PEOPLE ABOUT THEIR EMOTIONS AND HOW TO MANAGE THEM SO THEY CAN",
+      "prediction": "OUR LATEST OBSESSION IS TEACHING YOUNG PEOPLE ABOUT THEIR EMOTIONS AND HOW TO MANAGE THEM SO THEY CAN",
+      "seconds": 2.158913624996785
+    },
+    {
+      "id": "lrs3/gmSsyvrI2Xw/50001",
+      "dataset": "LRS3-TED",
+      "reference": "I THINK HE DOESN'T LIKE ME",
+      "prediction": "I THINK HE DON'T LIKE ME",
+      "seconds": 0.5997461250517517
+    },
+    {
+      "id": "lrs3/H7Gn2a0GnAc/50004",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S NOT A REDUCTIVE LABEL",
+      "prediction": "IT'S NOT A REDUCTIVE LABEL",
+      "seconds": 0.6373635000200011
+    },
+    {
+      "id": "lrs3/qty0NjF3pdQ/50005",
+      "dataset": "LRS3-TED",
+      "reference": "AND FRANKLY MY ASSUMPTIONS WERE WRONG",
+      "prediction": "AND FRANKLY MY ASSUMPTIONS WERE WRONG",
+      "seconds": 0.573001166980248
+    },
+    {
+      "id": "lrs3/1JxxCB9GiGU/50001",
+      "dataset": "LRS3-TED",
+      "reference": "I ALSO MIST HIS HOME EVERYDAY",
+      "prediction": "I ALSO MISS HIS HOME EFFORTS",
+      "seconds": 0.72440812503919
+    },
+    {
+      "id": "lrs3/xTBYcSL3MrI/50001",
+      "dataset": "LRS3-TED",
+      "reference": "YOU MIGHT BE ABLE TO IMAGINE IT",
+      "prediction": "YOU MIGHT BE ABLE TO IMAGINE",
+      "seconds": 0.5568156249937601
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50006",
+      "dataset": "LRS3-TED",
+      "reference": "WOMEN WHO ARE NOT CIRCUMCISED GET ITCHY ALL THE TIME",
+      "prediction": "WOMEN WHO ARE NOT TERMS THAT THEY ARE INJURED ALL THE TIME",
+      "seconds": 1.0219696250278503
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50040",
+      "dataset": "LRS3-TED",
+      "reference": "SO WE FEEL EVEN MORE ISOLATED",
+      "prediction": "SO WE FEEL EVEN MORE ISOLATED",
+      "seconds": 0.5601628749864176
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50015",
+      "dataset": "LRS3-TED",
+      "reference": "SHE WAS REALLY VULNERABLE BUT SO BRAVE AT THE SAME TIME",
+      "prediction": "SHE WAS REALLY VULNERABLE BUT SO BRAVE AT THE SAME TIME",
+      "seconds": 0.9107718330342323
+    },
+    {
+      "id": "lrs3/59SRn1SkWAA/50017",
+      "dataset": "LRS3-TED",
+      "reference": "ONE OF THE PLACES WE'RE SEEING IT FOR EXAMPLE IN OUR CULTURE IN THE UNITED STATES TODAY IS BATTLES OVER THE BEGINNING OF LIFE",
+      "prediction": "ONE OF THE PLACES WE'RE SEEING IT FOR EXAMPLE IN OUR CULTURE TODAY IN THE UNITED STATES TODAY IS BATTLES OVER THE BEGINNING OF LIFE",
+      "seconds": 2.664106542011723
+    },
+    {
+      "id": "lrs3/qdiF1fSGfyM/50007",
+      "dataset": "LRS3-TED",
+      "reference": "CANDY WRAPPERS CLOTHING LOGOS STREET SIGNS EVERYTHING",
+      "prediction": "CANDY WRAPPERS CLOTHING LOGOS STREET SIGNS EVERYTHING",
+      "seconds": 1.0489079999970272
+    },
+    {
+      "id": "lrs3/s2F41IQSPGE/50039",
+      "dataset": "LRS3-TED",
+      "reference": "WITH ADOLESCENCE CAME THE ADDITIONAL PEER PRESSURE OF DRINKING ALCOHOL",
+      "prediction": "AND WITH ADOLESCENTS CAME THE INITIAL PEER PRESSURE OF DRINKING ALCOHOL",
+      "seconds": 1.187042667006608
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50042",
+      "dataset": "LRS3-TED",
+      "reference": "JUST LIKE WITH HETEROSEXISM IF YOU'RE A HETEROSEXUAL PERSON AND YOU YOURSELF DON'T ENACT HARASSING OR ABUSIVE BEHAVIORS TOWARDS",
+      "prediction": "JUST LIKE WITH HETEROSEXISM IF YOU'RE HETEROSEXUAL PERSON AND YOU YOURSELF DON'T ENACT HARASSING OR ABUSIVE BEHAVIORS TOWARDS",
+      "seconds": 3.177102916990407
+    },
+    {
+      "id": "lrs3/AzcMEwAxSP8/50010",
+      "dataset": "LRS3-TED",
+      "reference": "HE DIDN'T WAIT AROUND FOR THE REPORTER TO COME CALLING",
+      "prediction": "HE DIDN'T WANT TO GO OUT TO A REPORTER JOHN MCCAIN",
+      "seconds": 1.3018775829696096
+    },
+    {
+      "id": "lrs3/SJyE40koQyA/50013",
+      "dataset": "LRS3-TED",
+      "reference": "WE HAVE TO STOP FRAMING THIS AS A MOTHER'S ISSUE OR EVEN A WOMEN'S ISSUE",
+      "prediction": "WE HAVE TO STOP FRAMING THIS AS A MOTHER'S ISSUE OR EVEN A WOMEN'S ISSUE",
+      "seconds": 1.6646965420222841
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50038",
+      "dataset": "LRS3-TED",
+      "reference": "NOW THAT DOESN'T MEAN COMPUTATION IS ARBITRARY",
+      "prediction": "NOW THAT DOESN'T MEAN COMPUTATION IS ARBITRARY",
+      "seconds": 1.07346433296334
+    },
+    {
+      "id": "lrs3/59SRn1SkWAA/50018",
+      "dataset": "LRS3-TED",
+      "reference": "IN THE PAST OUR ANCESTORS NEVER HAD TO STRUGGLE SO MUCH WITH THIS QUESTION OF WHEN SOMEBODY WAS DEAD",
+      "prediction": "IN THE PAST OUR ANCESTORS NEVER HAD TO STRUGGLE SO MUCH WITH THIS QUESTION OF WHEN SOMEBODY WAS DEAD",
+      "seconds": 1.5940037080436014
+    },
+    {
+      "id": "lrs3/qdiF1fSGfyM/50004",
+      "dataset": "LRS3-TED",
+      "reference": "AND I SAID WHAT'S THAT",
+      "prediction": "AND SHE WAS NOT",
+      "seconds": 0.4968140840064734
+    },
+    {
+      "id": "lrs3/UVDgemuZdho/50011",
+      "dataset": "LRS3-TED",
+      "reference": "WELL YOU KNOW WHAT",
+      "prediction": "WELL YOU KNOW WHAT",
+      "seconds": 0.3998401669668965
+    },
+    {
+      "id": "lrs3/eLrBw8BKOWI/50002",
+      "dataset": "LRS3-TED",
+      "reference": "I'LL TELL YOU WHY",
+      "prediction": "I'LL TELL YOU WHY",
+      "seconds": 0.43758837500354275
+    },
+    {
+      "id": "lrs3/LPrS7Skx9Y0/50005",
+      "dataset": "LRS3-TED",
+      "reference": "I WOULD TELL THEM ABOUT HOW ON THE WEEKENDS I WOULD GO HOME AND I WOULD SPY FOR THE QUEEN OF ENGLAND",
+      "prediction": "I WOULD TELL THEM ABOUT HOW ON THE WEEKENDS I WOULD GO HOME AND I WOULD SPY FOR THE QUEEN OF ENGLAND",
+      "seconds": 2.071457542013377
+    }
+  ]
+}

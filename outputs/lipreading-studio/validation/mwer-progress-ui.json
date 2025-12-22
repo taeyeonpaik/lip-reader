@@ -1,0 +1,6 @@
+{
+  "checked_utc": "2026-09-18T10:47:30.416337+00:00",
+  "checks": "Progress fragment visible in local Model & training tab; running status and 1000/400 two-arm recipe shown",
+  "url": "http://127.0.0.1:8502/",
+  "method": "Browser DOM inspection"
+}

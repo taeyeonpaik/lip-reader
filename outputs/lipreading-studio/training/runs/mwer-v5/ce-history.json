@@ -1,0 +1,90 @@
+[
+  {
+    "arm": "ce",
+    "epoch": 1,
+    "loss": 3.508994811654091,
+    "conventional_loss": 3.508994811654091,
+    "validation": {
+      "clips": 400,
+      "word_errors": 633,
+      "reference_words": 3736,
+      "wer": 0.16943254817987152,
+      "character_errors": 2085,
+      "reference_characters": 19010,
+      "cer": 0.10967911625460285,
+      "exact_sentences": 188,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 200,
+          "word_errors": 396,
+          "reference_words": 1533,
+          "wer": 0.2583170254403131,
+          "character_errors": 1318,
+          "reference_characters": 7747,
+          "cer": 0.17013037304763134,
+          "exact_sentences": 75,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 200,
+          "word_errors": 237,
+          "reference_words": 2203,
+          "wer": 0.10758057194734454,
+          "character_errors": 767,
+          "reference_characters": 11263,
+          "cer": 0.06809908550119861,
+          "exact_sentences": 113,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.18294879869382882
+    },
+    "updates": 125,
+    "seconds_training_and_validation": 567.1737403749721
+  },
+  {
+    "arm": "ce",
+    "epoch": 2,
+    "loss": 3.2056754294596614,
+    "conventional_loss": 3.2056754294596614,
+    "validation": {
+      "clips": 400,
+      "word_errors": 624,
+      "reference_words": 3736,
+      "wer": 0.1670235546038544,
+      "character_errors": 2065,
+      "reference_characters": 19010,
+      "cer": 0.10862703840084166,
+      "exact_sentences": 190,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 200,
+          "word_errors": 391,
+          "reference_words": 1533,
+          "wer": 0.25505544683626874,
+          "character_errors": 1298,
+          "reference_characters": 7747,
+          "cer": 0.16754872854008004,
+          "exact_sentences": 75,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 200,
+          "word_errors": 233,
+          "reference_words": 2203,
+          "wer": 0.10576486609169315,
+          "character_errors": 767,
+          "reference_characters": 11263,
+          "cer": 0.06809908550119861,
+          "exact_sentences": 115,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.18041015646398095
+    },
+    "updates": 250,
+    "seconds_training_and_validation": 453.1227085420396
+  }
+]

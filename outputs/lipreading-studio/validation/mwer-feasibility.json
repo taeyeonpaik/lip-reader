@@ -1,0 +1,25 @@
+{
+  "state": "passed",
+  "trainable_parameters": 26670450,
+  "checks": [
+    {
+      "dataset": "LRS2",
+      "candidate_count": 10,
+      "beam_score_max_abs_delta": 4.291534423828125e-06,
+      "batched_individual_scores_match": true,
+      "finite_gradients": true,
+      "loss": -0.9492780566215515,
+      "seconds": 2.3668802920146845
+    },
+    {
+      "dataset": "LRS3-TED",
+      "candidate_count": 10,
+      "beam_score_max_abs_delta": 5.7220458984375e-06,
+      "batched_individual_scores_match": true,
+      "finite_gradients": true,
+      "loss": 0.03487676382064819,
+      "seconds": 3.0148071669973433
+    }
+  ],
+  "base_weights_preserved": true
+}

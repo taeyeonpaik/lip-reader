@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+  "manifest_sha256": "3bbb40aea3b8cd8f7b4086505df59162baed82036014437eee11e4d8411bdd47",
+  "seed": 45,
+  "split_selection": "sha256(mwer-v5-45:+id), per dataset",
+  "counts": {
+    "train": 1000,
+    "validation": 400,
+    "audit": 800,
+    "test": 1243
+  },
+  "trainable_parameters": 26670450,
+  "prefixes": [
+    "decoder.decoders.4.",
+    "decoder.decoders.5.",
+    "decoder.after_norm.",
+    "decoder.output_layer.",
+    "ctc.ctc_lo."
+  ],
+  "beam_size": 20,
+  "nbest": 10,
+  "epochs_per_arm": 2,
+  "accumulation": 8,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "arms": [
+    "ce",
+    "mwer"
+  ],
+  "mwer_loss": "expected word-error count under softmax(.9 attention log probability + .1 CTC log probability) + .1 conventional loss",
+  "ce_loss": ".9 author label-smoothed attention loss + .1 CTC loss",
+  "dropout": "disabled in both arms; gradients enabled",
+  "candidate_refresh": "generated using epoch-start weights; fixed within epoch; no reference injected",
+  "oracle_gate_macro_gain": 0.02,
+  "selection": "At least .005 absolute macro WER gain, pooled CER no worse, each dataset WER at most .002 worse. Select lowest macro WER before audit/test.",
+  "test_used_for_selection": false,
+  "note": "Pilot only; existing validation/test previously examined. Not independent of original pretraining. No new tuning on audit/test."
+}

@@ -1,0 +1,142 @@
+{
+  "state": "passed",
+  "metrics_recomputed": [
+    "baseline-validation.json",
+    "ce-epoch-01-validation.json",
+    "ce-epoch-02-validation.json",
+    "mwer-epoch-01-validation.json",
+    "mwer-epoch-02-validation.json"
+  ],
+  "oracle_recomputed": true,
+  "base_hash_verified": true,
+  "checkpoint_sha256": {
+    "ce-epoch-01.pt": "e98a8e73e653507671f212e20121d442fbae7a4ad9a5adf079c4a59ddf462e25",
+    "ce-epoch-02.pt": "62d630dea38807d47aa573088e98f5adf8de22c41840eeba1f7b85e3b6892d3c",
+    "mwer-epoch-01.pt": "f31e9ec4f7b4503e21a14386d07c5eb5e165c04a30c89901104a94178d290d76",
+    "mwer-epoch-02.pt": "79172fffbd5911c393895aff40334917e783a112c1b434f086cf9c1b144b3848"
+  },
+  "changed_modules_max_abs_delta": {
+    "ce-epoch-01.pt": {
+      "decoder.decoders.4.": 0.0007750880904495716,
+      "decoder.decoders.5.": 0.0008570551872253418,
+      "decoder.after_norm.": 0.0005557537078857422,
+      "decoder.output_layer.": 0.0010000988841056824,
+      "ctc.ctc_lo.": 0.0011399611830711365
+    },
+    "ce-epoch-02.pt": {
+      "decoder.decoders.4.": 0.0013074353337287903,
+      "decoder.decoders.5.": 0.0013983547687530518,
+      "decoder.after_norm.": 0.0009667873382568359,
+      "decoder.output_layer.": 0.001918543130159378,
+      "ctc.ctc_lo.": 0.002249903976917267
+    },
+    "mwer-epoch-01.pt": {
+      "decoder.decoders.4.": 0.0007691796636208892,
+      "decoder.decoders.5.": 0.0008207894861698151,
+      "decoder.after_norm.": 0.00038945674896240234,
+      "decoder.output_layer.": 0.0010730624198913574,
+      "ctc.ctc_lo.": 0.0008614510297775269
+    },
+    "mwer-epoch-02.pt": {
+      "decoder.decoders.4.": 0.0015934790717437863,
+      "decoder.decoders.5.": 0.0016260743141174316,
+      "decoder.after_norm.": 0.0006917715072631836,
+      "decoder.output_layer.": 0.0020213406533002853,
+      "ctc.ctc_lo.": 0.0017244964838027954
+    }
+  },
+  "reloaded_predictions": [
+    {
+      "checkpoint": "ce-epoch-01.pt",
+      "id": "lrs2/main/6328962017115556355/00003",
+      "matches": true
+    },
+    {
+      "checkpoint": "ce-epoch-01.pt",
+      "id": "lrs3/NVPxmzSPvUw/50005",
+      "matches": true
+    },
+    {
+      "checkpoint": "ce-epoch-02.pt",
+      "id": "lrs2/main/6328962017115556355/00003",
+      "matches": true
+    },
+    {
+      "checkpoint": "ce-epoch-02.pt",
+      "id": "lrs3/NVPxmzSPvUw/50005",
+      "matches": true
+    },
+    {
+      "checkpoint": "mwer-epoch-01.pt",
+      "id": "lrs2/main/6328962017115556355/00003",
+      "matches": true
+    },
+    {
+      "checkpoint": "mwer-epoch-01.pt",
+      "id": "lrs3/NVPxmzSPvUw/50005",
+      "matches": true
+    },
+    {
+      "checkpoint": "mwer-epoch-02.pt",
+      "id": "lrs2/main/6328962017115556355/00003",
+      "matches": true
+    },
+    {
+      "checkpoint": "mwer-epoch-02.pt",
+      "id": "lrs3/NVPxmzSPvUw/50005",
+      "matches": true
+    }
+  ],
+  "selection_verified": true,
+  "uncertainty": {
+    "baseline_vs_ce": {
+      "method": "paired recording-session bootstrap, stratified by dataset",
+      "replicates": 2000,
+      "seed": 452000,
+      "recording_groups": {
+        "LRS2": 55,
+        "LRS3-TED": 88
+      },
+      "macro_wer_gain": 0.0036734583896299855,
+      "gain_95_percent_interval": [
+        0.0005268934417402335,
+        0.007428597992735605
+      ],
+      "interval_excludes_zero_in_favor_of_candidate": true,
+      "note": "Validation-selected comparisons are exploratory; intervals do not remove selection bias or original-pretraining overlap."
+    },
+    "baseline_vs_mwer": {
+      "method": "paired recording-session bootstrap, stratified by dataset",
+      "replicates": 2000,
+      "seed": 452000,
+      "recording_groups": {
+        "LRS2": 55,
+        "LRS3-TED": 88
+      },
+      "macro_wer_gain": 0.002893374065312704,
+      "gain_95_percent_interval": [
+        0.00016916322223970866,
+        0.006000172126934587
+      ],
+      "interval_excludes_zero_in_favor_of_candidate": true,
+      "note": "Validation-selected comparisons are exploratory; intervals do not remove selection bias or original-pretraining overlap."
+    },
+    "ce_vs_mwer": {
+      "method": "paired recording-session bootstrap, stratified by dataset",
+      "replicates": 2000,
+      "seed": 452000,
+      "recording_groups": {
+        "LRS2": 55,
+        "LRS3-TED": 88
+      },
+      "macro_wer_gain": -0.0007800843243172817,
+      "gain_95_percent_interval": [
+        -0.004053154344924953,
+        0.0020285506976124826
+      ],
+      "interval_excludes_zero_in_favor_of_candidate": false,
+      "note": "Validation-selected comparisons are exploratory; intervals do not remove selection bias or original-pretraining overlap."
+    }
+  },
+  "production_changed": false
+}

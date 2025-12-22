@@ -1,0 +1,219 @@
+{
+  "selected": "pretrained",
+  "baseline": {
+    "clips": 400,
+    "word_errors": 638,
+    "reference_words": 3736,
+    "wer": 0.1707708779443255,
+    "character_errors": 2103,
+    "reference_characters": 19010,
+    "cer": 0.1106259863229879,
+    "exact_sentences": 185,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 396,
+        "reference_words": 1533,
+        "wer": 0.2583170254403131,
+        "character_errors": 1318,
+        "reference_characters": 7747,
+        "cer": 0.17013037304763134,
+        "exact_sentences": 76,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 242,
+        "reference_words": 2203,
+        "wer": 0.10985020426690877,
+        "character_errors": 785,
+        "reference_characters": 11263,
+        "cer": 0.06969723874633757,
+        "exact_sentences": 109,
+        "failures": 0
+      }
+    },
+    "macro_wer": 0.18408361485361094
+  },
+  "candidates": [
+    {
+      "arm": "ce",
+      "epoch": 1,
+      "loss": 3.508994811654091,
+      "conventional_loss": 3.508994811654091,
+      "validation": {
+        "clips": 400,
+        "word_errors": 633,
+        "reference_words": 3736,
+        "wer": 0.16943254817987152,
+        "character_errors": 2085,
+        "reference_characters": 19010,
+        "cer": 0.10967911625460285,
+        "exact_sentences": 188,
+        "failures": 0,
+        "by_dataset": {
+          "LRS2": {
+            "clips": 200,
+            "word_errors": 396,
+            "reference_words": 1533,
+            "wer": 0.2583170254403131,
+            "character_errors": 1318,
+            "reference_characters": 7747,
+            "cer": 0.17013037304763134,
+            "exact_sentences": 75,
+            "failures": 0
+          },
+          "LRS3-TED": {
+            "clips": 200,
+            "word_errors": 237,
+            "reference_words": 2203,
+            "wer": 0.10758057194734454,
+            "character_errors": 767,
+            "reference_characters": 11263,
+            "cer": 0.06809908550119861,
+            "exact_sentences": 113,
+            "failures": 0
+          }
+        },
+        "macro_wer": 0.18294879869382882
+      },
+      "updates": 125,
+      "seconds_training_and_validation": 567.1737403749721
+    },
+    {
+      "arm": "ce",
+      "epoch": 2,
+      "loss": 3.2056754294596614,
+      "conventional_loss": 3.2056754294596614,
+      "validation": {
+        "clips": 400,
+        "word_errors": 624,
+        "reference_words": 3736,
+        "wer": 0.1670235546038544,
+        "character_errors": 2065,
+        "reference_characters": 19010,
+        "cer": 0.10862703840084166,
+        "exact_sentences": 190,
+        "failures": 0,
+        "by_dataset": {
+          "LRS2": {
+            "clips": 200,
+            "word_errors": 391,
+            "reference_words": 1533,
+            "wer": 0.25505544683626874,
+            "character_errors": 1298,
+            "reference_characters": 7747,
+            "cer": 0.16754872854008004,
+            "exact_sentences": 75,
+            "failures": 0
+          },
+          "LRS3-TED": {
+            "clips": 200,
+            "word_errors": 233,
+            "reference_words": 2203,
+            "wer": 0.10576486609169315,
+            "character_errors": 767,
+            "reference_characters": 11263,
+            "cer": 0.06809908550119861,
+            "exact_sentences": 115,
+            "failures": 0
+          }
+        },
+        "macro_wer": 0.18041015646398095
+      },
+      "updates": 250,
+      "seconds_training_and_validation": 453.1227085420396
+    },
+    {
+      "arm": "mwer",
+      "epoch": 1,
+      "loss": -0.2491992546916008,
+      "conventional_loss": 3.5341081123109905,
+      "validation": {
+        "clips": 400,
+        "word_errors": 635,
+        "reference_words": 3736,
+        "wer": 0.1699678800856531,
+        "character_errors": 2102,
+        "reference_characters": 19010,
+        "cer": 0.11057338243029984,
+        "exact_sentences": 185,
+        "failures": 0,
+        "by_dataset": {
+          "LRS2": {
+            "clips": 200,
+            "word_errors": 396,
+            "reference_words": 1533,
+            "wer": 0.2583170254403131,
+            "character_errors": 1321,
+            "reference_characters": 7747,
+            "cer": 0.17051761972376403,
+            "exact_sentences": 75,
+            "failures": 0
+          },
+          "LRS3-TED": {
+            "clips": 200,
+            "word_errors": 239,
+            "reference_words": 2203,
+            "wer": 0.10848842487517023,
+            "character_errors": 781,
+            "reference_characters": 11263,
+            "cer": 0.06934209358075114,
+            "exact_sentences": 110,
+            "failures": 0
+          }
+        },
+        "macro_wer": 0.18340272515774167
+      },
+      "updates": 125,
+      "seconds_training_and_validation": 533.3109217080055
+    },
+    {
+      "arm": "mwer",
+      "epoch": 2,
+      "loss": -0.3283530199229717,
+      "conventional_loss": 3.335691351968795,
+      "validation": {
+        "clips": 400,
+        "word_errors": 627,
+        "reference_words": 3736,
+        "wer": 0.16782655246252676,
+        "character_errors": 2070,
+        "reference_characters": 19010,
+        "cer": 0.10889005786428195,
+        "exact_sentences": 190,
+        "failures": 0,
+        "by_dataset": {
+          "LRS2": {
+            "clips": 200,
+            "word_errors": 392,
+            "reference_words": 1533,
+            "wer": 0.2557077625570776,
+            "character_errors": 1311,
+            "reference_characters": 7747,
+            "cer": 0.1692267974699884,
+            "exact_sentences": 75,
+            "failures": 0
+          },
+          "LRS3-TED": {
+            "clips": 200,
+            "word_errors": 235,
+            "reference_words": 2203,
+            "wer": 0.10667271901951884,
+            "character_errors": 759,
+            "reference_characters": 11263,
+            "cer": 0.06738879517002574,
+            "exact_sentences": 115,
+            "failures": 0
+          }
+        },
+        "macro_wer": 0.18119024078829823
+      },
+      "updates": 250,
+      "seconds_training_and_validation": 526.3356581249973
+    }
+  ],
+  "test_used": false,
+  "fixed_before_audit": true
+}

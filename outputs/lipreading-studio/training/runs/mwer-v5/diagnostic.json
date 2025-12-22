@@ -1,0 +1,78 @@
+{
+  "baseline": {
+    "clips": 400,
+    "word_errors": 638,
+    "reference_words": 3736,
+    "wer": 0.1707708779443255,
+    "character_errors": 2103,
+    "reference_characters": 19010,
+    "cer": 0.1106259863229879,
+    "exact_sentences": 185,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 396,
+        "reference_words": 1533,
+        "wer": 0.2583170254403131,
+        "character_errors": 1318,
+        "reference_characters": 7747,
+        "cer": 0.17013037304763134,
+        "exact_sentences": 76,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 242,
+        "reference_words": 2203,
+        "wer": 0.10985020426690877,
+        "character_errors": 785,
+        "reference_characters": 11263,
+        "cer": 0.06969723874633757,
+        "exact_sentences": 109,
+        "failures": 0
+      }
+    },
+    "macro_wer": 0.18408361485361094
+  },
+  "oracle": {
+    "clips": 400,
+    "word_errors": 384,
+    "reference_words": 3736,
+    "wer": 0.10278372591006424,
+    "character_errors": 1355,
+    "reference_characters": 19010,
+    "cer": 0.07127827459231983,
+    "exact_sentences": 272,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 263,
+        "reference_words": 1533,
+        "wer": 0.1715590345727332,
+        "character_errors": 923,
+        "reference_characters": 7747,
+        "cer": 0.11914289402349297,
+        "exact_sentences": 113,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 121,
+        "reference_words": 2203,
+        "wer": 0.05492510213345438,
+        "character_errors": 432,
+        "reference_characters": 11263,
+        "cer": 0.03835567788333481,
+        "exact_sentences": 159,
+        "failures": 0
+      }
+    },
+    "macro_wer": 0.11324206835309379
+  },
+  "macro_headroom": 0.07084154650051715,
+  "oracle_is_not_achievable_accuracy": true,
+  "gate_passed": true,
+  "clips_with_better_candidate": 160
+}

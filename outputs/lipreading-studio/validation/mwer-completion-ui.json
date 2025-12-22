@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "method": "Local app browser DOM inspection after reload",
+  "url": "http://127.0.0.1:8502/",
+  "checked_date": "2026-09-18",
+  "checks": {
+    "completed_status_visible": true,
+    "pretrained_retention_visible": true,
+    "no_further_training_visible": true,
+    "independent_verification_visible": true,
+    "validation_threshold_and_no_test_claim_visible": true,
+    "oracle_not_usable_accuracy_warning_visible": true,
+    "all_four_epoch_results_match_verified_report": true
+  },
+  "physical_camera_tested": false,
+  "production_model_changed": false
+}
