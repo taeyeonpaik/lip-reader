@@ -1,0 +1,13 @@
+{
+  "model": "VideoMAE Small, Kinetics-400 self-supervised pretraining",
+  "source_url": "https://drive.google.com/file/d/1nU-H1u3eJ-VuyCveU7v-WIOcAVxs5Hww/view",
+  "source_repository": "https://github.com/MCG-NJU/VideoMAE",
+  "source_commit": "14ef8d856287c94ef1f985fe30f958eb4ec2c55d",
+  "source_sha256": "e838d72ca1de02db596e0370504b59840fe284f1b838db5ebce717d158a73c04",
+  "encoder_sha256": "97c9d5b96a51629e08486afae1797dad5939df340dbeb0a7da0999da035dd370",
+  "encoder_parameters": 21879936,
+  "encoder_only": true,
+  "lip_reading_pretraining": false,
+  "license": "CC-BY-NC-4.0",
+  "changes": "Retain encoder tensors only, strip encoder. prefix. Vendored imports use a small local compatibility module instead of timm."
+}

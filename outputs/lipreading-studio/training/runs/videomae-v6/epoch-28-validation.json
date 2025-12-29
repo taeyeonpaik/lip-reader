@@ -1,0 +1,2441 @@
+{
+  "metrics": {
+    "clips": 400,
+    "word_errors": 4075,
+    "reference_words": 3651,
+    "wer": 1.116132566420159,
+    "character_errors": 13418,
+    "reference_characters": 18638,
+    "cer": 0.7199270307972958,
+    "exact_sentences": 0,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 1538,
+        "reference_words": 1417,
+        "wer": 1.0853916725476358,
+        "character_errors": 5281,
+        "reference_characters": 7213,
+        "cer": 0.7321502842090669,
+        "exact_sentences": 0,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 2537,
+        "reference_words": 2234,
+        "wer": 1.1356311548791405,
+        "character_errors": 8137,
+        "reference_characters": 11425,
+        "cer": 0.7122100656455143,
+        "exact_sentences": 0,
+        "failures": 0
+      }
+    },
+    "macro_wer": 1.1105114137133882,
+    "macro_cer": 0.7221801749272906
+  },
+  "predictions": [
+    {
+      "id": "lrs2/main/6323221793324446979/00004",
+      "dataset": "LRS2",
+      "reference": "AND AFTER LAST SUMMER'S DISASTER WITH MY GRAPES",
+      "prediction": "AN EAL A AA A ANA OE ORLY OE"
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00012",
+      "dataset": "LRS2",
+      "reference": "SO IT IS A JOB TO DO",
+      "prediction": "THEREREE TES WEN WEMMMENSHIS"
+    },
+    {
+      "id": "lrs2/main/6327295999301499598/00005",
+      "dataset": "LRS2",
+      "reference": "I'D SAY THERE OUGHT TO BE LESS OF IT",
+      "prediction": "I E OO A AN TOONE"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00005",
+      "dataset": "LRS2",
+      "reference": "IT FELT SLIGHTLY DARK",
+      "prediction": "I' AAN AS FOY"
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00030",
+      "dataset": "LRS2",
+      "reference": "JUST LOOK AT IT",
+      "prediction": "YOU TOI WO R CHIN I THI"
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00013",
+      "dataset": "LRS2",
+      "reference": "LET ME FINISH NOW",
+      "prediction": "TOU CARE BEIE"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00038",
+      "dataset": "LRS2",
+      "reference": "IN THAT SCENARIO",
+      "prediction": "ITS TA HOUE THET T INE"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00053",
+      "dataset": "LRS2",
+      "reference": "WHERE THE INDIANS AND THE PILGRIMS SAT DOWN TOGETHER",
+      "prediction": "BT BE TH O THE TO OS"
+    },
+    {
+      "id": "lrs2/main/6313656042293295351/00007",
+      "dataset": "LRS2",
+      "reference": "AND THE MEDICAL OFFICER MIGHT HAVE BEEN YOUR FATHER",
+      "prediction": "T MAI H TH I I FOH FO"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00050",
+      "dataset": "LRS2",
+      "reference": "YOU HAVE GOT A GREAT WORK ETHIC AND",
+      "prediction": "THEBE O O TOE IVE A IAN AAS"
+    },
+    {
+      "id": "lrs2/main/6329835613463566698/00020",
+      "dataset": "LRS2",
+      "reference": "WHICH WE DON'T NEED",
+      "prediction": "IT'S DEN TEE B LGING"
+    },
+    {
+      "id": "lrs2/main/6310968251628953184/00014",
+      "dataset": "LRS2",
+      "reference": "AND HAD A LOOK AT WHAT WAS REMAINING",
+      "prediction": "WHEE ETES O THD FI5"
+    },
+    {
+      "id": "lrs2/main/6313877662475262663/00016",
+      "dataset": "LRS2",
+      "reference": "THAT'S THE BEST THAT I COULD EVER WISH THEM",
+      "prediction": "TOT S IS BELY E WOL"
+    },
+    {
+      "id": "lrs2/main/6324764116080445123/00006",
+      "dataset": "LRS2",
+      "reference": "HE'S GOT CHEST PAIN",
+      "prediction": "THE A O IS TOIT"
+    },
+    {
+      "id": "lrs2/main/6325796196721673967/00010",
+      "dataset": "LRS2",
+      "reference": "THESE ARE BEAUTIFUL",
+      "prediction": "W FHAN T OAE"
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00013",
+      "dataset": "LRS2",
+      "reference": "THAT TASTES REALLY CLEAN AND FRESH",
+      "prediction": "I YO YOS TE LANE THAE F FY"
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00005",
+      "dataset": "LRS2",
+      "reference": "BUT THIS FAMILY ARE SPENDING SO MUCH",
+      "prediction": "BUT CHU RO TPD EIN THAY BIS"
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00004",
+      "dataset": "LRS2",
+      "reference": "WITHIN TWO YEARS",
+      "prediction": "WUTTHE I S"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00051",
+      "dataset": "LRS2",
+      "reference": "THERE IS THE DEVELOPMENT POTENTIAL ON THE PLOT",
+      "prediction": "I THE A TOEE TO HOF HOR IS"
+    },
+    {
+      "id": "lrs2/main/6328656644940810739/00006",
+      "dataset": "LRS2",
+      "reference": "THEY CAN COME HERE AND SPEND SOME TIME RELAXING",
+      "prediction": "THET S ME BIN I OR AR OR BAIIS"
+    },
+    {
+      "id": "lrs2/main/6324230681142278360/00006",
+      "dataset": "LRS2",
+      "reference": "THERE'S NO DOUBT ABOUT IT",
+      "prediction": "TET VE HOVE HEV POT"
+    },
+    {
+      "id": "lrs2/main/6329054788409218032/00004",
+      "dataset": "LRS2",
+      "reference": "I DON'T FANCY THAT",
+      "prediction": "AND TOT WET THY"
+    },
+    {
+      "id": "lrs2/main/6306870852828565379/00021",
+      "dataset": "LRS2",
+      "reference": "BY YOUR LANGUAGE",
+      "prediction": "WE S I M"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00043",
+      "dataset": "LRS2",
+      "reference": "THEY HAVE NOT GONE THROUGH CLINICAL TRIALS",
+      "prediction": "THAT OTI O A TA TI"
+    },
+    {
+      "id": "lrs2/main/6327295999301439627/00018",
+      "dataset": "LRS2",
+      "reference": "LIKE A LANGUAGE",
+      "prediction": "IT THIND AI"
+    },
+    {
+      "id": "lrs2/main/6328351272766065122/00002",
+      "dataset": "LRS2",
+      "reference": "ESPECIALLY MAMMAL LIFE",
+      "prediction": "SO WOU THE BAON TIE"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00011",
+      "dataset": "LRS2",
+      "reference": "YOU WANT TO GO TO A CERTAIN LEVEL",
+      "prediction": "IT' FO TO PETIN E HIER"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00024",
+      "dataset": "LRS2",
+      "reference": "I'VE GOT THE MONIES IN PLACE",
+      "prediction": "I GOE FE TOE R"
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00035",
+      "dataset": "LRS2",
+      "reference": "ABOUT QUARTER OF A MILE FROM THE METRO STATION",
+      "prediction": "WHE H A THI TO HAO TOW TOTHS"
+    },
+    {
+      "id": "lrs2/main/6313877662475262663/00039",
+      "dataset": "LRS2",
+      "reference": "AND IT'S REALLY HARD PHYSICAL WORK",
+      "prediction": "I WAT BELY OUE LAVLE TO ORE"
+    },
+    {
+      "id": "lrs2/main/6325894121976022773/00016",
+      "dataset": "LRS2",
+      "reference": "TO MAKE SURE IT'S ALL RIGHT",
+      "prediction": "THE EN OR OR LORT LOAY"
+    },
+    {
+      "id": "lrs2/main/6314308018198387664/00009",
+      "dataset": "LRS2",
+      "reference": "WE'RE LOOKING BACK AT HOW SPORT AND MUSIC CAME TOGETHER IN THE 80S TO CREATE SOME AMAZING AND SOME",
+      "prediction": "THET SO WOA A TOO E FOE E EEAN O AON FOAN AAM"
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00013",
+      "dataset": "LRS2",
+      "reference": "BUT IT'S STILL A STUNNING THING",
+      "prediction": "WHET IS OAN THE THIG"
+    },
+    {
+      "id": "lrs2/main/6310968251628953184/00010",
+      "dataset": "LRS2",
+      "reference": "IT MAY NOT LOOK ANYTHING LIKE IT DOES NOW",
+      "prediction": "AND HOT BA O OF TOIN IN 10E"
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00025",
+      "dataset": "LRS2",
+      "reference": "SO THEY CAN COME DOWN",
+      "prediction": "THAT LULEL HIT"
+    },
+    {
+      "id": "lrs2/main/6308177381880006979/00002",
+      "dataset": "LRS2",
+      "reference": "IS MAINLY WHITE",
+      "prediction": "IT IS POS WO"
+    },
+    {
+      "id": "lrs2/main/6313565847849574520/00006",
+      "dataset": "LRS2",
+      "reference": "AND WE WILL FOLLOW THEM",
+      "prediction": "AN WO WO TO E"
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00009",
+      "dataset": "LRS2",
+      "reference": "TRAIN LIKE THAT",
+      "prediction": "THWHY A IER"
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00021",
+      "dataset": "LRS2",
+      "reference": "SO QUITE A LONG TIME AGO",
+      "prediction": "WE RER TOA SOE FOW"
+    },
+    {
+      "id": "lrs2/main/6312022236603390541/00012",
+      "dataset": "LRS2",
+      "reference": "AS WELL AS RUSSIAN ACADEMY OF SCIENCE",
+      "prediction": "HE WEY TH WHUE E O TH THCHS"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00005",
+      "dataset": "LRS2",
+      "reference": "SO THEY ATE WHAT THEY COULD AND",
+      "prediction": "SOU W GOO TOIS"
+    },
+    {
+      "id": "lrs2/main/6328764878116731644/00005",
+      "dataset": "LRS2",
+      "reference": "EACH OF OUR CELEBRITIES IS PLAYING FOR A NOMINATED CHARITY",
+      "prediction": "THE RERE TONE TIEN VEN OR E E IN TOT RENNES"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00037",
+      "dataset": "LRS2",
+      "reference": "THEY WERE NEW VESSELS",
+      "prediction": "YOUT WE TO MA TRERE"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00042",
+      "dataset": "LRS2",
+      "reference": "BUT THEY'RE MADE EVEN MORE SO WHEN YOU REALISE THAT ALL OF THIS WAS PUT IN PLACE AS PART OF A",
+      "prediction": "BA I OE H CA A A O OO O TOM OI A OS"
+    },
+    {
+      "id": "lrs2/main/6316163444070195447/00007",
+      "dataset": "LRS2",
+      "reference": "HE'S DRIVING WELL",
+      "prediction": "SOE WHAE ON THEF FOAD"
+    },
+    {
+      "id": "lrs2/main/6303167732026041278/00017",
+      "dataset": "LRS2",
+      "reference": "THERE WAS NO PAINT IN THE WAY THAT WE UNDERSTAND IT",
+      "prediction": "THET THE WER HI OE O TI T BININHIN TIITIS"
+    },
+    {
+      "id": "lrs2/main/6326461057659161695/00015",
+      "dataset": "LRS2",
+      "reference": "AFTER FIVE YEARS",
+      "prediction": "IT FO AY"
+    },
+    {
+      "id": "lrs2/main/6325894121976022773/00005",
+      "dataset": "LRS2",
+      "reference": "SUDDENLY APPEARS WHEN YOU WANT IT",
+      "prediction": "THE WAS BAY THMIS"
+    },
+    {
+      "id": "lrs2/main/6313565847849574520/00003",
+      "dataset": "LRS2",
+      "reference": "50 OF THE ROBOTS GONE AT THE VERY",
+      "prediction": "BR A A OE TO OAN TOLLO OTE"
+    },
+    {
+      "id": "lrs2/main/6328038169780654524/00001",
+      "dataset": "LRS2",
+      "reference": "MANY OF THEM LEFT FROM HERE IN SOUTHAMPTON",
+      "prediction": "BUTES S TOS O THE ER E TO IN ON A BOS"
+    },
+    {
+      "id": "lrs2/main/6325819389545137915/00011",
+      "dataset": "LRS2",
+      "reference": "AND THE BULL'S EYES",
+      "prediction": "AND RO WOR SINS"
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00048",
+      "dataset": "LRS2",
+      "reference": "AND GOOD FLAVOUR THIS YEAR",
+      "prediction": "AND HOT'S TH BESIIT"
+    },
+    {
+      "id": "lrs2/main/6329893595522122781/00002",
+      "dataset": "LRS2",
+      "reference": "IT'S ALL BEEN FAIRLY RECENT",
+      "prediction": "SH W MAN O FO FAMININT"
+    },
+    {
+      "id": "lrs2/main/6313877662475262663/00012",
+      "dataset": "LRS2",
+      "reference": "WE'RE BUILDING A HOUSE NOW IN THE FOREST",
+      "prediction": "IN A AAIN AIND"
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00025",
+      "dataset": "LRS2",
+      "reference": "LIKE MANY NEIGHBOURHOODS AROUND THE COUNTRY",
+      "prediction": "TOABENE NIT TOO TONE RSM"
+    },
+    {
+      "id": "lrs2/main/6325894121976022773/00011",
+      "dataset": "LRS2",
+      "reference": "OTHER TYRES ON OTHER BIKES",
+      "prediction": "WV TAA AD TORE MAIES"
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00034",
+      "dataset": "LRS2",
+      "reference": "BUT FRANCES TOPHILL HAS BEEN PART OF SOME EXPERIMENTS AND TRIALS THAT THE RHS HAVE BEEN DOING AT",
+      "prediction": "WHET THE O O TH TO OOD THTOROI AOAANAAAIN TH POIS TI"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00060",
+      "dataset": "LRS2",
+      "reference": "I HAD NO IDEA THAT WAS COMING",
+      "prediction": "THE DOAND TOU WON TOF ON THMY"
+    },
+    {
+      "id": "lrs2/main/6324764116080445123/00019",
+      "dataset": "LRS2",
+      "reference": "IF YOU ACT QUICKLY ENOUGH",
+      "prediction": "I WE TH E A AVE"
+    },
+    {
+      "id": "lrs2/main/6328962017115556355/00009",
+      "dataset": "LRS2",
+      "reference": "THEY STORE THE DAMP",
+      "prediction": "THE OOIF OM"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00024",
+      "dataset": "LRS2",
+      "reference": "WILL THEY STICK TO THEIR BUDGET",
+      "prediction": "WEEE AE AS A MES"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00046",
+      "dataset": "LRS2",
+      "reference": "THEN YOU CAN TELL ME TO SHUT UP",
+      "prediction": "THET RE WL WELL ERS"
+    },
+    {
+      "id": "lrs2/main/6324230681142278360/00016",
+      "dataset": "LRS2",
+      "reference": "WE COULD BE VERY HAPPY TOGETHER",
+      "prediction": "WHE WEND HIND O BE IN TO AT AN THE TES"
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00003",
+      "dataset": "LRS2",
+      "reference": "AUTUMN COMING IN",
+      "prediction": "IO FOLIT"
+    },
+    {
+      "id": "lrs2/main/6310195157515669986/00004",
+      "dataset": "LRS2",
+      "reference": "THAT WAS BRILLIANT",
+      "prediction": "THEM AE E OND"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00011",
+      "dataset": "LRS2",
+      "reference": "SO THE QUESTION IS VERY STRAIGHTFORWARD AND SIMPLE TO POSE",
+      "prediction": "TOU E AIND OE ONE THE BE A TE BAA FORME"
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00029",
+      "dataset": "LRS2",
+      "reference": "THE SAD FACT IS YOU MAY NOT OWN THIS PICTURE",
+      "prediction": "IE A AN IIN TON TA A A AN IN"
+    },
+    {
+      "id": "lrs2/main/6314308018198387664/00002",
+      "dataset": "LRS2",
+      "reference": "YOU MAY FIND HIM",
+      "prediction": "THE BAN A F ERY LA"
+    },
+    {
+      "id": "lrs2/main/6326866932068565154/00005",
+      "dataset": "LRS2",
+      "reference": "THEY SHOULD BE ABLE TO RISE TO THE CHALLENGE AND SHOW US THEY CAN WORK WITH A RAW MATERIAL AND MAKE",
+      "prediction": "THET S WOI THI TIA TH THA TO O TO TO ON O IN TH TO TOLIL MET"
+    },
+    {
+      "id": "lrs2/main/6310166810731517953/00005",
+      "dataset": "LRS2",
+      "reference": "AS FAR AS VIENNA AT ONE TIME",
+      "prediction": "TA A A AE RI CEM"
+    },
+    {
+      "id": "lrs2/main/6302978323968228875/00012",
+      "dataset": "LRS2",
+      "reference": "WHETHER YOU'VE GOT A HANGING BASKET",
+      "prediction": "WET E BELANY O PETHEAR"
+    },
+    {
+      "id": "lrs2/main/6308312673349834578/00013",
+      "dataset": "LRS2",
+      "reference": "IT'S A GOOD FEELING",
+      "prediction": "IFS WO IR COIND"
+    },
+    {
+      "id": "lrs2/main/6326553828952690654/00007",
+      "dataset": "LRS2",
+      "reference": "AS MUCH INFORMATION AS YOUR ACTS WOULD ALLOW US TO HAVE IN ADVANCE OF YOU GETTING THE WEAPON INTO",
+      "prediction": "THE O I TO TO TO TH I TO O IN THEE TO O O TE EAN TH BOINY"
+    },
+    {
+      "id": "lrs2/main/6324713864963081921/00013",
+      "dataset": "LRS2",
+      "reference": "SOME ITEMS ARE HELD FOR THREE MONTHS",
+      "prediction": "F ARE HEID THEY BO"
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00033",
+      "dataset": "LRS2",
+      "reference": "THAT WAS TWO REASONS",
+      "prediction": "YOU VES THE TO RENINS"
+    },
+    {
+      "id": "lrs2/main/6328512334039666732/00010",
+      "dataset": "LRS2",
+      "reference": "AS RUTH GOODMAN'S BEEN LEARNING",
+      "prediction": "I D TTO OR BEER HATHE"
+    },
+    {
+      "id": "lrs2/main/6308177381880006979/00010",
+      "dataset": "LRS2",
+      "reference": "BUT I THINK IT CAN BE DONE",
+      "prediction": "WHI I APU INOE"
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00005",
+      "dataset": "LRS2",
+      "reference": "AND HAS BEEN TURNED INTO A BANGLE",
+      "prediction": "HO WHEE TE'T WOY"
+    },
+    {
+      "id": "lrs2/main/6309468449049188125/00017",
+      "dataset": "LRS2",
+      "reference": "AND THEY ARE REALLY ROUGH AND READY",
+      "prediction": "HE TOINS TO MEY FOY"
+    },
+    {
+      "id": "lrs2/main/6323956232732063947/00013",
+      "dataset": "LRS2",
+      "reference": "WE COULD HAVE FLIPPED THEM AT ONE POINT",
+      "prediction": "THET ON O LOL HITIHE"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00119",
+      "dataset": "LRS2",
+      "reference": "IF THERE ARE PROBLEMS OF UNCERTAINTY AND LACK OF CLARITY",
+      "prediction": "AND O OR WORMEE I IF PATUD"
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00020",
+      "dataset": "LRS2",
+      "reference": "LIKE GOAT DROPPINGS",
+      "prediction": "THE FO ES"
+    },
+    {
+      "id": "lrs2/main/6310166810731517953/00007",
+      "dataset": "LRS2",
+      "reference": "PROBABLY BEEN AT THE HEART OF HUMAN AFFAIRS",
+      "prediction": "I FII I IE IN ITE TIE"
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00023",
+      "dataset": "LRS2",
+      "reference": "IT WAS ON THE MARKET FOR 450",
+      "prediction": "YO FO TO TO TO ON TO TO TOON TO COE"
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00037",
+      "dataset": "LRS2",
+      "reference": "ALL I'VE KNOWN IS FARMING",
+      "prediction": "TOA YO HRE THAE AY"
+    },
+    {
+      "id": "lrs2/main/6329893595522062514/00005",
+      "dataset": "LRS2",
+      "reference": "I'M NOT DOING IT",
+      "prediction": "AN WOS WRS"
+    },
+    {
+      "id": "lrs2/main/6309468449049188125/00006",
+      "dataset": "LRS2",
+      "reference": "AND HE'S OLD SCHOOL",
+      "prediction": "AN LI OS FORTO TH"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00046",
+      "dataset": "LRS2",
+      "reference": "SHE WAS AN ATTRACTIVE WOMAN",
+      "prediction": "COUBE O OIS TA ON A I TH ES"
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00004",
+      "dataset": "LRS2",
+      "reference": "IT SAYS IT THERE",
+      "prediction": "WWE TH A FON"
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00011",
+      "dataset": "LRS2",
+      "reference": "THE MINTON FACTORY",
+      "prediction": "ICHI IE COURE"
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00003",
+      "dataset": "LRS2",
+      "reference": "MORE THAN 400 YEARS LATER",
+      "prediction": "THE GOS AA PUTIS"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00055",
+      "dataset": "LRS2",
+      "reference": "BECAUSE WE ONLY HAVE THAT ONE PIECE",
+      "prediction": "BUT T FO I INT TO WOIS"
+    },
+    {
+      "id": "lrs2/main/6323956232732063947/00005",
+      "dataset": "LRS2",
+      "reference": "IT'S A TOUGH FIGHT",
+      "prediction": "IT SO TO HOE"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00003",
+      "dataset": "LRS2",
+      "reference": "FOR WHAT IT'S WORTH",
+      "prediction": "FO LERLAS INT"
+    },
+    {
+      "id": "lrs2/main/6328512334039666732/00003",
+      "dataset": "LRS2",
+      "reference": "IS IT POSSIBLE TO DO THAT",
+      "prediction": "WU E SS"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00025",
+      "dataset": "LRS2",
+      "reference": "THE TORIES GOT THE BLAME FOR THAT",
+      "prediction": "THE TH WA THN AV O TO IN TO ON HINS"
+    },
+    {
+      "id": "lrs2/main/6321358636511442057/00004",
+      "dataset": "LRS2",
+      "reference": "GETTING IT UP TO SPEED AND MAKING THE ATTACK AT THE RIGHT PRECISE MOMENT",
+      "prediction": "H I A AEE TOAN AE TO INS TOAN TA THRAN AT WOY"
+    },
+    {
+      "id": "lrs2/main/6306870852828565379/00023",
+      "dataset": "LRS2",
+      "reference": "FOR THE FIRST TIME IN THE WORLD",
+      "prediction": "WHC THN WAME MAY"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00007",
+      "dataset": "LRS2",
+      "reference": "THE CONFEDERATE COMMANDER",
+      "prediction": "THET'S BH HOIS"
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00001",
+      "dataset": "LRS2",
+      "reference": "ON THERE AS WELL",
+      "prediction": "WHE CES AT"
+    },
+    {
+      "id": "lrs2/main/6324698403080812792/00023",
+      "dataset": "LRS2",
+      "reference": "YOU MIGHT GET ONE SIZE",
+      "prediction": "IOU'S THTIT TIT"
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00012",
+      "dataset": "LRS2",
+      "reference": "IS PART AND PARCEL OF WORKING IN HOUSEKEEPING",
+      "prediction": "IT'S WAE HANY AIN TH BOIN ANTEN E"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00083",
+      "dataset": "LRS2",
+      "reference": "DID TODAY'S BUYERS FINISH THEIR PROJECTS OR WAS TIME THEIR ENEMY",
+      "prediction": "THET I AO OOAIINN TOUII HMY"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00063",
+      "dataset": "LRS2",
+      "reference": "AND AT THAT POINT",
+      "prediction": "AND TIT I WING"
+    },
+    {
+      "id": "lrs2/main/6325119739372550419/00024",
+      "dataset": "LRS2",
+      "reference": "YOU'LL BUY A PERFECT SHOE THAT FITS",
+      "prediction": "SO BE OI TEI IS"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00043",
+      "dataset": "LRS2",
+      "reference": "SIX SEVEN BEDROOMS UPSTAIRS",
+      "prediction": "IT A O L LAND HO O VOL O BAL WOALIN"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00090",
+      "dataset": "LRS2",
+      "reference": "THE TORIES WOULD HAVE BEEN DIFFERENT",
+      "prediction": "I TE O FERTIT BOIT"
+    },
+    {
+      "id": "lrs2/main/6314248747649637090/00014",
+      "dataset": "LRS2",
+      "reference": "NOT EVERYTHING WAS WRONG",
+      "prediction": "SO WE TI MT"
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00007",
+      "dataset": "LRS2",
+      "reference": "WHICH IS NOT PARTICULARLY BAD NEWS",
+      "prediction": "TH I A I HO1"
+    },
+    {
+      "id": "lrs2/main/6328038169780654524/00013",
+      "dataset": "LRS2",
+      "reference": "TECHNOLOGY WAS THE SILENT ALLY",
+      "prediction": "JO TO I ON OH BOY"
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00014",
+      "dataset": "LRS2",
+      "reference": "AND THE SAME PERSON THAT CONVERTED THOSE BUILT THIS HOUSE IN THE SAME STYLE",
+      "prediction": "I A ER O TE OE EEN TO TEOR OU EE TE ORROR TEE"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00102",
+      "dataset": "LRS2",
+      "reference": "MUCH DISILLUSIONMENT WITH THE LABOUR PARTY IN SCOTLAND",
+      "prediction": "PECHES THE OTO TO A TON TO OR AF TONT SOHOE"
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00047",
+      "dataset": "LRS2",
+      "reference": "THEY WILL ALWAYS GIVE YOU PLEASURE",
+      "prediction": "THE AS I WO TO METT"
+    },
+    {
+      "id": "lrs2/main/6310195157515669986/00012",
+      "dataset": "LRS2",
+      "reference": "I KNOW THE SONG",
+      "prediction": "WHET HI'S NO HOD"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00101",
+      "dataset": "LRS2",
+      "reference": "I WOULD SUGGEST THAT HE RENTS EACH PROPERTY OUT AT BETWEEN 500 AND",
+      "prediction": "I WOOAA OIN O AAH AON ON A ON THN O OON CONO T"
+    },
+    {
+      "id": "lrs2/main/6310968251628953184/00018",
+      "dataset": "LRS2",
+      "reference": "FOR THE LAST TIME TONIGHT",
+      "prediction": "BUT ALHAVE FO DIHON"
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00015",
+      "dataset": "LRS2",
+      "reference": "BECAUSE NIGEL WAS SO STERN ABOUT THE BUDGET",
+      "prediction": "TOU OI BI IE A E POEN"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00043",
+      "dataset": "LRS2",
+      "reference": "LATER IN THEIR HISTORY",
+      "prediction": "I TIT BHAY ARREY"
+    },
+    {
+      "id": "lrs2/main/6325440573560032726/00026",
+      "dataset": "LRS2",
+      "reference": "COS I HAD THE HEAVIEST DELIVERY IN EUROPE",
+      "prediction": "BOU ET TH TH FUIN"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00098",
+      "dataset": "LRS2",
+      "reference": "IF THERE ARE ANY",
+      "prediction": "WI HIS"
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00024",
+      "dataset": "LRS2",
+      "reference": "I DON'T THINK WE ARE",
+      "prediction": "I HOUS TH W"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00105",
+      "dataset": "LRS2",
+      "reference": "BECAUSE PEOPLE IN SCOTLAND WANTED A PARLIAMENT",
+      "prediction": "WHERCE RE TEE HET ET EN MINTIS"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00062",
+      "dataset": "LRS2",
+      "reference": "BUT IT'S ANOTHER VERY IMPORTANT STEP",
+      "prediction": "BU CH A A OY PO PINS TOY"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00017",
+      "dataset": "LRS2",
+      "reference": "THE BUILDERS WE USE HERE IN MARGATE WERE ORIGINALLY A FAMILY WE HOUSED IN LONDON WHO CAME FROM VERY",
+      "prediction": "W W TO EE TO TO A O AAN A AN AN TO E AN TON A O TIE"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00069",
+      "dataset": "LRS2",
+      "reference": "MAYBE A SLIGHT BURNING",
+      "prediction": "WHE BE TANS TO PONS"
+    },
+    {
+      "id": "lrs2/main/6328764878116731644/00032",
+      "dataset": "LRS2",
+      "reference": "AND PLAYING US OUT WITH MOVING ON UP",
+      "prediction": "AND DI'S BAIN ID TOU BORFONS TOUOM"
+    },
+    {
+      "id": "lrs2/main/6311280066254641716/00006",
+      "dataset": "LRS2",
+      "reference": "IS COVERED WITH PAINTINGS",
+      "prediction": "THI III"
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00028",
+      "dataset": "LRS2",
+      "reference": "THE CHANCE OF ME EXPERIENCING JUNGLE IS NOT VERY HIGH",
+      "prediction": "WECOU E O RE EY O ONE E TEN TOE THE E I TO E AN OE EN IUED"
+    },
+    {
+      "id": "lrs2/main/6327199362537275576/00017",
+      "dataset": "LRS2",
+      "reference": "BUT YOU WERE RIGHT TO CALL ME",
+      "prediction": "WOE EE HIE BIN TOME"
+    },
+    {
+      "id": "lrs2/main/6324698403080812792/00013",
+      "dataset": "LRS2",
+      "reference": "WAS BROKEN IN THE 1850S WHEN THE INDUSTRIAL REVOLUTION CAME TO",
+      "prediction": "BHET O IN IND TOME E ES ON BO TOER OR O TER INE ONE ON TOE"
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00009",
+      "dataset": "LRS2",
+      "reference": "THAT IS THE DESIGNER",
+      "prediction": "TATVE TO TO OR WIING"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00057",
+      "dataset": "LRS2",
+      "reference": "AND I WAS IMMEDIATELY",
+      "prediction": "WHET I A TH O BO SHAY"
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00025",
+      "dataset": "LRS2",
+      "reference": "I WOULD GUESS THE PROBABILITY OF THIS OCCURRING RANDOMLY APPROACHES THE SAME PROBABILITY OF SOMEONE",
+      "prediction": "IE A A TO A A TO O ORA EE A O I OE E O TO BOAN TII"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00002",
+      "dataset": "LRS2",
+      "reference": "DID TODAY'S BUYERS DO THEIR HOMEWORK",
+      "prediction": "W CHEN AN ENE MEIN IN OHATHY"
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00018",
+      "dataset": "LRS2",
+      "reference": "THE ROAD ITSELF IS ATTRACTIVE",
+      "prediction": "THA O OU GO O OLIS"
+    },
+    {
+      "id": "lrs2/main/6328764878116731644/00006",
+      "dataset": "LRS2",
+      "reference": "I WAS IN A PLAY WITH NOEL EDMONDS ON BBC TWO AND THEN I WAS INVITED TO JOIN THE NATIONAL",
+      "prediction": "I WA A FARIN A TOOI O O O II O OAAIN THIIN HTO THIS"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00027",
+      "dataset": "LRS2",
+      "reference": "BUT THAT DEFINITELY ISN'T TRUE",
+      "prediction": "WT IN'S IMIOING I UOE"
+    },
+    {
+      "id": "lrs2/main/6329893595522122781/00010",
+      "dataset": "LRS2",
+      "reference": "NORMAL ANTIBODY LEVELS",
+      "prediction": "THAT S HAV HAV BOVD TIN TOON"
+    },
+    {
+      "id": "lrs2/main/6325819389545137915/00008",
+      "dataset": "LRS2",
+      "reference": "I WANT YOU TO COME TO MY BEDROOM",
+      "prediction": "HE WAE TOF TA O BAY RARRIOE"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00019",
+      "dataset": "LRS2",
+      "reference": "THESE VISITS TO THE MOST IMPRESSIVE AND POWERFUL CITY IN THE WESTERN WORLD MADE A HUGE IMPRESSION",
+      "prediction": "THE HA WI TOS THA WO I AA TOAA S AAN THA OR TOOM IO O MONY"
+    },
+    {
+      "id": "lrs2/main/6309468449049188125/00020",
+      "dataset": "LRS2",
+      "reference": "WITH A NEW BABY ON THE WAY",
+      "prediction": "BHAT S EM BIND TO MAE"
+    },
+    {
+      "id": "lrs2/main/6318761040290818803/00021",
+      "dataset": "LRS2",
+      "reference": "WE COULDN'T HAVE IMAGINED TEN",
+      "prediction": "OT OMD TOR FRE THD TE"
+    },
+    {
+      "id": "lrs2/main/6308312673349834578/00008",
+      "dataset": "LRS2",
+      "reference": "THIS IS THE KANGAROO BIBLE",
+      "prediction": "WOTH AI TO TOWIT"
+    },
+    {
+      "id": "lrs2/main/6324764116080445123/00001",
+      "dataset": "LRS2",
+      "reference": "HE STILL HAD A CHANCE OF NOT SURVIVING THIS INJURY",
+      "prediction": "AN H A THA A OR TOD TO THE TOU TO TE YOU FONY"
+    },
+    {
+      "id": "lrs2/main/6327295999301439627/00012",
+      "dataset": "LRS2",
+      "reference": "IT'S JUST UP THE ROAD FROM KINGY'S HOUSE",
+      "prediction": "IT'S TO TO TH N IN O ON TONON"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00058",
+      "dataset": "LRS2",
+      "reference": "44 OUT OF 71 OF THE AVAILABLE SEATS",
+      "prediction": "BT IT O INE OIE HAEN TOT WON ON FO TOLIN"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00040",
+      "dataset": "LRS2",
+      "reference": "PRODUCES A POST INDUSTRIAL POLITICS",
+      "prediction": "BHET THI TO HAF A AN THES THAA ON N O WAN TIS"
+    },
+    {
+      "id": "lrs2/main/6326553828952690654/00006",
+      "dataset": "LRS2",
+      "reference": "IF ENTRUSTED TO OUR NAVIES",
+      "prediction": "I THEN THE BEN CEN O THE FOINS"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00051",
+      "dataset": "LRS2",
+      "reference": "BUT THIS IS NOT THE WAY",
+      "prediction": "BUT S S SHT S T E BILT"
+    },
+    {
+      "id": "lrs2/main/6323956232732126743/00019",
+      "dataset": "LRS2",
+      "reference": "SO IT WAS A PROCESS PARTLY OF PRINT",
+      "prediction": "IT IM O T OEEN AIND TOIS"
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00019",
+      "dataset": "LRS2",
+      "reference": "YOU KNOW EXACTLY WHAT'S BEING MONITORED AND WHY AND YOU KNOW HOW YOU CAN INFLUENCE THAT",
+      "prediction": "S TH H TH THHE O EIN TH I IN THAIN TO E TETIET"
+    },
+    {
+      "id": "lrs2/main/6329893595522062514/00007",
+      "dataset": "LRS2",
+      "reference": "WHAT IS THE PLURAL FOR MECCA",
+      "prediction": "LOEE THE THE RENE THE Y"
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00020",
+      "dataset": "LRS2",
+      "reference": "IF I'M BEING HONEST",
+      "prediction": "IT O O MOMIS"
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00045",
+      "dataset": "LRS2",
+      "reference": "WHICH MEANS YOU STAY AWAY",
+      "prediction": "AN FON O AN BA"
+    },
+    {
+      "id": "lrs2/main/6302978323968228875/00019",
+      "dataset": "LRS2",
+      "reference": "NOT JUST IN THE UK",
+      "prediction": "I TO KON THOMUE"
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00005",
+      "dataset": "LRS2",
+      "reference": "IT'S SAID HER HEADLESS GHOST ARRIVES HERE IN A CARRIAGE DRIVEN BY HEADLESS HORSES AND A HEADLESS",
+      "prediction": "TH WH A A TOOO OE O TAON O O OR IIN O OI O THIS"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00007",
+      "dataset": "LRS2",
+      "reference": "BUT THAT WAS ONLY THE START OF THE STORY",
+      "prediction": "THET HAVT OUON O OEN TTE"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00055",
+      "dataset": "LRS2",
+      "reference": "EVEN IN THE 1979 GENERAL ELECTION",
+      "prediction": "I IE O TH O OOY TOOE I"
+    },
+    {
+      "id": "lrs2/main/6324713864963081921/00006",
+      "dataset": "LRS2",
+      "reference": "THE REASON TRAVELLING SEEMS SO SEAMLESS IS BECAUSE OF ALL THE EFFORTS THAT GO ON BEHIND THE SCENES",
+      "prediction": "F MY TOF A I EEIE TOAA OAAIS"
+    },
+    {
+      "id": "lrs2/main/6323198600501050831/00029",
+      "dataset": "LRS2",
+      "reference": "NEW JOBS DO ARISE",
+      "prediction": "THET SON BOO THE BEY"
+    },
+    {
+      "id": "lrs2/main/6328393792942295524/00001",
+      "dataset": "LRS2",
+      "reference": "SPEND SOME TIME MAKING SURE WE GET IT EXACTLY RIGHT",
+      "prediction": "WHE THENG O EF E TE ENE TIN TEINK ING TON TH OF WOAR"
+    },
+    {
+      "id": "lrs2/main/6313656042293295351/00018",
+      "dataset": "LRS2",
+      "reference": "THOSE FATAL SHOTS",
+      "prediction": "THATWES THE ERE E HAD HAE"
+    },
+    {
+      "id": "lrs2/main/6311280066254641716/00013",
+      "dataset": "LRS2",
+      "reference": "HOW MUCH HAS ROMANIA CHANGED",
+      "prediction": "I AI FOR IN TOES"
+    },
+    {
+      "id": "lrs2/main/6310968251628953184/00001",
+      "dataset": "LRS2",
+      "reference": "AND THEY MIGHT NOT EVEN MAKE IT THROUGH THE FIRST BATTLE",
+      "prediction": "AND THAE BABL T BOANO IY BAMINT"
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00033",
+      "dataset": "LRS2",
+      "reference": "AND I DON'T TRY AND EXPERIMENT TOO MUCH OUTSIDE THINGS THAT I KNOW MYSELF",
+      "prediction": "AND A A O TOANAN I POM O TOR O AN O TOF ON THA ARAN O ON AN ON O"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00018",
+      "dataset": "LRS2",
+      "reference": "THERE WERE LOTS OF SMALL BUSINESSES",
+      "prediction": "SH AE TO PEIIS"
+    },
+    {
+      "id": "lrs2/main/6325119739372550419/00027",
+      "dataset": "LRS2",
+      "reference": "SOMEWHERE IN THE WORLD",
+      "prediction": "TOIN INE WIR IE"
+    },
+    {
+      "id": "lrs2/main/6313656042293295351/00003",
+      "dataset": "LRS2",
+      "reference": "I'D NEVER SEEN A BLACK MAN",
+      "prediction": "I S ENK I ANKD BINK"
+    },
+    {
+      "id": "lrs2/main/6328111613590949805/00016",
+      "dataset": "LRS2",
+      "reference": "NORMALLY WHAT WE WOULD DO IS WE WOULD PACKAGE UP THIS INFORMATION AND WE WOULD PRESENT IT TO A",
+      "prediction": "WHET COUS O TO TO TOU EEO ON TO I TOOR TE OENIE"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00106",
+      "dataset": "LRS2",
+      "reference": "IN ORDER TO ACHIEVE THAT",
+      "prediction": "IN' TOIN TEN ON TOAN OFFE"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00063",
+      "dataset": "LRS2",
+      "reference": "SO IT WOULD BE MORE SOUGHT AFTER",
+      "prediction": "SO FOFF TE TE TE THE TH R INE"
+    },
+    {
+      "id": "lrs2/main/6308177381880006979/00028",
+      "dataset": "LRS2",
+      "reference": "AS THE ONLY FEMALE IN A HARD",
+      "prediction": "I TO O EY MEE TIN OHARES"
+    },
+    {
+      "id": "lrs2/main/6326538367070482119/00004",
+      "dataset": "LRS2",
+      "reference": "AND IT IS ENORMOUS",
+      "prediction": "AN TH OPL"
+    },
+    {
+      "id": "lrs2/main/6303167732026041278/00007",
+      "dataset": "LRS2",
+      "reference": "POSSIBLY EVEN INTO THE EARLY PART OF THE 20TH CENTURY",
+      "prediction": "W THI IF IN THE THE TEE TIN TON I TI TO TIT"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00011",
+      "dataset": "LRS2",
+      "reference": "AN IDEAL PLACE FOR ME TO BEGIN TO DISCOVER THE SPIRIT OF THE",
+      "prediction": "A TAA EIIN TH TOI AIIN SIIIN TIS TI IINS I IN"
+    },
+    {
+      "id": "lrs2/main/6312066045269810824/00023",
+      "dataset": "LRS2",
+      "reference": "GOING BACK TO THAT TO TRY TO FORM A STRONGER AMERICAN IDENTITY WHEN SO MANY THINGS ARE BEING",
+      "prediction": "I THA IE TO TH TO IN TH IN O TO IRE I IN BON TO ER IR CIE"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00055",
+      "dataset": "LRS2",
+      "reference": "THAT I'VE GOT A TUMMY",
+      "prediction": "IN THE A THE O BEY"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00032",
+      "dataset": "LRS2",
+      "reference": "ALTHOUGH IN THIS CASE",
+      "prediction": "WHET WETIN TIE HAE"
+    },
+    {
+      "id": "lrs2/main/6327295999301499598/00010",
+      "dataset": "LRS2",
+      "reference": "A SPLENIC ARTERY ANEURYSM REPAIR",
+      "prediction": "THE AN I A EIN WOS"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00050",
+      "dataset": "LRS2",
+      "reference": "ACCORDING TO HOWARD",
+      "prediction": "I WOE FER I RO"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00034",
+      "dataset": "LRS2",
+      "reference": "VIRTUALLY EVERY MAJOR COMBAT VESSEL THAT WAS DESIGNED",
+      "prediction": "BHE O O O OB TO E TEIN TH A TO"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00074",
+      "dataset": "LRS2",
+      "reference": "NICE WINDOWS WITH A VIEW OUT THE FRONT",
+      "prediction": "AN OE TO O TOINE OFOFUNS"
+    },
+    {
+      "id": "lrs2/main/6326414672012357313/00005",
+      "dataset": "LRS2",
+      "reference": "IT CERTAINLY NEEDS A LOT OF RENOVATION",
+      "prediction": "WE QOU EN TO A O TO BOPINS"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00061",
+      "dataset": "LRS2",
+      "reference": "YOU SOMETHING SOMETHING LUNATIC",
+      "prediction": "THE ES N IE INE INE IN IR ON TOTEY"
+    },
+    {
+      "id": "lrs2/main/6325894121976022773/00006",
+      "dataset": "LRS2",
+      "reference": "DISAPPEARS WHEN YOU DON'T WANT IT",
+      "prediction": "WHETEW EE VER WON HOR"
+    },
+    {
+      "id": "lrs2/main/6324230681142278360/00013",
+      "dataset": "LRS2",
+      "reference": "I WAS JUST THINKING WHAT AN EVENTFUL DAY IT'S BEEN",
+      "prediction": "WHER REE THE TALE HEEINE THE TEE OR THE HE ON"
+    },
+    {
+      "id": "lrs2/main/6323817075791736335/00054",
+      "dataset": "LRS2",
+      "reference": "MUCH BETTER THAN NONE",
+      "prediction": "THAT PACIS ARORD"
+    },
+    {
+      "id": "lrs2/main/6315405811839181004/00041",
+      "dataset": "LRS2",
+      "reference": "DURING THE REVOLUTION",
+      "prediction": "WHE WH E THTHIS"
+    },
+    {
+      "id": "lrs2/main/6316024287129869379/00014",
+      "dataset": "LRS2",
+      "reference": "I WORK PART TIME",
+      "prediction": "I' VEE BER BIRIOS"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00028",
+      "dataset": "LRS2",
+      "reference": "HER MOTHER WAS A MEMBER OF THE MERCIAN ROYAL FAMILY",
+      "prediction": "IN WH TH IIN I THN A O THVE TI"
+    },
+    {
+      "id": "lrs2/main/6329151425173313518/00114",
+      "dataset": "LRS2",
+      "reference": "WHETHER IT'S UK AND BRUSSELS",
+      "prediction": "PEU TH A PAKOE"
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00036",
+      "dataset": "LRS2",
+      "reference": "BECAUSE PEOPLE COME HERE",
+      "prediction": "BUT THU OT TIST THET MITINT"
+    },
+    {
+      "id": "lrs2/main/6315421273721446605/00002",
+      "dataset": "LRS2",
+      "reference": "TO GET THROUGH TO THE NEXT STAGE",
+      "prediction": "TH H TO OETIES TI"
+    },
+    {
+      "id": "lrs2/main/6327713470253076639/00009",
+      "dataset": "LRS2",
+      "reference": "SO IN HONOUR OF HIS FATHER",
+      "prediction": "THAT'S FO BO FIN MINT"
+    },
+    {
+      "id": "lrs2/main/6306811582279909115/00010",
+      "dataset": "LRS2",
+      "reference": "WHICH IS GREAT NEWS FOR TODAY'S BUYERS",
+      "prediction": "THE CH I A I IIS IS MAY"
+    },
+    {
+      "id": "lrs2/main/6326360555424366722/00006",
+      "dataset": "LRS2",
+      "reference": "AND I HAVE GOT THE EFFECT I WANT",
+      "prediction": "IT AME HOTO THE TH S"
+    },
+    {
+      "id": "lrs2/main/6326866932068565154/00008",
+      "dataset": "LRS2",
+      "reference": "AND MEN WERE ENCOURAGED TO KEEP FIT",
+      "prediction": "I'VEE IND IM WO ING TO ON NEN F ALAD"
+    },
+    {
+      "id": "lrs2/main/6327740528416575363/00023",
+      "dataset": "LRS2",
+      "reference": "I THINK I'M A LOT BIGGER IN PERSONALITY",
+      "prediction": "THE HAE TOA A TONT WA IOO COE"
+    },
+    {
+      "id": "lrs2/main/6311014637275749987/00037",
+      "dataset": "LRS2",
+      "reference": "AND THAT THE VAST MAJORITY OF CIGARETTE SMOKERS WERE STILL UNDER THE AGE OF 50 NOW",
+      "prediction": "I THE AE E O O I TE TO EER H I HAD"
+    },
+    {
+      "id": "lrs2/main/6324698403080875597/00007",
+      "dataset": "LRS2",
+      "reference": "DON'T WORRY ABOUT IT",
+      "prediction": "IN TON NENT BOPUT"
+    },
+    {
+      "id": "lrs3/YlmZkY1uqXM/50005",
+      "dataset": "LRS3-TED",
+      "reference": "IT WAS REALLY TOO MUCH",
+      "prediction": "THE WOU OU ONOW TET"
+    },
+    {
+      "id": "lrs3/a2MR5XbJtXU/50005",
+      "dataset": "LRS3-TED",
+      "reference": "BUT WHEN YOU ASK A MAKER TO MAKE A CHEST OF DRAWERS THEY DON'T ALWAYS DO WHAT YOU THINK THEY ARE GOING TO DO",
+      "prediction": "IND SO IO TON TO MEN ON O TEN EN T O TON TO TO IN O TE IN TH TOS"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50016",
+      "dataset": "LRS3-TED",
+      "reference": "I WAS OBSESSED INSTANTLY",
+      "prediction": "THE A I EN TO ORE LON TO TOR THE THETES"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50001",
+      "dataset": "LRS3-TED",
+      "reference": "BECAUSE THERE WAS A TIME WHEN I NEEDED YOU TO TURN MY TELESCOPE TO THE WRONG SIGHT TO MAKE EVERYTHING",
+      "prediction": "BUAT I O E AD OF HOR O OR AN O COM TORE TO O ON TO O IN OAE O TO TH TOE ERE TERY"
+    },
+    {
+      "id": "lrs3/SJWoKsfsSaA/50005",
+      "dataset": "LRS3-TED",
+      "reference": "HIGH FIVES IN THE ROOM",
+      "prediction": "SO AY BA LO"
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50012",
+      "dataset": "LRS3-TED",
+      "reference": "HOW DO YOU GET BETTER",
+      "prediction": "H HAS THIS THAE PEPMG"
+    },
+    {
+      "id": "lrs3/D5iFVKhLStU/50001",
+      "dataset": "LRS3-TED",
+      "reference": "WE MUST CEASE TELLING PEOPLE THAT THEY HAVE TO ACT A CERTAIN WAY THAT THEY HAVE TO BEHAVE A CERTAIN WAY",
+      "prediction": "WHE OS TO EN A O EN TOA AN A AD OO TO CO E AVE HO ON THE MENY"
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50011",
+      "dataset": "LRS3-TED",
+      "reference": "AND FRIDAY NIGHT WE'RE TRYING TO DECIDE BETWEEN RISKY SEX OR HAPPINESS",
+      "prediction": "S MEE EE TEE E E TOE TOE TO TO MWI"
+    },
+    {
+      "id": "lrs3/NVPxmzSPvUw/50002",
+      "dataset": "LRS3-TED",
+      "reference": "SO I CONFIDENTLY STATE",
+      "prediction": "B AE HAVO IN LOE"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50027",
+      "dataset": "LRS3-TED",
+      "reference": "ONE AND THE SAME EVENT HAS A LEVEL OF DESCRIPTION WHERE IT'S NEUROBIOLOGICAL AND ANOTHER LEVEL OF",
+      "prediction": "S TOE HA O ER A OAN O ON O OE A TOE TO OH OOO O"
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50021",
+      "dataset": "LRS3-TED",
+      "reference": "I PLAY AND I PLAY UNTIL I BEGIN TO WONDER WHY WE EVER STOP PLAYING IN THE FIRST PLACE",
+      "prediction": "IN BE EEN ENS TA EMEIN TH IIN ANY TO A OD TH O I AN AD TO FEINS"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50055",
+      "dataset": "LRS3-TED",
+      "reference": "MY MOTIVATION FOR DOING THAT IS THINKING THAT IF I CAN DO THIS THE FOURTH STEP WILL HAPPEN NATURALLY",
+      "prediction": "I WOAE THEE I E AR I TI AN THE TAIN O EENE AN TO OR TOE TO O ON TE"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50055",
+      "dataset": "LRS3-TED",
+      "reference": "OTHER PEOPLE WILL SAY WELL GET OFF IT",
+      "prediction": "AND TO TERE MELIN IT O BIN OUT"
+    },
+    {
+      "id": "lrs3/aR6jLD1USW0/50008",
+      "dataset": "LRS3-TED",
+      "reference": "IT IS A PROGRAMMING LANGUAGE",
+      "prediction": "THET I'S I O WAN OE REINS"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50039",
+      "dataset": "LRS3-TED",
+      "reference": "BUT WE HAVE THIS PERSISTENT CONFUSION BETWEEN OBJECTIVITY AND SUBJECTIVITY AS FEATURES OF",
+      "prediction": "WHET E E ERE E WO E ARE O OR EN THA E A AN AN TI TO ON TO IN O AN IN TO COR"
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50005",
+      "dataset": "LRS3-TED",
+      "reference": "WE DO NOT READ A LOT ABOUT IT IN THE MAINSTREAM MEDIA FOR A WHILE IT WAS IN NEWSPAPERS A LOT NOT SO",
+      "prediction": "THE E MR TOEE MEE E EE O OA A OE AS AEN O O O E O I E OETIS"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50006",
+      "dataset": "LRS3-TED",
+      "reference": "SO CONSCIOUSNESS IS AN ILLUSION",
+      "prediction": "SH WA E TH ETINS"
+    },
+    {
+      "id": "lrs3/Va07q3HFEZQ/50007",
+      "dataset": "LRS3-TED",
+      "reference": "HOW WOULD THEY KNOW",
+      "prediction": "I WO A T"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50030",
+      "dataset": "LRS3-TED",
+      "reference": "I'VE BEEN SO ADDICTED TO THAT FEELING EVER SINCE",
+      "prediction": "IN IE TERE TOS THEE THE HIE THEE EN ON WHAD BERY SIS"
+    },
+    {
+      "id": "lrs3/B12syeJflbQ/50008",
+      "dataset": "LRS3-TED",
+      "reference": "SHE WANTS TO BRING HER MOTHER AND HER FATHER AND HER YOUNGER",
+      "prediction": "THE E TEIN H EE A EE TH A A OE A TH A EI"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50033",
+      "dataset": "LRS3-TED",
+      "reference": "THERE WOULD BE LINES IN THERE WHERE I WOULD JUST THINK YES I FELT THAT AND THOUGHT THAT SO MANY TIMES AND JUST NEVER KNEW HOW TO",
+      "prediction": "IT WTELE TH E TE AA THA A HA O OAN O O O H TO OO OIS O SOR I"
+    },
+    {
+      "id": "lrs3/YlmZkY1uqXM/50006",
+      "dataset": "LRS3-TED",
+      "reference": "I DON'T KNOW WHY",
+      "prediction": "IH SOT' TO OUP"
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50015",
+      "dataset": "LRS3-TED",
+      "reference": "THE HUM IS MUSIC",
+      "prediction": "THAY HANE DR VERREING"
+    },
+    {
+      "id": "lrs3/OGhbCC9mNM8/50002",
+      "dataset": "LRS3-TED",
+      "reference": "IT WAS WHEN I SPENT TIME SAILING ON THE MEDITERRANEAN SEA AND I SAW MORE WASTE FLOATING AROUND IN",
+      "prediction": "THEE EE E AE TE HOE E OR HAN TO E EN ES EN IN ON E EN OR E EN HD E END AND THTI"
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50020",
+      "dataset": "LRS3-TED",
+      "reference": "THANK YOU VERY MUCH",
+      "prediction": "AND HO THET W NE"
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50005",
+      "dataset": "LRS3-TED",
+      "reference": "YOU OWN THE KNOWLEDGE",
+      "prediction": "HO WAS TOT"
+    },
+    {
+      "id": "lrs3/9vKRj9yV8pI/50006",
+      "dataset": "LRS3-TED",
+      "reference": "THE FIRST IS YOU HAVE TO FALL IN LOVE",
+      "prediction": "IT O TO A TOA PTIT"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50020",
+      "dataset": "LRS3-TED",
+      "reference": "IT TURNS OUT THAT THIS WAS THE QUALIFYING ROUND TO GET ONTO THE SAY WORD POMONA SLAM TEAM",
+      "prediction": "ITS WOTOE TEE TO TOE TO AE EE TH TH TH THAE THE O E EE"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50038",
+      "dataset": "LRS3-TED",
+      "reference": "IF SHE'S REALLY ATTRACTIVE GREAT BUT THAT'S ALL WE KNOW ABOUT HER",
+      "prediction": "T TO OE THIN AE O A IT TH TO MIIS"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50002",
+      "dataset": "LRS3-TED",
+      "reference": "IN FACT I'M GOING TO ARGUE THAT THESE ARE MEN'S ISSUES FIRST AND FOREMOST",
+      "prediction": "AND FEY E A IE THE E TOA TON THN TO ON O ON O PENINS"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50022",
+      "dataset": "LRS3-TED",
+      "reference": "WE'RE EXAMINING THE PERFORMANCE OF THESE 15 COMPONENTS IN A SET OF 3",
+      "prediction": "BES TH E OE TORE TO TH O OE O A TH A OE"
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50018",
+      "dataset": "LRS3-TED",
+      "reference": "1 MILLION IN LEBANON",
+      "prediction": "P L IT IT LALIT"
+    },
+    {
+      "id": "lrs3/9vKRj9yV8pI/50003",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S TIME TO STOP THIS EXPERIMENT",
+      "prediction": "ITS O AR O AE"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50017",
+      "dataset": "LRS3-TED",
+      "reference": "AT THIS POINT THE AMERICAN BAR ASSOCIATION WHICH IS NOT THE VANGUARD OF COOL THEY HAVE A WHOLE PAGE ON THEIR WEBSITE",
+      "prediction": "IN YO ET THE O O A TO TO E TORE ON ON TOE ON ON THA TO ER O TH E MO ES BUTIT"
+    },
+    {
+      "id": "lrs3/a2MR5XbJtXU/50002",
+      "dataset": "LRS3-TED",
+      "reference": "WE LIVE IN A REALLY VISUAL CULTURE",
+      "prediction": "IT WA IT ID HON TO WOUO"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50040",
+      "dataset": "LRS3-TED",
+      "reference": "BUT HOW DO WE NOT REMAIN SILENT IN THE FACE OF ABUSE",
+      "prediction": "I O O OAO O TOOR O TO AAE TON TO BA TO TAT"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50001",
+      "dataset": "LRS3-TED",
+      "reference": "SO YOU KNOW HOW YOU'RE SUPPOSED TO REACH 10000 STEPS A DAY AS AN IDEAL GOAL FOR LIVING A HEALTHY LIFE AND BEING A HEALTHY",
+      "prediction": "TH A THE E TOE TO E TO TOEN O E A TON A OER O O OEE O BE"
+    },
+    {
+      "id": "lrs3/HByDu4uOFY4/50001",
+      "dataset": "LRS3-TED",
+      "reference": "MY FIRST ALBUM WAS RECEIVED VERY WELL IN COLOMBIA",
+      "prediction": "WETS I THE THEL OR E E ER I E CERTES"
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50014",
+      "dataset": "LRS3-TED",
+      "reference": "THE HUM IS A DRUG",
+      "prediction": "THE HAVE TOE TOY TAT"
+    },
+    {
+      "id": "lrs3/aR6jLD1USW0/50004",
+      "dataset": "LRS3-TED",
+      "reference": "BUT GUESS WHAT",
+      "prediction": "WOUT WOUD DO WUBT"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50052",
+      "dataset": "LRS3-TED",
+      "reference": "THE THIRD STEP IS WHAT TAKES US FROM BEING IN AN INTERNAL PROCESS TO SOMETHING THAT HELPS OTHERS",
+      "prediction": "TOEE A M TOEN TO TOIN O TO A MAD I I TON TH ANE WATIS"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50025",
+      "dataset": "LRS3-TED",
+      "reference": "NOW WHAT THAT TELLS US IS THAT OUR TRADITIONAL VOCABULARIES FOR DISCUSSING THESE ISSUES ARE",
+      "prediction": "THE WE O TOS TO E O TO EN O TO EN TO TENE AN ANE O EN TI IN AN ANS A AN ON"
+    },
+    {
+      "id": "lrs3/OGhbCC9mNM8/50003",
+      "dataset": "LRS3-TED",
+      "reference": "IT SHOULD NOT BE OUR OBJECTIVE TO HAVE GOOD LAWS OR GOOD POLICIES IT SHOULD BE OUR OBJECTIVE TO HAVE",
+      "prediction": "AN O OR O OER I TEEN THA E A EE THE EE H THE TH TOE O TO E"
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50020",
+      "dataset": "LRS3-TED",
+      "reference": "EVEN THIS SCHOOL YOU KNOW",
+      "prediction": "IFE TO TH TOTOE"
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50016",
+      "dataset": "LRS3-TED",
+      "reference": "UNDER A LOT OF PRESSURE POLITICIANS DID FINALLY AGREE TO A RESETTLEMENT SCHEME AND WHAT HAS HAPPENED SINCE THEN",
+      "prediction": "TH THE A TID IN TO TOIE THE EN TO TO O O BE EN OR O ON EN EN EN FORS"
+    },
+    {
+      "id": "lrs3/xjSQFZX2m9o/50003",
+      "dataset": "LRS3-TED",
+      "reference": "MOVING UP THE TRAIL WE FIND VESTIBULAR ACTIVITY IN THE BRAIN'S MEMORY CENTER THE",
+      "prediction": "BE H OE TO OE A EE A EE H EE TH OAN TH OO TON TOIT"
+    },
+    {
+      "id": "lrs3/S9ry1M7JlyE/50002",
+      "dataset": "LRS3-TED",
+      "reference": "SO THINKING ABOUT THOSE THINGS TOGETHER FEELS RIGHT",
+      "prediction": "I WO TOELE A EEN THEE AN E THE E TE ME IN BIIS"
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50015",
+      "dataset": "LRS3-TED",
+      "reference": "I'M OBSESSED WITH CLOUDS",
+      "prediction": "WEY WIN' WOAD GO GO HIE"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50027",
+      "dataset": "LRS3-TED",
+      "reference": "YOU KNOW WHAT",
+      "prediction": "I TOA A"
+    },
+    {
+      "id": "lrs3/HCJRXoYOoaI/50008",
+      "dataset": "LRS3-TED",
+      "reference": "WHEN YOU DO THAT YOU CREATE AN ENVIRONMENT FOR THESE MICROBES TO THRIVE",
+      "prediction": "W WOE TO E TIE THING ET TE TIN TH O THR WO ROP"
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50004",
+      "dataset": "LRS3-TED",
+      "reference": "THE OBVIOUS DIFFERENCE",
+      "prediction": "WU EVE HE T YOU TO AE"
+    },
+    {
+      "id": "lrs3/PJUIXSpLoVk/50001",
+      "dataset": "LRS3-TED",
+      "reference": "I DIDN'T WANT TO LOOK THE CASHIER IN THE EYE AND I DIDN'T WANT ANYONE TO SEE ME WITH THE BOX ON MY WAY HOME FROM THE STORE",
+      "prediction": "AND TOON TH OE TI THE TH TIE O OE TH OAN OND TH N O OIN TIS"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50008",
+      "dataset": "LRS3-TED",
+      "reference": "ONLY WHEN THEY HAD A SET OF COMPONENTS WHERE THEY UNDERSTOOD THE OPERATION OF THE COMPONENTS REALLY WELL THEY WERE",
+      "prediction": "W O A ORO TOE ER TO O ER OAAN THAN THI TO TEE ERE TETOE"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50020",
+      "dataset": "LRS3-TED",
+      "reference": "IF YOU'RE NOT TALKING ABOUT THAT YOU'RE NOT TALKING ABOUT CONSCIOUSNESS",
+      "prediction": "IT HON THN TI INE ON THAE TEN AN TO IN 2ORTIS"
+    },
+    {
+      "id": "lrs3/MCeaijwHxS0/50003",
+      "dataset": "LRS3-TED",
+      "reference": "OUR FAMILY HAD TO RUN",
+      "prediction": "I HAVE E OO O"
+    },
+    {
+      "id": "lrs3/qNvDRuGK84I/50006",
+      "dataset": "LRS3-TED",
+      "reference": "THEY THOUGHT THE STORY WAS GOING TO GET OUT",
+      "prediction": "IH'T'S TO TE TE TOE LIF"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50009",
+      "dataset": "LRS3-TED",
+      "reference": "WE'VE GONE FROM JOHN BEAT MARY TO MARY WAS BEATEN BY JOHN",
+      "prediction": "BT AOA A TOI OAI TO POI O O TE TE"
+    },
+    {
+      "id": "lrs3/rTJpJlVkRTA/50003",
+      "dataset": "LRS3-TED",
+      "reference": "I WOULD SAY IN SOME WAYS I CHANGE MY GENDER ABOUT AS OFTEN AS I CHANGE MY HAIRSTYLE",
+      "prediction": "WE A O TH E O TOE TO SO TE O E CO TO TON O TO TO TH TIN O LANT THIY"
+    },
+    {
+      "id": "lrs3/HCJRXoYOoaI/50004",
+      "dataset": "LRS3-TED",
+      "reference": "THIS MAKES SENSE",
+      "prediction": "W WO TIS S HINE"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50006",
+      "dataset": "LRS3-TED",
+      "reference": "AND A LOT OF PEOPLE WHEN THEY HEAR THE WORD GENDER THINK IT MEANS WOMEN",
+      "prediction": "AND HOPE EE TAE ER TE TE ERE TER CE ROINE"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50062",
+      "dataset": "LRS3-TED",
+      "reference": "SO WE END UP HAVING TO HAVE THESE REALLY CRAFTED IDENTITIES",
+      "prediction": "SHE WE I TIT TOE MI TO PO PERIN THA RATIN TE THE TE THAS"
+    },
+    {
+      "id": "lrs3/EXo3qA9V3eI/50002",
+      "dataset": "LRS3-TED",
+      "reference": "FIRST YOU FIND AND LABEL A MEMORY IN THE BRAIN AND THEN YOU ACTIVATE IT WITH A",
+      "prediction": "SHE E E A E O EE O EN O H O OAN O E O HS"
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50017",
+      "dataset": "LRS3-TED",
+      "reference": "IT HAS BEEN JUST OVER A YEAR NOW",
+      "prediction": "I EE IN BO SER T OAY"
+    },
+    {
+      "id": "lrs3/bo4HiVetBd0/50003",
+      "dataset": "LRS3-TED",
+      "reference": "COST BENEFIT ANALYSIS",
+      "prediction": "I WE TH N BENE ANTHIT"
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50023",
+      "dataset": "LRS3-TED",
+      "reference": "IS THERE MORE THEY COULD HAVE DONE",
+      "prediction": "IND WOUT WEINY IE"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50023",
+      "dataset": "LRS3-TED",
+      "reference": "THIS WAS REALLY CRAZY POINT OF MY LIFE WHERE I WAS FINALLY REALLY PAST THAT EATING DISORDER",
+      "prediction": "AND THI TO A O TOT WOIN O OIN O TOIN O IN HA I ENI TOMIK"
+    },
+    {
+      "id": "lrs3/H7Gn2a0GnAc/50003",
+      "dataset": "LRS3-TED",
+      "reference": "THEY BOTH WORKED",
+      "prediction": "THE AE A T"
+    },
+    {
+      "id": "lrs3/B12syeJflbQ/50005",
+      "dataset": "LRS3-TED",
+      "reference": "I DON'T HAVE THE COURAGE ANYMORE",
+      "prediction": "W Y HA TO TE EPILY"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50002",
+      "dataset": "LRS3-TED",
+      "reference": "MY WAY OF TELLING MY STORY HAS BEEN WRITING FOR PRETTY MUCH AS LONG AS I CAN REMEMBER BUT MOST RECENTLY WRITING SPOKEN WORD",
+      "prediction": "IN WO ET IN O EN O OR EM E EE E TOE SEE EN I I IN TIEE SIE ES SI INE IN ON OR INTHES"
+    },
+    {
+      "id": "lrs3/p0aTfcXpOEs/50004",
+      "dataset": "LRS3-TED",
+      "reference": "IF YOU ARE A SCIENTIST AND YOU HAVE AN IDEA FOR A PROJECT FOR WHICH YOU WOULD NEED THE HELP OF ALL THESE",
+      "prediction": "IN E REI TO TO E I H ON HAE EEN O TH EN ON OR TE LO EN ON ONE TO N TOE"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50020",
+      "dataset": "LRS3-TED",
+      "reference": "THE IDEA IS TO JUST TO KEEP GETTING BETTER AND BETTER AND BETTER",
+      "prediction": "THET HAN TO THE TO A BE EIN SOY"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50020",
+      "dataset": "LRS3-TED",
+      "reference": "YOU'RE THE CENTER OF ATTENTION",
+      "prediction": "IN SOS N TO IME"
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50007",
+      "dataset": "LRS3-TED",
+      "reference": "SHOW US LET US SIGN",
+      "prediction": "BOT WO TO TO FOINT"
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50001",
+      "dataset": "LRS3-TED",
+      "reference": "MEN DO YOU NEED MORE THAN ONE WIFE",
+      "prediction": "WH O O POOIE"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50033",
+      "dataset": "LRS3-TED",
+      "reference": "IS THAT ABSOLUTE LIKE FORCE AND MASS AND GRAVITATIONAL ATTRACTION",
+      "prediction": "IT' SEA OAE THE T ERE TERE ER TOR ER AN TEN ON IN TH IN THTHIS"
+    },
+    {
+      "id": "lrs3/cfR6tiSWSAM/50014",
+      "dataset": "LRS3-TED",
+      "reference": "I DIRECTLY RUN TO MY HOME OFFICE SIT AT MY COMPUTER I TYPE IN THE IDEAS I SKETCH THINGS OUT AND I KEEP A DATABASE OF",
+      "prediction": "AND TO A TO TON O OE IE ON O ONH TON O OAN O O TO TO OTHOF"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50032",
+      "dataset": "LRS3-TED",
+      "reference": "BUT WE KNOW THAT THAT'S PURELY SYNTACTICAL",
+      "prediction": "TETEME SER SER TERE SES ER E RE EN OS TE TE"
+    },
+    {
+      "id": "lrs3/SJWoKsfsSaA/50010",
+      "dataset": "LRS3-TED",
+      "reference": "SO WE PUT IN A VEHICLE DESIGN AND OUT POPS ITS PERFORMANCE",
+      "prediction": "W CO ON TO OE E E O TO BER ME AIN I O OR O TIS"
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50002",
+      "dataset": "LRS3-TED",
+      "reference": "YOU DON'T HAVE ENOUGH EXPERTS",
+      "prediction": "I HO O O O TE T AN ANITITS"
+    },
+    {
+      "id": "lrs3/SJyE40koQyA/50008",
+      "dataset": "LRS3-TED",
+      "reference": "I CRIED IN THE BATHROOM WHILE I WASHED OUT THE PUMP EQUIPMENT",
+      "prediction": "I THEA A O TO SI ON HAN TO TH PI TOUOS"
+    },
+    {
+      "id": "lrs3/U4Lx5rcii38/50004",
+      "dataset": "LRS3-TED",
+      "reference": "I WANTED IT SO BADLY",
+      "prediction": "AND NOAT TOE TOUT TOER FAR IT"
+    },
+    {
+      "id": "lrs3/oeL72c6scAs/50009",
+      "dataset": "LRS3-TED",
+      "reference": "SO I THOUGHT",
+      "prediction": "WE DHA T"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50061",
+      "dataset": "LRS3-TED",
+      "reference": "MY ARGUMENT IS HE DOESN'T NEED SENSITIVITY TRAINING",
+      "prediction": "BT A TOE HO P TE TER THET TENE MEN PEHINE"
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50008",
+      "dataset": "LRS3-TED",
+      "reference": "I'M MASSIVELY OVERSIMPLIFYING HERE BUT THE WAY A GOOD DOCTOR WOULD DIAGNOSE",
+      "prediction": "IO A A A O O E TO EN IN TO E EN TA TOEN TH TO E O O ON TO TOAN TOE"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50004",
+      "dataset": "LRS3-TED",
+      "reference": "THERE'S SOME CONFUSION ABOUT THE TERM GENDER",
+      "prediction": "THE BENE TON TO TO IN I BABINT"
+    },
+    {
+      "id": "lrs3/Va07q3HFEZQ/50014",
+      "dataset": "LRS3-TED",
+      "reference": "WE SHOULD ALL BE SAYING",
+      "prediction": "I WHN TH WO WO RMEN T E TIT"
+    },
+    {
+      "id": "lrs3/SJyE40koQyA/50001",
+      "dataset": "LRS3-TED",
+      "reference": "THERE'S NOTHING TO SEE HERE",
+      "prediction": "WHE WEE SEI IS SO"
+    },
+    {
+      "id": "lrs3/2OlhCITl1J4/50007",
+      "dataset": "LRS3-TED",
+      "reference": "ONE OF THE PUBLIC UNIVERSITIES IN GREECE IS AMONG THE TOP 40 AS WELL",
+      "prediction": "AND TOA TOI II EE E OEE I I PIS"
+    },
+    {
+      "id": "lrs3/tTb3d5cjSFI/50006",
+      "dataset": "LRS3-TED",
+      "reference": "SO HERE IS THE SECRET TO SELF CONTROL",
+      "prediction": "THE CA A TO TH R OUOO"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50019",
+      "dataset": "LRS3-TED",
+      "reference": "SO NEED FOR SIGNIFICANCE",
+      "prediction": "YO ME WOI BA MIN TIT"
+    },
+    {
+      "id": "lrs3/aR6jLD1USW0/50011",
+      "dataset": "LRS3-TED",
+      "reference": "BECAUSE IT ESSENTIALLY OPENS UP A NEW CANVAS",
+      "prediction": "B E TOTH TAT TO TE TOO HAFOS"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50056",
+      "dataset": "LRS3-TED",
+      "reference": "NOT ONLY FOR OUR MENTAL HEALTH BUT ALSO FOR THE HEALTH OF THE SOCIETY THAT WE'RE ALL IN",
+      "prediction": "THE E O E TOE ME O TEE EE A TH E TIS TE EN TH ER E TES"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50017",
+      "dataset": "LRS3-TED",
+      "reference": "DREAMS ARE A FORM OF CONSCIOUSNESS ON THIS DEFINITION",
+      "prediction": "THE THE OE TE TOE OE THE TEN THE THE WOE O FE TIES"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50010",
+      "dataset": "LRS3-TED",
+      "reference": "WE'RE NOT EVEN THINKING ABOUT JOHN IT'S TOTALLY FOCUSED ON MARY",
+      "prediction": "W COAT ORE A O TO AN WON O FON TO ERAMINE"
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50018",
+      "dataset": "LRS3-TED",
+      "reference": "THE NEXT POSITIVE I FOUND IS I'VE REALIZED JUST HOW LUCKY I AM",
+      "prediction": "BT A O TH TH TO OO TOA ON O TOE"
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50010",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S NOT AN AFRICAN PROBLEM",
+      "prediction": "IO HOU OU OGOU TO GONT"
+    },
+    {
+      "id": "lrs3/n4YcornnWFI/50005",
+      "dataset": "LRS3-TED",
+      "reference": "RECEIVING AND GIVING IS ACTUALLY THE EXACT SAME ACTION",
+      "prediction": "BET OD O TE O AN HIT TH O I H BOIS"
+    },
+    {
+      "id": "lrs3/qdiF1fSGfyM/50007",
+      "dataset": "LRS3-TED",
+      "reference": "CANDY WRAPPERS CLOTHING LOGOS STREET SIGNS EVERYTHING",
+      "prediction": "A HO WE TE T IT TE OE TO E O TE CIN A T TIE"
+    },
+    {
+      "id": "lrs3/oeL72c6scAs/50011",
+      "dataset": "LRS3-TED",
+      "reference": "NOW LET ME QUICKLY EXPLAIN TO YOU HOW THAT HAPPENS AND HOW THAT IS GOING TO HELP SAVE OUR",
+      "prediction": "SOE E ME AN E IE TO A ONE A O OI I THA A A TO E I AN AN TO THIS"
+    },
+    {
+      "id": "lrs3/qKlzdSH2X9w/50015",
+      "dataset": "LRS3-TED",
+      "reference": "AND YOU KNOW WHAT",
+      "prediction": "AND HAE SA MEMEE"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50021",
+      "dataset": "LRS3-TED",
+      "reference": "AND I AM TAKING IN A PERSPECTIVE OF THE FLASH MOBER WHICH IS ANOTHER TERM IN THE DICTIONARY",
+      "prediction": "WET THT OO TH TH TOE TO TOPPON TON O TO THE THE OR TO TOS"
+    },
+    {
+      "id": "lrs3/qKlzdSH2X9w/50012",
+      "dataset": "LRS3-TED",
+      "reference": "AND ASHLEY HAVE BEEN REFERRED TO ME WHEN I WAS WORKING FOR WISH FOR A BRIGHTER FUTURE WHICH IS A",
+      "prediction": "I COMEAME A ON TH O O EN AAE H TO I THNI I TH EIIS"
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50010",
+      "dataset": "LRS3-TED",
+      "reference": "IT IS BEING BEYONC",
+      "prediction": "I S A HAD OD WOS"
+    },
+    {
+      "id": "lrs3/aR6jLD1USW0/50006",
+      "dataset": "LRS3-TED",
+      "reference": "THEY'LL PROBABLY BE JUST SHORT OF THAT",
+      "prediction": "B THES IS THUT"
+    },
+    {
+      "id": "lrs3/SJyE40koQyA/50007",
+      "dataset": "LRS3-TED",
+      "reference": "FOR MONTHS ALL I REMEMBER IS THE SCREAMING",
+      "prediction": "WE S TO TO EO TO WOE"
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50017",
+      "dataset": "LRS3-TED",
+      "reference": "AND YET IT IS EXTRAORDINARY BECAUSE IN MY PAIN AND MY PANIC IN THE HOMELESSNESS OF",
+      "prediction": "AND THA TH TH TH TE O TEEN THE MAAA I I H BAANK IE A E MO IN SM"
+    },
+    {
+      "id": "lrs3/PJUIXSpLoVk/50007",
+      "dataset": "LRS3-TED",
+      "reference": "SO I WORKED MY WAY INTO THE MIDDLE OF THE CROWD AND LYING THERE FOR EVERYONE TO SEE WAS AN UNWRAPPED UNUSED",
+      "prediction": "THE TH THAO O TOE A O O OA AO OATTE"
+    },
+    {
+      "id": "lrs3/a2MR5XbJtXU/50023",
+      "dataset": "LRS3-TED",
+      "reference": "ALL SONG IS OUR BREATH",
+      "prediction": "IHET TOE NAE O OE OOR OMY"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50002",
+      "dataset": "LRS3-TED",
+      "reference": "AND PERHAPS EVEN MORE DISTURBING THE EQUIVALENT OF THE UNDERGRADUATE POPULATION HERE AT UNIVERSITY PARK",
+      "prediction": "I A TO TH TO ER EAEN TO O ER TO TO TO H A E O IN A O TO MIN"
+    },
+    {
+      "id": "lrs3/oeL72c6scAs/50018",
+      "dataset": "LRS3-TED",
+      "reference": "SO I HAVE A VISION FOR A WORLD WHERE COWS ONLY EAT",
+      "prediction": "B A AAOO O OIN TO TH O AIN A TOAR O OTO"
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50010",
+      "dataset": "LRS3-TED",
+      "reference": "AND I IMAGINED HIM BEING ABLE TO PURSUE HIS INTEREST IN MATH AND ENGINEERING",
+      "prediction": "AND HIE AO T OO AIND O AAN A OAN O ON TH TO"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50010",
+      "dataset": "LRS3-TED",
+      "reference": "THIS IS SOMETHING THAT I FOUND OUT PRETTY ACCIDENTALLY",
+      "prediction": "AN TS TO TOAM EMI O AN AN AN TH"
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50025",
+      "dataset": "LRS3-TED",
+      "reference": "WAS IT BECAUSE IT WAS ON PRINCIPLE",
+      "prediction": "WE E BEN TH E AN A TO AN TO RORS"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50023",
+      "dataset": "LRS3-TED",
+      "reference": "YOU'RE MEETING YOUR NEED FOR UNCERTAINTY BECAUSE AS WE SAID VARIETY IT'S THE SPICE OF LIFE YOU'RE DOING SOMETHING",
+      "prediction": "WE E O AR A TO EEN TI TH O O TO OE TH TEA H TO TO OPS"
+    },
+    {
+      "id": "lrs3/QHSrG9Tuz84/50001",
+      "dataset": "LRS3-TED",
+      "reference": "WHAT DO I MEAN BY THESE KINDS OF THERAPEUTICS",
+      "prediction": "IT HS TAE E OOE TO ER TIINS"
+    },
+    {
+      "id": "lrs3/40ieXxoJwZw/50001",
+      "dataset": "LRS3-TED",
+      "reference": "YOU MADE THE RIGHT CALL I'M LISTENING VERY CAREFULLY",
+      "prediction": "SHE WE A ANE TOE EAN A E ER O OEN TI TO TE"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50017",
+      "dataset": "LRS3-TED",
+      "reference": "THINGS ARE DIFFERENT NOW OF COURSE MANY FEWER PEOPLE SMOKE",
+      "prediction": "THE S IN A THAN O LH AN TI ER OR E IN THE MOS"
+    },
+    {
+      "id": "lrs3/qdiF1fSGfyM/50001",
+      "dataset": "LRS3-TED",
+      "reference": "SOON AFTER I COMMITTED MY FIRST CRIME AND IT WAS THE FIRST TIME THAT I WAS TOLD THAT I HAD POTENTIAL AND FELT",
+      "prediction": "WO E TO THE A TO OR O OAN OE TH ER O TO ER THAE TA EN THE TE ER TE OR ON TOL OFR"
+    },
+    {
+      "id": "lrs3/qNvDRuGK84I/50005",
+      "dataset": "LRS3-TED",
+      "reference": "WE HAD TO CALM THEM DOWN",
+      "prediction": "W S TS TOT H T TON TOUE"
+    },
+    {
+      "id": "lrs3/NVPxmzSPvUw/50008",
+      "dataset": "LRS3-TED",
+      "reference": "THEY SAID HE WAS AS SMART AS THEY COME",
+      "prediction": "TH E TOE WE TAS PATIN TAEE"
+    },
+    {
+      "id": "lrs3/B12syeJflbQ/50006",
+      "dataset": "LRS3-TED",
+      "reference": "I WILL NOT SURVIVE",
+      "prediction": "IT A S S A AT"
+    },
+    {
+      "id": "lrs3/OibJT7GSwyo/50001",
+      "dataset": "LRS3-TED",
+      "reference": "NOW SOME OF YOU IN THIS ROOM PROBABLY KNOW MY STORY",
+      "prediction": "I OU OE I TE IY EIN O MINT"
+    },
+    {
+      "id": "lrs3/Va07q3HFEZQ/50001",
+      "dataset": "LRS3-TED",
+      "reference": "HOW DO THEY DO THAT",
+      "prediction": "I DHD THE DHHEP"
+    },
+    {
+      "id": "lrs3/cfR6tiSWSAM/50012",
+      "dataset": "LRS3-TED",
+      "reference": "SO RIGHT NEXT TO MY BED I KEEP A NOTEBOOK A JOURNAL WITH A SPECIAL PEN THAT HAS AN LED LIGHT ON IT BECAUSE I",
+      "prediction": "WO WO TOE ER TO EAE BANE ENE OE TON TOEE O TINE TOER O ON TO TO ENY TOUN TERE TON THEN OU HAN IN TON MOHET"
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50010",
+      "dataset": "LRS3-TED",
+      "reference": "2 MILLION CASES",
+      "prediction": "WOE WELE ALINE TIS"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50005",
+      "dataset": "LRS3-TED",
+      "reference": "AND LET ME ILLUSTRATE THAT CONFUSION BY WAY OF ANALOGY",
+      "prediction": "AND THA AA TOE TO ER TO O ENE MOD PAC TII"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50046",
+      "dataset": "LRS3-TED",
+      "reference": "THAT ALONE IS REASON ENOUGH TO TELL IT",
+      "prediction": "TH PA A I O S S S I TIA THIIT"
+    },
+    {
+      "id": "lrs3/rTJpJlVkRTA/50008",
+      "dataset": "LRS3-TED",
+      "reference": "I'M AS CERTAIN OF THAT AS I WAS OF THE SUCCESS THAT WE'VE HAD WITH DIRECT TELEVISION BROADCASTING",
+      "prediction": "THE WE SOTHA TH THA OI TH O TO TO A H IE TH AN O EI OITIS"
+    },
+    {
+      "id": "lrs3/SQe8cR4Jl10/50002",
+      "dataset": "LRS3-TED",
+      "reference": "SOME PEOPLE MIGHT FEAR SHARKS",
+      "prediction": "B HAV HO TE TRIS"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50004",
+      "dataset": "LRS3-TED",
+      "reference": "ONE CONSCIOUSNESS DOES NOT EXIST",
+      "prediction": "WHE A O THE OO TO O TIS"
+    },
+    {
+      "id": "lrs3/p0aTfcXpOEs/50001",
+      "dataset": "LRS3-TED",
+      "reference": "IT WAS THE FORMER THOUGH THEY CHECKED THE AREA AND IT WAS ACTUALLY THERE",
+      "prediction": "I WO THE L WOY O END THE OE TOE IND ON OR AN THER TOE HAT"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50023",
+      "dataset": "LRS3-TED",
+      "reference": "THESE EXPERIMENTS ARE TAKING PLACE IN ORDINARY HEALTHCARE SETTINGS WHERE YOU MIGHT GO IF YOU NEEDED A ROUTINE",
+      "prediction": "THET S S HE HEN TOAN TO ER OE TOE TO TO OR TO TOE TOE THE TO TOEN ON TOER TOES"
+    },
+    {
+      "id": "lrs3/KCr8s57hdzY/50003",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S CALLED SYNESTHESIA",
+      "prediction": "I COU HA THU O AT"
+    },
+    {
+      "id": "lrs3/Va07q3HFEZQ/50009",
+      "dataset": "LRS3-TED",
+      "reference": "AND EVEN IF YOU THINK SOMETHING'S FREE IT INVARIABLY ISN'T",
+      "prediction": "AND IS A O OE I ARIN THS"
+    },
+    {
+      "id": "lrs3/a2MR5XbJtXU/50019",
+      "dataset": "LRS3-TED",
+      "reference": "THEN HE GOES BACK",
+      "prediction": "I SOBE TO ER MON"
+    },
+    {
+      "id": "lrs3/HCJRXoYOoaI/50006",
+      "dataset": "LRS3-TED",
+      "reference": "YOU NEED THE RIGHT AMOUNT OF CARBON WHICH IS THE DEAD BROWN STUFF",
+      "prediction": "SO A A OO OO O MA O"
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50011",
+      "dataset": "LRS3-TED",
+      "reference": "I AM CONVINCED THAT AFRICA'S FURTHER TRANSFORMATION AFRICA'S ADVANCEMENT RESTS",
+      "prediction": "AND THA E H TH TO O TO OY TO O TOAN A O O O O O PENS"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50036",
+      "dataset": "LRS3-TED",
+      "reference": "THAT'S GOING ON NO MATTER WHAT ANYBODY THINKS",
+      "prediction": "SHE SA WE W S MENY BINY MINEG IN HIN I NNS"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50004",
+      "dataset": "LRS3-TED",
+      "reference": "IT FEELS LIKE I'M TAKING ALL OF THIS CONFUSION AND EMOTION AND ALL THOSE OTHER KINDS OF ART BUILDING UP INSIDE OF ME",
+      "prediction": "A THAE AA COEN THE TO A A A AN TO TO OR THA TAN IN THA TO N TOF OTHS"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50012",
+      "dataset": "LRS3-TED",
+      "reference": "WHY DO THEY KEEP GOING BACK",
+      "prediction": "I HOU'D ON O BON BAT"
+    },
+    {
+      "id": "lrs3/oeL72c6scAs/50002",
+      "dataset": "LRS3-TED",
+      "reference": "INSTEAD ONLY EAT MEAT AND CHEESE FROM COWS THAT WERE FED ON",
+      "prediction": "AND A THA AN A ANAN THR O IN THA THAN A OIN AT OI TIT"
+    },
+    {
+      "id": "lrs3/cnQFvrWDYsU/50001",
+      "dataset": "LRS3-TED",
+      "reference": "COULD WE HAVE PEOPLE SINGING TOGETHER IN REAL TIME",
+      "prediction": "BUT THEE HA A HA O THIS SIR TO THA ORT THE THE HAE"
+    },
+    {
+      "id": "lrs3/p4tffKWs3BM/50011",
+      "dataset": "LRS3-TED",
+      "reference": "I HAVE KNOWN PEOPLE GO MONTHS OR YEARS WITHOUT A DIAGNOSIS",
+      "prediction": "AND TO TE OE ANE TEO E O A O TO O TES"
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50005",
+      "dataset": "LRS3-TED",
+      "reference": "HE WAS A MALE AND I WAS A FEMALE",
+      "prediction": "A TOUT THA BE AN HANE EFD"
+    },
+    {
+      "id": "lrs3/dOOtM7ZpAS8/50004",
+      "dataset": "LRS3-TED",
+      "reference": "MOST OF ALL HE WAS DRIVEN BY THE FEAR OF DIVERSITY",
+      "prediction": "BT O E TOE TER E THIE HA HO O THEF TD"
+    },
+    {
+      "id": "lrs3/rTJpJlVkRTA/50010",
+      "dataset": "LRS3-TED",
+      "reference": "AND SO FOR US THE PROSPECT OF MIND CLONES AND REGENERATED BODIES IS THAT OUR LOVE",
+      "prediction": "AND EEY THE I ME TH TOEE EE A E O I IY ITO E"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50057",
+      "dataset": "LRS3-TED",
+      "reference": "THAT FOURTH STEP IS INSPIRING OTHERS TO HAVE THE SAME PROCESS",
+      "prediction": "AND THTE TERE TORE TOM TENE HE THES ME HINE TOE HANE I HAVE TOR APIS"
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50015",
+      "dataset": "LRS3-TED",
+      "reference": "THAT UNDERGIRDS MOST OF OUR PARENTING AND MANAGING STYLES THE WAY THAT WE MOTIVATE OUR BEHAVIOR",
+      "prediction": "SO OE TOE TOE TO E THE TO O EE O E O ES TE TOTEM"
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50009",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S VIOLENCE AGAINST WOMEN",
+      "prediction": "THS THA O O I OR DEE"
+    },
+    {
+      "id": "lrs3/SJyE40koQyA/50013",
+      "dataset": "LRS3-TED",
+      "reference": "WE HAVE TO STOP FRAMING THIS AS A MOTHER'S ISSUE OR EVEN A WOMEN'S ISSUE",
+      "prediction": "I HAVE TH PO E TOEREN O IIN O OIN THITO"
+    },
+    {
+      "id": "lrs3/ziGD7vQOwl8/50002",
+      "dataset": "LRS3-TED",
+      "reference": "THERE'S NO WAY THEY THINK THEY CAN TAKE HIM",
+      "prediction": "IOE WO WO OR TOR RER OR RAE"
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50026",
+      "dataset": "LRS3-TED",
+      "reference": "SOMETHING LIKE THAT",
+      "prediction": "IT S A I IE"
+    },
+    {
+      "id": "lrs3/rTJpJlVkRTA/50004",
+      "dataset": "LRS3-TED",
+      "reference": "THIS IS JUST SOMETHING WE TRIED IN RATS",
+      "prediction": "IT S O O TO WIE HAOS"
+    },
+    {
+      "id": "lrs3/cfR6tiSWSAM/50013",
+      "dataset": "LRS3-TED",
+      "reference": "SO I NEED TO DECIPHER WHAT I WROTE",
+      "prediction": "NOE ANS THES AE WO ER TO TOE"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50013",
+      "dataset": "LRS3-TED",
+      "reference": "WHY WAS SHE DRINKING WITH THOSE GUYS IN THAT HOTEL ROOM",
+      "prediction": "THE HAR TOR E BE T THE LALE THAR LOL YON LONT TOTITT"
+    },
+    {
+      "id": "lrs3/2OlhCITl1J4/50004",
+      "dataset": "LRS3-TED",
+      "reference": "HOW COULD THIS POSSIBLY BE",
+      "prediction": "SO OU YOE MO IN OF E TOS"
+    },
+    {
+      "id": "lrs3/EXo3qA9V3eI/50004",
+      "dataset": "LRS3-TED",
+      "reference": "SO WHAT IF WE COULD START OFF BY GOING INTO THE BRAIN AND JUST FINDING A SINGLE MEMORY TO BEGIN WITH",
+      "prediction": "BHE O ANE TH O OL OE OEN I EE OE O TE AE"
+    },
+    {
+      "id": "lrs3/G8gJJuCdPSA/50007",
+      "dataset": "LRS3-TED",
+      "reference": "WE'RE MARCHING ACROSS THE COUNTRY STATE BY STATE MARRIAGE EQUALITY STYLE",
+      "prediction": "THE A TH TO HA OEO TO TH O O O O OY"
+    },
+    {
+      "id": "lrs3/aR6jLD1USW0/50003",
+      "dataset": "LRS3-TED",
+      "reference": "AND IN A WORLD WHERE THE U",
+      "prediction": "IT WO MISINS"
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50012",
+      "dataset": "LRS3-TED",
+      "reference": "THERE IS SOME KIND OF SHIFT INSIDE ME WHEN THE WORK GETS GOOD",
+      "prediction": "THE WE' AIN TONE ER IA HON TEN WOR TINS"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50023",
+      "dataset": "LRS3-TED",
+      "reference": "WE DON'T LIKE IT WHEN PEOPLE CHALLENGE OUR POWER",
+      "prediction": "I TOE HONE TO BOR THI TOA HOET"
+    },
+    {
+      "id": "lrs3/cfR6tiSWSAM/50008",
+      "dataset": "LRS3-TED",
+      "reference": "WE ALSO HAVE THE WORLD'S VERY FIRST VEHICLE THAT CAN BE DRIVEN BY THE BLIND",
+      "prediction": "BET OT A O OR ON TOE TI TE FOIN A EIR TH IN TEEME"
+    },
+    {
+      "id": "lrs3/gmjSazFbpkA/50009",
+      "dataset": "LRS3-TED",
+      "reference": "IT IS RUNNING A MARATHON",
+      "prediction": "TOE OT HAN O TA WY"
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50016",
+      "dataset": "LRS3-TED",
+      "reference": "YOU GOT GOOD GRADES NOW YOU HAVE TO GET BETTER GRADES YOU GOT INTO A GOOD SCHOOL AND AFTER YOU GET INTO A BETTER ONE YOU GOT A GOOD JOB NOW YOU HAVE",
+      "prediction": "I OE TO E TH TE E TO TE OR E TOER TOY OR I IN O CI REE"
+    },
+    {
+      "id": "lrs3/4jUdCy6Vghw/50011",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S OUR FAMILY'S TRADITION TO GO AROUND THE TABLE BEFORE WE EAT AND SAY WHAT WE ARE THANKFUL FOR",
+      "prediction": "AND AEMEME ME E IN TO TOE FE NON ENE TEN TO RER TIN CON CON O CO E TOR TO LONE TEN TORE"
+    },
+    {
+      "id": "lrs3/oeL72c6scAs/50004",
+      "dataset": "LRS3-TED",
+      "reference": "AND WHEN BROUGHT OUT TO THE FIELD THAT MANURE SEEPS INTO OUR GROUNDWATER AND RIVERS AND CAUSES",
+      "prediction": "I TH EOO TO EN EE TH E E TO EN TO TO TEN O THE BIN TO O E TO EN AN AORE"
+    },
+    {
+      "id": "lrs3/p49rv25dx0g/50060",
+      "dataset": "LRS3-TED",
+      "reference": "BECAUSE YOU HAVE ALWAYS HAD A HOME INSIDE THE FOUR WALLS OF YOUR OWN SKIN BUT GIRL I",
+      "prediction": "B E BA I TO TOE THE TOO TOEN A TOR O O TOEE O ON TO"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50009",
+      "dataset": "LRS3-TED",
+      "reference": "DID ANY OF THOSE PROTOTYPE SPACECRAFT FAIL",
+      "prediction": "THAY AND O O TOUE ONE ON TO ON O OR TAT"
+    },
+    {
+      "id": "lrs3/YlmZkY1uqXM/50012",
+      "dataset": "LRS3-TED",
+      "reference": "THERE IS NOTHING WRONG WITH A WOMAN OF SIZE",
+      "prediction": "WT OE ON OR ORE TO LO TO TO AN TH TOY"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50019",
+      "dataset": "LRS3-TED",
+      "reference": "THAT'S OUR TARGET",
+      "prediction": "BET HOE EL TOET"
+    },
+    {
+      "id": "lrs3/SQe8cR4Jl10/50006",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S SOMETHING YOU LIVE IN",
+      "prediction": "IT'S S BAR BOA IS"
+    },
+    {
+      "id": "lrs3/n4YcornnWFI/50008",
+      "dataset": "LRS3-TED",
+      "reference": "IT WAS WHEN I WAS HONEST WITH MYSELF AND LET GO OF AN AGENDA AND STOP TRYING TO MAKE THINGS HAPPEN THAT LOVE COULD",
+      "prediction": "AN O TO BER OU TO E OU HO EN TO TON TE TE TEE TENE TE TO RER ROR IN IN TI INE TIN TOE TI TOMINE"
+    },
+    {
+      "id": "lrs3/aR6jLD1USW0/50005",
+      "dataset": "LRS3-TED",
+      "reference": "AND THE SIMPLEST WAY TO LOOK AT IS LOOK AT THE GOOGLE RESULTS PAGE",
+      "prediction": "WE E E ES TOE AS AN AS A TO TR"
+    },
+    {
+      "id": "lrs3/Va07q3HFEZQ/50002",
+      "dataset": "LRS3-TED",
+      "reference": "WE ALL KNOW WE'VE BEEN MONITORED ALL OF THE TIME",
+      "prediction": "WECU E OU T O OE TE PED I S TOIS O AS"
+    },
+    {
+      "id": "lrs3/fLJsdqxnZb0/50017",
+      "dataset": "LRS3-TED",
+      "reference": "AND IF HAPPINESS IS ON THE OPPOSITE SIDE OF SUCCESS YOUR BRAIN NEVER GETS THERE",
+      "prediction": "IN TIS TOU TO E O COE TO TO N ON WIOTOS"
+    },
+    {
+      "id": "lrs3/cfR6tiSWSAM/50004",
+      "dataset": "LRS3-TED",
+      "reference": "THESE ARE ALL THE TOOLS WE NEED",
+      "prediction": "SHE ARE HOE TO TOE SEI"
+    },
+    {
+      "id": "lrs3/v84pD2g3gSk/50008",
+      "dataset": "LRS3-TED",
+      "reference": "WHAT DO YOU HAVE TO SAY FOR THAT",
+      "prediction": "WHEY WEE WERT OU WOROUT"
+    },
+    {
+      "id": "lrs3/p0SwjVS9iSc/50001",
+      "dataset": "LRS3-TED",
+      "reference": "THAT WAS MY THING",
+      "prediction": "THAT S SIS SE"
+    },
+    {
+      "id": "lrs3/aR6jLD1USW0/50010",
+      "dataset": "LRS3-TED",
+      "reference": "WE HAVE PHOTOGRAPHERS WHO WORK EVERY SHOW WE HAVE PAINTERS AND THE NOTION IS I BELIEVE THAT",
+      "prediction": "BU O TO TOIN TI TOER TO ORAN O TO O O O TH TOOY"
+    },
+    {
+      "id": "lrs3/46w99bZ3WSM/50004",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S BEETHOVEN HOW CAN YOU SAY THAT",
+      "prediction": "THE MEY O ON TO THU E TH"
+    },
+    {
+      "id": "lrs3/SQe8cR4Jl10/50007",
+      "dataset": "LRS3-TED",
+      "reference": "THAT'S WHAT KEEPS YOU FROM GETTING HELP",
+      "prediction": "A H TOE LOR TOE RER ONT WO ON ON TO HOE"
+    },
+    {
+      "id": "lrs3/O9Hfqc3trhw/50009",
+      "dataset": "LRS3-TED",
+      "reference": "OF COURSE PEOPLE WANT TO REACH SAFETY AND SECURITY AND SOME OF THEM ARE WILLING TO PUT THEIR LIVES AT RISK",
+      "prediction": "AN O BH O AEN A OEN O I O O O TH TH A TO TO A TOE TO ON OE TO"
+    },
+    {
+      "id": "lrs3/p0aTfcXpOEs/50003",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S ABOUT 650 MILLION LIGHT YEARS FROM EARTH",
+      "prediction": "SO EEN I TON THA TO I AN O RANT"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50022",
+      "dataset": "LRS3-TED",
+      "reference": "EVERYBODY IS LOOKING AT YOU AND YOU'RE CREATING AN EXPERIENCE THAT THEY'RE GOING TO REMEMBER AND MAYBE OTHER PEOPLE ARE GOING TO RELIVE",
+      "prediction": "BT O O TO O ON A O ER A O E O OO O EE O OON O TO O OTIS"
+    },
+    {
+      "id": "lrs3/tTb3d5cjSFI/50004",
+      "dataset": "LRS3-TED",
+      "reference": "SO WHAT THIS EXERCISE DID IS IT GAVE ME A LITTLE BIT OF SPACE BETWEEN ME AND MY THOUGHTS",
+      "prediction": "SO WE O TH I TIAN TOAI TIT E IIN I OI OEIN O IET"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50046",
+      "dataset": "LRS3-TED",
+      "reference": "THERE'S BEEN AN AWFUL LOT OF SILENCE",
+      "prediction": "IT D AMEHIN BAD TIN HIINT"
+    },
+    {
+      "id": "lrs3/NVPxmzSPvUw/50013",
+      "dataset": "LRS3-TED",
+      "reference": "HERE'S MY ADVICE",
+      "prediction": "TS AEIES"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50037",
+      "dataset": "LRS3-TED",
+      "reference": "BUT WHEN I HAUL OUT MY POCKET CALCULATOR AND DO THE CALCULATION THE ONLY INTRINSIC PHENOMENON",
+      "prediction": "BE T TE LEN TORE THE BAN BANE TE EN TO TO EN E TO ER O E O TO TO IN TE TOE IN TI TE TINTIS"
+    },
+    {
+      "id": "lrs3/wn8S33NBB04/50021",
+      "dataset": "LRS3-TED",
+      "reference": "I THINK WE CAN IF WE TAKE A PAGE FROM NASA'S BOOK AND ENGINEER BEHAVIORAL INTERVENTIONS",
+      "prediction": "AND SO A A OR HEN THA ME IN THT TO EN TIY TH O AME E TH THE TORON"
+    },
+    {
+      "id": "lrs3/46w99bZ3WSM/50003",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S GOING TO BE A KIND OF A REFRAIN AS WE GO THROUGH THE PRESENTATION",
+      "prediction": "W WO O TEY AEN I TH EE TI TH O"
+    },
+    {
+      "id": "lrs3/qty0NjF3pdQ/50003",
+      "dataset": "LRS3-TED",
+      "reference": "I DIDN'T UNDERSTAND WHY LAURAN WOULD CHOOSE TO HAVE THEM PARTICIPATE IN THAT WAY AND I ASSUMED IT WASN'T A CHOICE THAT THE BOYS MADE FOR",
+      "prediction": "AND CAS TIS HO HON TE TO TO TO ON TO TO TO TO TE IN TI IN IN TO TI IN TH TE TI TO TE IN TOM"
+    },
+    {
+      "id": "lrs3/YlmZkY1uqXM/50008",
+      "dataset": "LRS3-TED",
+      "reference": "AS LIKE THREE OR FOUR DIFFERENT PEOPLE",
+      "prediction": "THE' TER I IE PO PER PEBEM"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50018",
+      "dataset": "LRS3-TED",
+      "reference": "AND LOOKING AT THE SIX HUMAN NEEDS AGAIN LET'S THINK ABOUT IT",
+      "prediction": "I WO OE TO WI AN TOA O O TENE EN TER PERNE"
+    },
+    {
+      "id": "lrs3/ziGD7vQOwl8/50003",
+      "dataset": "LRS3-TED",
+      "reference": "YOU CAN'T GO AS YOU ARE",
+      "prediction": "ITS TES CE HA TOT TO O TOD WAINY"
+    },
+    {
+      "id": "lrs3/eqDgt12m26c/50021",
+      "dataset": "LRS3-TED",
+      "reference": "AND JUST AS THE JAR FULL OF WATER CAN GO FROM LIQUID TO SOLID DEPENDING ON THE BEHAVIOR",
+      "prediction": "AND THE O T TO WO EN THE TO ERE TEY THT AN WHET EN ON THA O TEN WON ON O THA TA THN TO IN TH TEE"
+    },
+    {
+      "id": "lrs3/KTvSfeCRxe8/50052",
+      "dataset": "LRS3-TED",
+      "reference": "IT'S UNBELIEVABLE REALLY",
+      "prediction": "AN HA HAT TE THA TAE"
+    },
+    {
+      "id": "lrs3/AHfiKav9fcQ/50008",
+      "dataset": "LRS3-TED",
+      "reference": "IS GOING TO BECOME AN ADDICTION IF IT MEETS THOSE NEEDS IN A POWERFUL WAY",
+      "prediction": "IT ME MO AN EE O OR O TER TON TO ON HON TO TO MINK"
+    },
+    {
+      "id": "lrs3/PuroSL7O4eY/50002",
+      "dataset": "LRS3-TED",
+      "reference": "NOT THIS TIME",
+      "prediction": "WET THAS I LOM"
+    },
+    {
+      "id": "lrs3/EXo3qA9V3eI/50006",
+      "dataset": "LRS3-TED",
+      "reference": "DO I SHAKE THEIR HAND",
+      "prediction": "WT YOU OE"
+    },
+    {
+      "id": "lrs3/28sa2zGgmwE/50004",
+      "dataset": "LRS3-TED",
+      "reference": "AND THEY JUST KEEP GOING THROUGH ALL THESE THINGS",
+      "prediction": "IT'S SS S BAE TO PIS"
+    }
+  ]
+}

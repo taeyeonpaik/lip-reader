@@ -153,5 +153,19 @@
       "scipy-0.19-pilutil.py": "a287af4e3f8577ceaeb31fbf2c4dfc67e76c886a8cb5a5343834d00af5966acd",
       "scipy-0.19-LICENSE": "142b6deb0132be1adba8d9ba9f9027629f5a9573be3a829ed8a53733473ae0a1"
     }
+  },
+  "videomae": {
+    "repository": "MCG-NJU/VideoMAE",
+    "revision": "14ef8d856287c94ef1f985fe30f958eb4ec2c55d",
+    "destination": "outputs/lipreading-studio/vendor/videomae",
+    "patch": "tools/dependency-patches/videomae-compat.patch",
+    "files": {
+      "modeling_pretrain.py": "85ec1f894e8b96dcdc5759746fc85df1a130b14b1e2bb0f6d4bb85daf49fd88b",
+      "compat.py": "7274fe0d1b6f0263e32984473949fc1442b8d3e421e30ebf6ac3e3a18b633c03",
+      "LICENSE": "bc8f60ee50544b2dd70b4bc90e22de503aa23b317d284046a479811f2e06f396",
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "NOTICE.md": "48d460f5cfd8526b1cacf0f21962a8d6dc4ea25902792060d7ef7b4ce9d7fb28",
+      "modeling_finetune.py": "7ed1f6d525bcf403d83fbd7c90567acea5029249beb49a5777fe4db956c30877"
+    }
   }
 }

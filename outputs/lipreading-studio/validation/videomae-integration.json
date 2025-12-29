@@ -1,0 +1,30 @@
+{
+  "state": "passed",
+  "checked_utc": "2026-09-19T00:14:39.739392+00:00",
+  "unit_regression_tests": {
+    "passed": 31,
+    "initial_sandbox_graphics_failures": 2,
+    "graphics_tests_rerun_with_gpu_access": "2 passed"
+  },
+  "smoke_pipeline": "work/videomae/pilot/verification.json",
+  "browser": {
+    "url": "http://127.0.0.1:8502/",
+    "experimental_selector_tested": true,
+    "explicit_failure_warning_verified": true,
+    "example_prediction_matches_script": true,
+    "example_seconds_displayed": 3.0,
+    "example_video_seconds": 8.0,
+    "final_results_panel_verified": true,
+    "restored_model": "Auto-AVSR",
+    "physical_camera_tested": false
+  },
+  "training_session": 15754,
+  "heartbeat": "finish-videomae-lip-reader",
+  "main_training_completed": true,
+  "deployed": false,
+  "post_training_reports_recomputed": 38,
+  "published_weights_match_selected": true,
+  "encoder_and_autoavsr_unchanged": true,
+  "candidate_selection_verified_epoch": 24,
+  "accuracy_outcome": "failed; unusable transcription"
+}

@@ -1,0 +1,210 @@
+{
+  "state": "completed",
+  "completed_utc": "2026-09-18T22:42:42.776765+00:00",
+  "stop_reason": "validation_patience",
+  "epochs_completed": 32,
+  "selected_epoch": 24,
+  "elapsed_seconds": 4777.119104999991,
+  "counts": {
+    "train": 5000,
+    "validation": 400,
+    "heldout": 400
+  },
+  "trainable_parameters": 3274279,
+  "validation": {
+    "clips": 400,
+    "word_errors": 4186,
+    "reference_words": 3651,
+    "wer": 1.1465351958367571,
+    "character_errors": 13281,
+    "reference_characters": 18638,
+    "cer": 0.7125764567013628,
+    "exact_sentences": 0,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 1601,
+        "reference_words": 1417,
+        "wer": 1.1298517995765702,
+        "character_errors": 5188,
+        "reference_characters": 7213,
+        "cer": 0.7192568972688201,
+        "exact_sentences": 0,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 2585,
+        "reference_words": 2234,
+        "wer": 1.1571172784243509,
+        "character_errors": 8093,
+        "reference_characters": 11425,
+        "cer": 0.7083588621444201,
+        "exact_sentences": 0,
+        "failures": 0
+      }
+    },
+    "macro_wer": 1.1434845390004607,
+    "macro_cer": 0.7138078797066201
+  },
+  "heldout": {
+    "clips": 400,
+    "word_errors": 3890,
+    "reference_words": 3356,
+    "wer": 1.1591179976162098,
+    "character_errors": 12172,
+    "reference_characters": 16983,
+    "cer": 0.7167167167167167,
+    "exact_sentences": 0,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 1214,
+        "reference_words": 1036,
+        "wer": 1.1718146718146718,
+        "character_errors": 3826,
+        "reference_characters": 5211,
+        "cer": 0.7342160813663404,
+        "exact_sentences": 0,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 2676,
+        "reference_words": 2320,
+        "wer": 1.153448275862069,
+        "character_errors": 8346,
+        "reference_characters": 11772,
+        "cer": 0.7089704383282365,
+        "exact_sentences": 0,
+        "failures": 0
+      }
+    },
+    "macro_wer": 1.1626314738383705,
+    "macro_cer": 0.7215932598472885
+  },
+  "zero_visual_validation": {
+    "clips": 400,
+    "word_errors": 3688,
+    "reference_words": 3651,
+    "wer": 1.0101342098055328,
+    "character_errors": 14897,
+    "reference_characters": 18638,
+    "cer": 0.799281038738062,
+    "exact_sentences": 0,
+    "failures": 0,
+    "by_dataset": {
+      "LRS2": {
+        "clips": 200,
+        "word_errors": 1466,
+        "reference_words": 1417,
+        "wer": 1.0345800988002822,
+        "character_errors": 5676,
+        "reference_characters": 7213,
+        "cer": 0.7869125190628032,
+        "exact_sentences": 0,
+        "failures": 0
+      },
+      "LRS3-TED": {
+        "clips": 200,
+        "word_errors": 2222,
+        "reference_words": 2234,
+        "wer": 0.9946284691136974,
+        "character_errors": 9221,
+        "reference_characters": 11425,
+        "cer": 0.807089715536105,
+        "exact_sentences": 0,
+        "failures": 0
+      }
+    },
+    "macro_wer": 1.0146042839569898,
+    "macro_cer": 0.7970011172994541
+  },
+  "autoavsr_comparison": {
+    "validation": {
+      "clips": 400,
+      "word_errors": 559,
+      "reference_words": 3651,
+      "wer": 0.15310873733223773,
+      "character_errors": 1850,
+      "reference_characters": 18638,
+      "cer": 0.09925957720785492,
+      "exact_sentences": 192,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 200,
+          "word_errors": 327,
+          "reference_words": 1417,
+          "wer": 0.23076923076923078,
+          "character_errors": 1086,
+          "reference_characters": 7213,
+          "cer": 0.15056148620546236,
+          "exact_sentences": 83,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 200,
+          "word_errors": 232,
+          "reference_words": 2234,
+          "wer": 0.10384959713518353,
+          "character_errors": 764,
+          "reference_characters": 11425,
+          "cer": 0.06687089715536106,
+          "exact_sentences": 109,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.16730941395220716,
+      "macro_cer": 0.10871619168041172
+    },
+    "heldout": {
+      "clips": 400,
+      "word_errors": 370,
+      "reference_words": 3356,
+      "wer": 0.1102502979737783,
+      "character_errors": 1092,
+      "reference_characters": 16983,
+      "cer": 0.06429959371135842,
+      "exact_sentences": 229,
+      "failures": 0,
+      "by_dataset": {
+        "LRS2": {
+          "clips": 200,
+          "word_errors": 170,
+          "reference_words": 1036,
+          "wer": 0.1640926640926641,
+          "character_errors": 555,
+          "reference_characters": 5211,
+          "cer": 0.10650546919976972,
+          "exact_sentences": 117,
+          "failures": 0
+        },
+        "LRS3-TED": {
+          "clips": 200,
+          "word_errors": 200,
+          "reference_words": 2320,
+          "wer": 0.08620689655172414,
+          "character_errors": 537,
+          "reference_characters": 11772,
+          "cer": 0.04561671763506626,
+          "exact_sentences": 112,
+          "failures": 0
+        }
+      },
+      "macro_wer": 0.12514978032219412,
+      "macro_cer": 0.07606109341741799
+    }
+  },
+  "verification": "passed",
+  "app_default": "Auto-AVSR",
+  "experimental_model_ready": true,
+  "notes": [
+    "Frozen generic Kinetics VideoMAE encoder; new character CTC transcription layers trained locally.",
+    "No official LRS3 test; LRS3 audit is a local trainval subset.",
+    "No accuracy improvement over Auto-AVSR is claimed without a matched comparison.",
+    "The experiment has finished under its declared bounds; no further automatic training."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "state": "passed",
+  "attention_parity_max_abs": 1.4424324035644531e-05,
+  "device": "mps",
+  "frames": 60,
+  "encoding_seconds": [
+    1.8731234580045566,
+    0.3048904580064118
+  ],
+  "one_clip_loss_before": 4.266571998596191,
+  "one_clip_loss_after": 2.097376823425293,
+  "feature_shape": [
+    30,
+    384
+  ],
+  "trainable_parameters": 3274279,
+  "reference": "WHICH MEANS THEY'RE REALLY EASILY STRESSED"
+}

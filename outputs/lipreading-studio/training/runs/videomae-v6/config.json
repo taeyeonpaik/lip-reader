@@ -1,0 +1,45 @@
+{
+  "experiment": "videomae-v6",
+  "smoke_test": false,
+  "seed": 66,
+  "feature_version": "videomae-small-224-dense16-spatialmean-v1",
+  "encoder_sha256": "97c9d5b96a51629e08486afae1797dad5939df340dbeb0a7da0999da035dd370",
+  "manifest_sha256": "3bbb40aea3b8cd8f7b4086505df59162baed82036014437eee11e4d8411bdd47",
+  "counts": {
+    "train": 5000,
+    "validation": 400,
+    "heldout": 400
+  },
+  "head_config": {
+    "hidden": 256,
+    "layers": 3,
+    "dropout": 0.15
+  },
+  "max_epochs": 40,
+  "minimum_epochs_before_patience": 12,
+  "patience": 8,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5.0,
+  "maximum_training_wall_seconds": 7200,
+  "selection": "lowest macro validation CER; macro WER breaks ties; heldout never used for selection",
+  "encoder_training": "frozen generic-video encoder; all transcription layers initialized randomly and trained locally",
+  "head_training": "3-layer bidirectional GRU + character CTC, CPU; dense 25fps slots reconstructed from 12.5fps tubelet features",
+  "training_length_filter": {
+    "LRS2": {
+      "training_total": 45814,
+      "eligible_1_to_6_seconds_and_ctc_alignable": 42028
+    },
+    "LRS3-TED": {
+      "training_total": 30468,
+      "eligible_1_to_6_seconds_and_ctc_alignable": 25900
+    }
+  },
+  "feature_augmentation": "50% chance of masking one contiguous span of up to 3 feature steps per training example",
+  "heldout_description": "200 LRS2 official-test samples plus 200 local LRS3 trainval audit samples; not official LRS3 test; previously used corpora",
+  "audio_used": false,
+  "lipreading_pretrained_weights_used": false,
+  "recording_split_overlap": 0,
+  "speaker_independence_verified": false
+}

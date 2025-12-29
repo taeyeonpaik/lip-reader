@@ -1,0 +1,8 @@
+{
+  "ready": true,
+  "checkpoint": "videomae-ctc.pt",
+  "checkpoint_sha256": "53d42d88a92a6a1493fed34d78397117f181561e4253f1da62f851bda8d96264",
+  "experimental": true,
+  "default": false,
+  "run": "training/runs/videomae-v6"
+}

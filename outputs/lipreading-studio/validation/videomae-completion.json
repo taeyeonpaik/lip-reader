@@ -1,0 +1,126 @@
+{
+  "state": "passed",
+  "reports_recomputed": [
+    "autoavsr-heldout.json",
+    "autoavsr-validation.json",
+    "epoch-01-validation.json",
+    "epoch-02-validation.json",
+    "epoch-03-validation.json",
+    "epoch-04-validation.json",
+    "epoch-05-validation.json",
+    "epoch-06-validation.json",
+    "epoch-07-validation.json",
+    "epoch-08-validation.json",
+    "epoch-09-validation.json",
+    "epoch-10-validation.json",
+    "epoch-11-validation.json",
+    "epoch-12-validation.json",
+    "epoch-13-validation.json",
+    "epoch-14-validation.json",
+    "epoch-15-validation.json",
+    "epoch-16-validation.json",
+    "epoch-17-validation.json",
+    "epoch-18-validation.json",
+    "epoch-19-validation.json",
+    "epoch-20-validation.json",
+    "epoch-21-validation.json",
+    "epoch-22-validation.json",
+    "epoch-23-validation.json",
+    "epoch-24-validation.json",
+    "epoch-25-validation.json",
+    "epoch-26-validation.json",
+    "epoch-27-validation.json",
+    "epoch-28-validation.json",
+    "epoch-29-validation.json",
+    "epoch-30-validation.json",
+    "epoch-31-validation.json",
+    "epoch-32-validation.json",
+    "selected-heldout.json",
+    "selected-validation.json",
+    "untrained-validation.json",
+    "zero-visual-validation.json"
+  ],
+  "checkpoint_sha256": "588f1bce6390e181d5ae0ddab87abe55dcc7555f234e271f1bdc2a5721ebe45b",
+  "changed_tensors": {
+    "input.0.weight": 0.5564770698547363,
+    "input.0.bias": 0.35326242446899414,
+    "input.1.weight": 0.5924864411354065,
+    "input.1.bias": 0.26419326663017273,
+    "temporal.weight_ih_l0": 0.6800718903541565,
+    "temporal.weight_hh_l0": 0.5321829915046692,
+    "temporal.bias_ih_l0": 0.26086264848709106,
+    "temporal.bias_hh_l0": 0.26086491346359253,
+    "temporal.weight_ih_l0_reverse": 0.6901683807373047,
+    "temporal.weight_hh_l0_reverse": 0.5837048888206482,
+    "temporal.bias_ih_l0_reverse": 0.31395667791366577,
+    "temporal.bias_hh_l0_reverse": 0.31395381689071655,
+    "temporal.weight_ih_l1": 0.4923001229763031,
+    "temporal.weight_hh_l1": 0.5042888522148132,
+    "temporal.bias_ih_l1": 0.20902138948440552,
+    "temporal.bias_hh_l1": 0.20901675522327423,
+    "temporal.weight_ih_l1_reverse": 0.488509863615036,
+    "temporal.weight_hh_l1_reverse": 0.5429254174232483,
+    "temporal.bias_ih_l1_reverse": 0.23098847270011902,
+    "temporal.bias_hh_l1_reverse": 0.23097631335258484,
+    "temporal.weight_ih_l2": 0.4605009853839874,
+    "temporal.weight_hh_l2": 0.49131226539611816,
+    "temporal.bias_ih_l2": 0.1369287073612213,
+    "temporal.bias_hh_l2": 0.13691896200180054,
+    "temporal.weight_ih_l2_reverse": 0.5277259349822998,
+    "temporal.weight_hh_l2_reverse": 0.46068274974823,
+    "temporal.bias_ih_l2_reverse": 0.21311846375465393,
+    "temporal.bias_hh_l2_reverse": 0.21306759119033813,
+    "output.1.weight": 0.4233030080795288,
+    "output.1.bias": 0.07928553223609924
+  },
+  "reload_predictions": [
+    {
+      "id": "lrs2/main/6323221793324446979/00004",
+      "prediction": "AN TA ATA TA O E I AA TH AY OIE",
+      "matches": true
+    },
+    {
+      "id": "lrs2/main/6323221793324446979/00012",
+      "prediction": "THE TEE TES TOE EPMENISIS",
+      "matches": true
+    },
+    {
+      "id": "lrs3/YlmZkY1uqXM/50005",
+      "prediction": "TO WOE N NIWO TOET",
+      "matches": true
+    },
+    {
+      "id": "lrs3/a2MR5XbJtXU/50005",
+      "prediction": "IND TO TO HOR TOE BE TON BO TI TON TO O TIN TO BO IN TO BE I TH TOE",
+      "matches": true
+    }
+  ],
+  "throughput": {
+    "upload_segment": {
+      "video_seconds": 8.0,
+      "processing_seconds": 2.126681874971837,
+      "prediction": "B TE HOE THIE AE TA TIE TI TIE TH TI E TO OA IT TO TII HIN A I O II I IIS I",
+      "face_coverage": 1.0,
+      "includes_conversion": false
+    },
+    "webcam_recorded_frames": {
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 8.0,
+          "text": "B TE HOE THIE AE TA TIE TI TIE TH TI E TO OA IT TO TII HIN A I O II I IIS I",
+          "processing_seconds": 1.3686609999858774
+        }
+      ],
+      "busy": false,
+      "queued": 0,
+      "buffered_seconds": 0.0,
+      "closed": true,
+      "skipped": 0,
+      "notice": ""
+    },
+    "physical_camera_tested": false
+  },
+  "encoder_unchanged": true,
+  "audio_used": false
+}
