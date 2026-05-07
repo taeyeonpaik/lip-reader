@@ -1,0 +1,16 @@
+{
+  "state": "superseded",
+  "stage": "training",
+  "updated_unix": 1789902636.712865,
+  "epoch": 2,
+  "max_epochs": 20,
+  "completed": 25200,
+  "total": 30468,
+  "updates": 3480,
+  "mean_loss": 7.517175611725875,
+  "gradient_norm": 69.48722076416016,
+  "lr": 9.953411743378483e-06,
+  "seconds_per_clip": 0.6951081954100399,
+  "superseded_by": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/outputs/lipreading-studio/training/runs/lrs3-only-v2",
+  "note": "User approved official-test recording split for validation/final testing. Resume from saved epoch 2 checkpoint; old validation scores are historical only."
+}

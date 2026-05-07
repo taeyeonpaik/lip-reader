@@ -1,0 +1,8 @@
+{
+  "torch": "2.14.0",
+  "numpy": "2.5.3",
+  "sentencepiece": "0.2.2",
+  "device": "mps",
+  "started_unix": 1789858288.943883,
+  "pid": 52024
+}

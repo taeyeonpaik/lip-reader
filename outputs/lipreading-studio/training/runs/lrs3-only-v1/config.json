@@ -1,0 +1,48 @@
+{
+  "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+  "manifest_sha256": "2e432972d44d0c6b3bc6c4d168fbef17f6c3dedd6757e04f677d928b5ae08bb0",
+  "architecture": "unchanged original Auto-AVSR E2E video",
+  "trainable": "all model parameters",
+  "trainable_parameters": 250383410,
+  "dataset": "LRS3 only; verified 30-hour trainval release plus independently verified cropped test mirror",
+  "splits": {
+    "train": 30468,
+    "validation": 1488,
+    "test": 1321
+  },
+  "seed": 123,
+  "lr": 1e-05,
+  "optimizer": "AdamW",
+  "betas": [
+    0.9,
+    0.98
+  ],
+  "weight_decay": 0.03,
+  "microbatch": 1,
+  "effective_batch": 16,
+  "gradient_clip": 1.0,
+  "max_epochs": 20,
+  "minimum_epochs": 3,
+  "patience": 4,
+  "schedule": "one epoch linear warmup then cosine decay",
+  "loss": "author 0.1 CTC + 0.9 attention; original 0.1 label smoothing",
+  "batchnorm": "frozen running statistics for microbatch 1; affine parameters trainable",
+  "augmentation": "author random spatial crop 88 and AdaptiveTimeMask(10,25)",
+  "validation_transform": "center88, /255, normalize(.421,.165)",
+  "decoder": {
+    "beam_size": 40,
+    "ctc_weight": 0.1,
+    "lm_weight": 0.0,
+    "length_bonus": 0.0
+  },
+  "selection": "lowest validation WER; earlier checkpoint wins ties; include original baseline",
+  "test_policy": "no test gradients or model selection; evaluate baseline and selected model after selection",
+  "prior_test_exposure": "beam5 pretrained test result is already known; author-default beam40 fixed before this training, no test sweep",
+  "pretraining_history": "original checkpoint was pretrained on mixed corpora, including LRS2; new run uses zero LRS2 samples",
+  "checkpoints": "/private/tmp/autoavsr-lrs3-only-v1",
+  "source_sha256": "bfb9734e6f518a0ba5ff8fcacd9cc6f31452fa9e64d339a6821cc6e7daf6bd91",
+  "inputs_sha256": "453a28db7be88ec16be19fcbadad2e26889630c74f0332a8f37e517deb8d8f7f",
+  "pipeline_sha256": "23d775d9bd30329e2472d532c551fe4a9119817502d8057c4f4e23a1df0606ed",
+  "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+  "vendor_sha256": "1b50d0d805d803c170d940735d8dc5431754120ffec91cdcdc06106d21f8c658"
+}

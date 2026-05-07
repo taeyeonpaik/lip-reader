@@ -1,0 +1,104 @@
+{
+  "measurements": [
+    {
+      "step": 0,
+      "clips": 16,
+      "frames": 1354,
+      "seconds": 15.30275091691874,
+      "seconds_per_clip": 0.9564219323074212,
+      "mean_loss": 6.051707953214645,
+      "gradient_norm": 62.54452133178711,
+      "mps_driver_gib": 3.3546142578125
+    },
+    {
+      "step": 1,
+      "clips": 16,
+      "frames": 1354,
+      "seconds": 10.936860750080086,
+      "seconds_per_clip": 0.6835537968800054,
+      "mean_loss": 6.24457385763526,
+      "gradient_norm": 64.2674331665039,
+      "mps_driver_gib": 5.5889892578125
+    },
+    {
+      "step": 2,
+      "clips": 16,
+      "frames": 1354,
+      "seconds": 9.970781874959357,
+      "seconds_per_clip": 0.6231738671849598,
+      "mean_loss": 6.826286856085062,
+      "gradient_norm": 62.81182861328125,
+      "mps_driver_gib": 5.5968017578125
+    }
+  ],
+  "samples": [
+    {
+      "id": "lrs3/NhYnouvrGS8/50013",
+      "frames": 25
+    },
+    {
+      "id": "lrs3/ue4L8kmaKXQ/50006",
+      "frames": 31
+    },
+    {
+      "id": "lrs3/60OVlfAUPJg/50001",
+      "frames": 37
+    },
+    {
+      "id": "lrs3/bClWV3eeETA/50002",
+      "frames": 42
+    },
+    {
+      "id": "lrs3/DGvPfD1Dd1U/50001",
+      "frames": 48
+    },
+    {
+      "id": "lrs3/Sx1qkuvUxuI/50002",
+      "frames": 54
+    },
+    {
+      "id": "lrs3/gyM6rx69iqg/50016",
+      "frames": 61
+    },
+    {
+      "id": "lrs3/mMDuakmEEV4/50040",
+      "frames": 69
+    },
+    {
+      "id": "lrs3/B4xOFsygwr4/50009",
+      "frames": 79
+    },
+    {
+      "id": "lrs3/ptIecdCZ3dg/50003",
+      "frames": 89
+    },
+    {
+      "id": "lrs3/P6w7Eq7YhL8/50002",
+      "frames": 104
+    },
+    {
+      "id": "lrs3/2NHV4AzSEzY/50002",
+      "frames": 123
+    },
+    {
+      "id": "lrs3/iRsCUJxIrVM/50002",
+      "frames": 140
+    },
+    {
+      "id": "lrs3/XiDAztWWAuM/50002",
+      "frames": 147
+    },
+    {
+      "id": "lrs3/Qa2HpQI1Ufg/50004",
+      "frames": 151
+    },
+    {
+      "id": "lrs3/HCG1petekXw/50016",
+      "frames": 154
+    }
+  ],
+  "no_weights_saved": true,
+  "benchmark_updates_discarded": true,
+  "recipe": "same full-model float32 loss, microbatch1 accumulation16, CPU decoder and MPS encoder",
+  "note": "Length-stratified 16 training clips, local byte-identical copies; does not measure cold cloud I/O, sustained thermal slowdown, checkpoints or validation."
+}

@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "trainable_parameters": 250383410,
+  "measurements": [
+    {
+      "id": "lrs3/HirySSCYiwI/50001",
+      "frames": 74,
+      "loss": 1.22689688205719,
+      "gradient_norm": 39.223880767822266,
+      "seconds": 7.733192250016145,
+      "gradient_norm_by_component": {
+        "frontend": 104.52729347348213,
+        "proj_encoder": 5.847087144851685,
+        "encoder": 445.25573233515945,
+        "decoder": 72.23375406389934,
+        "ctc": 4.08678238093853
+      },
+      "mps_driver_gib": 3.031463623046875
+    },
+    {
+      "id": "lrs3/zwjLQgNd7XM/50007",
+      "frames": 155,
+      "loss": 3.5393476486206055,
+      "gradient_norm": 149.3908233642578,
+      "seconds": 3.897215916076675,
+      "gradient_norm_by_component": {
+        "frontend": 529.1478244066238,
+        "proj_encoder": 29.670403480529785,
+        "encoder": 1657.653178785097,
+        "decoder": 362.2240945705567,
+        "ctc": 3.6035515666007996
+      },
+      "mps_driver_gib": 3.94805908203125
+    }
+  ],
+  "representative_weights_changed": {
+    "frontend.frontend3D.0.weight": true,
+    "proj_encoder.weight": true,
+    "encoder.encoders.0.feed_forward.w_1.weight": true,
+    "decoder.output_layer.weight": true,
+    "ctc.ctc_lo.weight": true
+  },
+  "original_unchanged": true,
+  "smoke_updates_discarded": true
+}

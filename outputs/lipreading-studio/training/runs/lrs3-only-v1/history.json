@@ -1,0 +1,18 @@
+[
+  {
+    "epoch": 1,
+    "loss": 7.680822136765939,
+    "validation": {
+      "clips": 1488,
+      "word_errors": 1472,
+      "reference_words": 17326,
+      "wer": 0.08495902112432183,
+      "character_errors": 4607,
+      "reference_characters": 88797,
+      "cer": 0.05188238341385407,
+      "exact_sentences": 857,
+      "failures": 0
+    },
+    "updates": 1905
+  }
+]

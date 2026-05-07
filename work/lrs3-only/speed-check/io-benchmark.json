@@ -1,0 +1,54 @@
+{
+  "samples": [
+    {
+      "id": "lrs3/LETgWDSSzSI/50001",
+      "source_read_seconds": 0.00046962499618530273,
+      "local_read_decompress_seconds": 0.014337542001157999,
+      "bytes": 390918
+    },
+    {
+      "id": "lrs3/ovV7v2XYJAI/50008",
+      "source_read_seconds": 0.0005578330019488931,
+      "local_read_decompress_seconds": 0.0024221669882535934,
+      "bytes": 559993
+    },
+    {
+      "id": "lrs3/3f6xCzKx9CA/50006",
+      "source_read_seconds": 0.0009412909857928753,
+      "local_read_decompress_seconds": 0.00387766701169312,
+      "bytes": 847753
+    },
+    {
+      "id": "lrs3/21jSOCNLuYg/50002",
+      "source_read_seconds": 0.0006712090689688921,
+      "local_read_decompress_seconds": 0.0010125830303877592,
+      "bytes": 205453
+    },
+    {
+      "id": "lrs3/kmflTZnRuZI/50009",
+      "source_read_seconds": 0.000432583037763834,
+      "local_read_decompress_seconds": 0.0012163749197497964,
+      "bytes": 245047
+    },
+    {
+      "id": "lrs3/uXlSmKZ7aSc/50006",
+      "source_read_seconds": 0.0007326670456677675,
+      "local_read_decompress_seconds": 0.0023002499947324395,
+      "bytes": 516683
+    },
+    {
+      "id": "lrs3/EgU3iSg8ZRY/50006",
+      "source_read_seconds": 0.00048387504648417234,
+      "local_read_decompress_seconds": 0.0017240829765796661,
+      "bytes": 337576
+    },
+    {
+      "id": "lrs3/jryCoo0BrRk/50004",
+      "source_read_seconds": 1.7148465419886634,
+      "local_read_decompress_seconds": 0.0072622919688001275,
+      "bytes": 674176
+    }
+  ],
+  "source_total_seconds": 1.7191356251714751,
+  "local_total_seconds": 0.0341529588913545
+}

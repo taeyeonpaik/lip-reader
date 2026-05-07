@@ -1,0 +1,8 @@
+{
+  "reason": "User requested speed improvement; serial double-decompression replaced by single-read, single-decompression with eight verification workers",
+  "training_updates_before_change": 0,
+  "recipe_changed": false,
+  "only_changed_config_key": "source_sha256",
+  "before": "b7fba507eb54f5e00abbf2a36b047f88c551065e34782a7f81beabfe4a2a7ff8",
+  "after": "bfb9734e6f518a0ba5ff8fcacd9cc6f31452fa9e64d339a6821cc6e7daf6bd91"
+}
