@@ -1,0 +1,23 @@
+{
+  "rule": "SHA256 ordering of recording components; first ceil(20% of components) validation; rest final test",
+  "seed_salt": "lrs3-official-holdout-v2-seed20260920",
+  "component_count": 410,
+  "validation_components": 82,
+  "counts": {
+    "validation": 296,
+    "test": 1025
+  },
+  "recording_counts": {
+    "validation": 82,
+    "test": 330
+  },
+  "recording_overlap": 0,
+  "ambiguous_rows": 6,
+  "ambiguous_policy": "Keep every possible recording for an ambiguous row in the same component; do not guess the true identity",
+  "predictions_used_for_partition": false,
+  "training_clips": 30468,
+  "old_trainval_validation_clips_excluded": 1488,
+  "full_official_test_benchmark": false,
+  "prior_exposure": "Original beam5 checkpoint evaluated on all 1321 clips before this split; no gradient exposure. Split membership ignores predictions. Model selection now uses only the validation partition.",
+  "pretraining_note": "Official test membership is held out under the authors published dataset protocol; no independent full audit of every original pretraining source."
+}

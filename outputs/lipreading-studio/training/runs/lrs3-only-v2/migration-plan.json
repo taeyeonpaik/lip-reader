@@ -1,0 +1,16 @@
+{
+  "authorization": "User chose option 2: partition official LRS3 test into validation and final test, September 20 2026",
+  "old_run": "/Users/taeyeonpaik/Documents/Codex/2026-09-15/implement-a-research-paper-from-scratch/outputs/lipreading-studio/training/runs/lrs3-only-v1",
+  "origin_last": "/private/tmp/autoavsr-lrs3-only-v1/last.pt",
+  "origin_last_sha256": "57e555c59d9e12234c0acdab1c095ebce228435773bc3067f5c9fa2b49cd788e",
+  "origin_best": "/private/tmp/autoavsr-lrs3-only-v1/best.pth",
+  "origin_best_sha256": "d4fb5a8279767d6860578b9c6f2fe016b64b25992ffd35994e2e85bce5ce8ffe",
+  "origin_config_sha256": "dbb33ff570431d50b1be82c18df4af690d34b42218a4469338dcd22de4a16eb6",
+  "resume_epoch": 2,
+  "resume_offset": 23920,
+  "resume_updates": 3400,
+  "completed_epoch_for_rescoring": 1,
+  "old_validation_used_for_selection": false,
+  "training_recipe_changed": false,
+  "final_test_used_for_migration_or_selection": false
+}

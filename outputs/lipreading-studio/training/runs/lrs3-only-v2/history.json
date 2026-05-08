@@ -1,0 +1,35 @@
+[
+  {
+    "epoch": 1,
+    "loss": 7.680822136765939,
+    "validation": {
+      "clips": 296,
+      "word_errors": 574,
+      "reference_words": 2242,
+      "wer": 0.256021409455843,
+      "character_errors": 1932,
+      "reference_characters": 11338,
+      "cer": 0.1704004233550891,
+      "exact_sentences": 121,
+      "failures": 0
+    },
+    "updates": 1905,
+    "rescored_on_new_validation": true
+  },
+  {
+    "epoch": 2,
+    "loss": 7.511130954882208,
+    "validation": {
+      "clips": 296,
+      "word_errors": 560,
+      "reference_words": 2242,
+      "wer": 0.24977698483496877,
+      "character_errors": 1900,
+      "reference_characters": 11338,
+      "cer": 0.16757805609454932,
+      "exact_sentences": 124,
+      "failures": 0
+    },
+    "updates": 3810
+  }
+]

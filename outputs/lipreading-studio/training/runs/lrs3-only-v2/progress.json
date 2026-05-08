@@ -1,0 +1,18 @@
+{
+  "state": "paused",
+  "stage": "paused",
+  "updated_unix": 1789909313.4757068,
+  "epoch": 3,
+  "max_epochs": 20,
+  "completed": 1440,
+  "total": 30468,
+  "updates": 3900,
+  "mean_loss": 7.267719172458682,
+  "gradient_norm": 69.20925903320312,
+  "lr": 9.925302070724082e-06,
+  "seconds_per_clip": 0.7926567596937982,
+  "reason": "User requested LRS2 pivot; LRS3 checkpoints preserved",
+  "saved_epoch": 3,
+  "saved_offset": 1440,
+  "saved_updates": 3900
+}

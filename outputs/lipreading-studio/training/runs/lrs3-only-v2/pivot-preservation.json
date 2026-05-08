@@ -1,0 +1,133 @@
+{
+  "state": "paused_for_user_requested_lrs2_pivot",
+  "saved_progress": {
+    "epoch": 3,
+    "offset": 1440,
+    "updates": 3900,
+    "loss_sum": 10465.515608340502,
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 7.680822136765939,
+        "validation": {
+          "clips": 296,
+          "word_errors": 574,
+          "reference_words": 2242,
+          "wer": 0.256021409455843,
+          "character_errors": 1932,
+          "reference_characters": 11338,
+          "cer": 0.1704004233550891,
+          "exact_sentences": 121,
+          "failures": 0
+        },
+        "updates": 1905,
+        "rescored_on_new_validation": true
+      },
+      {
+        "epoch": 2,
+        "loss": 7.511130954882208,
+        "validation": {
+          "clips": 296,
+          "word_errors": 560,
+          "reference_words": 2242,
+          "wer": 0.24977698483496877,
+          "character_errors": 1900,
+          "reference_characters": 11338,
+          "cer": 0.16757805609454932,
+          "exact_sentences": 124,
+          "failures": 0
+        },
+        "updates": 3810
+      }
+    ],
+    "best_wer": 0.24977698483496877,
+    "best_epoch": 2
+  },
+  "saved_config": {
+    "base_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+    "manifest_sha256": "c91153a15ad37c2843677f61baa77c28d80d9dcc3d4919826677296f1b18274b",
+    "architecture": "unchanged original Auto-AVSR E2E video",
+    "trainable": "all model parameters",
+    "trainable_parameters": 250383410,
+    "dataset": "LRS3 only; verified 30-hour trainval release plus independently verified cropped test mirror",
+    "splits": {
+      "train": 30468,
+      "validation": 296,
+      "test": 1025
+    },
+    "seed": 123,
+    "lr": 1e-05,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.98
+    ],
+    "weight_decay": 0.03,
+    "microbatch": 1,
+    "effective_batch": 16,
+    "gradient_clip": 1.0,
+    "max_epochs": 20,
+    "minimum_epochs": 3,
+    "patience": 4,
+    "schedule": "one epoch linear warmup then cosine decay",
+    "loss": "author 0.1 CTC + 0.9 attention; original 0.1 label smoothing",
+    "batchnorm": "frozen running statistics for microbatch 1; affine parameters trainable",
+    "augmentation": "author random spatial crop 88 and AdaptiveTimeMask(10,25)",
+    "validation_transform": "center88, /255, normalize(.421,.165)",
+    "decoder": {
+      "beam_size": 40,
+      "ctc_weight": 0.1,
+      "lm_weight": 0.0,
+      "length_bonus": 0.0
+    },
+    "selection": "lowest validation WER; earlier checkpoint wins ties; include original baseline",
+    "test_policy": "no test gradients or model selection; evaluate baseline and selected model after selection",
+    "prior_test_exposure": "Original beam5 model previously evaluated on the entire official test. New split uses identities only; validation partition now used for selection, final partition excluded from all subsequent selection/tuning.",
+    "pretraining_history": "original checkpoint was pretrained on mixed corpora, including LRS2; new run uses zero LRS2 samples",
+    "checkpoints": "/private/tmp/autoavsr-lrs3-only-v2",
+    "source_sha256": "934ab8ef410f64315e5881934eb8668b9043af1fb8b4cf846504d01c133b1815",
+    "inputs_sha256": "453a28db7be88ec16be19fcbadad2e26889630c74f0332a8f37e517deb8d8f7f",
+    "pipeline_sha256": "23d775d9bd30329e2472d532c551fe4a9119817502d8057c4f4e23a1df0606ed",
+    "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+    "vendor_sha256": "1b50d0d805d803c170d940735d8dc5431754120ffec91cdcdc06106d21f8c658",
+    "validation_origin": "20% of recording components in official LRS3 test; remainder reserved for final testing",
+    "full_official_test_benchmark": false,
+    "old_trainval_validation_used": false,
+    "split_protocol_sha256": "06aee8c02cb07788423336e977f846e87fcc52bc4c7075930cbf087e8bce6c56",
+    "protocol_source_sha256": "9dd5c30baf7a98680f33250e88af4d9bc5666f62f512304b839d79332aa6df46",
+    "migration_plan_sha256": "2384f07ef3a1e607a1a6694917be5939c4a4aa765ff3b14d1c87b6791182ef29"
+  },
+  "files": [
+    {
+      "path": "/private/tmp/autoavsr-lrs3-only-v1/best.pth",
+      "bytes": 1001872818,
+      "sha256": "d4fb5a8279767d6860578b9c6f2fe016b64b25992ffd35994e2e85bce5ce8ffe",
+      "preserved_path": "/Users/taeyeonpaik/Library/Application Support/LipReader/preserved-lrs3-2026-09-20/autoavsr-lrs3-only-v1/best.pth"
+    },
+    {
+      "path": "/private/tmp/autoavsr-lrs3-only-v1/last.pt",
+      "bytes": 3005402069,
+      "sha256": "57e555c59d9e12234c0acdab1c095ebce228435773bc3067f5c9fa2b49cd788e",
+      "preserved_path": "/Users/taeyeonpaik/Library/Application Support/LipReader/preserved-lrs3-2026-09-20/autoavsr-lrs3-only-v1/last.pt"
+    },
+    {
+      "path": "/private/tmp/autoavsr-lrs3-only-v2/best.pth",
+      "bytes": 1001872818,
+      "sha256": "85e107cc13cf8cb758bc4b609c3f65b4411203ba85b054fbd8b7983e3ae8cfbe",
+      "preserved_path": "/Users/taeyeonpaik/Library/Application Support/LipReader/preserved-lrs3-2026-09-20/autoavsr-lrs3-only-v2/best.pth"
+    },
+    {
+      "path": "/private/tmp/autoavsr-lrs3-only-v2/last.pt",
+      "bytes": 3005402901,
+      "sha256": "555908d27b68a78690b0db886fa48510411846aa9dd217df5226377b1597fce1",
+      "preserved_path": "/Users/taeyeonpaik/Library/Application Support/LipReader/preserved-lrs3-2026-09-20/autoavsr-lrs3-only-v2/last.pt"
+    }
+  ],
+  "paused_unix": 1789909308.912914,
+  "limitation": "Existing best and latest checkpoints are preserved. Periodic last.pt snapshots were overwritten during training; older unsaved intermediate states cannot be recovered.",
+  "durable_directory": "/Users/taeyeonpaik/Library/Application Support/LipReader/preserved-lrs3-2026-09-20",
+  "archive": "/Users/taeyeonpaik/Library/Application Support/LipReader/preserved-lrs3-2026-09-20/lrs3-work-and-reports.zip",
+  "archive_verified": true,
+  "symlinks_preserve_original_resume_paths": true,
+  "verified_unix": 1789909363.669336
+}

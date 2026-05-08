@@ -1,0 +1,35 @@
+{
+  "state": "passed",
+  "resume_epoch": 2,
+  "resume_offset": 23920,
+  "resume_updates": 3400,
+  "training_rows_and_order_unchanged": true,
+  "recipe_unchanged": true,
+  "model_tensors_identical_to_origin_last": true,
+  "optimizer_restored": true,
+  "epoch_one_rescored": true,
+  "old_validation_scores_used": false,
+  "new_baseline_validation": {
+    "clips": 296,
+    "word_errors": 566,
+    "reference_words": 2242,
+    "wer": 0.25245316681534347,
+    "character_errors": 1941,
+    "reference_characters": 11338,
+    "cer": 0.1711942141471159,
+    "exact_sentences": 116,
+    "failures": 0
+  },
+  "new_epoch_one_validation": {
+    "clips": 296,
+    "word_errors": 574,
+    "reference_words": 2242,
+    "wer": 0.256021409455843,
+    "character_errors": 1932,
+    "reference_characters": 11338,
+    "cer": 0.1704004233550891,
+    "exact_sentences": 121,
+    "failures": 0
+  },
+  "final_test_evaluated": false
+}

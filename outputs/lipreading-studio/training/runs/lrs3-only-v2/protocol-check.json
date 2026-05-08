@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "unique_clips": 31789,
+  "official_test_membership_conserved": 1321,
+  "old_validation_used": false,
+  "train_validation_test_hash_checks": true,
+  "all_possible_recording_ids_disjoint": true,
+  "ambiguous_bridge_test": true,
+  "partition_reversal_invariance": true
+}
