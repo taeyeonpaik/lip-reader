@@ -1,0 +1,16 @@
+{
+  "checkpoint_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+  "manifest_sha256": "80ecbc77879ea01c5a361ea84fbd7dd3e1a7c92c4b2216de791d8728dcae97a2",
+  "dataset_verification_sha256": "f6ce2157cdfdc265321157ff8b4b859a5b737d2794a02902a96ebb9fbb479f1b",
+  "beam_size": 5,
+  "ctc_weight": 0.1,
+  "lm_weight": 0.0,
+  "length_bonus": 0.0,
+  "input_transform_sha256": "453a28db7be88ec16be19fcbadad2e26889630c74f0332a8f37e517deb8d8f7f",
+  "pipeline_sha256": "23d775d9bd30329e2472d532c551fe4a9119817502d8057c4f4e23a1df0606ed",
+  "evaluation_script_sha256": "46b54d8c3ad12f873594b4560a0f8bb2631525dc1f8b4c9aed37bd426a325a70",
+  "total_clips": 1321,
+  "train_updates": 0,
+  "audio_used": false,
+  "test_used_for_tuning": false
+}

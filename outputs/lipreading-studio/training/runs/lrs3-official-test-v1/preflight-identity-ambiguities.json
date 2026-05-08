@@ -1,0 +1,116 @@
+[
+  {
+    "index": 267,
+    "frames": 17,
+    "text": "I DON'T KNOW",
+    "matches": [
+      {
+        "id": "lrs3-test/7OMLSs8t1ng/00007",
+        "session": "7OMLSs8t1ng",
+        "frames": 17,
+        "text": "I DON'T KNOW"
+      },
+      {
+        "id": "lrs3-test/SWvJxasiSZ8/00005",
+        "session": "SWvJxasiSZ8",
+        "frames": 17,
+        "text": "I DON'T KNOW"
+      }
+    ]
+  },
+  {
+    "index": 278,
+    "frames": 22,
+    "text": "MAKE IT GO AWAY",
+    "matches": [
+      {
+        "id": "lrs3-test/ka8L1YMR88U/00004",
+        "session": "ka8L1YMR88U",
+        "frames": 22,
+        "text": "MAKE IT GO AWAY"
+      },
+      {
+        "id": "lrs3-test/ka8L1YMR88U/00006",
+        "session": "ka8L1YMR88U",
+        "frames": 22,
+        "text": "MAKE IT GO AWAY"
+      }
+    ]
+  },
+  {
+    "index": 279,
+    "frames": 22,
+    "text": "MAKE IT GO AWAY",
+    "matches": [
+      {
+        "id": "lrs3-test/ka8L1YMR88U/00004",
+        "session": "ka8L1YMR88U",
+        "frames": 22,
+        "text": "MAKE IT GO AWAY"
+      },
+      {
+        "id": "lrs3-test/ka8L1YMR88U/00006",
+        "session": "ka8L1YMR88U",
+        "frames": 22,
+        "text": "MAKE IT GO AWAY"
+      }
+    ]
+  },
+  {
+    "index": 740,
+    "frames": 24,
+    "text": "THANK YOU VERY MUCH",
+    "matches": [
+      {
+        "id": "lrs3-test/JP0w9lZoLwU/00002",
+        "session": "JP0w9lZoLwU",
+        "frames": 24,
+        "text": "THANK YOU VERY MUCH"
+      },
+      {
+        "id": "lrs3-test/ClfBxWPkBKU/00009",
+        "session": "ClfBxWPkBKU",
+        "frames": 24,
+        "text": "THANK YOU VERY MUCH"
+      }
+    ]
+  },
+  {
+    "index": 1001,
+    "frames": 24,
+    "text": "THANK YOU VERY MUCH",
+    "matches": [
+      {
+        "id": "lrs3-test/JP0w9lZoLwU/00002",
+        "session": "JP0w9lZoLwU",
+        "frames": 24,
+        "text": "THANK YOU VERY MUCH"
+      },
+      {
+        "id": "lrs3-test/ClfBxWPkBKU/00009",
+        "session": "ClfBxWPkBKU",
+        "frames": 24,
+        "text": "THANK YOU VERY MUCH"
+      }
+    ]
+  },
+  {
+    "index": 1172,
+    "frames": 17,
+    "text": "I DON'T KNOW",
+    "matches": [
+      {
+        "id": "lrs3-test/7OMLSs8t1ng/00007",
+        "session": "7OMLSs8t1ng",
+        "frames": 17,
+        "text": "I DON'T KNOW"
+      },
+      {
+        "id": "lrs3-test/SWvJxasiSZ8/00005",
+        "session": "SWvJxasiSZ8",
+        "frames": 17,
+        "text": "I DON'T KNOW"
+      }
+    ]
+  }
+]

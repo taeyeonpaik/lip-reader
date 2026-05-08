@@ -1,0 +1,55 @@
+{
+  "state": "completed",
+  "metrics": {
+    "clips": 1321,
+    "word_errors": 2715,
+    "reference_words": 9890,
+    "wer": 0.27451971688574317,
+    "character_errors": 9132,
+    "reference_characters": 49750,
+    "cer": 0.1835577889447236,
+    "exact_sentences": 508,
+    "failures": 0
+  },
+  "independent_edit_counts_match": true,
+  "reloaded_prediction_checks": [
+    {
+      "id": "lrs3-test/OIlSXRCSBSI/00002",
+      "same_prediction": true
+    },
+    {
+      "id": "lrs3-test/LiUClSItcy0/00008",
+      "same_prediction": true
+    },
+    {
+      "id": "lrs3-test/x4m6j7rSyzY/00001",
+      "same_prediction": true
+    }
+  ],
+  "checkpoint_unchanged": true,
+  "checkpoint_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+  "device": "mps",
+  "decoder": {
+    "checkpoint_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+    "manifest_sha256": "80ecbc77879ea01c5a361ea84fbd7dd3e1a7c92c4b2216de791d8728dcae97a2",
+    "dataset_verification_sha256": "f6ce2157cdfdc265321157ff8b4b859a5b737d2794a02902a96ebb9fbb479f1b",
+    "beam_size": 5,
+    "ctc_weight": 0.1,
+    "lm_weight": 0.0,
+    "length_bonus": 0.0,
+    "input_transform_sha256": "453a28db7be88ec16be19fcbadad2e26889630c74f0332a8f37e517deb8d8f7f",
+    "pipeline_sha256": "23d775d9bd30329e2472d532c551fe4a9119817502d8057c4f4e23a1df0606ed",
+    "evaluation_script_sha256": "46b54d8c3ad12f873594b4560a0f8bb2631525dc1f8b4c9aed37bd426a325a70",
+    "total_clips": 1321,
+    "train_updates": 0,
+    "audio_used": false,
+    "test_used_for_tuning": false
+  },
+  "source_verification": "dataset-verification.json",
+  "training_updates": 0,
+  "audio_used": false,
+  "full_official_test_utterance_count_verified": true,
+  "raw_official_video_bytes_verified": false,
+  "limitations": "Official test utterances independently matched by transcript and frame count. Uses mirror-supplied grayscale mouth crops with sparse preprocessing provenance and app beam5, not an exact author benchmark reproduction. No webcam accuracy claim. No test-based model or decoder selection.",
+  "completed_unix": 1789849696.058125
+}

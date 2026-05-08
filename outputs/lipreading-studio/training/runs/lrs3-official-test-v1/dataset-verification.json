@@ -1,0 +1,103 @@
+{
+  "state": "verified",
+  "clips": 1321,
+  "author_test_rows": 1321,
+  "unique_one_to_one_transcript_and_frame_matches": 1315,
+  "ambiguous_clip_identity_rows": [
+    {
+      "source_index": 267,
+      "text": "I DON'T KNOW",
+      "frames": 17,
+      "possible_ids": [
+        "lrs3-test/7OMLSs8t1ng/00007",
+        "lrs3-test/SWvJxasiSZ8/00005"
+      ]
+    },
+    {
+      "source_index": 278,
+      "text": "MAKE IT GO AWAY",
+      "frames": 22,
+      "possible_ids": [
+        "lrs3-test/ka8L1YMR88U/00004",
+        "lrs3-test/ka8L1YMR88U/00006"
+      ]
+    },
+    {
+      "source_index": 279,
+      "text": "MAKE IT GO AWAY",
+      "frames": 22,
+      "possible_ids": [
+        "lrs3-test/ka8L1YMR88U/00004",
+        "lrs3-test/ka8L1YMR88U/00006"
+      ]
+    },
+    {
+      "source_index": 740,
+      "text": "THANK YOU VERY MUCH",
+      "frames": 24,
+      "possible_ids": [
+        "lrs3-test/JP0w9lZoLwU/00002",
+        "lrs3-test/ClfBxWPkBKU/00009"
+      ]
+    },
+    {
+      "source_index": 1001,
+      "text": "THANK YOU VERY MUCH",
+      "frames": 24,
+      "possible_ids": [
+        "lrs3-test/JP0w9lZoLwU/00002",
+        "lrs3-test/ClfBxWPkBKU/00009"
+      ]
+    },
+    {
+      "source_index": 1172,
+      "text": "I DON'T KNOW",
+      "frames": 17,
+      "possible_ids": [
+        "lrs3-test/7OMLSs8t1ng/00007",
+        "lrs3-test/SWvJxasiSZ8/00005"
+      ]
+    }
+  ],
+  "complete_transcript_frame_multiset_matches": true,
+  "test_sessions": 412,
+  "existing_trainval_clips": 31956,
+  "clip_overlap_with_local_trainval": 0,
+  "recording_overlap_with_local_trainval": 0,
+  "duplicate_pixel_arrays": 0,
+  "source_repository": "mattymchen/lrs3-test",
+  "source_revision": "9c28ed4b7c87b720f030b5996ef6e7789d7f4a8a",
+  "source_hosting_split": "train (packaging label only; verified as LRS3 test)",
+  "source_files": [
+    {
+      "type": "file",
+      "oid": "3bd419abc98766c5aa9b2e614a88cba05e572e93",
+      "size": 346630460,
+      "lfs": {
+        "oid": "83ed27da72318d23ac316fcbbdb7834818fe90e095cce036b5c69d3d5a0e71cb",
+        "size": 346630460,
+        "pointerSize": 134
+      },
+      "xetHash": "f3f9b9c21a6bc7fd6fe18db88c95eba4b377d3ea994beb61016961cb9d2bf9d9",
+      "path": "data/train-00000-of-00002-6d235766a16b101a.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "d91748cb3122278839b16dce008b297797c56991",
+      "size": 330680900,
+      "lfs": {
+        "oid": "61f3e122b33e849d82ecd30ba5fb0f5e358c3c575a5ae70d2f8bdb6a34f0b19e",
+        "size": 330680900,
+        "pointerSize": 134
+      },
+      "xetHash": "9f88df1ecb60b3eebe5d7385b91aa6fc18223aa36b7470144fce64c38d8d6211",
+      "path": "data/train-00001-of-00002-a89b175a3b0aa629.parquet"
+    }
+  ],
+  "independent_reference": "Llama-AVSR author test labels linked from official README",
+  "reference_url": "https://drive.google.com/file/d/17ob4j1AQZo7NOqr1hP6_z5fZ1ldmGVWA/view",
+  "reference_sha256": "b5613bf7be6d8f3aee78ea86bf8a46e2a4af58ce42f2b3c4c4f47808c2d7f902",
+  "manifest_sha256": "80ecbc77879ea01c5a361ea84fbd7dd3e1a7c92c4b2216de791d8728dcae97a2",
+  "input": "Mirror-provided 96x96 uint8 grayscale mouth crops, all frames retained; original raw full-face videos not supplied",
+  "limitations": "Full transcript/frame-count multiset matches the independent official-test list exactly. Six short repeated phrases in three duplicate-key groups have ambiguous per-clip identities; retain mirror indices and all possible author IDs instead of inventing mappings. Original-video byte hashes are unavailable. Mirror crop-generation provenance is sparse; this is evaluation of the official test utterances through these provided crops, not an exact reproduction of author preprocessing. Audio column never loaded. No test result used for tuning."
+}
