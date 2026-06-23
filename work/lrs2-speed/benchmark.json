@@ -1,0 +1,122 @@
+{
+  "samples": [
+    {
+      "id": "main/6244961476367596580/00030",
+      "frames": 22
+    },
+    {
+      "id": "main/6225263038230813400/00017",
+      "frames": 26
+    },
+    {
+      "id": "main/6225815800521747234/00025",
+      "frames": 29
+    },
+    {
+      "id": "main/6091618258868090946/00010",
+      "frames": 32
+    },
+    {
+      "id": "main/5954958412463581171/00130",
+      "frames": 35
+    },
+    {
+      "id": "main/5548283850584348350/00014",
+      "frames": 38
+    },
+    {
+      "id": "main/5546420693771341678/00026",
+      "frames": 41
+    },
+    {
+      "id": "main/5943860646467464220/00006",
+      "frames": 44
+    },
+    {
+      "id": "main/6283492486842988448/00014",
+      "frames": 47
+    },
+    {
+      "id": "main/5960922833547543357/00013",
+      "frames": 52
+    },
+    {
+      "id": "main/6075576556017546348/00029",
+      "frames": 57
+    },
+    {
+      "id": "main/6197787273575241375/00037",
+      "frames": 63
+    },
+    {
+      "id": "main/6113492956803278950/00004",
+      "frames": 71
+    },
+    {
+      "id": "main/6090505003344967660/00032",
+      "frames": 82
+    },
+    {
+      "id": "main/6040968998036482979/00015",
+      "frames": 100
+    },
+    {
+      "id": "main/5910922971771108903/00075",
+      "frames": 133
+    }
+  ],
+  "reports": [
+    {
+      "device": "cpu",
+      "threads": 4,
+      "seconds_per_16": [
+        9.31022566696629,
+        6.688508958090097
+      ],
+      "median_seconds_per_clip": 0.49996045703301206,
+      "finite_gradients": true
+    },
+    {
+      "device": "cpu",
+      "threads": 1,
+      "seconds_per_16": [
+        7.7889671250013635,
+        6.311264334013686
+      ],
+      "median_seconds_per_clip": 0.4406322330942203,
+      "finite_gradients": true
+    },
+    {
+      "device": "cpu",
+      "threads": 2,
+      "seconds_per_16": [
+        7.899521708022803,
+        6.333446791977622
+      ],
+      "median_seconds_per_clip": 0.44478026562501327,
+      "finite_gradients": true
+    },
+    {
+      "device": "mps",
+      "threads": 1,
+      "seconds_per_16": [
+        14.977461667032912,
+        6.063593667000532
+      ],
+      "median_seconds_per_clip": 0.6575329791885451,
+      "finite_gradients": true
+    },
+    {
+      "device": "mps",
+      "threads": 2,
+      "seconds_per_16": [
+        7.744524167035706,
+        6.079970333026722
+      ],
+      "median_seconds_per_clip": 0.4320154531269509,
+      "finite_gradients": true
+    }
+  ],
+  "optimizer_updates": 0,
+  "all_benchmark_gradients_discarded": true
+}

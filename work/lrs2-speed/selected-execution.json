@@ -1,0 +1,10 @@
+{
+  "device": "cpu",
+  "threads": 4,
+  "seconds_per_16": [
+    9.31022566696629,
+    6.688508958090097
+  ],
+  "median_seconds_per_clip": 0.49996045703301206,
+  "finite_gradients": true
+}

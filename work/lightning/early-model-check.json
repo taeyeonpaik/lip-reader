@@ -1,0 +1,1 @@
+{"passed": true, "train_clip": "main/6021463833558444329/00004", "frames": 32, "prediction": "AND I'M NOT BEING POLITE", "torch": "2.8.0+cu128", "cuda_available": false, "gradient_updates": 0}
