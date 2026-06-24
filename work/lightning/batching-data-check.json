@@ -1,0 +1,12 @@
+{
+  "clips": 45814,
+  "epoch": 1,
+  "real_frames": 2500450,
+  "bucket_padded_frames": 2537308,
+  "random_four_clip_padded_frames": 3992268,
+  "bucket_padding_fraction": 0.014740546701593749,
+  "random_padding_fraction": 0.5966198084344818,
+  "processed_frames_reduction_vs_random_four_clip_batches": 0.3644444711627576,
+  "all_clips_once": true,
+  "final_update_clips": 6
+}

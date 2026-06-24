@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "read_rgb": true,
+    "verify_cache": true,
+    "verify_source": true,
+    "save_torch": true,
+    "status": true,
+    "Experiment.predict": true,
+    "Experiment.evaluate": true,
+    "Experiment.snapshot": true,
+    "pixels_same_math": true,
+    "Experiment.loss_same_math": true
+  },
+  "changes": [
+    "CUDA training device placement; CPU beam search unchanged",
+    "Persistent cloud checkpoint path and new run directory",
+    "Full verification on cloud input files",
+    "Source-path relocation preserving IDs, hashes, text and split membership",
+    "GPU-runtime prerequisite; float32 with TF32 disabled",
+    "Safe SIGINT/SIGTERM save at completed optimizer update",
+    "Move resumed optimizer moments to parameter device"
+  ],
+  "original_source_sha256": "0976cf5d5144d9dba1508d254c54638fbb156f67934d57b29773d16cb1f43a48",
+  "cloud_source_sha256": "c6d4c53d578bae1cbaa854aecc57029fb7222cf6cd632ded340344fe3c079b11",
+  "cuda_smoke_pending": true,
+  "base_config_expression_unchanged": true
+}

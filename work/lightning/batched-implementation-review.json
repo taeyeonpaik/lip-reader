@@ -1,0 +1,25 @@
+{
+  "updated_unix": 1789926373.86407,
+  "implementation": "uploaded_and_running",
+  "cloud_upload": "complete",
+  "gpu_benchmark": "not_run",
+  "tests": {
+    "passed": 8,
+    "seconds": 24.44,
+    "torch": "2.8.0",
+    "command": "python -m pytest training/test_batching.py -q"
+  },
+  "original_trainer_sha256": "c6d4c53d578bae1cbaa854aecc57029fb7222cf6cd632ded340344fe3c079b11",
+  "sources": {
+    "outputs/lipreading-studio/training/batching.py": "5fceb6798ed3cdb77516abcb94bf2975e0f5f863ddc7b0bd24ba78aea5001ca0",
+    "outputs/lipreading-studio/training/batched_model.py": "8844bff3c9e8885ff6795640df4b12b5e16e84d10ac20bbf6080de44f7cc2935",
+    "outputs/lipreading-studio/training/lrs2_batched.py": "e27911cf7c5dad9d6b43f8b5edcebe7c54da97cd615e8af46509a7b1f6443567",
+    "outputs/lipreading-studio/training/test_batching.py": "fea9597eb160af20cc2a7f65386839a77c1bbd2396c90c257a8c58dba31cdb39",
+    "work/lightning/batched_test.py": "aff4264e278327a3c1c723d0538a6071696c574f3bee904359af292318cd283e",
+    "work/lightning/check_batched_model.py": "209e6c7672a4c778fcc9932f47189b4679dc0ce8070e0af9fb86bf8f9ffb9c27",
+    "work/lightning/status_remote.py": "9657f73c0c50780858a75f8da58e04dedf7dcd23e889788f6e8dedce89e331c4"
+  },
+  "validation_device": "cuda",
+  "validation_evidence": "cuda-validation-migration.json",
+  "gpu_training_benchmark": "skipped_at_user_request"
+}

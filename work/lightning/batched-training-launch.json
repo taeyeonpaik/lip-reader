@@ -1,0 +1,12 @@
+{
+  "state": "launched",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "pid": 5080,
+  "stage": "baseline-validation after 48139 source hashes passed",
+  "training_updates_confirmed": false,
+  "benchmark_skipped": true,
+  "checkpoint_metadata_fix": "torch version converted to builtin str before first gradients; safe reload verified",
+  "local_regression_test_passed": true,
+  "auto_stop_on_exit": true,
+  "updated_unix": 1789928369.511991
+}

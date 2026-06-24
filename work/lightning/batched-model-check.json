@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "gradients_run": false,
+  "source_split": "train",
+  "frames": [
+    13,
+    18,
+    22,
+    30
+  ],
+  "ids": [
+    "main/6091664644514887751/00006",
+    "main/6130176327767946740/00005",
+    "main/5939488799256800858/00009",
+    "main/6289058764458610407/00010"
+  ],
+  "encoder_max_absolute_errors": [
+    1.4662742614746094e-05,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "batch_loss": 4.238152503967285,
+  "single_mean_loss": 4.238157622516155,
+  "loss_absolute_difference": 5.11854887008667e-06,
+  "seconds": 5.80482899999879,
+  "original_weights_unchanged": true,
+  "gpu_speed_not_measured": true,
+  "torch": "2.8.0"
+}
