@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "device": "Tesla T4",
+  "torch": "2.8.0+cu128",
+  "measurements": [
+    {
+      "longest_probe": true,
+      "clips": 1,
+      "seconds": 2.266504205999979,
+      "frames": 154,
+      "loss": 4.519393444061279,
+      "gradient_norm": 178.08595275878906,
+      "peak_allocated_gib": 3.85341739654541,
+      "peak_reserved_gib": 4.2890625
+    },
+    {
+      "longest_probe": false,
+      "clips": 16,
+      "seconds": 3.8402404509999997,
+      "frames": 872,
+      "loss": 8.830933140590787,
+      "gradient_norm": 115.44609069824219,
+      "peak_allocated_gib": 4.665467262268066,
+      "peak_reserved_gib": 5.037109375
+    },
+    {
+      "longest_probe": false,
+      "clips": 16,
+      "seconds": 2.5418206460000192,
+      "frames": 872,
+      "loss": 8.188522089272738,
+      "gradient_norm": 68.6936264038086,
+      "peak_allocated_gib": 4.665506839752197,
+      "peak_reserved_gib": 5.037109375
+    },
+    {
+      "longest_probe": false,
+      "clips": 16,
+      "seconds": 2.5250093700000207,
+      "frames": 872,
+      "loss": 7.038803495466709,
+      "gradient_norm": 68.36778259277344,
+      "peak_allocated_gib": 4.665506839752197,
+      "peak_reserved_gib": 5.037109375
+    },
+    {
+      "longest_probe": false,
+      "clips": 16,
+      "seconds": 3.265716894000036,
+      "frames": 872,
+      "loss": 5.883547302335501,
+      "gradient_norm": 70.30014038085938,
+      "peak_allocated_gib": 4.665506839752197,
+      "peak_reserved_gib": 5.037109375
+    }
+  ],
+  "seconds_per_clip": 0.1588637903750012,
+  "training_only_epoch_hours": 2.0217182478445292,
+  "validation_time_not_included": true,
+  "parameters": 250383410,
+  "representative_weights_changed": {
+    "frontend.frontend3D.0.weight": true,
+    "proj_encoder.weight": true,
+    "encoder.encoders.0.feed_forward.w_1.weight": true,
+    "decoder.output_layer.weight": true,
+    "ctc.ctc_lo.weight": true
+  },
+  "strict_reload_prediction_match": true,
+  "optimizer_resume_update_passed": true,
+  "checkpoint_bytes": 3005582053,
+  "all_updates_discarded": true,
+  "no_validation_or_test_clips_used": true,
+  "original_weights_unchanged": true,
+  "completed_unix": 1789919197.6756923
+}

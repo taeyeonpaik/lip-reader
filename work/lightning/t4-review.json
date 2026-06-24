@@ -1,0 +1,12 @@
+{
+  "reviewed_unix": 1789919358.8957272,
+  "result_file": "t4-test-result.json",
+  "test_passed": true,
+  "studio_machine_after_test": "CPU",
+  "studio_status_after_test": "Running",
+  "confirmed_by": "lightning studio list --json",
+  "full_training_started": false,
+  "test_budget_authorized_usd": 0.55,
+  "actual_billing_not_queried": true,
+  "next_requirement": "User-approved total GPU spending limit for full training"
+}

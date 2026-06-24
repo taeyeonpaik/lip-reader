@@ -1,0 +1,32 @@
+{
+  "reviewed_unix": 1789924123.1276429,
+  "evidence": "Completed a100-test-result.json printed in remote test log; local raw-file copy was prevented by the successful Studio stop. Original report remains in persistent Studio storage.",
+  "device": "NVIDIA A100-SXM4-40GB",
+  "fp32": {
+    "seconds_per_clip": 0.12257229712500006,
+    "projected_training_hours": 1.5598686723568758,
+    "warmed_batch_seconds": [
+      1.9631026659999975,
+      1.9592108420000045
+    ]
+  },
+  "bf16": {
+    "seconds_per_clip": 0.14509444581250008,
+    "projected_training_hours": 1.8464880390149663,
+    "warmed_batch_seconds": [
+      2.338615467000011,
+      2.3044067989999917
+    ]
+  },
+  "t4_fp32_seconds_per_clip": 0.1588637903750012,
+  "both_arms_finite_gradients": true,
+  "all_updates_discarded": true,
+  "original_weights_unchanged": true,
+  "test_or_validation_data_used": false,
+  "validation_time_in_estimate": false,
+  "studio_after_test": "Stopped; SSH gateway confirms Studio not running",
+  "cpu_switch_failure": "LambdaLabs cluster does not offer cpu-4; fallback stopped Studio",
+  "actual_hourly_rate_and_billing_not_verified": true,
+  "no_full_training_started": true,
+  "short_sample_not_sustained_epoch_measurement": true
+}
