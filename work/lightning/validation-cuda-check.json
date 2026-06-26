@@ -1,0 +1,112 @@
+{
+  "cuda": [
+    {
+      "id": "main/6329151425173313518/00068",
+      "frames": 24,
+      "seconds": 0.6367968710001151,
+      "original_seconds": 0.9549378730000626,
+      "matches": true,
+      "prediction": "EVEN MORE IMPORTANT",
+      "original_prediction": "EVEN MORE IMPORTANT"
+    },
+    {
+      "id": "main/6326414672012357313/00086",
+      "frames": 29,
+      "seconds": 0.6285853920001045,
+      "original_seconds": 1.4339435079999703,
+      "matches": true,
+      "prediction": "I WAS A BIT TIRED",
+      "original_prediction": "I WAS A BIT TIRED"
+    },
+    {
+      "id": "main/6324764116080445123/00019",
+      "frames": 33,
+      "seconds": 0.5413561509999454,
+      "original_seconds": 1.1819624629999907,
+      "matches": true,
+      "prediction": "IF YOU ACT QUICKLY ENOUGH",
+      "original_prediction": "IF YOU ACT QUICKLY ENOUGH"
+    },
+    {
+      "id": "main/6328962017115556355/00007",
+      "frames": 37,
+      "seconds": 0.7823532879999675,
+      "original_seconds": 1.9117370719999371,
+      "matches": true,
+      "prediction": "SOME OF MY FAVOURITE VIEWS",
+      "original_prediction": "SOME OF MY FAVOURITE VIEWS"
+    },
+    {
+      "id": "main/6327295999301439627/00014",
+      "frames": 41,
+      "seconds": 1.1551241459999346,
+      "original_seconds": 2.6096793209999305,
+      "matches": true,
+      "prediction": "IT'S WELL WORTH IT",
+      "original_prediction": "IT'S WELL WORTH IT"
+    },
+    {
+      "id": "main/6300370419826092098/00024",
+      "frames": 46,
+      "seconds": 0.7394152910001139,
+      "original_seconds": 2.124906253000063,
+      "matches": true,
+      "prediction": "THEIR VERY LOW MAINTENANCE",
+      "original_prediction": "THEIR VERY LOW MAINTENANCE"
+    },
+    {
+      "id": "main/6306870852828565379/00007",
+      "frames": 52,
+      "seconds": 1.0183482169998115,
+      "original_seconds": 2.7476039149999565,
+      "matches": true,
+      "prediction": "OCCUPATIONS ARE CHIEFLY WITH SYMBOL",
+      "original_prediction": "OCCUPATIONS ARE CHIEFLY WITH SYMBOL"
+    },
+    {
+      "id": "main/6311014637275749987/00026",
+      "frames": 59,
+      "seconds": 0.9679539629998999,
+      "original_seconds": 2.840671057999998,
+      "matches": true,
+      "prediction": "IT ONLY GOT INTO THAT MUCH TROUBLE BECAUSE IT TOOK TOO MUCH",
+      "original_prediction": "IT ONLY GOT INTO THAT MUCH TROUBLE BECAUSE IT TOOK TOO MUCH"
+    },
+    {
+      "id": "main/6328111613590949805/00026",
+      "frames": 66,
+      "seconds": 0.9540363639998759,
+      "original_seconds": 2.6546020600001157,
+      "matches": true,
+      "prediction": "USING THE SAME PATTERN IN THE SAME WAY",
+      "original_prediction": "USING THE SAME PATTERN IN THE SAME WAY"
+    },
+    {
+      "id": "main/6313656042293295351/00016",
+      "frames": 81,
+      "seconds": 1.2302165010000863,
+      "original_seconds": 4.195910788999981,
+      "matches": true,
+      "prediction": "SAW THAT IT NO LONGER HAD THE STRATEGIC VALUE IT HAD",
+      "original_prediction": "SAW THAT IT NO LONGER HAD THE STRATEGIC VALUE IT HAD"
+    },
+    {
+      "id": "main/6324713864963081921/00006",
+      "frames": 100,
+      "seconds": 1.775230461999854,
+      "original_seconds": 7.124769311000136,
+      "matches": true,
+      "prediction": "THE REASON TRAVELLING SEEMS SO SEAMLESS IS BECAUSE OF ALL THE EFFORT BEHIND THE SCENES",
+      "original_prediction": "THE REASON TRAVELLING SEEMS SO SEAMLESS IS BECAUSE OF ALL THE EFFORT BEHIND THE SCENES"
+    },
+    {
+      "id": "main/6324698403080812792/00005",
+      "frames": 135,
+      "seconds": 1.5879937559998325,
+      "original_seconds": 7.268106675000013,
+      "matches": true,
+      "prediction": "THEY SHARE A LOT OF THE SAME DESIGN AND TECHNOLOGY AS HIGH PERFORMANCE READY TO USE",
+      "original_prediction": "THEY SHARE A LOT OF THE SAME DESIGN AND TECHNOLOGY AS HIGH PERFORMANCE READY TO USE"
+    }
+  ]
+}

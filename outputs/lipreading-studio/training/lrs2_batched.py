@@ -41,8 +41,27 @@ class Experiment(base.Experiment):
                            batched_source_sha256=base.sha(__file__),
                            batching_sha256=base.sha(batching.__file__),
                            batched_model_sha256=base.sha(batched_model.__file__))
+        self.config.update(execution_evaluation_decoder_device='cuda', execution_evaluation_cpu_threads=1)
 
+    def mode(self, training):
+        super().mode(training)
+        if not training:
+            # Beam hypotheses already batch together in the author's search.
+            # Keep decoder/CTC on CUDA instead of the inherited Mac CPU path.
+            torch.set_num_threads(1)
+            self.model.decoder.to(base.DEVICE)
+            self.model.ctc.to(base.DEVICE)
+            self.reader.search.to(base.DEVICE)
 
+    def predict(self, row):
+        with torch.inference_mode():
+            encoded = self.encode(base.pixels(row)).squeeze(0)
+            hypotheses = self.reader.search(encoded)
+            if not hypotheses:
+                return ''
+            ids = hypotheses[0].yseq.tolist()[1:]
+            return ''.join(self.reader.tokens[i] for i in ids
+                           if 0 < i < len(self.reader.tokens)-1).replace('▁', ' ').strip()
 
     def train_epoch(self, state, epoch):
         rows = self.splits['train']

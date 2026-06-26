@@ -1,0 +1,18 @@
+{
+  "before_gradients": true,
+  "completed_predictions_preserved": 426,
+  "sample_count": 12,
+  "all_sample_predictions_match": true,
+  "mean_cuda_decode_seconds": 1.001450866833295,
+  "mean_previous_full_prediction_seconds": 3.087402524833346,
+  "notes": "Timing comparison excludes encoding in CUDA probe; sampled agreement does not guarantee bitwise equality for all future clips.",
+  "updated_unix": 1789929538.623942,
+  "live_observation": {
+    "completed": 450,
+    "new_cuda_predictions": 24,
+    "mean_end_to_end_seconds": 0.9321685653333418,
+    "projected_full_pass_minutes": 16.810106461511264,
+    "observed_unix": 1789929654.7594602,
+    "early_sample": true
+  }
+}
