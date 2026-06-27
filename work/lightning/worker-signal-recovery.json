@@ -1,0 +1,21 @@
+{
+  "recovery_unix": 1789937551.3630924,
+  "checkpoint_backup": "/teamspace/studios/this_studio/lipreader/checkpoints/lrs2-batched-v1/before-worker-signal-fix.pt",
+  "resume_progress": {
+    "epoch": 1,
+    "offset": 40000,
+    "updates": 2500,
+    "loss_sum": 273620.9631525278,
+    "history": [],
+    "best_wer": 0.22794304602084922,
+    "best_epoch": 0
+  },
+  "model_tensors_unchanged": true,
+  "optimizer_tensors_unchanged": true,
+  "progress_unchanged": true,
+  "changed_config_fields": [
+    "batching_sha256"
+  ],
+  "fix": "Workers allow 60-second SIGTERM grace for parent checkpoint; launcher uses absolute executable paths",
+  "termination_source": "unconfirmed; parent and worker received stop signals"
+}

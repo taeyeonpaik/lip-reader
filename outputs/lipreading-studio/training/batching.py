@@ -99,10 +99,18 @@ def collate(clips):
                 labels=torch.nn.utils.rnn.pad_sequence([c['labels'] for c in clips], batch_first=True, padding_value=-1))
 
 
+def worker_stop_grace(signum, frame):
+    # Studio shutdown may signal the whole process group. Keep workers alive
+    # briefly so the trainer can finish its update and save atomically. Normal
+    # DataLoader shutdown sends a queue sentinel; alarm bounds orphan lifetime.
+    signal.signal(signal.SIGTERM, signal.SIG_IGN)
+    signal.signal(signal.SIGALRM, signal.SIG_DFL)
+    signal.alarm(60)
 
 
 def worker_init(_):
     signal.signal(signal.SIGINT, signal.SIG_IGN)
+    signal.signal(signal.SIGTERM, worker_stop_grace)
     torch.set_num_threads(1)
     cv2.setNumThreads(1)
 
