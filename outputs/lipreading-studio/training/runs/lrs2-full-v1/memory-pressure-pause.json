@@ -1,0 +1,22 @@
+{
+  "paused_unix": 1789916292.22133,
+  "pid": 64780,
+  "checkpoint": "/private/tmp/autoavsr-lrs2-full-v1/last.pt",
+  "last_displayed_progress": {
+    "state": "paused",
+    "stage": "training",
+    "updated_unix": 1789916292.2211058,
+    "epoch": 1,
+    "max_epochs": 20,
+    "completed": 4000,
+    "total": 45814,
+    "updates": 250,
+    "mean_loss": 6.907724115133285,
+    "gradient_norm": 64.3042221069336,
+    "lr": 8.729050279329609e-07,
+    "seconds_per_clip": 0.6235539666491483,
+    "reason": "Local training stopped to relieve severe Mac memory pressure. Latest atomic last.pt is preserved; unsaved updates may be replayed on resume. Do not restart automatically while preparing GPU migration."
+  },
+  "free_memory_after_stop_gib": 8.723480224609375,
+  "reason": "Local training stopped to relieve severe Mac memory pressure. Latest atomic last.pt is preserved; unsaved updates may be replayed on resume. Do not restart automatically while preparing GPU migration."
+}

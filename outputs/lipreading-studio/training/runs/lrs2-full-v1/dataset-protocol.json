@@ -1,0 +1,25 @@
+{
+  "source_manifest_sha256": "66b88767677141aaf2baf9d4faba781162338dbec53286cf09d008c4e4615c28",
+  "source_provenance_sha256": "4c455ef7764f5c41ed68d4c2dead782076bfabf80db9c0c76d031aeb6e0e52a1",
+  "splits": {
+    "train": 45814,
+    "validation": 1082,
+    "test": 1243
+  },
+  "recording_overlap": 0,
+  "clip_overlap": 0,
+  "original_distributor_splits_preserved": true,
+  "official_counts": {
+    "train": 45839,
+    "validation": 1082,
+    "test": 1243
+  },
+  "official_url": "https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html",
+  "limitations": [
+    "Official raw files and lists require BBC credentials; they were not downloaded or bypassed.",
+    "Uses existing public processed crop distribution. Training contains 25 fewer clips than the official count; reason not independently established.",
+    "Validation and test counts match official counts; independent official filelist identity comparison unavailable.",
+    "Pretrained checkpoint already trained on LRS2 training data; this alone does not prove exposure to official validation/test.",
+    "Prior LRS2 test results are already known. No test-based selection in this run."
+  ]
+}

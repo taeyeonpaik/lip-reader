@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "parameters": 250383410,
+  "sample_id": "main/6234184544428471564/00045",
+  "split": "train",
+  "loss": 0.7409285306930542,
+  "prediction": "IT'LL GO OFF AS A SUPERNOVA",
+  "original_weights_unchanged": true,
+  "gradients_run": false,
+  "cuda_verified": false
+}

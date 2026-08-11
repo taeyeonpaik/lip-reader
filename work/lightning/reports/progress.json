@@ -1,0 +1,7 @@
+{
+  "state": "awaiting_gpu",
+  "stage": "ready-for-gpu",
+  "updated_unix": 1789918632.901582,
+  "training_started": false,
+  "reason": "CPU setup, all data checks and model readiness passed. GPU selection/cost approval and CUDA smoke check pending; no training started."
+}

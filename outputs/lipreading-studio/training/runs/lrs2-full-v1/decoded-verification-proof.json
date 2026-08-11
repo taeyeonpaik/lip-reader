@@ -1,0 +1,15 @@
+{
+  "manifest_sha256": "bc4ff874389820d0fe193774b05b2aad7f7f3d06cb0fae1b005ff5657e2c9295",
+  "original_data_check": {
+    "clips": 48139,
+    "sha256_verified": true,
+    "lrs2_clips": 48139,
+    "lrs3_clips": 0,
+    "recording_overlap": 0
+  },
+  "original_data_check_sha256": "7d940a5144cd3e736525a11c9f0715bfc21ba8ddb2c58739ae504168aa826634",
+  "original_config_sha256": "e56018035c735609c3db81584e501ad72caee5eb9784c13c4b3cab5a35dae397",
+  "original_training_source_sha256": "46212bf67acc3da97eb730a7a6fbab052a77ed71b11b83f600029f361c22cd87",
+  "inputs_sha256": "453a28db7be88ec16be19fcbadad2e26889630c74f0332a8f37e517deb8d8f7f",
+  "note": "Every input was fully decoded and verified before the saved training checkpoint. On execution-only resume, rehash every original video against the unchanged manifest; identical source bytes preserve the completed decode and cross-split pixel checks."
+}

@@ -1,0 +1,11 @@
+{
+  "clips": 48139,
+  "sha256_verified": true,
+  "decoded_verified": true,
+  "manifest_sha256": "9019486be9ecd2484b0dea284bf98b276e7c3fd27f25948d4730ba7bc3002d38",
+  "source_sha256": "c6d4c53d578bae1cbaa854aecc57029fb7222cf6cd632ded340344fe3c079b11",
+  "recording_overlap": 0,
+  "lrs2_clips": 48139,
+  "lrs3_clips": 0,
+  "reused_decode_after_identical_source_hashes": false
+}

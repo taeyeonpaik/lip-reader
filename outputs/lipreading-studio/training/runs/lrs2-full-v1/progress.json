@@ -1,0 +1,15 @@
+{
+  "state": "paused",
+  "stage": "training",
+  "updated_unix": 1789917624.122415,
+  "epoch": 1,
+  "max_epochs": 20,
+  "completed": 4000,
+  "total": 45814,
+  "updates": 250,
+  "mean_loss": 6.907724115133285,
+  "gradient_norm": 64.3042221069336,
+  "lr": 8.729050279329609e-07,
+  "seconds_per_clip": 0.6235539666491483,
+  "reason": "Local job stopped for memory pressure; temporary checkpoint unavailable after Mac reboot. Cloud LRS2 run is being prepared from original pretrained weights. This historical run cannot resume."
+}
