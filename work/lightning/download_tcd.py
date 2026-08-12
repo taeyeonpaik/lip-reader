@@ -117,6 +117,191 @@ def incomplete_selection(selected, report):
             if states.get(relative(url), {}).get('state') not in ('verified', 'complete')]
 
 
+def download_files(selected, root, request, workers, retry_delays=(5, 15, 30, 60, 120)):
+    root = root.resolve()
+    stop, mutex = threading.Event(), threading.Lock()
+    progress = {}
+    network_bytes = [0]
+    start = time.monotonic()
+
+    def transfer(url):
+        rel = relative(url)
+        output = root / rel
+        if not output.resolve().is_relative_to(root):
+            raise RuntimeError('Unsafe destination path')
+        if stop.is_set():
+            return
+        output.parent.mkdir(parents=True, exist_ok=True)
+        receipt = output.with_name(output.name + '.download.json')
+        if output.exists() and receipt.exists():
+            saved = json.loads(receipt.read_text())
+            with mutex:
+                progress[rel] = dict(state='verifying existing archive', bytes=0, total=output.stat().st_size, received=0)
+            print('Verifying existing archive: ' + rel, flush=True)
+            hasher = hashlib.sha256()
+            checked = 0
+            with output.open('rb') as stream:
+                while chunk := stream.read(4*1024*1024):
+                    if stop.is_set():
+                        return
+                    hasher.update(chunk)
+                    checked += len(chunk)
+                    with mutex:
+                        progress[rel]['bytes'] = checked
+            digest = hasher.hexdigest()
+            if saved.get('url') == url and saved.get('sha256') == digest:
+                with mutex:
+                    progress[rel] = dict(state='verified', bytes=output.stat().st_size, received=0)
+                print('Already verified: ' + rel, flush=True)
+                return
+        part = output.with_name(output.name + '.part')
+        metadata = part.with_name(part.name + '.json')
+        offset = part.stat().st_size if part.exists() else 0
+        headers = {'Range': f'bytes={offset}-'} if offset else {}
+        if offset and metadata.exists():
+            prior = json.loads(metadata.read_text())
+            if prior['url'] != url:
+                raise RuntimeError('Partial download source changed')
+            if prior.get('validator'):
+                headers['If-Range'] = prior['validator']
+        with request(url, headers) as response:
+            if 'text/html' in response.headers.get('Content-Type', ''):
+                raise RuntimeError('Unexpected HTML; session may have expired')
+            status = response.status
+            length = int(response.headers.get('Content-Length', 0))
+            if status == 206:
+                match = re.fullmatch(r'bytes (\d+)-(\d+)/(\d+)', response.headers.get('Content-Range', ''))
+                if not match or int(match[1]) != offset:
+                    raise RuntimeError('Server returned an incorrect resume offset')
+                total = int(match[3])
+                if int(match[2]) != total-1 or (length and length != total-offset):
+                    raise RuntimeError('Incomplete range response')
+                print(f'Resuming {rel} at {offset/1e9:.2f} GB', flush=True)
+            elif status == 200:
+                if offset:
+                    print('Server did not accept resume; restarting file: ' + rel, flush=True)
+                offset = 0
+                total = length
+            else:
+                raise RuntimeError('Unexpected HTTP status: ' + str(status))
+            validator = response.headers.get('ETag') or response.headers.get('Last-Modified')
+            metadata.write_text(json.dumps(dict(url=url, validator=validator)))
+            digest, size, received = hashlib.sha256(), offset, 0
+            if offset:
+                with part.open('rb') as stream:
+                    while chunk := stream.read(4*1024*1024):
+                        if stop.is_set():
+                            return
+                        digest.update(chunk)
+            with mutex:
+                progress[rel] = dict(state='downloading', bytes=size, total=total, received=0)
+            with part.open('ab' if offset else 'wb') as stream:
+                while not stop.is_set():
+                    chunk = response.read(1024*1024)
+                    if not chunk:
+                        break
+                    # Serialize free-space checks/writes across our workers.
+                    with mutex:
+                        if shutil.disk_usage(root).free < 8*1024**3 + len(chunk):
+                            raise RuntimeError('Less than 8 GiB free; downloads stopped')
+                        stream.write(chunk)
+                        digest.update(chunk)
+                        size += len(chunk)
+                        received += len(chunk)
+                        network_bytes[0] += len(chunk)
+                        progress[rel].update(bytes=size, received=received)
+                stream.flush()
+                os.fsync(stream.fileno())
+            if stop.is_set():
+                return
+            if total and size != total:
+                raise IncompleteRead(b'', total-size)
+        if output.suffix == '.zip':
+            with mutex:
+                progress[rel]['state'] = 'checking archive'
+            with zipfile.ZipFile(part) as archive:
+                for member in archive.infolist():
+                    if stop.is_set():
+                        return
+                    with archive.open(member) as stream:
+                        while stream.read(4*1024*1024):
+                            if stop.is_set():
+                                return
+        part.replace(output)
+        receipt.write_text(json.dumps(dict(url=url, bytes=size, sha256=digest.hexdigest()), indent=2)+'\n')
+        metadata.unlink(missing_ok=True)
+        with mutex:
+            progress[rel]['state'] = 'complete'
+        print('Downloaded and verified: ' + rel, flush=True)
+
+    def attempt_transfer(url, attempt):
+        rel = relative(url)
+        try:
+            transfer(url)
+            return None
+        except (HTTPError, URLError, TimeoutError, ConnectionError, IncompleteRead) as error:
+            if isinstance(error, HTTPError):
+                code = error.code
+                error.close()
+                if code in (401, 403):
+                    raise RuntimeError('Authentication rejected; sign in again') from None
+                retryable = code in (408, 429, 500, 502, 503, 504)
+                reason = 'HTTP ' + str(code)
+            else:
+                retryable, reason = True, type(error).__name__
+            if not retryable or attempt == len(retry_delays):
+                with mutex:
+                    progress.setdefault(rel, {}).update(state='skipped', error=reason, attempts=attempt+1)
+                print(f'Skipped after {attempt+1} attempts: {rel} ({reason}); other files continue.', flush=True)
+                return None
+            delay = retry_delays[attempt]
+            with mutex:
+                progress.setdefault(rel, {}).update(state='retrying', error=reason, attempts=attempt+1,
+                                                   retry_in_seconds=delay, next_retry_at=time.time()+delay)
+            print(f'{reason}: queued retry for {rel} in {delay}s; worker is free for other files.', flush=True)
+            return (time.monotonic()+delay, url, attempt+1)
+
+    executor = ThreadPoolExecutor(max_workers=workers)
+    queue = [(0, url, 0) for url in selected]
+    pending = set()
+    try:
+        while pending or queue:
+            queue.sort(key=lambda item: item[0])
+            while queue and len(pending) < workers and queue[0][0] <= time.monotonic():
+                _, url, attempt = queue.pop(0)
+                pending.add(executor.submit(attempt_transfer, url, attempt))
+            timeout = min(10, max(0, queue[0][0]-time.monotonic())) if queue and len(pending) < workers else 10
+            if pending:
+                done, pending = wait(pending, timeout=timeout, return_when=FIRST_COMPLETED)
+                for future in done:
+                    retry = future.result()
+                    if retry is not None:
+                        queue.append(retry)
+            elif queue:
+                stop.wait(timeout)
+            with mutex:
+                report = dict(elapsed_seconds=time.monotonic()-start, workers=workers,
+                              files={k: dict(v) for k,v in progress.items()})
+            with mutex:
+                received = network_bytes[0]
+            report['aggregate_MB_per_second'] = received / max(report['elapsed_seconds'], 1) / 1e6
+            tmp = root/'download-progress.tmp'
+            tmp.write_text(json.dumps(report, indent=2)+'\n')
+            tmp.replace(root/'download-progress.json')
+            complete = sum(v['state'] in ('complete','verified') for v in report['files'].values())
+            checking = sum(v['state'] in ('verifying existing archive', 'checking archive') for v in report['files'].values())
+            print(f"Progress: {complete}/{len(selected)} complete; {checking} verifying; {report['aggregate_MB_per_second']:.2f} MB/s combined", flush=True)
+        skipped = [k for k,v in progress.items() if v['state'] == 'skipped']
+        (root/'download-skipped.json').write_text(json.dumps(skipped, indent=2)+'\n')
+        if skipped:
+            print(f'Download pass finished with {len(skipped)} skipped files; see download-skipped.json. Dataset is incomplete.', flush=True)
+        else:
+            print('Selected downloads complete.', flush=True)
+    finally:
+        stop.set()
+        for future in pending:
+            future.cancel()
+        executor.shutdown(wait=True, cancel_futures=True)
 
 
 def main():
@@ -224,7 +409,7 @@ def main():
             print(f'Retrying {len(selected)} unfinished files; completed files are retained.', flush=True)
         delays = tuple(min(args.retry_max_seconds, args.retry_base_seconds * 2**i)
                        for i in range(args.retry_attempts - 1))
-        raise SystemExit('Inventory complete; transfer support is introduced in the next milestone')
+        download_files(selected, root, request, args.workers, retry_delays=delays)
 
 
 if __name__ == '__main__':
