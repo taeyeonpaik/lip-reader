@@ -1,0 +1,8 @@
+{
+  "state": "running",
+  "stage": "review-ready",
+  "updated_unix": 1790862033.463086,
+  "baseline_test_wer": 0.3517421842721388,
+  "selected_test_wer": 0.1378597989257678,
+  "selected_epoch": 13
+}

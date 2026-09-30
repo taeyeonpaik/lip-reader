@@ -1,0 +1,11 @@
+{
+  "clips": 882,
+  "word_errors": 1504,
+  "reference_words": 7248,
+  "wer": 0.20750551876379691,
+  "character_errors": 4720,
+  "reference_characters": 41624,
+  "cer": 0.11339611762444743,
+  "exact_sentences": 356,
+  "failures": 0
+}

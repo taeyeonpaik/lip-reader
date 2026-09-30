@@ -1,0 +1,93 @@
+{
+  "clips": {
+    "train": 4018,
+    "validation": 882,
+    "test": 881
+  },
+  "population_counts": {
+    "volunteer": {
+      "train": 4018,
+      "validation": 882,
+      "test": 881
+    },
+    "lipspeaker": {
+      "train": 0,
+      "validation": 0,
+      "test": 0
+    }
+  },
+  "speakers": {
+    "train": [
+      "volunteer:01M",
+      "volunteer:02M",
+      "volunteer:03F",
+      "volunteer:04M",
+      "volunteer:05F",
+      "volunteer:07F",
+      "volunteer:08F",
+      "volunteer:09F",
+      "volunteer:10M",
+      "volunteer:14M",
+      "volunteer:15F",
+      "volunteer:18M",
+      "volunteer:19M",
+      "volunteer:20M",
+      "volunteer:21M",
+      "volunteer:22M",
+      "volunteer:23M",
+      "volunteer:25M",
+      "volunteer:27M",
+      "volunteer:28M",
+      "volunteer:31F",
+      "volunteer:32F",
+      "volunteer:33F",
+      "volunteer:34M",
+      "volunteer:35M",
+      "volunteer:36F",
+      "volunteer:37F",
+      "volunteer:40F",
+      "volunteer:41M",
+      "volunteer:42M",
+      "volunteer:43F",
+      "volunteer:45F",
+      "volunteer:46F",
+      "volunteer:47M",
+      "volunteer:49F",
+      "volunteer:53M",
+      "volunteer:54M",
+      "volunteer:55F",
+      "volunteer:57M",
+      "volunteer:58F",
+      "volunteer:59F"
+    ],
+    "validation": [
+      "volunteer:13F",
+      "volunteer:16M",
+      "volunteer:17F",
+      "volunteer:24M",
+      "volunteer:29M",
+      "volunteer:39M",
+      "volunteer:48M",
+      "volunteer:50F",
+      "volunteer:52M"
+    ],
+    "test": [
+      "volunteer:06M",
+      "volunteer:11F",
+      "volunteer:12M",
+      "volunteer:26M",
+      "volunteer:30F",
+      "volunteer:38F",
+      "volunteer:44F",
+      "volunteer:51F",
+      "volunteer:56M"
+    ]
+  },
+  "speaker_overlap": 0,
+  "source_manifest_sha256": "e089cdf63e1e46de30b75074ec1442c8960fdeb018d34958175b0270a8c3f376",
+  "source_provenance_sha256": "146fd0cdb2ec3f03d23611a33cd242d1e478dbb832b88842a3d38206399b501d",
+  "protocol_sha256": "aac209b83d396791a7c4867d0fecca33025b0a862eeedc011bfe708eaa5efb51",
+  "evaluation": "speaker-disjoint; 59 volunteers; straightcam only; lipspeakers excluded",
+  "official_split_claim": false,
+  "limitation": "Speaker independence within this dataset does not certify all pretraining exposure."
+}

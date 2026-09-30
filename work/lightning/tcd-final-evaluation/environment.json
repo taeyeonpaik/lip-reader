@@ -1,0 +1,6 @@
+{
+  "torch": "2.8.0+cu128",
+  "device": "cuda",
+  "started_unix": 1790833017.731129,
+  "pid": 6090
+}

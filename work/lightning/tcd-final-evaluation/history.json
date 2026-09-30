@@ -1,0 +1,274 @@
+[
+  {
+    "epoch": 1,
+    "loss": 17.02903803525842,
+    "validation": {
+      "clips": 882,
+      "word_errors": 2296,
+      "reference_words": 7248,
+      "wer": 0.31677704194260486,
+      "character_errors": 7173,
+      "reference_characters": 41624,
+      "cer": 0.17232846434749183,
+      "exact_sentences": 180,
+      "failures": 0
+    },
+    "updates": 252
+  },
+  {
+    "epoch": 2,
+    "loss": 13.738125246398303,
+    "validation": {
+      "clips": 882,
+      "word_errors": 2010,
+      "reference_words": 7248,
+      "wer": 0.277317880794702,
+      "character_errors": 6136,
+      "reference_characters": 41624,
+      "cer": 0.14741495291178167,
+      "exact_sentences": 237,
+      "failures": 0
+    },
+    "updates": 504
+  },
+  {
+    "epoch": 3,
+    "loss": 11.734901739151814,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1785,
+      "reference_words": 7248,
+      "wer": 0.2462748344370861,
+      "character_errors": 5582,
+      "reference_characters": 41624,
+      "cer": 0.13410532385162408,
+      "exact_sentences": 274,
+      "failures": 0
+    },
+    "updates": 756
+  },
+  {
+    "epoch": 4,
+    "loss": 10.461517521965973,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1667,
+      "reference_words": 7248,
+      "wer": 0.22999448123620309,
+      "character_errors": 5166,
+      "reference_characters": 41624,
+      "cer": 0.12411108975591005,
+      "exact_sentences": 298,
+      "failures": 0
+    },
+    "updates": 1008
+  },
+  {
+    "epoch": 5,
+    "loss": 9.509149951208522,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1584,
+      "reference_words": 7248,
+      "wer": 0.2185430463576159,
+      "character_errors": 4931,
+      "reference_characters": 41624,
+      "cer": 0.1184653084758793,
+      "exact_sentences": 323,
+      "failures": 0
+    },
+    "updates": 1260
+  },
+  {
+    "epoch": 6,
+    "loss": 8.631971160234533,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1504,
+      "reference_words": 7248,
+      "wer": 0.20750551876379691,
+      "character_errors": 4720,
+      "reference_characters": 41624,
+      "cer": 0.11339611762444743,
+      "exact_sentences": 356,
+      "failures": 0
+    },
+    "updates": 1512
+  },
+  {
+    "epoch": 7,
+    "loss": 7.919154320385042,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1467,
+      "reference_words": 7248,
+      "wer": 0.20240066225165562,
+      "character_errors": 4550,
+      "reference_characters": 41624,
+      "cer": 0.109311935421872,
+      "exact_sentences": 357,
+      "failures": 0
+    },
+    "updates": 1764
+  },
+  {
+    "epoch": 8,
+    "loss": 7.350990588478688,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1357,
+      "reference_words": 7248,
+      "wer": 0.18722406181015452,
+      "character_errors": 4182,
+      "reference_characters": 41624,
+      "cer": 0.10047088218335576,
+      "exact_sentences": 382,
+      "failures": 0
+    },
+    "updates": 2016
+  },
+  {
+    "epoch": 9,
+    "loss": 7.1036658339858825,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1352,
+      "reference_words": 7248,
+      "wer": 0.18653421633554085,
+      "character_errors": 4221,
+      "reference_characters": 41624,
+      "cer": 0.10140784162982895,
+      "exact_sentences": 388,
+      "failures": 0
+    },
+    "updates": 2268
+  },
+  {
+    "epoch": 10,
+    "loss": 6.736920590303382,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1305,
+      "reference_words": 7248,
+      "wer": 0.18004966887417218,
+      "character_errors": 4083,
+      "reference_characters": 41624,
+      "cer": 0.09809244666538536,
+      "exact_sentences": 408,
+      "failures": 0
+    },
+    "updates": 2520
+  },
+  {
+    "epoch": 11,
+    "loss": 6.497422189959369,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1264,
+      "reference_words": 7248,
+      "wer": 0.17439293598233996,
+      "character_errors": 3912,
+      "reference_characters": 41624,
+      "cer": 0.0939842398616183,
+      "exact_sentences": 413,
+      "failures": 0
+    },
+    "updates": 2772
+  },
+  {
+    "epoch": 12,
+    "loss": 6.153812845053514,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1233,
+      "reference_words": 7248,
+      "wer": 0.1701158940397351,
+      "character_errors": 3806,
+      "reference_characters": 41624,
+      "cer": 0.09143763213530655,
+      "exact_sentences": 426,
+      "failures": 0
+    },
+    "updates": 3024
+  },
+  {
+    "epoch": 13,
+    "loss": 5.967437457539894,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1216,
+      "reference_words": 7248,
+      "wer": 0.16777041942604856,
+      "character_errors": 3742,
+      "reference_characters": 41624,
+      "cer": 0.08990005765904285,
+      "exact_sentences": 430,
+      "failures": 0
+    },
+    "updates": 3276
+  },
+  {
+    "epoch": 14,
+    "loss": 5.843196349692262,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1238,
+      "reference_words": 7248,
+      "wer": 0.1708057395143488,
+      "character_errors": 3861,
+      "reference_characters": 41624,
+      "cer": 0.09275898520084566,
+      "exact_sentences": 431,
+      "failures": 0
+    },
+    "updates": 3528
+  },
+  {
+    "epoch": 15,
+    "loss": 5.760621256647922,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1229,
+      "reference_words": 7248,
+      "wer": 0.16956401766004414,
+      "character_errors": 3793,
+      "reference_characters": 41624,
+      "cer": 0.0911253123198155,
+      "exact_sentences": 430,
+      "failures": 0
+    },
+    "updates": 3780
+  },
+  {
+    "epoch": 16,
+    "loss": 5.671532030008277,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1218,
+      "reference_words": 7248,
+      "wer": 0.16804635761589404,
+      "character_errors": 3778,
+      "reference_characters": 41624,
+      "cer": 0.09076494330194118,
+      "exact_sentences": 431,
+      "failures": 0
+    },
+    "updates": 4032
+  },
+  {
+    "epoch": 17,
+    "loss": 5.6893282823743005,
+    "validation": {
+      "clips": 882,
+      "word_errors": 1217,
+      "reference_words": 7248,
+      "wer": 0.1679083885209713,
+      "character_errors": 3754,
+      "reference_characters": 41624,
+      "cer": 0.0901883528733423,
+      "exact_sentences": 440,
+      "failures": 0
+    },
+    "updates": 4284
+  }
+]

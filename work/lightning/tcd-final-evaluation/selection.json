@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/teamspace/studios/this_studio/lipreader/checkpoints/tcd-timit-v1/best.pth",
+  "sha256": "53b8e4b39bedac8495dfdfee8f143dcd3b7d16803e0aba3f6b1a9b6f34289ed6",
+  "epoch": 13,
+  "baseline_validation": {
+    "clips": 882,
+    "word_errors": 3267,
+    "reference_words": 7248,
+    "wer": 0.4507450331125828,
+    "character_errors": 10501,
+    "reference_characters": 41624,
+    "cer": 0.2522823371132039,
+    "exact_sentences": 103,
+    "failures": 0
+  },
+  "best_validation_wer": 0.16777041942604856,
+  "test_used_for_selection": false
+}

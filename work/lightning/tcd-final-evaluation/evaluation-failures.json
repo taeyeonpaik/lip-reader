@@ -1,0 +1,12 @@
+[
+  {
+    "id": "volunteer/56M/sx67",
+    "text": "LAST YEAR'S GAS SHORTAGE CAUSED STEEP PRICE INCREASES",
+    "split": "test",
+    "speaker": "56M",
+    "population": "volunteer",
+    "session": "volunteer:56M",
+    "evaluation_group": "volunteer:56M",
+    "preprocessing_error": "The face could not be tracked reliably. Keep one well-lit face visible throughout."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "clips": 5781,
+  "sha256_verified": true,
+  "decoded_verified": true,
+  "manifest_sha256": "d46e79467a489328dfa853385de4c8ad4424e295bcfefdaee8cc7e02401bc297",
+  "source_sha256": "c6d4c53d578bae1cbaa854aecc57029fb7222cf6cd632ded340344fe3c079b11",
+  "recording_overlap": 0,
+  "lrs2_clips": 0,
+  "lrs3_clips": 0,
+  "reused_decode_after_identical_source_hashes": false,
+  "dataset": "TCD-TIMIT",
+  "tcd_clips": 5781
+}
