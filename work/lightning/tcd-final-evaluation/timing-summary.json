@@ -1,0 +1,13 @@
+{
+  "source": "Saved selected-test evaluation timings; no new GPU run",
+  "clips_timed": 881,
+  "failed_preprocessing_clips_excluded_from_timing": 1,
+  "total_video_seconds": 4085.8,
+  "total_processing_seconds": 1002.7571660870344,
+  "aggregate_real_time_factor": 0.24542492684101874,
+  "times_faster_than_playback": 4.074565745507096,
+  "median_latency_seconds": 1.0711931490004645,
+  "median_video_duration_seconds": 4.48,
+  "scope": "Prepared mouth-crop MP4 loading, preprocessing, model encoding and beam-search decoding; excludes raw-video mouth extraction, upload and model loading",
+  "hardware": "CUDA; original run on A100 (historical record), GPU variant not recorded in environment.json"
+}

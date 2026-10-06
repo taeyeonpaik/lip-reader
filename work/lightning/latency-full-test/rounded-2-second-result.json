@@ -1,0 +1,13 @@
+{
+  "clips": 458,
+  "selection": "Duration rounded to nearest second equals 2; interval [1.5, 2.5) seconds",
+  "duration_range_seconds": [
+    1.52,
+    2.48
+  ],
+  "median_duration_seconds": 1.8,
+  "median_latency_seconds": 0.6209593445000792,
+  "hardware": "NVIDIA A100-SXM4-80GB",
+  "measurement": "Saved final-test timings; no new GPU run",
+  "scope": "Prepared mouth-crop video reading, normalization, encoder and beam40 decoding; excludes mouth extraction, upload and model initialization"
+}

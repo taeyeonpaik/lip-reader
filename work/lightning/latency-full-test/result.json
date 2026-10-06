@@ -1,0 +1,25 @@
+{
+  "clips": 1243,
+  "measurement": "Complete historical final-test evaluation; no new GPU run",
+  "hardware": "NVIDIA A100-SXM4-80GB",
+  "beam_size": 40,
+  "median_duration_seconds": 1.44,
+  "mean_duration_seconds": 1.6422204344328237,
+  "duration_range_seconds": [
+    0.6,
+    5.8
+  ],
+  "median_latency_seconds": 0.5606774669977312,
+  "mean_latency_seconds": 0.595783019376555,
+  "p95_latency_seconds": 0.9027988182016996,
+  "latency_range_seconds": [
+    0.36640672299836297,
+    1.4796965300010925
+  ],
+  "total_video_seconds": 2041.28,
+  "total_measured_processing_seconds": 740.5582930850578,
+  "aggregate_real_time_factor": 0.3627911374652462,
+  "scope": "Prepared 96x96 LRS2 mouth-crop MP4 reading, normalization, CUDA encoder and beam40 decoder; excludes mouth tracking, upload and model initialization",
+  "predictions_sha256": "1cebfe1da9f710d58e32f3208e6c127cd735a6c0d82ae9a4a68aeb82cc8be87b",
+  "manifest_sha256": "9019486be9ecd2484b0dea284bf98b276e7c3fd27f25948d4730ba7bc3002d38"
+}

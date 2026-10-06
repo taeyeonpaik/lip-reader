@@ -1,5 +1,7 @@
 # Lip Reader
 
-Visual speech recognition experiments, from LipNet through Auto-AVSR fine-tuning and a Streamlit interface.
+A Streamlit app that transcribes silent video from mouth movements, with video uploads and webcam recording.
 
-Dataset media and generated corpus inventories, model weights and third-party dependencies are intentionally excluded from Git. Detailed inventories remain in the separate backup.
+Fine-tuning Auto-AVSR on a custom TCD-TIMIT split reduced test WER from 35.2% to 13.8%.
+
+To get started, run `python tools/bootstrap_dependencies.py`, then follow the [app setup](outputs/lipreading-studio/README.md). You'll need FFmpeg and model weights; weights and datasets aren't included here.

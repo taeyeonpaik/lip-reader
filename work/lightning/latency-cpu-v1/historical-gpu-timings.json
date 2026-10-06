@@ -1,0 +1,238 @@
+{
+  "measurement": "Historical final-test evaluation timings, not fresh GPU benchmark",
+  "clips": 20,
+  "median_clip_seconds": 2.96,
+  "clip_range_seconds": [
+    2.84,
+    3.12
+  ],
+  "median_latency_seconds": 0.8010529635012062,
+  "test_position_range": [
+    3,
+    1188
+  ],
+  "median_real_time_factor": 0.26660881730464203,
+  "beam_size": 40,
+  "scope": "prepared crops; video decode/normalization + CUDA encoder and CUDA beam40 decoding; excludes mouth extraction and upload",
+  "checkpoint": {
+    "checkpoint": "/teamspace/studios/this_studio/lipreader/checkpoints/lrs2-batched-v1/best.pth",
+    "sha256": "c7b829c24ec6c617f57a1d384af78b5962307019b842b551a7c51ff7471ec95c",
+    "epoch": 3,
+    "baseline_validation": {
+      "clips": 1082,
+      "word_errors": 1793,
+      "reference_words": 7866,
+      "wer": 0.22794304602084922,
+      "character_errors": 5896,
+      "reference_characters": 40282,
+      "cer": 0.14636810486073185,
+      "exact_sentences": 423,
+      "failures": 0
+    },
+    "best_validation_wer": 0.2120518688024409,
+    "test_used_for_selection": false
+  },
+  "source_predictions_sha256": "1cebfe1da9f710d58e32f3208e6c127cd735a6c0d82ae9a4a68aeb82cc8be87b",
+  "rows": [
+    {
+      "id": "main/6385106688602316013/00013",
+      "session": "6385106688602316013",
+      "evaluation_group": "6385106688602316013",
+      "reference": "WHAT'S THE BEST THING ABOUT THE ROYAL HIGHLAND SHOW",
+      "prediction": "WHAT'S THE BEST THING ABOUT A ROYAL HIGHLAND SHOW",
+      "seconds": 0.8989262579998467,
+      "clip_seconds": 2.96,
+      "test_position": 3
+    },
+    {
+      "id": "main/6356878445546153116/00011",
+      "session": "6356878445546153116",
+      "evaluation_group": "6356878445546153116",
+      "reference": "BUT IT SEEMS THE PENDANT IS TO EVERYONE'S PERSONAL TASTE",
+      "prediction": "BUT IT SEEMED DEPENDENT ON EVERYONE'S PERSONAL TASTE",
+      "seconds": 0.7716808680015674,
+      "clip_seconds": 3.0,
+      "test_position": 81
+    },
+    {
+      "id": "main/6348780284709539256/00016",
+      "session": "6348780284709539256",
+      "evaluation_group": "6348780284709539256",
+      "reference": "THE ROMANS FELT THEIR PRESENCE WAS STRONG ENOUGH HERE",
+      "prediction": "THE ROMANS FELT THEIR PRESENCE WAS STRONG ENOUGH HERE",
+      "seconds": 0.7623847119975835,
+      "clip_seconds": 2.96,
+      "test_position": 155
+    },
+    {
+      "id": "main/6351424266576959115/00013",
+      "session": "6351424266576959115",
+      "evaluation_group": "6351424266576959115",
+      "reference": "THE PRESIDENT ELECT HAS MET WITH PRESIDENT OBAMA",
+      "prediction": "THE PRESIDENTELECT HAS MET WITH PRESIDENT OBAMA",
+      "seconds": 0.734883714998432,
+      "clip_seconds": 3.04,
+      "test_position": 156
+    },
+    {
+      "id": "main/6384044972686741229/00035",
+      "session": "6384044972686741229",
+      "evaluation_group": "6384044972686741229",
+      "reference": "AFTER HAVING SPENT TEN YEARS HIMSELF IN EXILE",
+      "prediction": "AFTER HAVING SPENT TEN YEARS HIMSELF IN EXILE",
+      "seconds": 0.7493581189992256,
+      "clip_seconds": 2.96,
+      "test_position": 192
+    },
+    {
+      "id": "main/6335305254315087182/00032",
+      "session": "6335305254315087182",
+      "evaluation_group": "6335305254315087182",
+      "reference": "SOME MEMBERS OF THE PUBLIC DON'T QUITE UNDERSTAND LEASEHOLD",
+      "prediction": "SOME MEMBERS OF THE PUBLIC DON'T QUITE UNDERSTAND LIZARD",
+      "seconds": 0.9154239000017697,
+      "clip_seconds": 2.92,
+      "test_position": 199
+    },
+    {
+      "id": "main/6375915888085690147/00022",
+      "session": "6375915888085690147",
+      "evaluation_group": "6375915888085690147",
+      "reference": "MANY PEOPLE DID SLIP AND FALL AND BREAK A LEG",
+      "prediction": "MANY PEOPLE DIDN'T SLIP AND FALL AND BREAK A LEG",
+      "seconds": 0.9028761190020305,
+      "clip_seconds": 3.0,
+      "test_position": 235
+    },
+    {
+      "id": "main/6364798794736712994/00008",
+      "session": "6364798794736712994",
+      "evaluation_group": "6364798794736712994",
+      "reference": "THE FIRST MUSLIM WOMAN TO SERVE AS A CABINET MINISTER",
+      "prediction": "THE FIRST MUSLIM WOMAN TO SERVE AS A CABINET MINISTER",
+      "seconds": 0.8994648799998686,
+      "clip_seconds": 2.84,
+      "test_position": 306
+    },
+    {
+      "id": "main/6392197250111351363/00024",
+      "session": "6392197250111351363",
+      "evaluation_group": "6392197250111351363",
+      "reference": "EVERYONE HAS GONE HOME HAPPY AND THAT'S WHAT IT'S ALL ABOUT",
+      "prediction": "EVERYONE HAS GONE HOME HAPPY AND THAT'S WHAT IT'S ALL ABOUT",
+      "seconds": 1.0142574410019733,
+      "clip_seconds": 3.12,
+      "test_position": 348
+    },
+    {
+      "id": "main/6362913733590438579/00078",
+      "session": "6362913733590438579",
+      "evaluation_group": "6362913733590438579",
+      "reference": "OR IS IT THAT YOU ENJOY THOSE TOYS AND IT MAKES YOU INTO A DIFFERENT PERSON",
+      "prediction": "OR IS IT THAT YOU ENJOY THOSE STORIES AND IT MAKES YOU INTO A DIFFERENT PERSON",
+      "seconds": 0.9503424689974054,
+      "clip_seconds": 2.96,
+      "test_position": 563
+    },
+    {
+      "id": "main/6335676339489461610/00011",
+      "session": "6335676339489461610",
+      "evaluation_group": "6335676339489461610",
+      "reference": "WHO'S VERY MUCH INTO FAMILY HISTORY",
+      "prediction": "WHO WAS VERY MUCH INTO FAMILY HISTORY",
+      "seconds": 0.7005617690010695,
+      "clip_seconds": 2.96,
+      "test_position": 639
+    },
+    {
+      "id": "main/6365141533126941637/00013",
+      "session": "6365141533126941637",
+      "evaluation_group": "6365141533126941637",
+      "reference": "IT WAS ACTUALLY EXTREMELY WELL PLACED",
+      "prediction": "IT WAS ACTUALLY EXTREMELY WELL PLACED",
+      "seconds": 0.6168596899988188,
+      "clip_seconds": 2.92,
+      "test_position": 767
+    },
+    {
+      "id": "main/6367373198133943465/00141",
+      "session": "6367373198133943465",
+      "evaluation_group": "6367373198133943465",
+      "reference": "PEOPLE ARE HAPPY TO BE THERE AND IT'S A GOOD VIBE",
+      "prediction": "PEOPLE ARE HAPPY TO BE THERE AND IT'S A GOOD VIBE",
+      "seconds": 0.8717279269985738,
+      "clip_seconds": 3.04,
+      "test_position": 809
+    },
+    {
+      "id": "main/6337160680186960682/00054",
+      "session": "6337160680186960682",
+      "evaluation_group": "6337160680186960682",
+      "reference": "AS YOU ENTER THE REAR PART OF THE SHOP",
+      "prediction": "AND YOU INSTANTLY RARE PART OF THE JOB",
+      "seconds": 0.7401285460000508,
+      "clip_seconds": 2.96,
+      "test_position": 824
+    },
+    {
+      "id": "main/6350152526760616781/00009",
+      "session": "6350152526760616781",
+      "evaluation_group": "6350152526760616781",
+      "reference": "THAT SOUNDS LIKE A PRETTY CRAZY JOB FOR ANYONE TO BE DOING",
+      "prediction": "THAT SOUNDS LIKE A PRETTY CRAZY JOB FOR ANYONE TO BE DOING",
+      "seconds": 0.8304250590008451,
+      "clip_seconds": 2.96,
+      "test_position": 855
+    },
+    {
+      "id": "main/6335305254315087182/00014",
+      "session": "6335305254315087182",
+      "evaluation_group": "6335305254315087182",
+      "reference": "BUT WE'RE GOING TO IMPROVE ON THINGS LIKE THE GREEN ROOF",
+      "prediction": "BUT WE'RE GOING TO IMPROVE ON THINGS LIKE THE GREEN ROOF",
+      "seconds": 0.8368399380015035,
+      "clip_seconds": 3.0,
+      "test_position": 877
+    },
+    {
+      "id": "main/6388126909604862142/00032",
+      "session": "6388126909604862142",
+      "evaluation_group": "6388126909604862142",
+      "reference": "MOST OF THE RECOVERED PIECES WERE LOST",
+      "prediction": "MOST OF THE RECOVERED PIECES WERE LOST",
+      "seconds": 0.7410356270011107,
+      "clip_seconds": 2.88,
+      "test_position": 1075
+    },
+    {
+      "id": "main/6351424266576959115/00015",
+      "session": "6351424266576959115",
+      "evaluation_group": "6351424266576959115",
+      "reference": "TODAY THEY TALKED ABOUT THE PROCESS OF TRANSITION",
+      "prediction": "TODAY THEY TALKED ABOUT THE PROCESS OF TRANSITION",
+      "seconds": 0.6817363019981713,
+      "clip_seconds": 2.96,
+      "test_position": 1136
+    },
+    {
+      "id": "main/6334563083966338309/00106",
+      "session": "6334563083966338309",
+      "evaluation_group": "6334563083966338309",
+      "reference": "DID THEY GET IT DONE ON TIME AND FOR THE RIGHT MONEY",
+      "prediction": "DID THEY GET IT DONE ON TIME AND FOR THE RIGHT MONEY",
+      "seconds": 0.8379919049984892,
+      "clip_seconds": 3.04,
+      "test_position": 1174
+    },
+    {
+      "id": "main/6333175380032936690/00015",
+      "session": "6333175380032936690",
+      "evaluation_group": "6333175380032936690",
+      "reference": "THIS HOUSE WILL JUST COME TOGETHER AND FLOURISH",
+      "prediction": "THIS HOUSE WILL JUST COME TOGETHER AND FLOURISH",
+      "seconds": 0.735070247999829,
+      "clip_seconds": 2.88,
+      "test_position": 1188
+    }
+  ]
+}

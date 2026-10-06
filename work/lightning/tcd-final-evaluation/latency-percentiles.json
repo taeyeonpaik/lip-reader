@@ -1,0 +1,9 @@
+{
+  "clips": 881,
+  "method": "Linear interpolation at (n-1)*q",
+  "median_seconds": 1.0711931490004645,
+  "p90_seconds": 1.5966875449994404,
+  "p95_seconds": 1.749742101997981,
+  "p99_seconds": 2.079724980600445,
+  "scope": "Saved evaluation timings on prepared mouth clips; excludes upload, mouth extraction, and model loading."
+}

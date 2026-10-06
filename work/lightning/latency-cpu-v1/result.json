@@ -1,0 +1,19 @@
+{
+  "state": "complete",
+  "clips": 20,
+  "median_clip_seconds": 2.96,
+  "clip_range_seconds": [
+    2.84,
+    3.12
+  ],
+  "median_latency_seconds": 5.429972028499833,
+  "p95_latency_seconds": 6.512759685650326,
+  "median_real_time_factor": 1.8098825738308508,
+  "model_load_seconds": 8.951995720000923,
+  "hardware": "Intel Xeon CPU @ 2.60GHz; 4 allocated vCPUs; 2 PyTorch inference threads",
+  "checkpoint_sha256": "c7b829c24ec6c617f57a1d384af78b5962307019b842b551a7c51ff7471ec95c",
+  "checkpoint_epoch": 3,
+  "beam_size": 40,
+  "scope": "prepared LRS2 mouth crops; excludes face tracking and upload; warm model",
+  "background_load": "TCD-TIMIT download/verification active; timing may be affected"
+}

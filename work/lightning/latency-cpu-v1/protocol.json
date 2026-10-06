@@ -1,0 +1,54 @@
+{
+  "checkpoint": {
+    "checkpoint": "/teamspace/studios/this_studio/lipreader/checkpoints/lrs2-batched-v1/best.pth",
+    "sha256": "c7b829c24ec6c617f57a1d384af78b5962307019b842b551a7c51ff7471ec95c",
+    "epoch": 3,
+    "baseline_validation": {
+      "clips": 1082,
+      "word_errors": 1793,
+      "reference_words": 7866,
+      "wer": 0.22794304602084922,
+      "character_errors": 5896,
+      "reference_characters": 40282,
+      "cer": 0.14636810486073185,
+      "exact_sentences": 423,
+      "failures": 0
+    },
+    "best_validation_wer": 0.2120518688024409,
+    "test_used_for_selection": false
+  },
+  "clip_ids": [
+    "main/6335305254315087182/00014",
+    "main/6375915888085690147/00022",
+    "main/6356878445546153116/00011",
+    "main/6362913733590438579/00078",
+    "main/6335676339489461610/00011",
+    "main/6385106688602316013/00013",
+    "main/6351424266576959115/00015",
+    "main/6350152526760616781/00009",
+    "main/6384044972686741229/00035",
+    "main/6351424266576959115/00013",
+    "main/6334563083966338309/00106",
+    "main/6348780284709539256/00016",
+    "main/6337160680186960682/00054",
+    "main/6367373198133943465/00141",
+    "main/6365141533126941637/00013",
+    "main/6335305254315087182/00032",
+    "main/6333175380032936690/00015",
+    "main/6392197250111351363/00024",
+    "main/6388126909604862142/00032",
+    "main/6364798794736712994/00008"
+  ],
+  "warmup_ids": [
+    "main/6382189546814897943/00018",
+    "main/6382189546814897943/00019"
+  ],
+  "selection": "20 test clips nearest 75 frames, SHA256 ID breaks ties; chosen without timing or predictions",
+  "scope": "Existing mouth-crop MP4 read/decode + center crop/normalization + encoder + beam40 decoder. Excludes face tracking, upload, model initialization.",
+  "hardware": "Linux-6.8.0-110-generic-x86_64-with-glibc2.39",
+  "cpu_threads": 2,
+  "affinity_cpus": 4,
+  "torch": "2.8.0+cu128",
+  "beam": 40,
+  "background_load": "TCD-TIMIT download/verification active on same Studio"
+}
